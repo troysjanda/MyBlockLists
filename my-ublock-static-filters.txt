@@ -1,6 +1,10 @@
 ! Title: T.Janda's Custom Filter List
+! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
-! Updated: Sept. 27 2017
+! License: http://creativecommons.org/licenses/by-sa/3.0/
+! Version: 1.0.0.0 
+! TimeUpdated: 2017-09-26T12:46:44 
+! Expires: 2 days (update frequency) 
 ||2znp09oa.com
 ||4jnzhl0d0.com
 ||6ldu6qa.com
