@@ -1,6 +1,6 @@
 ! Title: T.Janda's Custom Filter List
-! Homepage: https://raw.githubusercontent.com/CHEF-KOCH/NoScript-Whitelist/master/uBlock₀/my-ublock-static-filters.txt
-! Updated: Sept. 22 2017
+! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
+! Updated: Sept. 27 2017
 ||2znp09oa.com
 ||4jnzhl0d0.com
 ||6ldu6qa.com
