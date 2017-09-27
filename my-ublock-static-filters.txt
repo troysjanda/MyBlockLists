@@ -320,9 +320,6 @@ game.giveawayoftheday.com##.jus.slogan.col2
 gaming.youtube.com##.ytg-notification-footer.style-scope.content
 geizhals.de##.gewinnspiel_box
 geizhals.de##.ghinfobox:nth-of-type(7)
-ghacks.net###sidebar
-ghacks.net##.post > strong:nth-child(5)
-ghacks.net##body.two-col-left-1200 #main-sidebar-container #main:style(width: 100% !important)
 ghacks.net##hr
 github.com##.flash-full.flash
 github.com##.github-jobs-promotion > p
