@@ -466,20 +466,6 @@ wall.alphacoders.com##.feature.panel-default.panel
 wall.alphacoders.com##.panel-body.panel
 wall.alphacoders.com##.panel-primary.panel > .panel-body.center
 windows.microsoft.com###NotificationUpgradeWin81and7NonSupport
-winfuture.de###centerWrap > .primary_content > .content_wrap > .ws_contentAd660.mb20.mt20
-winfuture.de##.fullclick.nointelliTXT.amazon_widget_w660:nth-of-type(5)
-winfuture.de##.fullclick.nointelliTXT.amazon_widget_w660:nth-of-type(6)
-winfuture.de##.fullclick.nointelliTXT.amazon_widget_w660:nth-of-type(7)
-winfuture.de##.mt20:nth-of-type(2)
-winfuture.de##.ws_contentAd660.mb20.mt20
-winfuture.de##body > div:nth-of-type(3)
-winfuture.de##body > div:nth-of-type(4)
-winfuture.de##body > div:nth-of-type(5)
-www.alternate.de###seoBottom
-www.alternate.de##.loading
-www.alternate.de##.manufacturer
-www.alternate.de##.social.box
-www.alternate.de##.track_this_link.skyTeaser
 www.androidfilehost.com##body > .container:nth-of-type(2) > .row:nth-of-type(3) > .col-md-4 > p
 www.apkmirror.com###sidebar > .listWidget:nth-of-type(1)
 www.avsforum.com###vspopup-container
@@ -494,13 +480,6 @@ www.computerbase.de###content > .block1--default.block1:nth-of-type(3) > .wrappe
 www.computerbase.de###content > .block1--default.block1:nth-of-type(3) > .wrapper > .row-23.row > .col-aside > .col-aside-group--homepage-rectangle.col-aside-group
 www.computerbase.de###content > .block1--default.block1:nth-of-type(3) > .wrapper > .row-23.row > .col-aside > .col-aside-group:nth-of-type(1) > .comment.box--sidebar.box
 www.computerbase.de###content > .block1--default.block1:nth-of-type(5) > .wrapper > .row-23.row > .box.col-main > .content-list > li:nth-of-type(5)
-www.computerbase.de###content > .js-homepage-teaser-block.block1--highlight.block1 > .wrapper > .row > .js-promobar.promobar
-www.computerbase.de###yui-gen72
-www.computerbase.de###yui-gen72 > .postdetails
-www.computerbase.de##.box-white.box--sidebar.box
-www.computerbase.de##.download-notify-box.box--sidebar.box
-www.computerbase.de##.footer1.block1
-www.computerbase.de##.footer1__box.row-13.row:nth-of-type(2)
 www.deepl.com###dl_quotes
 www.deviantart.com##.oh-l-orange.oh-l
 www.epicgames.com###social
