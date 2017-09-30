@@ -3,8 +3,8 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Version: 1.0.0.0 
-! TimeUpdated: 2017-09-26T12:46:44 
-! Expires: 2 days (update frequency) 
+! TimeUpdated: 2017-09-29T19:25:44 
+! Expires: 7 days (update frequency) 
 ||2znp09oa.com
 ||4jnzhl0d0.com
 ||6ldu6qa.com
@@ -1270,3 +1270,5 @@ allmusic.com##.advertising.medium-rectangle:style(min-height: 1px !important;)
 ! To override https://github.com/easylist/easylist/commit/04d6f806e3e8b6059481c0c6452fa32bdb3cbce2
 ||google-analytics.com/analytics.js$script,important,domain=allmusic.com
 ||scorecardresearch.com/beacon.js$script,important,domain=allmusic.com
+||coinurl.com/*
+||coin-hive.com/lib/coinhive.min.js
