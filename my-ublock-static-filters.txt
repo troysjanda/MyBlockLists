@@ -1,10 +1,10 @@
-! Checksum: AE7A63A1CC9C1FFD2B47F8B457760F51
+! Checksum: 7254951055A2725C452F5F70CCB7DC6D
 ! Title: T.Janda's Custom Filter List
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Version: 1.0.0.0 
-! TimeUpdated: 2017-09-29T19:25:44 
+! TimeUpdated: 2017-10-10T09:39:44 
 ! Expires: 7 days (update frequency) 
 ||2znp09oa.com
 ||4jnzhl0d0.com
