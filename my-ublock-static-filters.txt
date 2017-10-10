@@ -1,4 +1,4 @@
-! Checksum: 
+! Checksum: AE7A63A1CC9C1FFD2B47F8B457760F51
 ! Title: T.Janda's Custom Filter List
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
