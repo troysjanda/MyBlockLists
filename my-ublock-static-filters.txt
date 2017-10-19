@@ -1294,8 +1294,8 @@ zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCod
 ||paperclipservice.com
 ||pizmatic.com
 ||report-uri.co
+||https://report-uri.co
 ||syllabuses.net
 ||tinynewsfeed.com
 ||yellowacorn.net
 ||contentmanagementfeed.com
-
