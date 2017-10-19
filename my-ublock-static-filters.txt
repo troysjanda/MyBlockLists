@@ -1290,3 +1290,12 @@ zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCod
 ||z.moatads.com^$script,redirect=noopjs,domain=pga.com
 ||zbwp6ghm.com
 ||zinturax.com^$document,popunder,script
+||magicalthirteen.com
+||paperclipservice.com
+||pizmatic.com
+||report-uri.com
+||syllabuses.net
+||tinynewsfeed.com
+||yellowacorn.net
+||contentmanagementfeed.com
+
