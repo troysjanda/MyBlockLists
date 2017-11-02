@@ -3,9 +3,9 @@
 ! Expires: 7 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! TimeUpdated: 2017-10-18T09:39:44 
+! TimeUpdated: 2017-11-02T16:19:00 
 ! Title: T.Janda's Custom Filter List
-! Version: 1.1.1
+! Version: 1.1.2
 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
 *$websocket,domain=linkshrink.net
 */blockadblock.$script,redirect=fuckadblock.js-3.2.0
@@ -856,6 +856,10 @@ youtube.com##.ad-div
 youtube.com##.masthead-ad-control
 youtube.com##.pyv-afc-ads-container
 zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
+sports.yahoo.com###uh-follow-count
+www.yahoo.com###uh-follow-count
+www.yahoo.com###my-adsLDRB
+betanews.com##.clearfix.articleBreak
 ||01net.com/telecharger/$document
 ||0mme.com^$script,domain=comicbook.com|popculture.com
 ||0mme.com^$script,domain=comicbook.com|popculture.com
