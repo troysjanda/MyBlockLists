@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:11 AM 2017-11-10
+! Last Modified: 8:28 PM 2017-11-10
 ! Title: Troy's Web Annoyances Ultralist
 ! Homepage: https://github.com/troysjanda/My-BlockList/edit/master/Troys%20blocklist2
 ! Purpose: Block web elements and reclaim lost real estate
@@ -14401,9 +14401,6 @@ yahoo.com###yog-hd
 yahoo.com###yset-search-upsell-container
 yahoo.com##.H-fixed.Ad
 yahoo.com##.Mtop-sm.Share-buttons
-yahoo.com##.No-mstart.P-lg.No-bry.Fz-sm.F-icon.F-shade3.Bg-facebook.fb-share.small.Btn.Mx-med.yfa-rapid-module-medal-share-facebook.yfa-rapid-beacon.Grid-u
-yahoo.com##.P-lg.No-bdr.Fz-sm.F-icon.F-shade3.small.yfa-rapid-module-medal-share-twitter.yfa-rapid-beacon.Bg-twitter.Btn
-yahoo.com##.T\(-20px\).End\(20px\).Pos\(a\)
 yahoo.com##.canvas-community-bar
 yahoo.com##.cover-community-bar
 yahoo.com##.cta-overlay
@@ -14414,8 +14411,6 @@ yahoo.com##.rapid-track.share-tools-inline.share-tools
 yahoo.com##.share-btns
 yahoo.com##.share-button-group
 yahoo.com##.side-buttons
-yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
-yahoo.com##.yui3-overlay-mask
 yammer.com###O365_NavHeader:style(position: relative !important; top: 0 !important;)
 yammer.com##.topnav-fixed.zindex-t3:style(position: relative !important; top: 0 !important;)
 yammer.com##.yj-group-header-patterned-scrolling:style(position: relative !important; top: 0 !important;)
