@@ -14388,7 +14388,7 @@ yachtingworld.com##.social-container.col-author.col-sm-6.col-xs-5
 yahoo.com###Companion-0-CanvasStickyShareButtons-Proxy
 yahoo.com###Hero-0-FeatureBar-smartphone-Proxy
 yahoo.com###Navigation:style(position: relative !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important;)
-yahoo.com###UH-0-Header:style(position: relative !important; top: 0 !important;)
+!yahoo.com###UH-0-Header:style(position: relative !important; top: 0 !important;)
 yahoo.com###UH-1-NavLite:style(position: relative !important; top: 0 !important;)
 yahoo.com###UH:style(position: relative !important; top: 0 !important;)
 yahoo.com###YDC-SecondaryNav:style(position: relative !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important; box-shadow: none !important;)
@@ -14427,7 +14427,7 @@ yahoo.com##.share-btns
 yahoo.com##.share-button-group
 yahoo.com##.side-buttons
 yahoo.com##.tdv2-applet-navrail
-yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
+!yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
 yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
 yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
 yahoo.com##.yui3-overlay-mask
