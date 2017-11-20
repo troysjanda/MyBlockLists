@@ -1,0 +1,164 @@
+{
+  "timeStamp": 1510947702673,
+  "version": "1.14.19b7",
+  "userSettings": {
+    "advancedUserEnabled": true,
+    "alwaysDetachLogger": false,
+    "autoUpdate": true,
+    "cloudStorageEnabled": false,
+    "collapseBlocked": true,
+    "colorBlindFriendly": false,
+    "contextMenuEnabled": true,
+    "dynamicFilteringEnabled": true,
+    "externalLists": "https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt\nhttps://filters.adtidy.org/extension/chromium/filters/14.txt\nhttps://filters.adtidy.org/extension/chromium/filters/15.txt\nhttps://filters.adtidy.org/extension/chromium/filters/4.txt\nhttps://filters.adtidy.org/windows/filters/2.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/BarbBlock-filter-list/master/uBlock.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/WebRTC-tracking/master/WebRTC.txt\nhttps://raw.githubusercontent.com/LordBadmintonofYorkshire/Overlay-Blocker/master/blocklist.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/genediazjr/nopelist/master/nopelist.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt",
+    "firewallPaneMinimized": true,
+    "hyperlinkAuditingDisabled": true,
+    "ignoreGenericCosmeticFilters": false,
+    "largeMediaSize": 50,
+    "parseAllABPHideFilters": true,
+    "prefetchingDisabled": true,
+    "requestLogMaxEntries": 1000,
+    "showIconBadge": false,
+    "tooltipsDisabled": false,
+    "webrtcIPAddressHidden": false
+  },
+  "selectedFilterLists": [
+    "https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt",
+    "https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt",
+    "https://filters.adtidy.org/extension/chromium/filters/4.txt",
+    "https://filters.adtidy.org/extension/chromium/filters/15.txt",
+    "https://raw.githubusercontent.com/LordBadmintonofYorkshire/Overlay-Blocker/master/blocklist.txt",
+    "https://raw.githubusercontent.com/genediazjr/nopelist/master/nopelist.txt",
+    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "https://filters.adtidy.org/windows/filters/2.txt",
+    "https://filters.adtidy.org/extension/chromium/filters/14.txt",
+    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+    "https://raw.githubusercontent.com/CHEF-KOCH/BarbBlock-filter-list/master/uBlock.txt",
+    "KOR-1",
+    "fanboy-social",
+    "fanboy-annoyance",
+    "adguard-annoyance",
+    "malware-1",
+    "malware-0",
+    "fanboy-enhanced",
+    "easyprivacy",
+    "adguard-spyware",
+    "adguard-generic",
+    "awrl-0",
+    "aak-continued",
+    "ublock-unbreak",
+    "ublock-abuse",
+    "ublock-privacy",
+    "ublock-badware",
+    "ublock-filters",
+    "user-filters",
+    "https://raw.githubusercontent.com/CHEF-KOCH/WebRTC-tracking/master/WebRTC.txt"
+  ],
+  "hiddenSettingsString": "assetFetchTimeout 30\nautoUpdateAssetFetchPeriod 120\nautoUpdatePeriod 7\nignoreRedirectFilters false\nignoreScriptInjectFilters false\nmanualUpdateAssetFetchPeriod 2000\npopupFontSize unset\nsuspendTabsUntilReady false\nuserResourcesLocation unset",
+  "netWhitelist": "63.64.47.29\nabout-scheme\nakismet.com\nbehind-the-scene\nchrome-extension-scheme\nchrome-scheme\ndomains.google.com\nmoz-extension-scheme\nopera-scheme\nvivaldi-scheme\nwintech10.com\nwww.straighttalk.com",
+  "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop\ngithub.com avatars0.githubusercontent.com * noop\ngithub.com avatars1.githubusercontent.com * noop\ngithub.com avatars2.githubusercontent.com * noop\ngithub.com avatars3.githubusercontent.com * noop\ngithub.com camo.githubusercontent.com * noop\ngithub.com cloud.githubusercontent.com * noop\ngithub.com raw.githubusercontent.com * noop\ngithub.com render.githubusercontent.com * noop\ngithub.com s3.amazonaws.com * noop\nreddit.com redditmedia.com * noop\nreddit.com redditstatic.com * noop\nwww.ebay.com ebaydesc.com * noop\nwww.ebay.com ebayimg.com * noop\nwww.ebay.com ebaystatic.com * noop\nwww.ghacks.net ghacks.net * noop\nwww.youtube.com content.googleapis.com * noop\nwww.youtube.com ggpht.com * noop\nwww.youtube.com google.com * noop\nwww.youtube.com googleusercontent.com * noop\nwww.youtube.com googlevideo.com * noop\nwww.youtube.com gstatic.com * noop\nwww.youtube.com plus.googleapis.com * noop\nwww.youtube.com youtube-nocookie.com * noop\nwww.youtube.com ytimg.com * noop\nyahoo.com yimg.com * noop",
+  "urlFilteringString": "www.palemoon.org http://www.palemoon.org/ads.js script block",
+  "hostnameSwitchesString": "no-csp-reports: * true",
+  "userFilters": "! Troy Additions\nreddit.com##.author-tooltip.hover-bubble.anchor-bottom-left\n\n! 10/19/2017, 10:39:41 AM https://sports.yahoo.com/\nsports.yahoo.com###mrt-node-Lead-4-AbPromo\n\n! 10/19/2017, 10:40:35 AM https://sports.yahoo.com/\n||s.yimg.com/cv/ae/default/171011/FBasketball-EvergreenNBA-static_Crossover_SUN_800x150.jpg$image\n\n! 10/22/2017, 2:31:33 PM https://sports.yahoo.com/nascar/cup-series/hollywood-casino-400/\nsports.yahoo.com###Lead-2-AbPromo-Proxy > div\n",
+  "filterLists": {
+    "https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt": {
+      "off": false
+    },
+    "https://filters.adtidy.org/extension/chromium/filters/4.txt": {
+      "off": false
+    },
+    "https://filters.adtidy.org/extension/chromium/filters/15.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/LordBadmintonofYorkshire/Overlay-Blocker/master/blocklist.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/genediazjr/nopelist/master/nopelist.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt": {
+      "off": false
+    },
+    "https://filters.adtidy.org/windows/filters/2.txt": {
+      "off": false
+    },
+    "https://filters.adtidy.org/extension/chromium/filters/14.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/CHEF-KOCH/BarbBlock-filter-list/master/uBlock.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/fanboy-social.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt": {
+      "off": false
+    },
+    "adguard-annoyance": {
+      "off": false
+    },
+    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
+      "off": false
+    },
+    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
+      "off": false
+    },
+    "https://www.fanboy.co.nz/enhancedstats.txt": {
+      "off": false
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
+      "off": false
+    },
+    "adguard-spyware": {
+      "off": false
+    },
+    "adguard-generic": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt": {
+      "off": false
+    },
+    "aak-continued": {
+      "off": false
+    },
+    "assets/ublock/unbreak.txt": {
+      "off": false
+    },
+    "ublock-abuse": {
+      "off": false
+    },
+    "assets/ublock/privacy.txt": {
+      "off": false
+    },
+    "assets/ublock/badware.txt": {
+      "off": false
+    },
+    "assets/ublock/filters.txt": {
+      "off": false
+    },
+    "assets/user/filters.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/CHEF-KOCH/WebRTC-tracking/master/WebRTC.txt": {
+      "off": false
+    },
+    "assets/ublock/experimental.txt": {
+      "off": true
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
+      "off": true
+    },
+    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
+      "off": true
+    }
+  }
+}
