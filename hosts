@@ -1,79 +1,11 @@
-# This hosts file is brought to you by Dan Pollock and can be found at
-# http://someonewhocares.org/hosts/zero/
-# You are free to copy and distribute this file for non-commercial uses,
-# as long the original URL and attribution is included. 
-# 
-# See below for acknowledgements.
-
-# Please forward any additions, corrections or comments by email to
-# hosts@someonewhocares.org
-
-# Last updated: Fri, 17 Nov 2017 at 00:31:11 GMT
-
-# Use this file to prevent your computer from connecting to selected
-# internet hosts. This is an easy and effective way to protect you from 
-# many types of spyware, reduces bandwidth use, blocks certain pop-up 
-# traps, prevents user tracking by way of "web bugs" embedded in spam,
-# provides partial protection to IE from certain web-based exploits and
-# blocks most advertising you would otherwise be subjected to on the 
-# internet. 
-
-# There is a version of this file that uses 127.0.0.1 instead of 0.0.0.0 
-# available at http://someonewhocares.org/hosts/.
-# On some machines this may run minutely faster, however the zero version
-# may not be compatible with all systems. 
-
-# This file must be saved as a text file with no extension. (This means
-# that the file name should be exactly as below, without a ".txt" appended.)
-
-# Let me repeat, the file should be named "hosts" NOT "hosts.txt".
-
-# For Windows 9x and ME place this file at "C:\Windows\hosts"
-# For NT, Win2K and XP use "C:\windows\system32\drivers\etc\hosts"
-#                       or "C:\winnt\system32\drivers\etc\hosts"
-# For Windows 7 and Vista use "C:\windows\system32\drivers\etc\hosts"
-#			or "%systemroot%\system32\drivers\etc\hosts"
-# For Windows 8 and Windows 10 use "C:\Windows\System32\drivers\etc\hosts"
-# 		You may need to tell Windows Defender to ignore this path
-# 		see: http://support.microsoft.com/kb/2764944
-# You may have to use Notepad and "Run as Administrator"
-#
-# For Linux, Unix, or OS X place this file at "/etc/hosts" or on some
-#    systems at "/private/etc/hosts". You will require root access to do
-#    this. Saving this file to "~/hosts" will allow you to run something
-#    like "sudo cp ~/hosts /etc/hosts".
-# For OS/2 copy the file to "%ETC%\HOSTS" and in the CONFIG.SYS file,
-#    ensure that the line "SET USE_HOSTS_FIRST=1" is included.
-# For BeOS place it at "/boot/beos/etc/hosts"
-# On a Netware system, the location is System\etc\hosts"
-# For Macintosh (pre OS X) place it in the Mac System Folder or Preferences
-#    folder and reboot. (something like HD:System Folder:Preferences:Hosts)
-#    Alternatively you can save it elsewhere on your machine, then go to the 
-#    TCP/IP control panel and click on "Select hosts file" to read it in.
-#    ------------------
-#    | As well, note that the format is different on old macs, so
-#    | please visit http://someonewhocares.org/hosts/zero/mac/ for mac format
-# For Android place the file at "/system/etc/hosts". You will need root
-#   access on your device to do this.
-#    ------------------
-# To convert the hosts file to a set of Cisco IOS commands for Cisco routers
-#   use this script by Jesse Baird:
-#   http://jebaird.com/blog/hosts-ip-host-generating-blocked-hosts-host-file-cisco-router
-
-# If there is a domain name you would rather never see, simply add a line
-# that reads "0.0.0.0 machine.domain.tld". This will have the effect of
-# redirecting any requests to that host to your own computer. For example
-# this will prevent your browser from downloading banner ads, or sending
-# your information back to a company.
-
-#<localhost>
-127.0.0.1	localhost
-127.0.0.1	localhost.localdomain
-255.255.255.255	broadcasthost
-::1		localhost
-127.0.0.1	local
-#fe80::1%lo0	localhost
-#</localhost>
+! Checksum: fsdlkj34534543lkdsl
+! Description: Blocks irritating elements on webpages 
+! Expires: 7 days (update frequency) 
+! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/hosts
+! License: http://creativecommons.org/licenses/by-sa/3.0/
+! TimeUpdated: 2017-11-19T17:48:00 
+! Title: T.Janda's Custom Host List
+! Version: 1.0.0
 
 #<shock-sites>
 # For example, to block unpleasant pages, try:
@@ -269,15 +201,6 @@
 0.0.0.0 zentastic.com
 #</shock-sites>
 
-#<shortcut-examples>
-# As well by specifying the ipaddress of a server, you can gain access
-#   to some of your favourite sites with a single letter, instead of
-#   using the whole domain name
-# It is perhaps a better solution to use Favourites/Bookmarks instead.
-#216.34.181.45   s        # slashdot.org
-#74.125.127.105	g        # google.com
-#</shortcut-examples>
-
 #<hijack-sites>
 # The sites ads234.com and ads345.com -- These sites hijack internet explorer 
 # and redirect all requests through their servers. You may need to use spyware 
@@ -291,45 +214,6 @@
 0.0.0.0 www.ads234.com
 0.0.0.0 www.ads345.com
 #</hijack-sites>
-
-
-#<spyware-sites>
-# Spyware and user tracking
-# By entering domains here, it will prevent certain companies from
-# gathering information on your surfing habits. These servers do not
-# necessarily serve ads, instead some are used by certain products to
-# "phone home". Others use web cookies to gather statistics on surfing 
-# habits. Among other uses, this is a common tactic by spammers, to 
-# let them know that you have read your mail. 
-# Uncomment (remove the #) the lines that you wish to block, as some
-# may provide you with services you like.
-
-#<maybe-spy>
-#0.0.0.0 auto.search.msn.com  # Microsoft uses this server to redirect
-                                # mistyped URLs to search engines. They
-                                # log all such errors.
-#0.0.0.0 sitefinder.verisign.com	# Verisign has joined the game 
-#0.0.0.0 sitefinder-idn.verisign.com	# of trying to hijack mistyped
-					# URLs to their site. 
-					# May break iOS Game Center.
-
-#0.0.0.0 s0.2mdn.net		# This may interfere with some streaming 
-				# video on sites such as cbc.ca
-#0.0.0.0 ad.doubleclick.net   # This may interefere with www.sears.com
-				# and potentially other sites. 
-0.0.0.0 media.fastclick.net	# Likewise, this may interfere with some
-0.0.0.0 cdn.fastclick.net	# sites. 
-#0.0.0.0 ebay.doubleclick.net		# may interfere with ebay
-#0.0.0.0 google-analytics.com			# breaks some sites
-#0.0.0.0 ssl.google-analytics.com
-#0.0.0.0 www.google-analytics.l.google.com
-#0.0.0.0 stat.livejournal.com		# There are reports that this may mess 
- 					# up CSS on livejournal
-#0.0.0.0 stats.surfaid.ihost.com	# This has been known cause 
-					# problems with NPR.org
-#0.0.0.0 www.google-analytics.com		# breaks some sites
-#0.0.0.0 ads.imeem.com		# Seems to interfere with the functioning of imeem.com
-#</maybe-spy>
 
 0.0.0.0 006.free-counter.co.uk
 0.0.0.0 006.freecounters.co.uk
@@ -671,10 +555,6 @@
 0.0.0.0 counter.nowlinux.com
 0.0.0.0 counter.pcgames.de
 0.0.0.0 counter.rambler.ru
-0.0.0.0 counters.auctionhelper.com		# comment these 
-0.0.0.0 counters.auctionwatch.com		# out to allow 
-0.0.0.0 counters.auctiva.com			# tracking by
-0.0.0.0 counters.honesty.com			# ebay users
 0.0.0.0 counter.search.bg
 0.0.0.0 counter.sexhound.nl
 0.0.0.0 counters.gigya.com
@@ -1046,7 +926,6 @@
 0.0.0.0 metrics.thefrisky.com
 0.0.0.0 metrics.thenation.com
 0.0.0.0 metrics.theweathernetwork.com
-#0.0.0.0 metrics.ticketmaster.com	# interferes with logging in to ticketmaster.com
 0.0.0.0 metrics.tmz.com
 0.0.0.0 metrics.toyota.com
 0.0.0.0 metrics.tulsaworld.com
@@ -1083,7 +962,6 @@
 0.0.0.0 nextgenstats.com
 0.0.0.0 nht-2.extreme-dm.com
 0.0.0.0 nl.nedstatbasic.net
-#0.0.0.0 nl.sitestat.com	# may interfere with duo.nl
 0.0.0.0 o.addthis.com
 0.0.0.0 objects.tremormedia.com
 0.0.0.0 okcounter.com
@@ -1125,7 +1003,6 @@
 0.0.0.0 p.reuters.com
 0.0.0.0 printmail.biz
 0.0.0.0 prof.estat.com
-#0.0.0.0 pro.hit.gemius.pl	# May interfere with some video sites
 0.0.0.0 proxycfg.marketscore.com
 0.0.0.0 proxy.ia2.marketscore.com
 0.0.0.0 proxy.ia3.marketscore.com
@@ -1414,7 +1291,6 @@
 0.0.0.0 sync.bfmio.com
 0.0.0.0 s.youtube.com				# Blocking this will interfere with video watching history
 0.0.0.0 systweak.com
-#0.0.0.0 t2.hulu.com		# Uncomment to block Hulu.
 0.0.0.0 tagging.outrider.com
 0.0.0.0 tags.bkrtx.com
 0.0.0.0 talkcity.realtracker.com
@@ -1883,7 +1759,6 @@
 0.0.0.0 www.fxcounters.com
 0.0.0.0 www.gator.com
 0.0.0.0 www.googkle.com
-#0.0.0.0 www.googletagservices.com		#interferes with techrepublic
 0.0.0.0 www.hitstats.co.uk
 0.0.0.0 www.iccee.com
 0.0.0.0 www.iesnare.com	# See http://www.codingthewheel.com/archives/online-gambling-privacy-iesnare
@@ -3922,21 +3797,6 @@
 #</oewabox-sites>
 
 #<ad-sites>
-#<maybe-ads>
-#0.0.0.0 adfarm.mediaplex.com		# may interfere with ebay
-#0.0.0.0 ads.msn.com			#This may cause problems with zone.msn.com
-#0.0.0.0 ak.imgfarm.com		# may cause problems with iwon.com
-#0.0.0.0 click.linksynergy.com
-#0.0.0.0 global.msads.net		#This may cause problems with zone.msn.com
-#0.0.0.0 lads.myspace.com		# blocks myspace media/video players
-#0.0.0.0 refer.ccbill.com		#affiliate program, to add it back, remove the #
-#0.0.0.0 rmads.msn.com			#This may cause problems with zone.msn.com
-#0.0.0.0 www.apmebf.com		#qksrv
-#0.0.0.0 www.tkqlhce.com		#qksrv
-#0.0.0.0 ad.ca.doubleclick.net	#intereferes with video on globeandmail.com
-#0.0.0.0 transfer.go.com		#may interfere with Disney websites
-#</maybe-ads>
-
 # ads
 0.0.0.0 0101011.com
 0.0.0.0 0427d7.se
@@ -13363,75 +13223,5 @@
 0.0.0.0 zyrtec.4.p2l.info
 #</wiki-spam-sites>
 
-#<Windows10>
 
-# Windows 10 reporting domains. 
-0.0.0.0 a.ads2.msads.net
-0.0.0.0 adnexus.net
-0.0.0.0 aidps.atdmt.com
-0.0.0.0 a-msedge.net
-0.0.0.0 az361816.vo.msecnd.net
-0.0.0.0 az512334.vo.msecnd.net
-0.0.0.0 b.ads1.msn.com
-0.0.0.0 b.ads2.msads.net
-0.0.0.0 c.atdmt.com
-0.0.0.0 cdn.atdmt.com
-0.0.0.0 cds26.ams9.msecn.net
-0.0.0.0 c.msn.com
-0.0.0.0 db3aqu.atdmt.com
-0.0.0.0 ec.atdmt.com
-0.0.0.0 feedback.microsoft-hohm.com
-0.0.0.0 flex.msn.com
-0.0.0.0 g.msn.com
-0.0.0.0 h1.msn.com
-0.0.0.0 lb1.www.ms.akadns.net
-0.0.0.0 live.rads.msn.com
-0.0.0.0 m.adnxs.com
-0.0.0.0 msedge.net
-0.0.0.0 msnbot-65-55-108-23.search.msn.com
-0.0.0.0 msntest.serving-sys.com
-0.0.0.0 preview.msn.com
-0.0.0.0 reports.wes.df.telemetry.microsoft.com
-0.0.0.0 schemas.microsoft.akadns.net
-0.0.0.0 secure.flashtalking.com
-0.0.0.0 settings-win.data.microsoft.com
-0.0.0.0 sO.2mdn.net
-0.0.0.0 statsfe2.ws.microsoft.com
-0.0.0.0 telemetry.appex.bing.net:443
-0.0.0.0 wes.df.telemetry.microsoft.com
-#</Windows10>
 
-# Acknowledgements
-# I'd like to thank the following people for submitting sites, and
-# helping promote the site.
-
-# Bill Allison, Harj Basi, Lance Russhing, Marshall Drew-Brook, 
-#  Leigh Brasington, Scott Terbush, Cary Newfeldt, Kaye, Jeff
-#  Scrivener, Mark Hudson, Matt Bells, T. Kim Nguyen, Lino Demasi,
-#  Marcelo Volmaro, Troy Martin, Donald Kerns, B.Patten-Walsh,
-#  bobeangi, Chris Maniscalco, George Gilbert, Kim Nilsson, zeromus,
-#  Robert Petty, Rob Morrison, Clive Smith, Cecilia Varni, OleKing 
-#  Cole, William Jones, Brian Small, Raj Tailor, Richard Heritage,
-#  Alan Harrison, Ordorica, Crimson, Joseph Cianci, sirapacz, 
-#  Dvixen, Matthew Craig, Tobias Hessem, Kevin F. Quinn, Thomas 
-#  Corthals, Chris McBee, Jaime A. Guerra, Anders Josefson, 
-#  Simon Manderson, Spectre Ghost, Darren Tay, Dallas Eschenauer, Cecilia
-#  Varni, Adam P. Cole, George Lefkaditis, grzesiek, Adam Howard, Mike 
-#  Bizon, Samuel P. Mallare, Leinweber, Walter Novak, Stephen Genus, 
-#  Zube, Johny Provoost, Peter Grafton, Johann Burkard, Magus, Ron Karner,
-#  Fredrik Dahlman, Michele Cybula, Bernard Conlu, Riku B, Twillers, 
-#  Shaika-Dzari, Vartkes Goetcherian, Michael McCown, Garth, Richard Nairn,
-#  Exzar Reed, Robert Gauthier, Floyd Wilder, Mark Drissel, Kenny Lyons,
-#  Paul Dunne, Tirath Pannu, Mike Lambert, Dan Kolcun, Daniel Aleksandersen,
-#  Chris Heegard, Miles Golding, Daniel Bisca, Frederic Begou, Charles 
-#  Fordyce, Mark Lehrer, Sebastien Nadeau-Jean, Russell Gordon, Alexey 
-#  Gopachenko, Stirling Pearson, Alan Segal, Bobin Joseph, Chris Wall, Sean
-#  Flesch, Brent Getz, Jerry Cain, Brian Micek, Lee Hancock, Kay Thiele,
-#  Kwan Ting Chan, Wladimir Labeikovsky, Lino Demasi, Bowie Bailey, Andreas 
-#  Marschall, Michael Tompkins, Michael O'Donnell, Jos&eacute; Lucas Teixeira
-#  de Oliveira, M. &Ouml;mer G&ouml;lgeli, and Anthony Gelibert for helping to build 
-#  the hosts file.
-# Russell O'Connor for OS/2 information
-# kwadronaut for Windows 7 and Vista information
-# John Mueller and Lawrence H Smith for Mac Pre-OSX information
-# Jesse Baird for the Cisco IOS script
