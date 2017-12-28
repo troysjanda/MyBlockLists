@@ -15804,6 +15804,49 @@ yachtingworld.com##.social-container.col-author.col-sm-6.col-xs-5
 yammer.com###O365_NavHeader:style(position: relative !important; top: 0 !important;)
 yammer.com##.topnav-fixed.zindex-t3:style(position: relative !important; top: 0 !important;)
 yammer.com##.yj-group-header-patterned-scrolling:style(position: relative !important; top: 0 !important;)
+yahoo.com###community-bar
+yahoo.com###danafarberpromo
+yahoo.com###fantasyshoppromo
+yahoo.com###get-the-app
+yahoo.com###lb-share-btns
+yahoo.com###Companion-0-CanvasStickyShareButtons-Proxy
+yahoo.com###Hero-0-FeatureBar-smartphone-Proxy
+yahoo.com###mediacontentfollowproperty_wrapper
+yahoo.com###mediacontentsharebuttons
+yahoo.com###mediasocialbuttonseasy
+yahoo.com###mega-uh-wrapper:style(position: absolute !important;)
+yahoo.com###mrt-node-Lead-2-AbPromo
+yahoo.com###mrt-node-UH-1-NavLite
+yahoo.com###so-share
+yahoo.com###sportsshop-promo
+yahoo.com###uh-scroll-promo
+yahoo.com###unblock-instructions
+yahoo.com###unblock-intstructions
+yahoo.com###yog-hd
+yahoo.com###yset-search-upsell-container
+yahoo.com###yucs-top-bar
+yahoo.com##.H-fixed.Ad
+yahoo.com##.Mtop-sm.Share-buttons
+yahoo.com##.No-mstart.P-lg.No-bry.Fz-sm.F-icon.F-shade3.Bg-facebook.fb-share.small.Btn.Mx-med.yfa-rapid-module-medal-share-facebook.yfa-rapid-beacon.Grid-u
+yahoo.com##.P-lg.No-bdr.Fz-sm.F-icon.F-shade3.small.yfa-rapid-module-medal-share-twitter.yfa-rapid-beacon.Bg-twitter.Btn
+yahoo.com##.T\(-20px\).End\(20px\).Pos\(a\)
+yahoo.com##.YDC-Header:style(position: absolute !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important;)
+yahoo.com##.action-bar:style(position: relative !important; top: 0 !important;)
+yahoo.com##.canvas-community-bar
+yahoo.com##.cover-community-bar
+yahoo.com##.cta-overlay
+yahoo.com##.follow-us-list
+yahoo.com##.ginsuAd
+yahoo.com##.lazyload-loaded.kampyle-button
+yahoo.com##.rapid-track.share-tools-inline.share-tools
+yahoo.com##.share-btns
+yahoo.com##.share-button-group
+yahoo.com##.side-buttons
+yahoo.com##.sponsored
+yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
+yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
+yahoo.com##.yui3-overlay-mask
+yahoo.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 ycombinator.com##.ssbp--theme-2.ssbp--.ssbp-wrap.ssbp-set--one
 ydr.com##.android-smart-banner.smart-banner
 ydr.com##.bx-creative
