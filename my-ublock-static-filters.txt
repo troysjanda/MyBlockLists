@@ -1335,3 +1335,15 @@ betanews.com##.clearfix.articleBreak
 ||zx1s.smcheck.org
 ||utraffic.engine.adglare.net
 ||n2-r99d2.piguiqproxy.com
+sports.yahoo.com###Lead-4-AbPromo-Proxy,important
+sports.yahoo.com###Col2-1-AbPromo-Proxy,important
+sports.yahoo.com###mrt-node-Col2-1-AbPromo,important
+sports.yahoo.com###Lead-2-AbPromo-Proxy,important
+sports.yahoo.com###Lead-3-AbPromo-Proxy,important
+www.yahoo.com###uh-scroll-promo
+||s.yimg.com/cv/ae/default/171011/FBasketball-EvergreenNBA-static_Crossover_SUN_800x150.jpg$image,important
+||s.yimg.com/cv/ae/default/170829/NFL_Tickets_300x170.png$image,important
+||https://yhoo.it
+sports.yahoo.com###Col2-5-PromoImage-Proxy
+sports.yahoo.com###Col2-1-PromoImage-Proxy
+sports.yahoo.com###Col2-3-PromoImage-Proxy
