@@ -3,10 +3,9 @@
 ! Expires: 7 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! TimeUpdated: 2017-11-12T09:10:00 
+! TimeUpdated: 2017-12-28T09:10:00 
 ! Title: T.Janda's Custom Filter List
-! Version: 1.1.3
-*$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
+! Version:1.1.4 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
 *$websocket,domain=linkshrink.net
 */blockadblock.$script,redirect=fuckadblock.js-3.2.0
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0
