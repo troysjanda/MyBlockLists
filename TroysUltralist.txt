@@ -15849,7 +15849,6 @@ yahoo.com##.yui3-overlay-mask
 yahoo.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
 yahoo.com##.YDC-Header:style(position: absolute !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important;)
-
 ycombinator.com##.ssbp--theme-2.ssbp--.ssbp-wrap.ssbp-set--one
 ydr.com##.android-smart-banner.smart-banner
 ydr.com##.bx-creative
