@@ -15847,8 +15847,6 @@ yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !imp
 yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
 yahoo.com##.yui3-overlay-mask
 yahoo.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
-yahoo.com##.YDC-Header:style(position: absolute !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important;)
 ycombinator.com##.ssbp--theme-2.ssbp--.ssbp-wrap.ssbp-set--one
 ydr.com##.android-smart-banner.smart-banner
 ydr.com##.bx-creative
