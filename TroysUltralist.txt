@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 00:21 PM 2017-12-28
+! Last Modified: 11:21 PM 2017-12-29
 ! Title: Web Annoyances Ultralist -yahoo filters (Troy Janda)
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
