@@ -3,7 +3,7 @@
 ! Expires: 7 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! TimeUpdated: 2017-12-28T09:10:00 
+! TimeUpdated: 2017-12-29T11:15:15 
 ! Title: T.Janda's Custom Filter List
 ! Version:1.1.4 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
 *$websocket,domain=linkshrink.net
@@ -855,8 +855,6 @@ youtube.com##.ad-div
 youtube.com##.masthead-ad-control
 youtube.com##.pyv-afc-ads-container
 zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
-sports.yahoo.com###uh-follow-count
-www.yahoo.com###uh-follow-count
 www.yahoo.com###my-adsLDRB
 betanews.com##.clearfix.articleBreak
 ||01net.com/telecharger/$document
@@ -1339,10 +1337,6 @@ sports.yahoo.com###Col2-1-AbPromo-Proxy,important
 sports.yahoo.com###mrt-node-Col2-1-AbPromo,important
 sports.yahoo.com###Lead-2-AbPromo-Proxy,important
 sports.yahoo.com###Lead-3-AbPromo-Proxy,important
-www.yahoo.com###uh-scroll-promo
-||s.yimg.com/cv/ae/default/171011/FBasketball-EvergreenNBA-static_Crossover_SUN_800x150.jpg$image,important
-||s.yimg.com/cv/ae/default/170829/NFL_Tickets_300x170.png$image,important
-||https://yhoo.it
 sports.yahoo.com###Col2-5-PromoImage-Proxy
 sports.yahoo.com###Col2-1-PromoImage-Proxy
 sports.yahoo.com###Col2-3-PromoImage-Proxy
