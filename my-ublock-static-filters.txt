@@ -1,11 +1,13 @@
-! Checksum: 6966188fb5ad86dcf871c6f1625cd383
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Expires: 7 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! TimeUpdated: 2017-12-29T11:15:15 
+! TimeUpdated: 2018-01-17T09:21:15 
 ! Title: T.Janda's Custom Filter List
-! Version:1.1.4 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
+! Version:1.1.4a
+
+!Start Filter List
+*$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
 *$websocket,domain=linkshrink.net
 */blockadblock.$script,redirect=fuckadblock.js-3.2.0
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0
