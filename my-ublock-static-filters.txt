@@ -1342,3 +1342,11 @@ sports.yahoo.com###Lead-3-AbPromo-Proxy,important
 sports.yahoo.com###Col2-5-PromoImage-Proxy
 sports.yahoo.com###Col2-1-PromoImage-Proxy
 sports.yahoo.com###Col2-3-PromoImage-Proxy
+||getupdateff.com
+||facebook.net
+google.com##^meta[http-equiv="refresh"]
+*##^noscript > style
+*##^noscript
+msnbc.com##script:inject(abort-current-inline-script.js, navigator.userAgent, window.stop)
+abtesting$script
+@@||streetsblog.org^$elemhide
