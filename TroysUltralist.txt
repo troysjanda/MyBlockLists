@@ -16341,7 +16341,6 @@ yachtingworld.com##.social-container.col-author.col-sm-6.col-xs-5
 yahoo.com###Companion-0-CanvasStickyShareButtons-Proxy
 yahoo.com###Hero-0-FeatureBar-smartphone-Proxy
 yahoo.com###atomic .Pos\(f\)\!:style(position: asbolute !important;)
-yahoo.com###community-bar
 yahoo.com###danafarberpromo
 yahoo.com###fantasyshoppromo
 yahoo.com###get-the-app
@@ -16363,8 +16362,6 @@ yahoo.com##.Mtop-sm.Share-buttons
 yahoo.com##.No-mstart.P-lg.No-bry.Fz-sm.F-icon.F-shade3.Bg-facebook.fb-share.small.Btn.Mx-med.yfa-rapid-module-medal-share-facebook.yfa-rapid-beacon.Grid-u
 yahoo.com##.P-lg.No-bdr.Fz-sm.F-icon.F-shade3.small.yfa-rapid-module-medal-share-twitter.yfa-rapid-beacon.Bg-twitter.Btn
 yahoo.com##.T\(-20px\).End\(20px\).Pos\(a\)
-yahoo.com##.canvas-community-bar
-yahoo.com##.cover-community-bar
 yahoo.com##.cta-overlay
 yahoo.com##.follow-us-list
 yahoo.com##.ginsuAd
@@ -16374,7 +16371,6 @@ yahoo.com##.share-btns
 yahoo.com##.share-button-group
 yahoo.com##.side-buttons
 yahoo.com##.sponsored
-yahoo.com##.tdv2-applet-navrail
 yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
 yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
 yahoo.com##.yui3-overlay-mask
