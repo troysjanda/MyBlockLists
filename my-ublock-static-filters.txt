@@ -2,11 +2,23 @@
 ! Expires: 2 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 9:31 PM 2018-01-17
+! Last Modified: 10:10 PM 2018-03-08
 ! Title: T.Janda's Custom Filter List
-! Version:1.1.5
+! Version:1.1.6
 
 !Start Filter List
+www.reddit.com##div.author-tooltip,important
+www.reddit.com##body:style(overflow: scroll !important;)
+www.reddit.com###onboarding-splash
+www.reddit.com##.listingsignupbar.infobar
+betanews.com###adtoniq-msg-bar
+www.giveawayoftheday.com###chromePushBanner
+www.ghacks.net##.mr--20.ml--20.show-sm-up > .ghacks-ad-loaded
+www.howtogeek.com##.relatedside
+www.webmastersun.com##li:nth-of-type(1) > .smaller.block
+www.webmastersun.com##.bnbht
+www.webmastersun.com##.umenu
+www.webmastersun.com###sidebar_container
 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
 *$websocket,domain=linkshrink.net
 */blockadblock.$script,redirect=fuckadblock.js-3.2.0
