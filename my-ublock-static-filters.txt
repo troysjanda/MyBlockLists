@@ -2,11 +2,17 @@
 ! Expires: 2 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 08:01 PM 2018-03-09
+! Last Modified: 12:00 PM 2018-03-27
 ! Title: T.Janda's Custom Filter List
-! Version:1.1.7
+! Version:1.1.8
 
 !Start Filter List
+sports.yahoo.com###mrt-node-Lead-7-HeroBracket
+||l2.apps7.space
+||https://cointraffic.io/
+oracletimes.com##.active > a[href^="//l2.apps7.space/clk"] > div
+||.ru^
+||.cn^
 memecenter.com##.right-content-item
 memecenter.com###fdc_righttopblock > div:nth-of-type(2) 
 /memecenter.com/[0-9a-f]{32}/[0-9a-f\-]{36}.jpg/$domain=memecenter.com,image
