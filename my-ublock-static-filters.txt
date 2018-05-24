@@ -8,6 +8,19 @@
 
 !Start Filter List
 
+betanews.com##.editorial
+ghacks.net##.ghacks_share_widget.widget
+ghacks.net###snippet-box
+ghacks.net###respond
+ghacks.net##.user-content > p:has-text(/Tip|Now You|Now Read|Related/)
+ghacks.net##.user-content > ul:has(a[href^='https://www.ghacks.net/'])
+ghacks.net##p:nth-of-type(4) > strong
+||ghacks.net^$csp=script-src 'self' 'unsafe-inline'
+@@ghacks.net^$elemhide
+ghacks.net##.mt--40.pt--40.border--top--gray:nth-of-type(3)
+||www.redditstatic.com/_chat.*.js$script,domain=www.reddit.com
+reddit.com##body.listing-page a > .gilded-icon
+reddit.com##.buttons.flat-list > .give-gold-button
 ||l2.apps7.space
 ||https://cointraffic.io/
 oracletimes.com##.active > a[href^="//l2.apps7.space/clk"] > div
