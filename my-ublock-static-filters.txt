@@ -2,12 +2,17 @@
 ! Expires: 2 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 02:48 AM 2018-05-24
+! Last Modified: 1:47 PM 2018-05-25
 ! Title: T.Janda's Custom Filter List
-! Version:1.1.10
+! Version:1.1.11
 
 !Start Filter List
 
+www.askvg.com##.cc_con
+www.yahoo.com###guce-inline-consent-iframe
+||googleadapis.l.google.co
+||gstaticadssl.l.google.com
+||registered-spotters-build.com
 betanews.com##.editorial
 ghacks.net##.ghacks_share_widget.widget
 ghacks.net###snippet-box
