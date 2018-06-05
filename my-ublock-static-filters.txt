@@ -2,12 +2,16 @@
 ! Expires: 2 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/My-BlockList/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 4:34 PM 2018-05-31
+! Last Modified: 2:51 PM 2018-06-05
 ! Title: T.Janda's Custom Filter List
-! Version:1.1.12
+! Version:1.1.13
 
 !Start Filter List
 
+||https://betanews.com/wp-content/plugins/adtoniq/js/adtoniq-messenger-alert.js?ver=4.0.9.21
+||https://betanews.com/wp-content/plugins/adtoniq/css/adtoniq-messenger-alert.css?ver=4.0.9.21
+||https://securepubads.g.doubleclick.net/gpt/pubads_impl_121.js
+www.ghacks.net##.cookie-notice-container
 www.reddit.com##.uapp-infobar.with-btn.with-icon.md-container-small.reddit-infobar
 ||https://betanews.com/wp-content/plugins/adtoniq/js/adtoniq-messenger-alert.js,inportant
 ||static-42andpark-com.s3.amazonaws.com
