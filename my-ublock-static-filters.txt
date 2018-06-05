@@ -5,47 +5,9 @@
 ! Last Modified: 2:56 PM 2018-06-05
 ! Title: XPI's Custom Annoyance Filter List
 ! Version:1.1.14a
-
-!Start Filter List
-
-||https://betanews.com/wp-content/plugins/adtoniq/js/adtoniq-messenger-alert.js?ver=4.0.9.21
-||https://betanews.com/wp-content/plugins/adtoniq/css/adtoniq-messenger-alert.css?ver=4.0.9.21
-||https://securepubads.g.doubleclick.net/gpt/pubads_impl_121.js
-www.ghacks.net##.cookie-notice-container
-www.reddit.com##.uapp-infobar.with-btn.with-icon.md-container-small.reddit-infobar
-||https://betanews.com/wp-content/plugins/adtoniq/js/adtoniq-messenger-alert.js,inportant
-||static-42andpark-com.s3.amazonaws.com
-www.askvg.com##.cc_con
-www.yahoo.com###guce-inline-consent-iframe
-||googleadapis.l.google.co
-||gstaticadssl.l.google.com
-||registered-spotters-build.com
-betanews.com##.editorial
-ghacks.net##.ghacks_share_widget.widget
-ghacks.net###snippet-box
-ghacks.net###respond
-ghacks.net##.user-content > p:has-text(/Tip|Now You|Now Read|Related/)
-ghacks.net##.user-content > ul:has(a[href^='https://www.ghacks.net/'])
-ghacks.net##p:nth-of-type(4) > strong
-||ghacks.net^$csp=script-src 'self' 'unsafe-inline'
-@@ghacks.net^$elemhide
-ghacks.net##.mt--40.pt--40.border--top--gray:nth-of-type(3)
-||www.redditstatic.com/_chat.*.js$script,domain=www.reddit.com
-reddit.com##body.listing-page a > .gilded-icon
-reddit.com##.buttons.flat-list > .give-gold-button
-||l2.apps7.space
-||https://cointraffic.io/
-oracletimes.com##.active > a[href^="//l2.apps7.space/clk"] > div
-memecenter.com##.right-content-item
-memecenter.com###fdc_righttopblock > div:nth-of-type(2) 
-/memecenter.com/[0-9a-f]{32}/[0-9a-f\-]{36}.jpg/$domain=memecenter.com,image
-www.reddit.com##div.author-tooltip,important
-www.reddit.com##body:style(overflow: scroll !important;)
-www.reddit.com###onboarding-splash
-www.reddit.com##.listingsignupbar.infobar
-betanews.com###adtoniq-msg-bar
-www.giveawayoftheday.com###chromePushBanner
-www.ghacks.net##.mr--20.ml--20.show-sm-up > .ghacks-ad-loaded
+!
+!-----Start Filter List-----
+!
 www.howtogeek.com##.relatedside
 www.webmastersun.com##li:nth-of-type(1) > .smaller.block
 www.webmastersun.com##.bnbht
@@ -1388,9 +1350,4 @@ sports.yahoo.com###Col2-1-PromoImage-Proxy
 sports.yahoo.com###Col2-3-PromoImage-Proxy
 ||getupdateff.com
 ||facebook.net
-google.com##^meta[http-equiv="refresh"]
-*##^noscript > style
-*##^noscript
 msnbc.com##script:inject(abort-current-inline-script.js, navigator.userAgent, window.stop)
-abtesting$script
-@@||streetsblog.org^$elemhide
