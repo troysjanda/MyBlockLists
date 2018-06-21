@@ -2,12 +2,45 @@
 ! Expires: 2 days (update frequency) 
 ! Homepage: https://bitbucket.org/xpicode/my-blocklist/raw/469f7cd98de43131224698b73676bd5e92bbeae9/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 2:56 PM 2018-06-05
+! Last Modified: 10:04 PM 2018-06-21
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.14a
+! Version:1.1.15a
 !
 !-----Start Filter List-----
 !
+www.firesticktricks.com##.row-1 > .column-1 > .sidebar-vpn-wrapper > .review-link
+www.firesticktricks.com###tablepress-16-scroll-wrapper
+#Empty redirect resources
+1x1-transparent.gif image/gif;base64
+2x2-transparent.png image/png;base64
+32x32-transparent.png image/png;base64
+3x2-transparent.png image/png;base64
+noopcss text/css
+noopframe text/html
+noopjs application/javascript
+noopmp3-0.1s audio/mp3;base64
+noopmp4-1s video/mp4;base64
+nooptext text/plain
+#General purpose scriptlets
+abort-current-inline-script.js application/javascript
+abort-on-property-read.js application/javascript
+abort-on-property-write.js application/javascript
+addEventListener-defuser.js application/javascript
+addEventListener-logger.js application/javascript
+disable-newtab-links.js application/javascript
+nano-setInterval-booster.js application/javascript
+nano-setTimeout-booster.js application/javascript
+remove-attr.js application/javascript
+set-constant.js application/javascript
+setInterval-defuser.js application/javascript
+setInterval-logger.js application/javascript
+setTimeout-defuser.js application/javascript
+setTimeout-logger.js application/javascript
+sharedWorker-defuser.js application/javascript
+window.open-defuser.js application/javascript
+||searchads.msn.net
+www.chieftain.com###blox-message-incompatible
+||polo-v1.feathr.co
 www.howtogeek.com##.relatedside
 www.webmastersun.com##li:nth-of-type(1) > .smaller.block
 www.webmastersun.com##.bnbht
