@@ -2,7 +2,7 @@
 ! Description: Filters Ad & Trackers only.
 ! License: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
-! Homepage: https://bitbucket.org/xpicode/xpifilterlist/Ad-tracker-FilterList.txt
+! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/Ad-Tracker-FilterList.txt
 ! Expires: 14d
 ! TimeUpdated: 2018-07-06	18:25:55+01:00
 ! Version: 0.0.2.0
