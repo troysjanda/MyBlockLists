@@ -2,10 +2,10 @@
 ! Description: Filters Share-/ Social-Buttons, like or +1 buttons on various social media platforms.
 ! License: GPL v3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
-! Homepage: https://bitbucket.org/xpicode/socialsharefilerlist/raw/879db9c5b5c2c4ea094cd58272fca7f5f083e190/SocialShareFilterList.txtt
+! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/SocialShareFilterList.txt
 ! Expires: 14d
 ! TimeUpdated: 07-06-2018	18:27:01+01:00
-! Version: 0.0.0.2
+! Version: 2.0.2
 ! Please report any unblocked content or problems by email or via GitHub issue page.
 ! Email: jandatroy@gmail.com
 ! Copyright (C) 2018 by XPI
