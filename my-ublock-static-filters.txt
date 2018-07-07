@@ -1,6 +1,6 @@
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Expires: 2 days (update frequency) 
-! Homepage: https://bitbucket.org/xpicode/my-blocklist/raw/469f7cd98de43131224698b73676bd5e92bbeae9/my-ublock-static-filters.txt
+! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Last Modified: 6:19 PM 2018-07-06
 ! Title: XPI's Custom Annoyance Filter List
