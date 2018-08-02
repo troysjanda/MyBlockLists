@@ -1,13 +1,17 @@
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
-! Expires: 2 days (update frequency) 
+! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 10:17 AM 2018-07-16
+! Last Modified: 11:35 AM 2018-08-02
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.17
+! Version:1.1.18
 !
 !-----Start Filter List-----
 !
+www.yahoo.com###Col2-5-Channels
+www.yahoo.com###mega-banner
+||https://meter.bostonglobe.com/js/meter.js 
+||meter.bostonglobe.com
 ||https://betanews.com/wp-content/plugins/adtoniq/js/adtoniq-messenger-alert.js?ver=4.0.9.21
 ||https://betanews.com/wp-content/plugins/adtoniq/css/adtoniq-messenger-alert.css?ver=4.0.9.21
 ||https://securepubads.g.doubleclick.net/gpt/pubads_impl_121.js
