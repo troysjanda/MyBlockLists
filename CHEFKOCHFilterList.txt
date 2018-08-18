@@ -54283,12 +54283,6 @@ yahoo.com##.lazyload-loaded.kampyle-button
 yahoo.com##.nr-applet-main-nav-right
 yahoo.com##.side-buttons
 yahoo.com##.sponsored
-yahoo.com##.tdv2-applet-navrail:style(position: absolute !important; width: 100% !important;)
-yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
-yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
-yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
-yahoo.com##.yui3-overlay-mask
-yahoo.com##body:style(padding-top: 0px !important;)
 ||answers.yahoo.com/ros
 ||assets.tumblr.com/images/transparent-pixel.png$image
 ||assets.tumblr.com/images/x.gif$image
