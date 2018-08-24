@@ -2,12 +2,22 @@
 ! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 08:32 AM 2018-08-18
+! Last Modified: 07:10 AM 2018-08-23
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.19
+! Version:1.1.20
 !
 !-----Start Filter List-----
 !
+||http://3phzb1pbij.com/9b/ba/a9/9bbaa9f1127c9f2b25c9fe6ca2d0fa62.js
+yahoo.com##html:style(overflow: auto !important;)
+||y.analytics.yahoo.com
+||csp.yahoo.com
+||api.twitch.tv/v5/channels/*/extensions
+yahoo.com###advertisement-thamba
+reddit.com##.author-tooltip
+y1jxiqds7v.com
+pushwhy.com
+fingahvf.top
 @@https://s.yimg.com/rz/l/favicon.ico
 @@https://sports.yahoo.com/favicon.ico
 ||http://136.243.163.73/
