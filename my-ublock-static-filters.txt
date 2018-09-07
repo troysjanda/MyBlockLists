@@ -2,15 +2,14 @@
 ! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 08:15 PM 2018-09-04
+! Last Modified: 11:01 PM 2018-09-06
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.22
+! Version:1.1.23
 !
 !-----Start Filter List-----
 !
-||guce.oath.com^$important
-||guce.yahoo.com^$important
-||oath.com^$third-party
+||guce.yahoo.com^$third-party$important
+||oath.com^$third-party$important
 ||track.hooligapps.com^$third-party 
 ||welcome.cuntwars.com^$third-party
 ||ro88qcuy.com^$third-party
