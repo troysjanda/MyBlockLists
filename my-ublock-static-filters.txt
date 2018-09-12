@@ -2,12 +2,17 @@
 ! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! Last Modified: 11:01 PM 2018-09-06
+! Last Modified: 08:46 PM 2018-09-11
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.23
+! Version:1.1.24
 !
 !-----Start Filter List-----
 !
+||s.yimg.com/cv/api/default/20180822/NFLLive_GenAware_Banner_800x150_v1.jpg$image
+www.codeexplained.org##.inner-post-ads
+www.bonnercountydailybee.com##.bottom-fixed__close
+||s.yimg.com/cv/api/default/20180822/NFLLive_In-Product_880x150.jpg$image
+||doubleclick.net^$important
 ||guce.yahoo.com^$third-party$important
 ||oath.com^$third-party$important
 ||track.hooligapps.com^$third-party 
