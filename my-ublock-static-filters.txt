@@ -1,16 +1,12 @@
-
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
-! Last Modified: 06:56 PM 2018-09-12
+! Last Modified: 03:50 PM 2018-09-12
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
+! Newest Addition Filters added 09/12/18
 ! Title: XPI's Custom Annoyance Filter List
 ! Version:1.1.25
-!
 !-----Start Filter List-----
-!
-#Empty redirect resources
-#General purpose scriptlets
 $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
 *$websocket,domain=linkshrink.net
@@ -31,22 +27,12 @@ $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 .php^$script,first-party,domain=~wikipedia.org|~wikia.com
 /([0-9]{1,3}\.){3}[0-9]{1,3}/$popup,domain=briansarmiento.website|divxatope1.com|kissanime.ru|newpct.com|pelisplus.tv|rapidvideo.com|strikeout.co|torrentz2.eu,badfilter
 /?placement=*&redirect$popunder
-/AppMeasurement$script,first-party
-/\.(watchcartoononline|9anime|memecenter).*\/.*[(&|=|%|\/|?)]/$image,badfilter
-/\.com\/.*[a-f0-9]{110}/$third-party,image,badfilter
-/\.com\/.*[a-f0-9]{110}/$third-party,image,domain=~bilibili.com|~namu.wiki|~fastmail.com,badfilter
-/\.com\/.*[a-f0-9]{110}/$third-party,image,domain=~parship.com|~aliexpress.com|~alipay.com|~bilibili.com|~namu.wiki|~fastmail.com,badfilter
-/^((?!(^https?):\/\/(ajax\.googleapis\.com|cdnjs\.cloudflare\.com|vk\.com)\/).)*$/$script,third-party,domain=kinokrad.co,badfilter
-/^((?!(^https?):\/\/(vidfile\.net|(www\.)?youtube\.com|openload\.co|docs\.google\.com|video\.sibnet\.ru|oload\.stream|streamango\.com|vidlox\.tv|(www\.)?rapidvideo\.com|tune\.pk|(www\.)?dailymotion\.com|estream\.to|ebd\.cda\.pl|gamedor\.usermd\.net)\/).)*$/$subdocument,domain=a-o.ninja|centrum-dramy.pl|love-drama.pl|vidfile.net,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,image,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,other,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,script,badfilter
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,xmlhttprequest,badfilter
 /ad-overlay-anything
 /ads$first-party
 /ads/beacon^
 /advanced-floating-content-lite$first-party
 /annotations$script,first-party
+/AppMeasurement$script,first-party
 /banner^$inline-script,first-party,subdocument
 /cdn-cgi/pe/bag2^$important
 /detroitchicago$domain=animenewsnetwork.com
@@ -62,6 +48,16 @@ $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 /player-stats
 /track
 /tweets.js$badfilter
+/\.(watchcartoononline|9anime|memecenter).*\/.*[(&|=|%|\/|?)]/$image,badfilter
+/\.com\/.*[a-f0-9]{110}/$third-party,image,badfilter
+/\.com\/.*[a-f0-9]{110}/$third-party,image,domain=~bilibili.com|~namu.wiki|~fastmail.com,badfilter
+/\.com\/.*[a-f0-9]{110}/$third-party,image,domain=~parship.com|~aliexpress.com|~alipay.com|~bilibili.com|~namu.wiki|~fastmail.com,badfilter
+/^((?!(^https?):\/\/(ajax\.googleapis\.com|cdnjs\.cloudflare\.com|vk\.com)\/).)*$/$script,third-party,domain=kinokrad.co,badfilter
+/^((?!(^https?):\/\/(vidfile\.net|(www\.)?youtube\.com|openload\.co|docs\.google\.com|video\.sibnet\.ru|oload\.stream|streamango\.com|vidlox\.tv|(www\.)?rapidvideo\.com|tune\.pk|(www\.)?dailymotion\.com|estream\.to|ebd\.cda\.pl|gamedor\.usermd\.net)\/).)*$/$subdocument,domain=a-o.ninja|centrum-dramy.pl|love-drama.pl|vidfile.net,badfilter
+/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,image,badfilter
+/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,other,badfilter
+/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,script,badfilter
+/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|combined|content|cover|img|static|wp-content|wp-includes))(.*)/$first-party,xmlhttprequest,badfilter
 1337x.*###mgbl49472
 1337x.*##+js(rdo.js, Fingerprint2, noopFunc)
 1337x.*##.bitcoin
@@ -89,10 +85,10 @@ $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 4pda.ru##.visual:has(> div > img[height="1"][width="1"])
 4pda.ru##a[rel][target]:not([attach_id]):has(> img[height]:not([data-src]))
 8wayrun.com##.saddyContainer
-9anime.*##.a_d
 9anime.*##.ads.toggler.mbtn.item
 9anime.*##.alert
 9anime.*##.alert.mt20
+9anime.*##.a_d
 9anime.*##.comment.widget
 9anime.*##.notice.alert-primary.alert
 9anime.*##.share
@@ -111,7 +107,6 @@ $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 @@.gif^$domain=baltimoresun.com|boston.com|calgaryherald.com|capitalgazette.com|carrollcountytimes.com|chicagotribune.com|chroniclelive.co.uk|citypaper.com|courant.com|dailypress.com|deathandtaxesmag.com|edmontonjournal.com|edmunds.com|everquest.allakhazam.com|financialpost.com|gofugyourself.com|hearthhead.com|ibtimes.com|idigitaltimes.com|infinitiev.com|latimes.com|leaderpost.com|legacy.com|lifewire.com|lolking.net|mcall.com|metacritic.com|montrealgazette.com|msn.com|nasdaq.com|nationalpost.com|orlandosentinel.com|ottawacitizen.com|ranker.com|sandiegouniontribune.com|saveur.com|sherdog.com|spin.com|sporcle.com|stereogum.com|sun-sentinel.com|thebalance.com|theprovince.com|thespruce.com|thestarphoenix.com|thoughtco.com|timeanddate.com|tmn.today|torontosun.com|tvguide.com|twincities.com|vagazette.com|vancouversun.com|vibe.com|windsorstar.com|wowhead.com|www.ign.com|zam.com,badfilter
 @@.ico^$domain=baltimoresun.com|boston.com|calgaryherald.com|capitalgazette.com|carrollcountytimes.com|chicagotribune.com|chroniclelive.co.uk|citypaper.com|courant.com|dailypress.com|deathandtaxesmag.com|edmontonjournal.com|edmunds.com|everquest.allakhazam.com|financialpost.com|gofugyourself.com|hearthhead.com|ibtimes.com|idigitaltimes.com|infinitiev.com|latimes.com|leaderpost.com|legacy.com|lifewire.com|lolking.net|mcall.com|metacritic.com|montrealgazette.com|msn.com|nasdaq.com|nationalpost.com|orlandosentinel.com|ottawacitizen.com|ranker.com|sandiegouniontribune.com|saveur.com|sherdog.com|spin.com|sporcle.com|stereogum.com|sun-sentinel.com|thebalance.com|theprovince.com|thespruce.com|thestarphoenix.com|thoughtco.com|timeanddate.com|tmn.today|torontosun.com|tvguide.com|twincities.com|vagazette.com|vancouversun.com|vibe.com|windsorstar.com|wowhead.com|www.ign.com|zam.com,badfilter
 @@.png^$domain=baltimoresun.com|boston.com|calgaryherald.com|capitalgazette.com|carrollcountytimes.com|chicagotribune.com|chroniclelive.co.uk|citypaper.com|courant.com|dailypress.com|deathandtaxesmag.com|edmontonjournal.com|edmunds.com|everquest.allakhazam.com|financialpost.com|gofugyourself.com|hearthhead.com|ibtimes.com|idigitaltimes.com|infinitiev.com|latimes.com|leaderpost.com|legacy.com|lifewire.com|lolking.net|mcall.com|metacritic.com|montrealgazette.com|msn.com|nasdaq.com|nationalpost.com|orlandosentinel.com|ottawacitizen.com|ranker.com|sandiegouniontribune.com|saveur.com|sherdog.com|spin.com|sporcle.com|stereogum.com|sun-sentinel.com|thebalance.com|theprovince.com|thespruce.com|thestarphoenix.com|thoughtco.com|timeanddate.com|tmn.today|torontosun.com|tvguide.com|twincities.com|vagazette.com|vancouversun.com|vibe.com|windsorstar.com|wowhead.com|www.ign.com|zam.com,badfilter
-@@/_ad*/_ad$first-party,xmlhttprequest,badfilter
 @@/adframe.js$script,badfilter
 @@/advert.js$script,badfilter
 @@/download^$xmlhttprequest,domain=speedtest.net,badfilter 
@@ -127,6 +122,7 @@ $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 @@/wp-content/*/adve*.js$script,badfilter
 @@/wp-content/plugins/detect-adblock/js/ads.js$script,first-party,badfilter
 @@/wp-content/plugins/google-analytics-for-wordpress/$first-party,script,badfilter
+@@/_ad*/_ad$first-party,xmlhttprequest,badfilter
 @@ghacks.net^$elemhide
 @@https://s.yimg.com/rz/l/favicon.ico
 @@https://sports.yahoo.com/favicon.ico
@@ -206,6 +202,7 @@ $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 @@||louccrossc.com^$domain=tf1.fr
 @@||loudloss.com^$xmlhttprequest,domain=windowscentral.com,badfilter
 @@||mapbox.com^$xmlhttprequest,domain=speedtest.net,badfilter
+@@||mlbstatic.com/mlb.com/video/*/advertise$xmlhttprequest,domain=mlb.com
 @@||mooseroots.com/ad$xmlhttprequest,first-party
 @@||myanimelist.net^$elemhide
 @@||nyt.com/ads/$script,badfilter
@@ -260,7 +257,6 @@ $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 @@||wikia.com^$csp=script-src 'self' * 'unsafe-inline' 'unsafe-eval'
 @@||wikia.com^$elemhide
 @@||wpengine.netdna-cdn.com^$image,domain=100percentfedup.com|clashdaily.com|constitution.com|eaglerising.com|freedomdaily.com|freedomoutpost.com|hispolitica.com
-ab_appeal$script,first-party
 abort-current-inline-script.js application/javascript
 abort-on-property-read.js application/javascript
 abort-on-property-write.js application/javascript
@@ -268,6 +264,7 @@ about.gitlab.com##.testimonials
 about.gitlab.com##.text-center.logos-section
 about.gitlab.com##.text-center.logos-section > .container
 abtesting$important
+ab_appeal$script,first-party
 ad-view$script,first-party,important
 ad.*^$script,first-party,domain=~cbr.com
 ad.foxnetworks.com^$important
@@ -286,8 +283,8 @@ adroll.com^$important
 ads$script,first-party,domain=~imdb.com
 ads-$script,first-party
 ads.twitter.com^$important
-ads_$xmlhttprequest,first-party,important
 adshark.site^
+ads_$xmlhttprequest,first-party,important
 ajax.cloudflare.com/cdn-cgi/nexp^$script
 al.ly,ally.sh##script:inject(noeval.js)
 al.ly,ally.sh##script:inject(popads.net.js)
@@ -354,10 +351,10 @@ bleepingcomputer.com##LI:has(.nl_spons)
 blockadblock.com,onhax.me##+js(bab-defuser.js)
 blog.cloudflare.com##.reverse-sidebar.wrapper > .primary-content > .tag-elliptic-curves.tag-any-queries.tag-dnssec.post > .learn-more.section
 bloomberg.com###adBlockerContainer
-boerse.to###Notices > .scrollContainer > .PanelContainer > .Panels > .notice_1.DismissParent.Notice.panel > .noticeContent.baseHtml
-boerse.to###Notices > .scrollContainer > .PanelContainer > .Panels > .notice_4.DismissParent.Notice.panel > .noticeContent.baseHtml
 boerse.to###content > .pageWidth > .pageContent > .mainContainer > .mainContent > .breadBoxTop
 boerse.to###content > .pageWidth > .pageContent > .mainContainer > .mainContent > .breadBoxTop > nav > .breadcrumb
+boerse.to###Notices > .scrollContainer > .PanelContainer > .Panels > .notice_1.DismissParent.Notice.panel > .noticeContent.baseHtml
+boerse.to###Notices > .scrollContainer > .PanelContainer > .Panels > .notice_4.DismissParent.Notice.panel > .noticeContent.baseHtml
 boerse.to###widget-5 > .sharePage.infoBlock.section > .secondaryContent
 borncity.com##.entry-content > div:nth-of-type(1)
 bostonglobe.com##.gip__modal
@@ -462,10 +459,10 @@ comicbook.com##.modernInContent
 comicbook.com##.sidebar-sticky.sidebar
 comicbook.com##.urgent-module
 comicbook.com##.vdb_player
-comicbook.com##IMG[alt="Kingsman_Banner"][title="Kingsman_Banner"]
 comicbook.com##a[href^="http://amzn.to/"]
 comicbook.com##a[href^="http://regmovi.es/"]
 comicbook.com##a[href^="https://app.viralsweep.com/"]
+comicbook.com##IMG[alt="Kingsman_Banner"][title="Kingsman_Banner"]
 comicbook.com##p:has-text(NEXT:)
 comicbook.com/article/json/$xmlhttprequest
 commentcamarche.net,foot01.com,journaldunet.com,metronews.fr##script:contains(/[Ll]igatus/)
@@ -484,9 +481,11 @@ ddlvalley.cool,zippyshare.com##script:inject(noeval.js)
 developer.android.com##.dac-footer-reachout.col-1of2
 deviantart.com##.dp-ad-chrome.dp-ad-visible
 disable-newtab-links.js application/javascript
+disqus.com^$important
+disquscdn.com^$important
 doubleclick.net^$important
-doubleclick^$script,important.me###disqus_thread
 doubleclickbygoogle.com^$important
+doubleclick^$script,important.me###disqus_thread
 douploads.com##center
 douploads.com##td:nth-of-type(4)
 downace.com##.ace-download-panel-footer.uk-padding-remove.uk-text-center.uk-margin-remove.uk-panel-box-secondary.uk-panel-box.uk-panel
@@ -498,9 +497,9 @@ dragonball-tube.com###contenttb > table > tbody > tr:nth-of-type(1) > td
 dragonball-tube.com###div-gpt-ad-1407836068824-0
 dragonball-tube.com##.adb
 dragonball-tube.com##.box > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1)
+drive.google.com##.a-ee-zh-k-x
 drive.google.com##.a-Fa-pf-Af-k-ja-Mb
 drive.google.com##.a-Fa-pf-Af-k.a-Fa-xQS9Ed-k.lb-k
-drive.google.com##.a-ee-zh-k-x
 dropapk.com###cmt_txt
 dropapk.com###comment_btn
 dropapk.com###mngez-future
@@ -523,11 +522,13 @@ extreme.pcgameshardware.de###navbar_notice_16
 extreme.pcgameshardware.de###navbar_notice_16 > .notice_wrap
 extreme.pcgameshardware.de###navbar_notice_85
 extreme.pcgameshardware.de###navbar_notice_85 > .notice_wrap
+facebook.com###pagelet_page_cover
 facebook.com###page_photos
 facebook.com###page_tv_show_extra_clips
 facebook.com###page_tv_show_playlists
-facebook.com###pagelet_page_cover
 facebook.com###snowliftStageActions
+facebook.com##.home_right_column
+facebook.com##.rhc
 facebook.com##.UFIList
 facebook.com##._2a_2:has-text(Share)
 facebook.com##._31qy:has-text(related)
@@ -541,12 +542,11 @@ facebook.com##._5pcr:has-text(/People you may know|Connect with Facebook/)
 facebook.com##._5pcr:has-text(Popular Across Facebook)
 facebook.com##._5r6
 facebook.com##._6445
-facebook.com##.home_right_column
-facebook.com##.rhc
 facebook.com/*/logging^$important
 facebook.com/ads^$first-party
 facebook.com/ajax/typeahead/record_basic_metrics.php
 facebook.com/video/*/upnext/$xmlhttprequest
+fantasy.nfl.com###videoPreRollPopup
 fastly.net^$script
 fastpic.ru###left-bottom
 fastpic.ru###left2
@@ -592,12 +592,12 @@ forum-en.msi.com###pm_popup
 forum-en.msi.com##.content
 forum-en.msi.com##.rewards
 forum.beyond3d.com###content > .pageWidth > .noBorderRadius.pageContent > .mainContainer_noSidebar > .funbox.sectionMain:nth-of-type(2) > .funboxWrapper > .b3dAdAlert.AdBlockOn
+forum.xda-developers.com###footer
+forum.xda-developers.com###sidepanel > div:nth-of-type(2)
 forum.xda-developers.com###\35 994a38a7260a > .post-content-container > .postbit-content-moderated.postbit-content
 forum.xda-developers.com###\35 994a38a7260a > .post-content-container > .postbit-userinfo-cell
 forum.xda-developers.com###\35 994a38a7260a > .post-head-container
 forum.xda-developers.com###\35 994a38a7260a > .postbutton-row
-forum.xda-developers.com###footer
-forum.xda-developers.com###sidepanel > div:nth-of-type(2)
 forum.xda-developers.com##.hosted_by
 forum.xda-developers.com##.postbit-wrapper:if(.postbit-userinfo-cell:has-text(Sponsor Content))
 forum.xda-developers.com##.xdadepot-wrapper.post-text
@@ -650,7 +650,6 @@ gitlab.com##.bordered-box
 gitlab.com##.gke-promo-banner
 gitlab.com##.js-autodevops-banner
 google-analytics.com^$important
-google.*###center_col > #\5f Emc
 google.*###center_col > #main > .dfrd > .mnr-c > .c._oc._zs
 google.*###center_col > #res > #topstuff + #search > div > #ires > #rso > #flun
 google.*###center_col > #resultStats + #tads
@@ -658,6 +657,7 @@ google.*###center_col > #resultStats + #tads + #res + #tads
 google.*###center_col > #resultStats + div + #res + #tads
 google.*###center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"]
 google.*###center_col > #taw > #tvcap > .rscontainer
+google.*###center_col > #\5f Emc
 google.*###center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"]
 google.*###cnt #center_col > #res > #topstuff > .ts
 google.*###cnt #center_col > #taw > #tvcap > .c._oc._Lp
@@ -669,13 +669,13 @@ google.*###mn #center_col > div > h2.spon:first-child + ol:last-child
 google.*###mn div[style="position:relative"] > #center_col > ._Ak
 google.*###mn div[style="position:relative"] > #center_col > div > ._dPg
 google.*###resultspanel > #topads
+google.*###rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"]
 google.*###rhs_block .mod > .gws-local-hotels__booking-module
 google.*###rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"]
 google.*###rhs_block > #mbEnd
 google.*###rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"]
 google.*###rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div
 google.*###rhs_block > script + .c._oc._Ve.rhsvw
-google.*###rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"]
 google.*###sqh
 google.*###ssmiwdiv[jsdisplay]
 google.*###tads + div + .c
@@ -683,6 +683,10 @@ google.*###tads.c
 google.*###tadsb.c
 google.*###tadsto.c
 google.*###topstuff > #tads
+google.*##.ch[onclick="ga(this,event)"]
+google.*##.commercial-unit-desktop-rhs
+google.*##.commercial-unit-desktop-top
+google.*##.commercial-unit-mobile-top
 google.*##.GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-
 google.*##.GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5
 google.*##.GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5
@@ -690,10 +694,6 @@ google.*##.GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5
 google.*##.GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4
 google.*##.GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5
 google.*##.GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB
-google.*##.ch[onclick="ga(this,event)"]
-google.*##.commercial-unit-desktop-rhs
-google.*##.commercial-unit-desktop-top
-google.*##.commercial-unit-mobile-top
 google.*##.lads[width="100%"][style="background:#FFF8DD"]
 google.*##.mod > ._jH + .rscontainer
 google.*##.mw > #rcnt > #center_col > #taw > #tvcap > .c
@@ -708,8 +708,8 @@ google.com###prm-pt
 google.com###search .g:has(cite:has-text(/https?:\/\/.*\.pinterest\.com/))
 google.com##.b2hzT
 google.com##.exp-outline
-google.com##[title*="Share"]
 google.com##div[id^="eob"]
+google.com##[title*="Share"]
 google.com/ads/$important
 googleadservices.com^$important
 googleblog.com##a[href^="https://plus.google.com/"]
@@ -950,9 +950,9 @@ openload.co#@#.vjs-poster
 openload.co/r3/f^
 openload.co/reward$xmlhttprequest,important
 oracletimes.com##.active > a[href^="//l2.apps7.space/clk"] > div
+outlook.live.com##.ms-bgc-ns.flexCenterItems.flex._db_O
 outlook.live.com##._2_qTnZN22tYhluWaFTEMvp
 outlook.live.com##._n_15
-outlook.live.com##.ms-bgc-ns.flexCenterItems.flex._db_O
 outlook.live.com##a[href^="http://"]
 outlook.live.com##a[href^="http://www.myfreecams.com/"]
 outlook.live.com##a[href^="https://aka.ms"]
@@ -1075,13 +1075,13 @@ setTimeout-defuser.js application/javascript
 setTimeout-logger.js application/javascript
 sharedWorker-defuser.js application/javascript
 sharethis.com^$important
-shink.in##[id*=ScriptRoot]
 shink.in##a[href*="adk2x"]
-shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-read.js, blockAdBlock)
 shink.in##script:inject(abort-on-property-read.js, jsPopunder)
+shink.in##script:inject(abort-on-property-read.js, RunAds)
 shink.in##script:inject(abort-on-property-write.js, Fingerprint2)
 shink.in##script:inject(abort-on-property-write.js, _pop)
+shink.in##[id*=ScriptRoot]
 showads.js$important
 skidrowgamesreloaded.com###innertop > .grid-h.width100.grid-box
 skidrowgamesreloaded.com##.deepest.widget_text.mod-color.module
@@ -1149,8 +1149,8 @@ swatchseries.to###go_scrolling_comments
 swatchseries.to###header-2
 swatchseries.to###rotating-item-wrapper
 swatchseries.to###scroll_comments
-swatchseries.to##.ad_300_300
 swatchseries.to##.add-comment
+swatchseries.to##.ad_300_300
 swatchseries.to##.block-left-home-inside:nth-of-type(2)
 swatchseries.to##.episode-social
 swatchseries.to##.freeEpisode
@@ -1171,8 +1171,8 @@ tampermonkey.net##td:nth-of-type(2) > .noborder > tbody > tr > td
 techtimes.com##.sec-title2:has-text(From Our Sponsor)
 temp_share_folder$first-party
 thegamerz.deviantart.com###update-browser-banner
-thehackernews.com###HTML6 > .widget-content > .sidewalaad.clear
 thehackernews.com###firebox[href="#"] > div
+thehackernews.com###HTML6 > .widget-content > .sidewalaad.clear
 thehackernews.com###ouibounce-modal > .modal
 thehackernews.com###ouibounce-modal > .underlay
 thehackernews.com###searchtoggl[href="#search"]
@@ -1188,8 +1188,8 @@ thepiratebay.*,pornhub.com,rapidvideo.*,anilinkz.*,oload.*,1337x.*##+js(window.o
 thepiratebay.*/*/$inline-script,first-party,subdocument
 thepiratebay.org##h1 > a[href="/blog"]
 thepiratebay.se###icons
-thevideo.me##script:inject(abort-on-property-read.js, MarketGidJSON)
 thevideo.me##script:inject(abort-on-property-read.js, app.main.adblock)
+thevideo.me##script:inject(abort-on-property-read.js, MarketGidJSON)
 thevideo.me##script:inject(addEventListener-defuser.js, click, void)
 tinyurl.com##.push
 torrentdownload.ch##.table2:has-text(Sponsored)
@@ -1222,9 +1222,9 @@ translate.google.com###gt-promo-lr
 translate.google.com##.gt-hats
 tugaflix.*##script:inject(fuckadblock.js-3.2.0)
 tvad.me##script:inject(abort-on-property-read.js, app.adblockPop)
-twitter.com##.Footer-adsModule.flex-module
 twitter.com##.call-to-action
 twitter.com##.dashboard-right.dashboard
+twitter.com##.Footer-adsModule.flex-module
 twitter.com##.has-content.roaming-module.js-wtf-module.wtf-module.module > .flex-module
 twitter.com##.roaming-module.module.Footer > .flex-module
 twitter.com##.roaming-module.module.Footer > .flex-module:nth-of-type(1)
@@ -1285,10 +1285,10 @@ washingtonpost.com###bottom-furniture
 washingtonpost.com##html:style(height: initial !important; overflow: auto !important;)
 washingtonpost.com##script:inject(wpredirect-defuser.js)
 watch8x.com##script:inject(noeval.js)
-watchcartoonsonline.eu##[id*="ScriptRoot"]
 watchcartoonsonline.eu##header
 watchcartoonsonline.eu##script:inject(abort-current-inline-script.js, document.createElement, jsc.mgid.com)
 watchcartoonsonline.eu##script:inject(abort-current-inline-script.js, parseInt, 676574456c656d656e747342795461674e616d65)
+watchcartoonsonline.eu##[id*="ScriptRoot"]
 wetteronline.de###woCsiAdContent
 wetteronline.de###woRect
 wetteronline.de##script:inject(wetteronline.de.js)
@@ -1355,13 +1355,13 @@ www.geeks3d.com###text-440959331
 www.ghacks.net##.cookie-notice-container
 www.ghacks.net##.mr--20.ml--20.show-sm-up > .ghacks-ad-loaded
 www.giveawayoftheday.com###chromePushBanner
-www.golem.de###HWGhEyuL
-www.golem.de###NCpPCaBG > div:nth-of-type(1)
 www.golem.de###abo-clip
 www.golem.de###gftroba
 www.golem.de###gts-clip
 www.golem.de###hOdixvjnfG
+www.golem.de###HWGhEyuL
 www.golem.de###iqadtile9
+www.golem.de###NCpPCaBG > div:nth-of-type(1)
 www.golem.de###screen > .g-ie6.g4.g > div:nth-of-type(2)
 www.golem.de###screen > .g2.g > div:nth-of-type(1)
 www.golem.de###screen > .g2.g:nth-of-type(4) > aside > ol > .text1:nth-of-type(4)
@@ -1474,8 +1474,8 @@ www.startpage.com###addtobrowser
 www.startpage.com##li:nth-of-type(2) > .no-mobile.add-to-browser-hover.add-to-browser.addsettings
 www.station-drivers.com###afterhead6
 www.station-drivers.com###afterhead6 > .module-outer > .module > div > div > .lvround-inner
-www.station-drivers.com###foot_container
 www.station-drivers.com###footer
+www.station-drivers.com###foot_container
 www.station-drivers.com###result_box
 www.station-drivers.com###rightcol > .module-outer:nth-of-type(1) > .moduleh3
 www.station-drivers.com###slider
@@ -2100,13 +2100,13 @@ zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCod
 ||www.golem.de/1230/sp_2370-854695-i_rc.jpg$image
 ||www.golem.de/7527/sp_2370-916020-i_rc.jpg$image
 ||www.golem.de/8578/sp_2370-961617-i_rc.jpg$image
-||www.golem.de/_img/161031-sys11junior.jpg$image
 ||www.golem.de/microsite/abo/minibanner_flat_620.html
 ||www.golem.de/microsite/abo/minibanner_flat_620.shtml$subdocument
 ||www.golem.de/microsite/abo/trial-social-s3.html
 ||www.golem.de/microsite/abo/trial-social-s3.shtml$subdocument
 ||www.golem.de/microsite/abo/trial-social-s7.html
 ||www.golem.de/microsite/abo/trial-social-s7.shtml$subdocument
+||www.golem.de/_img/161031-sys11junior.jpg$image
 ||www.greysanatomy.com.br
 ||www.howdoyouplayit.com
 ||www.ihavenet.com
