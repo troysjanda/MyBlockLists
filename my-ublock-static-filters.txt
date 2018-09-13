@@ -1,12 +1,10 @@
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
-! Last Modified: 04:05 PM 2018-09-12
+! Last Modified: 11:52 AM 2018-09-13
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.26
-!
-!
+! Version:1.1.27
 !-----Start Filter List-----
 $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
@@ -993,6 +991,7 @@ promo-banner.js^$important
 pubmedia.js
 pushwhy.com
 putlockertv.*##.col-md-7
+putlockertv.*,solarmoviex.*##+js(addEventListener-defuser.js, /mousedown|mouseup/, 0x0)
 quora.com##.upper_content:has(.promoted_link)
 quora.com##div > div > div > div > div > div > div > div > div > div:has-text(/ad  by|promoted  by/)
 rapidvideo.*###premiumad
