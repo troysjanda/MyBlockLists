@@ -3,10 +3,10 @@
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
 ! Expires: 3d
 ! https://github.com/gorhill/uBlock/issues/1885
-! TimeUpdated: 2018-08-18	23:04:52+01:00
+! TimeUpdated: 2018-09-14	09:06:52
 ! Title: XPI Filter List Fork
 ! uBlock bugs
-! Version: 0.0.3.29
+! Version: 1.1.24
 !
 ! Start Filters
 !
