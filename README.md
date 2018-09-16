@@ -1,4 +1,6 @@
 [![AUR](https://img.shields.io/aur/license/yaourt.svg?style=plastic)](https://github.com/troysjanda/MyBlockLists)
+[![Travis (.org)](https://img.shields.io/travis/:user/:repo.svg)](https://github.com/troysjanda/MyBlockLists)
+[![PyPI - Status](https://img.shields.io/pypi/status/Django.svg)](https://github.com/troysjanda/MyBlockLists)
 
 # XPI's Custom Annoyance Filter Lists
 Custom Filter List for use with Ublock Orgin Firefox addon
