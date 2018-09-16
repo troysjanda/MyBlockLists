@@ -1,10 +1,10 @@
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
-! Last Modified: 11:52 AM 2018-09-13
+! Last Modified: 08:32 AM 2018-09-16
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.27
+! Version:1.1.28
 !-----Start Filter List-----
 $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
@@ -801,13 +801,6 @@ kimcartoon.me##.w-right
 kimcartoon.me##div[id*="ScriptRoot"]
 kimcartoon.me,kissanime.ru,readcomiconline.to##[style*="width: 300px; height: 250px"]
 kino-dom.org##script:contains(my_abadiv)
-kirtuclub.com###foxyform_embed_link_885594
-kirtuclub.com##.entry-meta:has-text(Posted in)
-kirtuclub.com##.widget_text.widget
-kirtuclub.com##.wp_rp_wrap
-kirtuclub.com##a[href^="http://nudedesigirls.net/"]
-kirtuclub.com##a[href^="http://sexdug.com/"]
-kirtuclub.com##iframe[src*="youtube.com/embed/"]
 kissanime.*###btnShowComments
 kissanime.*##.bigBarContainer div[id^="adsIfrme"]
 kissanime.*##.divCloseBut
@@ -1854,7 +1847,6 @@ zippyshare.com##script:inject(abort-current-inline-script.js, String.fromCharCod
 ||kimcartoon.me^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.zencdn.net *.rapidvideo.com *.rapidvideo.is *.playercdn.net openload.co *.oloadcdn.net streamango.com code.jquery.com *.fruithosted.net yucloud.co *.yucloud.co i.imgur.com *.bp.blogspot.com *.googleusercontent.com *.googlevideo.com upload.wikimedia.org *.fbcdn.net
 ||kimcartoon.me^$script,domain=kimcartoon.me,badfilter
 ||kingofdown.com/img/180upload.png$image,redirect=2x2-transparent.png
-||kirtuclub.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval'
 ||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: myanimelist.cdn-dena.com i.imgur.com *.rapidvideo.com *.playercdn.net openload.co oload.stream *.oloadcdn.net streamango.com *.fruithosted.net *.fbcdn.net *.mp4upload.com
 ||kisshentai.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: myanimelist.cdn-dena.com i.imgur.com *.rapidvideo.com *.rapidvideo.is *.playercdn.net openload.co oload.stream *.oloadcdn.net streamcherry.com *.fruithosted.net
 ||koinser.in^
