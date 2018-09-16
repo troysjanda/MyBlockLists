@@ -3,10 +3,10 @@
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
 ! Expires: 3d
 ! https://github.com/gorhill/uBlock/issues/1885
-! TimeUpdated: 2018-09-14	21:17:52
+! TimeUpdated: 2018-09-16	11:34:52
 ! Title: XPI Filter List Fork
 ! uBlock bugs
-! Version: 1.1.25
+! Version: 1.1.26
 !
 ! Start Filters
 !
@@ -10238,7 +10238,6 @@ yahoo.com###mediacontentfollowproperty_wrapper
 yahoo.com###mediacontentsharebuttons
 yahoo.com###mediasocialbuttonseasy
 yahoo.com###mrt-node-Lead-2-AbPromo
-yahoo.com###mrt-node-UH-1-NavLite
 yahoo.com###so-share
 yahoo.com###sportsshop-promo
 yahoo.com###uh-scroll-promo
@@ -10247,7 +10246,6 @@ yahoo.com###unblock-intstructions
 yahoo.com###yog-hd
 yahoo.com###yset-search-upsell-container
 yahoo.com###yucs-top-bar
-yahoo.com##.Bxsh\(iframeBoxShadow\)
 yahoo.com##.canvas-community-bar
 yahoo.com##.canvass-fullscreen.smartphone.td-applet-canvass
 yahoo.com##.cover-community-bar
@@ -10256,7 +10254,6 @@ yahoo.com##.follow-us-list
 yahoo.com##.ginsuAd
 yahoo.com##.H-fixed.Ad
 yahoo.com##.lazyload-loaded.kampyle-button
-yahoo.com##.nr-applet-main-nav-right
 yahoo.com##.P-lg.No-bdr.Fz-sm.F-icon.F-shade3.small.yfa-rapid-module-medal-share-twitter.yfa-rapid-beacon.Bg-twitter.Btn
 yahoo.com##.side-buttons
 yahoo.com##.sponsored
