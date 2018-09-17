@@ -1,10 +1,10 @@
 ! Description: Blocks irritating elements on webpages including cookie notices third-party widgets and in-page popups.
 ! Expires: 14 days (update frequency) 
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/my-ublock-static-filters.txt
-! Last Modified: 18:15 PST 2018-09-16
+! Last Modified: 18:21 PST 2018-09-16
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 ! Title: XPI's Custom Annoyance Filter List
-! Version:1.1.28a
+! Version:1.1.28b
 !-----Start Filter List-----
 $websocket,domain=~mega.nz|~speedtest.net|~mewe.com
 *$websocket,domain=1337x.to|datpiff.com|freewarefiles.com|jpost.com|kinotochka.net|tetrisfriends.com|thecountrycaller.com|videowood.tv
@@ -625,6 +625,7 @@ ghacks.net###post-author
 ghacks.net###respond
 ghacks.net##.cookie-notice-container
 ghacks.net##.ghacks-ad
+ghacks.net###snippet-box
 ghacks.net##.ghacks_share_widget.widget
 ghacks.net##.ghacks_this_day.widget
 ghacks.net##.mt--40.pt--40.border--top--gray:has([href*="paypal"])
