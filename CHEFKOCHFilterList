@@ -3,10 +3,10 @@
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
 ! Expires: 3d
 ! https://github.com/gorhill/uBlock/issues/1885
-! TimeUpdated: 2018-09-16	11:34:52
+! TimeUpdated: 2018-09-18	19:04:52
 ! Title: XPI Filter List Fork
 ! uBlock bugs
-! Version: 1.1.26
+! Version: 1.1.29
 !
 ! Start Filters
 !
@@ -10249,7 +10249,6 @@ yahoo.com###yucs-top-bar
 yahoo.com##.canvas-community-bar
 yahoo.com##.canvass-fullscreen.smartphone.td-applet-canvass
 yahoo.com##.cover-community-bar
-yahoo.com##.cta-overlay
 yahoo.com##.follow-us-list
 yahoo.com##.ginsuAd
 yahoo.com##.H-fixed.Ad
@@ -10258,7 +10257,6 @@ yahoo.com##.P-lg.No-bdr.Fz-sm.F-icon.F-shade3.small.yfa-rapid-module-medal-share
 yahoo.com##.side-buttons
 yahoo.com##.sponsored
 yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
-yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
 yahoo.com##.yui3-overlay-mask
 yahoo.com##body:style(padding-top: 0px !important;)
 yandex.com##div /deep/ div[style*="background-image: url"]
