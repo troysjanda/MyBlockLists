@@ -3,17 +3,12 @@
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
 ! Expires: 3d
 ! https://github.com/gorhill/uBlock/issues/1885
-! TimeUpdated: 2018-09-18	19:04:52
+! Start Filters
+! TimeUpdated: 2018-09-19	15:53:52
 ! Title: XPI Filter List Fork
 ! uBlock bugs
-! Version: 1.1.29
+! Version: 1.1.30
 !
-! Start Filters
-!
-!posthaven-assets.s3.amazonaws.com^
-!||google-analytics.com^$important
-!||googleadservices.com^$important
-!||googlesyndication.com^$important
 ###a1ys6c
 ###a3_cookie
 ###aa_privacy_module
@@ -10240,6 +10235,7 @@ yahoo.com###mediasocialbuttonseasy
 yahoo.com###mrt-node-Lead-2-AbPromo
 yahoo.com###so-share
 yahoo.com###sportsshop-promo
+yahoo.com###uh-menu-btn
 yahoo.com###uh-scroll-promo
 yahoo.com###unblock-instructions
 yahoo.com###unblock-intstructions
@@ -10256,6 +10252,7 @@ yahoo.com##.lazyload-loaded.kampyle-button
 yahoo.com##.P-lg.No-bdr.Fz-sm.F-icon.F-shade3.small.yfa-rapid-module-medal-share-twitter.yfa-rapid-beacon.Bg-twitter.Btn
 yahoo.com##.side-buttons
 yahoo.com##.sponsored
+yahoo.com##.tdv2-applet-deals
 yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
 yahoo.com##.yui3-overlay-mask
 yahoo.com##body:style(padding-top: 0px !important;)
@@ -30625,6 +30622,7 @@ _woz_banner_vote.
 ||host012.jag.vmsn.de^
 ||host013.jag.vmsn.de^
 ||host4media.com^
+||hostdoze.com^$important
 ||hostedads.realitykings.com^
 ||hostedbannerads.aebn.net^
 ||hostedmovieupdates.aebn.net^
@@ -44365,6 +44363,7 @@ _woz_banner_vote.
 ||s2.socialannex.com^
 ||s2.trrsf.com^
 ||s212.ucoz.net^
+||s22.postimg.cc^$important
 ||s2206i.categoria.hpg.com.br^
 ||s2block.com^
 ||s2d6.com^
