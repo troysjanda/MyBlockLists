@@ -1,12 +1,12 @@
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Copyright (C) 2016-2018 by XPI
 ! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles. 
-! Title: XPI Blocking List
 ! Expires: 3d
-! Homepage: 
-! Last Modified: 16:26 PST 2018-09-21
+! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UltimateFilterListXPI.txt
+! Last Modified: 16:36 PST 2018-09-21
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-! 
+! Title: XPI Blocking List
+! Version 1.0.28
 !-----Start Filter List-----
 ###a1ys6c
 ###a3_cookie
