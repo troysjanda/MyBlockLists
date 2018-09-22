@@ -1,0 +1,310 @@
+! uMatrix: Ruleset recipes 1.0 
+! Title: XPI Rulesets for English websites 
+! Maintainer: Troy Janda 
+! 
+! Lines starting with character "!" are ignored. 
+! Character "_" is an alias for "currently selected scope". 
+! An empty line MUST be used to separate distinct ruleset recipes. 
+! 
+! Please contribute ruleset recipes for the benefit of all other users: 
+! https://github.com/uBlockOrigin/uAssets/tree/master/recipes 
+!
+!---Start---
+Twitch.tv
+
+twitch.tv *
+    _ 1st-party *
+    _ 1st-party script
+    _ 1st-party cookie
+    _ jtvnw.net image
+    _ ttvnw.net xhr
+    _ static.twitchcdn.net *
+    _ static.twitchcdn.net script
+    _ polyfill.twitchsvc.net script
+    _ imasdk.googleapis.com script
+    no workers: _ false
+
+Twitch as third party
+
+* twitch.tv
+    _ twitch.tv script
+    _ twitch.tv xhr
+    _ player.twitch.tv *
+    ! It doesn't show that there are any frames, but allowing them is necessary
+    _ player.twitch.tv frame
+    _ ssl.fastly.net script
+    _ ssl.fastly.net image
+    _ jtvnw.net image
+    _ ttvnw.net xhr
+
+Imgur third party
+
+* imgur.com
+    _ imgur.com media
+    _ imgur.com image
+
+Gyfcat third party
+
+* gyfcat.com
+    _ gyfcat.com media
+
+Twitter third party
+
+* twitter.com
+    _ twitter.com *
+    _ twitter.com script
+    _ cdn.syndication.twimg.com script
+    _ pbs.twimg.com image
+
+Stackexchange
+
+stackexchange.com *
+    _ 1st-party *
+    _ cdn.sstatic.net *
+    _ cdn.sstatic.net script
+    _ ajax.googleapis.com script
+    ! gets rid of annoying enable javascript banner
+    noscript-spoof: _ false
+
+Stackoverflow
+
+stackoverflow.com *
+    _ 1st-party *
+    _ cdn.sstatic.net *
+    _ cdn.sstatic.net script
+    _ ajax.googleapis.com script
+    ! gets rid of annoying enable javascript banner
+    noscript-spoof: _ false
+
+Google Drive
+
+google.com *
+    _ 1st-party *
+    _ apis.google.com script
+    _ docs.google.com script
+    _ www.google.com script
+    _ www.gstatic.com script
+    _ fonts.gstatic.com css
+    _ ssl.gstatic.com image
+    !needed for google sheets
+    no-workers: _ false
+
+Gmail
+
+mail.google.com *
+    _ 1st-party *
+    _ googleusercontent.com image
+    _ gstatic.com image
+    _ gstatic.com script
+    ! to remove annoying allow javascript banner
+    noscript-spoof: _ false
+
+reCaptcha
+
+* google.com
+    _ google.com *
+    _ google.com script
+    _ google.com frame
+    _ gstatic.com *
+    _ gstatic.com script
+
+Wikipedia
+
+wikipedia.org *
+    _ 1st-party *
+    _ wikimedia.org image
+
+Reddit
+
+reddit.com *
+! I am only making reddit work, not external media on reddit.
+    _ 1st-party *
+    _ www.reddit.com script
+    _ redditmedia.com image
+    _ b.thumbs.redditmedia.com css
+    _ www.redditstatic.com *
+    _ www.redditstatic.com script
+
+Yahoo
+
+Yahoo.com *
+    _ 1st-party *
+    _ yimg.com *
+    _ s.yimg.com script
+    _ video.yahoo.com script
+
+Amazon
+
+Amazon.com *
+    _ 1st-party *
+    _ www.amazon.com cookie 
+    _ ssl-images-amazon.com *
+    _ ssl-images-amazon.com script
+
+Instagram
+
+instagram.com *
+    _ 1st-party *
+    _ www.instagram.com script
+    _ cdninstagram.com image
+
+Linkedin
+
+linkedin.com *
+    _ 1st-party *
+    _ licdn.com *
+    _ static.licdn script
+    _ www.linkedin.com script
+    _ 1st-party cookie
+
+Pornhub
+
+pornhub.com
+    _ 1st-party *
+    _ phncdn.com *
+    _ phncdn.com script
+
+Xvideos
+
+xvideos.com *
+    _ 1st-party *
+    _ 1st-party script
+    _ xvideos-cdn.com xhr
+    _ xvideos-cdn.com image
+
+Ebay
+
+ebay.com *
+    _ 1st-party *
+    _ ebaystatic.com css
+    _ ebaystatic.com script
+    _ i.ebayimg.com image
+    ! I do not have an ebay account, so I might have missed something during checkout
+
+Microsoft.com
+
+microsoft.com *
+    _ 1st-party *
+    _ akamaized.net image
+    _ akamaized.net css
+    _ s-microsoft.com image
+    _ s-microsoft.com css
+    _ onestore.ms css
+    _ onestore.ms image
+    _ onestore.ms script
+    _ www.microsoft.com script
+
+Microsoft login
+
+login.live.com *
+    _ 1st-party *
+    _ 1st-party script
+    _ gfx.ms image
+    _ gfx.ms css
+
+Office.com
+
+office.com *
+    _ 1st-party *
+    _ akamaized.net image
+    _ akamaized.net css
+    _ msocdn.com image
+    _ msocdn.com css
+    _ msocdn.com script
+    _ onestore.ms css
+    _ query.prod.cms.rt.microsoft.com css
+
+Tumblr
+
+tumblr.com *
+    _ 1st-party *
+    _ assets.tumblr.com script
+    _ 1st-party cookie
+
+developer.mozilla.org
+
+developer.mozilla.org *
+    _ 1st-party *
+    _ mdn.mozilla.net css
+    _ mdn.mozilla.net image
+    _ mdn.mozilla.net script
+    _ mdn.mozillademos.org frame
+    _ mdm.mozillademos.org script
+
+DuckDuckGo
+
+duckduckgo.com *
+    _ duckduckgo.com css allow
+    _ duckduckgo.com image allow
+    _ duckduckgo.com script allow
+    _ duckduckgo.com xhr allow
+    _ duckduckgo.com frame allow
+
+Qwant no account
+
+qwant.com *
+    _ qwant.com css allow
+    _ qwant.com image allow
+    _ qwant.com script allow
+    _ api.qwant.com xhr allow
+
+Qwant lite no account
+
+lite.qwant.com *
+    _ lite.qwant.com css allow
+    _ lite.qwant.com image allow
+    _ lite.qwant.com script allow
+
+Startpage
+
+startpage.com *
+    _ startpage.com cookie allow
+    _ startpage.com css allow
+    _ startpage.com image allow
+    _ startpage.com script allow
+    _ startpage.com xhr allow
+    _ ixquick.com image allow
+
+Ixquick
+
+ixquick.com *
+    _ ixquick.com cookie allow
+    _ ixquick.com css allow
+    _ ixquick.com image allow
+    _ ixquick.com script allow
+    _ ixquick.com xhr allow
+    _ startpage.com image allow
+
+Bing
+
+bing.com *
+    _ bing.com css allow
+    _ bing.com image allow
+    _ bing.com media allow
+    _ bing.com script allow
+    _ bing.com xhr allow
+    _ bing.com frame allow
+    _ bing.net image allow
+     ! Lines with virtualearth are necessary to use bing maps.
+    _ virtualearth.net image allow
+    _ virtualearth.net script allow
+    _ bing.com cookie allow
+    _ live.com cookie allow
+    _ live.com image allow
+    _ live.com script allow
+    _ live.com frame allow
+     ! Next line is necessary if you want to be logged with a Microsoft account while using Bing (from my experience).
+    referrer-spoof: _ false
+
+Yahoo no account
+
+yahoo.com *
+    _ yahoo.com css allow
+    _ yahoo.com image allow
+    _ yahoo.com script allow
+    _ yahoo.com xhr allow
+    _ bing.net image allow
+    _ yahooapis.com script allow
+    _ yimg.com css allow
+    _ yimg.com image allow
+    _ yimg.com script allow
