@@ -3,7 +3,16 @@
 ! Homepage: https://github.com/uBlock-user/uBO-Personal-Filters
 ! Author: uBlock-user
 ! Expires: 1 day
-
+! Version 1.2.1001
+!
+! -- Start Filters --
+!
+magicalthirteen.com^$important
+betanews.com##.clearfix.content > .halfCol
+betanews.com##.header > h2
+||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
+www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
+||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
 2mdn.net^$important
 csp.yahoo.com^$important
 ||s.yimg.com/cv/api/default/20180822/NFLLive_In-Product_880x150.jpg$image
