@@ -4,11 +4,11 @@
 # XPI's Custom Annoyance Filter Lists
 Custom Filter List for use with Ublock Orgin Firefox addon
 
-XPI's Ultimate Filter List 
+XPI's Filter List 
 
 My-Ublock Static Filter List (Based on uBlock-user/uBO-Personal-Filters)
  
-https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UltimateFilterListXPI.txt
+https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 
 These filters are merged weekly from the above sources with my personal additions. Feel free to use these for your use.
 
