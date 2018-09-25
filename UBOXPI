@@ -487,8 +487,8 @@ amazon-adsystem.com^$important
 @@||ajax.cloudflare.com/cdn-cgi/scripts/$third-party,script,badfilter
 ghacks.net##.ghacks_share_widget.widget
 ghacks.net##.ghacks_this_day.widget
-ghacks.net##.ghacks_popular.widget
-ghacks.net##.ghacks_last_updated.widget
+!ghacks.net##.ghacks_popular.widget
+!ghacks.net##.ghacks_last_updated.widget
 ghacks.net##.mt--40.pt--40.border--top--gray:has([href*="paypal"])
 ghacks.net###post-author
 ghacks.net###snippet-box
@@ -543,7 +543,7 @@ facebook.com##._5r6
 */log$xmlhttprequest,first-party,domain=~facebook.com
 reddit.com/*/log^$first-party
 gorillavid.in/*.hg$script
-google-analytics.com^$important
+google-analytics.com^$important,third-party
 ghacks.net##.cookie-notice-container
 youtube.com###sponsor-button
 /banner^$inline-script,first-party,subdocument
