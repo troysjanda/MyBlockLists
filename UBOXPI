@@ -1,12 +1,13 @@
-[uBlock Origin 1.16.21rc3]
+[uBlock Origin 1.17.1b0]
 ! Title: Xpi uBO Personal Filters
-! Homepage: https://github.com/uBlock-user/uBO-Personal-Filters
+! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: uBlock-user
 ! Expires: 1 day
-! Version 1.2.1001
+! Version 1.2.1002
 !
 ! -- Start Filters --
 !
+adtoniq.com^$important,third-party
 magicalthirteen.com^$important
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
