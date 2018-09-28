@@ -3,10 +3,14 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: uBlock-user
 ! Expires: 1 day
-! Version 1.2.1002
+! Version 1.2.1003
 !
 ! -- Start Filters --
 !
+*/wp-content/plugins/adtoniq/^$important,third-party
+yahoo.com##.js-stream-content:has-text(/Affiliate Publisher/i)
+||mailtrack.io^$important
+yahoo.com##.js-stream-content:has-text(/Celebrity/i)
 adtoniq.com^$important,third-party
 magicalthirteen.com^$important
 betanews.com##.clearfix.content > .halfCol
