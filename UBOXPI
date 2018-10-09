@@ -3,10 +3,14 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: uBlock-user
 ! Expires: 1 day
-! Version 1.2.1004
+! Version 1.2.1005
 !
 ! -- Start Filters --
 !
+yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
+www.mediafire.com###abnotify
+yahoo.com##.js-stream-content:has-text(/deal_of_the_day/i)
+/advert.js$important
 */wp-content/plugins/adtoniq/^$important,third-party
 yahoo.com##.js-stream-content:has-text(/Affiliate Publisher/i)
 ||mailtrack.io^$important
