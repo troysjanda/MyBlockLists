@@ -3,13 +3,12 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: uBlock-user
 ! Expires: 7 days
-! Version 1.2.1006
+! Version 1.2.1007
 !
 ! -- Start Filters --
 !
 ||disqusads.com^$important
 ||clksite.com^$important
-/cdn-cgi/apps/head/$first-party,script,important
 reddit.com##body > div[data-overflow]:last-child
 ieee.org##+js(abort-on-property-read.js, splashpage
 facebook.com##div.h_r03bd44ox.pagelet
