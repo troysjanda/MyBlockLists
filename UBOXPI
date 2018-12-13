@@ -1,9 +1,9 @@
-[uBlock Origin 1.17.3rc5]
+[uBlock Origin 1.17.5b4]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: uBlock-user
 ! Expires: 7 days
-! Version 1.2.1008
+! Version 1.2.1009
 !
 ! -- Start Filters --
 !
@@ -497,7 +497,6 @@ facebook.com/video/*/upnext/$xmlhttprequest
 animenewsnetwork.com###prompt-message
 @@||kisshentai.net/content/js/adframe.js^$badfilter
 @@||cloudfront.net/assets/$third-party,script,badfilter
-||github.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.github.com *.githubusercontent.com *.s3.amazonaws.com
 @@||hentaihaven.org/basement/js/adshow.js$badfilter
 swatchseries.to###rotating-item-wrapper
 swatchseries.to##.freeEpisode
