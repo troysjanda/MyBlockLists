@@ -1,12 +1,31 @@
-[uBlock Origin 1.17.5b4]
+[uBlock Origin 1.17.5rc3]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: uBlock-user
 ! Expires: 7 days
-! Version 1.2.1009
+! Version 1.2.1010
 !
 ! -- Start Filters --
 !
+reddit.com##+js(remove-attr.js, data-inbound-url, a[data-href-url])
+betanews.com##.clearfix.articleBreak
+||yahoo.net^
+||zenfs.com^
+yahoo.com##.js-stream-content:has-text(/From Our Partner/i)
+yahoo.com##.js-stream-content:has-text(/Sponsored/i)
+||ads.adaptv.advertising.com^
+||2822.v.fwmrm.net^
+||ima3vpaid.appspot.com^
+||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
+||fbcdn.*/
+||fb.*/
+||fbsbx.*/
+||tfbnw.*/
+||whatsapp.*/
+||facebook-web-clients.appspot.com/
+||facebook.net.edgekey.net/
+||fbsbx.com.online-metrix.net/
+||accountkit.*/
 ||animeland.tv/scripts/$script
 twitter.com##article:has(div:has-text(/^Promoted$/))
 ||cbssports.com$inline-script
