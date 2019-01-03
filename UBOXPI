@@ -66,3 +66,12 @@ pornhub.com###under-player-comments
 pornhub.com###welcome
 youtube.com###watch-action-panels
 youtube.com###chat
+ghacks.net##.ghacks_share_widget.widget
+ghacks.net##.ghacks_this_day.widget
+!ghacks.net##.ghacks_popular.widget
+!ghacks.net##.ghacks_last_updated.widget
+ghacks.net##.mt--40.pt--40.border--top--gray:has([href*="paypal"])
+ghacks.net###post-author
+!ghacks.net###snippet-box
+||ghacks.net^$csp=script-src 'self' 'unsafe-inline'
+@@||ghacks.net^$elemhide
