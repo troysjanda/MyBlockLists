@@ -1,12 +1,18 @@
-[uBlock Origin 1.17.7b1]
+[uBlock Origin 1.17.7b2]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.3.2
+! Version 1.3.3
 !
 ! -- Start Filters --
 !
+||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
+seriouseats.com#@#.nav-share
+||servebom.com^
+www.reddit.com##.premium-banner
+||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
+||static-42andpark-com.s3.amazonaws.com^
 yahoo.com##.js-stream-side-buttons 
 yahoo.com##.js-stream-actions 
 yahoo.com##.js-stream-tumblr-actions
