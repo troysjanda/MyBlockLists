@@ -1,13 +1,37 @@
-[uBlock Origin 1.17.7rc1]
+[uBlock Origin 1.18.rc1]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.3.5
+! Version 1.3.6
 ! Additions +9 Deletions -0
 !
 ! -- Start Filters --
 !
+||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
+spiegel.de##^script:has-text(.createShadowRoot)
+^ad([sxv])?[0-9]*[-_.]
+^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
+^adtrack(er|ing)?[0-9]*[-.]
+^advert(s|is(ing|ements?))?[0-9]*[-_.]
+^aff(iliat(es?|ion))?[-.]
+^analytics?[-.]
+^banners?[-.]
+^beacons?[0-9]*[-.]
+^clicks?[-.]
+^count(ers?)?[0-9]*[-.]
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[-.]
+^telemetry[-.]
+^track(ers?|ing)?[0-9]*[-.]
+^traff(ic)?[-.]
+amazon-adsystem\.com$
+kaffnet\.com$
+startapp(exchange|network|service)\.com$
+r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
+(^|\.)com\.media\.orehawa\.co\.uk$
+(^|\.)co\.uk\.media\.orehawa\.co\.uk$
+(^|\.)net\.media\.orehawa\.co\.uk$
 ||betanews.com###adtoniq-msg-bar 
 ||betanews.com###adtoniq-msg-bar.reveal-alert 
 ||betanews.com##.btn-msg-bar  
