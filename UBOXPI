@@ -3,11 +3,27 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.3.6
-! Additions +9 Deletions -0
+! Version 1.3.7
+! Additions +16 Deletions -0
 !
 ! -- Start Filters --
 !
+||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
+||guce.oath.com
+||guce.yahoo.com
+||betanews.com##.articleBoxad
+||betanews.com###topAd 
+||betanews.com##.ad 
+||betanews.com##.boxad
+||betanews.com##.flexibleBoxad
+||betanews.com##.widesky
+||betanews.com##.bigLeader
+||banananalytics.com^important
+||oath.com^
+||yahoo.com.cn^
+||yahoo.net^
+||yahooapis.com^
+||ysearchblog.com^
 ||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
 spiegel.de##^script:has-text(.createShadowRoot)
 ^ad([sxv])?[0-9]*[-_.]
