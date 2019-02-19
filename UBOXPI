@@ -1,13 +1,22 @@
-[uBlock Origin 1.18.rc1]
+[uBlock Origin 1.18.5b6]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.3.8
-! Additions +15 Deletions -1
+! Version 1.3.9
+! Additions +9 Deletions -0
 !
 ! -- Start Filters --
 !
+||www.google-analytics.com/analytics.js
+||/analytics.js
+||http://yo/guce-js
+nexusmods.com##.areplacer
+||phys.org^important
+www.hackintoshzone.com##.section-left.loader-section
+www.hackintoshzone.com##.section-right.loader-section
+www.hackintoshzone.com###detectadbnotes
+www.hackintoshzone.com###loader-wrapperz
 ||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
 ||guce.oath.com
 ||guce.yahoo.com
