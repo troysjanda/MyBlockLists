@@ -1,13 +1,29 @@
-[uBlock Origin 1.18.14]
+[uBlock Origin 1.18.17]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.3.13
-! Additions +07 Deletions -0
+! Version 1.3.14
+! Additions +16 Deletions -1
 !
 ! -- Start Filters --
 !
+www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+reddit.com###ad_1
+reddit.com###ad_4
+reddit.com###ad_5
+reddit.com###ad_6
+reddit.com##._3RPJ8hHnfFohktLZca18J6
+reddit.com##.s1tljykw-0
+reddit.com##.dfp-ad-container
+reddit.com##.premium-banner
+reddit.com##.ynts11-1
+||reddit.com/static/pixel.png$image
+||reddit.com/web/log/$xmlhttprequest
+www.reddit.com|$xmlhttprequest
+||reddit.com/api/me.json?*=$xmlhttprequest
+|http://*$script,inline-script
+|http://*$script
 egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write.js, decodeURIComponent)
 ||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
@@ -160,7 +176,8 @@ yahoo.com##.js-stream-content:has-text(/deal_of_the_day/i)
 */wp-content/plugins/adtoniq/^$important,third-party
 yahoo.com##.js-stream-content:has-text(/Affiliate Publisher/i)
 ||mailtrack.io^$important
-yahoo.com##.js-stream-content:has-text(/Celebrity/i)
+!Removed to fix yahoo homepage
+!yahoo.com##.js-stream-content:has-text(/Celebrity/i)
 adtoniq.com^$important,third-party
 magicalthirteen.com^$important
 betanews.com##.clearfix.content > .halfCol
