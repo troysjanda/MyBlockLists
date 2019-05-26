@@ -1,97 +1,25 @@
-[uBlock Origin 1.19.b0]
+[uBlock Origin 1.19.7b2]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.3.16
-! Additions +10 Deletions -0
+! Version 1.3.18a
+! Additions +3 Deletions -0 Modified +1
 !
 ! -- Start Filters --
 !
-||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
-||disqus.com/embed.js$script,redirect=disqus.com/embed.js
-||disqus.com/count.js$script
-@@||disqus.com/embed.js?_=1457540*$script
-||volantix.com^
-||s3.buysellads.com^
-sports.yahoo.com##.ys-teams-nav
-||cdn.report-uri.com^
-||www.microsoft.com-windows-booster.live^
-betanews.com##.twitter-share-button-error.twitter-share-button
-www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
-reddit.com###ad_1
-reddit.com###ad_4
-reddit.com###ad_5
-reddit.com###ad_6
-reddit.com##._3RPJ8hHnfFohktLZca18J6
-reddit.com##.s1tljykw-0
-reddit.com##.dfp-ad-container
-reddit.com##.premium-banner
-reddit.com##.ynts11-1
-||reddit.com/static/pixel.png$image
-||reddit.com/web/log/$xmlhttprequest
-www.reddit.com|$xmlhttprequest
-||reddit.com/api/me.json?*=$xmlhttprequest
-|http://*$script,inline-script
-|http://*$script
-egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
-egy.best##+js(abort-on-property-write.js, decodeURIComponent)
-||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
-pipocas.tv##+js(bab-defuser.js)
-||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
-||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
+(^|\.)co\.uk\.media\.orehawa\.co\.uk$
+(^|\.)com\.media\.orehawa\.co\.uk$
+(^|\.)net\.media\.orehawa\.co\.uk$
+*/wp-content/plugins/adtoniq/^$important,third-party
+/advert.js$important
+/generate_204
 /wp-admin/admin-ajax.php
-||exactmetrics.com
-||bizpanda.com
 /wp-content/plugins/wp-content-copy-protector^
-||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png
-||washingtonpost.com/*/adblocker-feature^$xhr
-||washingtonpost.com/*/wp-stat/pwapi/prod/*
-||pwapi.washingtonpost.com^
-||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
-||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
-||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Left_1200x1200.jpg^
-||/vendor/sp.js
-||/sp.js
-sports.yahoo.com###Lead-8-HeroBracket-Proxy
-https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
-||facebook.*/
-||fbcdn.*/
-||fb.*/
-||fbsbx.*/
-||tfbnw.*/
-||facebook-web-clients.appspot.com/
-||facebook.net.edgekey.net/
-||fbsbx.com.online-metrix.net/
-||accountkit.*/
-||*/facebook/*
-www.hackintoshzone.com###loaderwrapperz
-||www.google-analytics.com/analytics.js
-||/analytics.js
-||http://yo/guce-js
-nexusmods.com##.areplacer
-||phys.org^important
-www.hackintoshzone.com##.section-left.loader-section
-www.hackintoshzone.com##.section-right.loader-section
-www.hackintoshzone.com###detectadbnotes
-www.hackintoshzone.com###loader-wrapperz
-||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
-||guce.oath.com
-||guce.yahoo.com
-||betanews.com##.articleBoxad
-||betanews.com###topAd 
-||betanews.com##.ad 
-||betanews.com##.boxad
-||betanews.com##.flexibleBoxad
-||betanews.com##.widesky
-||betanews.com##.bigLeader
-||banananalytics.com^important
-||oath.com^
-||yahoo.com.cn^
-||yahoo.net^
-||ysearchblog.com^
-||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
-spiegel.de##^script:has-text(.createShadowRoot)
+2mdn.net^$important
+@@||cbssports.com/video/player$inline-script
+@@||disqus.com/embed.js?_=1457540*$script
+@@||ghacks.net^$elemhide
 ^ad([sxv])?[0-9]*[-_.]
 ^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
 ^adtrack(er|ing)?[0-9]*[-.]
@@ -107,110 +35,166 @@ spiegel.de##^script:has-text(.createShadowRoot)
 ^telemetry[-.]
 ^track(ers?|ing)?[0-9]*[-.]
 ^traff(ic)?[-.]
-amazon-adsystem\.com$
-kaffnet\.com$
-startapp(exchange|network|service)\.com$
-r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
-(^|\.)com\.media\.orehawa\.co\.uk$
-(^|\.)co\.uk\.media\.orehawa\.co\.uk$
-(^|\.)net\.media\.orehawa\.co\.uk$
-||betanews.com###adtoniq-msg-bar 
-||betanews.com###adtoniq-msg-bar.reveal-alert 
-||betanews.com##.btn-msg-bar  
-||betanews.com##.btn-msg-bar+.btn-msg-bar 
-||betanews.com###adtoniq-msg  
-||betanews.com###adtoniq-btns
-||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
-||sports.yahoo.com##.ys-interstitial-container
-||sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
-yahoo.com##.uh-notifications
-||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
-||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
-||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
-||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
-seriouseats.com#@#.nav-share
-||servebom.com^
-www.reddit.com##.premium-banner
-||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
-||static-42andpark-com.s3.amazonaws.com^
-yahoo.com##.js-stream-side-buttons 
-yahoo.com##.js-stream-actions 
-yahoo.com##.js-stream-tumblr-actions
-yahoo.com##.js-stream-dislike-disabled
-yahoo.com##.js-stream-comment-counter
-yahoo.com##.js-stream-comment-counter-update
-yahoo.com##.comment-btn-link
-yahoo.com##.share-menu-wrapper
-reddit.com##.author-tooltip
-||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
-www.ghacks.net##.ratings
-seriouseats.com##.ad-wrapper
-reddit.com##+js(remove-attr.js, data-inbound-url, a[data-href-url])
-betanews.com##.clearfix.articleBreak
-||yahoo.net^
-||zenfs.com^
-yahoo.com##.js-stream-content:has-text(/From Our Partner/i)
-yahoo.com##.js-stream-content:has-text(/Sponsored/i)
-||ads.adaptv.advertising.com^
-||2822.v.fwmrm.net^
-||ima3vpaid.appspot.com^
-||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
-||fbcdn.*/
-||fb.*/
-||fbsbx.*/
-||tfbnw.*/
-||whatsapp.*/
-||facebook-web-clients.appspot.com/
-||facebook.net.edgekey.net/
-||fbsbx.com.online-metrix.net/
-||accountkit.*/
-||animeland.tv/scripts/$script
-twitter.com##article:has(div:has-text(/^Promoted$/))
-||cbssports.com$inline-script
-@@||cbssports.com/video/player$inline-script
-||jamexistence.com^$important
-ign.com##^script:has-text(g01.ign.com)
-yahoo.com##.js-stream-content:has-text(/The National Interest/i)
-anitube.*##+js(abort-on-property-read.js, redirect1)
-www.yahoo.com###applet_p_50000337
-||disqusads.com^$important
-||clksite.com^$important
-reddit.com##body > div[data-overflow]:last-child
-ieee.org##+js(abort-on-property-read.js, splashpage
-facebook.com##div.h_r03bd44ox.pagelet
-yahoo.com##.js-stream-content:has-text(/Fantasy Sports/i)
-yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
-www.mediafire.com###abnotify
-yahoo.com##.js-stream-content:has-text(/deal_of_the_day/i)
-/advert.js$important
-*/wp-content/plugins/adtoniq/^$important,third-party
-yahoo.com##.js-stream-content:has-text(/Affiliate Publisher/i)
-||mailtrack.io^$important
-!Removed to fix yahoo homepage
-!yahoo.com##.js-stream-content:has-text(/Celebrity/i)
 adtoniq.com^$important,third-party
-magicalthirteen.com^$important
+amazon-adsystem\.com$
+anitube.*##+js(abort-on-property-read.js, redirect1)
+betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
-||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
-www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
-||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
-2mdn.net^$important
+betanews.com##.twitter-share-button-error.twitter-share-button
 csp.yahoo.com^$important
-betanews.com##.clearfix.articleBreak
-/generate_204
-!disqus.com^$important
 doubleclick.net^$important
-pornhub.com###under-player-comments
-pornhub.com###welcome
-youtube.com###watch-action-panels
-youtube.com###chat
+egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
+egy.best##+js(abort-on-property-write.js, decodeURIComponent)
+facebook.com##div.h_r03bd44ox.pagelet
+ghacks.net###post-author
 ghacks.net##.ghacks_share_widget.widget
 ghacks.net##.ghacks_this_day.widget
-!ghacks.net##.ghacks_popular.widget
-!ghacks.net##.ghacks_last_updated.widget
 ghacks.net##.mt--40.pt--40.border--top--gray:has([href*="paypal"])
-ghacks.net###post-author
-!ghacks.net###snippet-box
+https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
+ieee.org##+js(abort-on-property-read.js, splashpage
+ign.com##^script:has-text(g01.ign.com)
+kaffnet\.com$
+magicalthirteen.com^$important
+nexusmods.com##.areplacer
+pipocas.tv##+js(bab-defuser.js)
+pornhub.com###under-player-comments
+pornhub.com###welcome
+r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
+reddit.com###ad_1
+reddit.com###ad_4
+reddit.com###ad_5
+reddit.com###ad_6
+reddit.com##+js(remove-attr.js, data-inbound-url, a[data-href-url])
+reddit.com##._3RPJ8hHnfFohktLZca18J6
+reddit.com##.author-tooltip
+reddit.com##.dfp-ad-container
+reddit.com##.premium-banner
+reddit.com##.s1tljykw-0
+reddit.com##.ynts11-1
+reddit.com##body > div[data-overflow]:last-child
+seriouseats.com##.ad-wrapper
+seriouseats.com#@#.nav-share
+spiegel.de##^script:has-text(.createShadowRoot)
+sports.yahoo.com###Lead-8-HeroBracket-Proxy
+sports.yahoo.com##.ys-teams-nav
+startapp(exchange|network|service)\.com$
+twitter.com##article:has(div:has-text(/^Promoted$/))
+www.ghacks.net##.ratings
+www.hackintoshzone.com###detectadbnotes
+www.hackintoshzone.com###loader-wrapperz
+www.hackintoshzone.com###loaderwrapperz
+www.hackintoshzone.com##.section-left.loader-section
+www.hackintoshzone.com##.section-right.loader-section
+www.mediafire.com###abnotify
+www.reddit.com##.premium-banner
+www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
+www.reddit.com|$xmlhttprequest
+www.yahoo.com###applet_p_50000337
+www.yahoo.com###nps-container.surveymonkey-popup
+yahoo.com##.comment-btn-link
+yahoo.com##.js-stream-actions 
+yahoo.com##.js-stream-comment-counter
+yahoo.com##.js-stream-comment-counter-update
+yahoo.com##.js-stream-content:has-text(/Affiliate Publisher/i)
+yahoo.com##.js-stream-content:has-text(/Fantasy Sports/i)
+yahoo.com##.js-stream-content:has-text(/From Our Partner/i)
+yahoo.com##.js-stream-content:has-text(/Kaepernick/i)
+yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
+yahoo.com##.js-stream-content:has-text(/Sponsored/i)
+yahoo.com##.js-stream-content:has-text(/The National Interest/i)
+yahoo.com##.js-stream-content:has-text(/deal_of_the_day/i)
+yahoo.com##.js-stream-dislike-disabled
+yahoo.com##.js-stream-side-buttons 
+yahoo.com##.js-stream-tumblr-actions
+yahoo.com##.share-menu-wrapper
+yahoo.com##.uh-notifications
+youtube.com###chat
+youtube.com###watch-action-panels
+|http://*$script
+|http://*$script,inline-script
+||*/facebook/*
+||/analytics.js
+||/sp.js
+||/vendor/sp.js
+||2822.v.fwmrm.net^
+||accountkit.*/
+||ads.adaptv.advertising.com^
+||animeland.tv/scripts/$script
+||banananalytics.com^important
+||betanews.com###adtoniq-btns
+||betanews.com###adtoniq-msg  
+||betanews.com###adtoniq-msg-bar 
+||betanews.com###adtoniq-msg-bar.reveal-alert 
+||betanews.com###topAd 
+||betanews.com##.ad 
+||betanews.com##.articleBoxad
+||betanews.com##.bigLeader
+||betanews.com##.boxad
+||betanews.com##.btn-msg-bar  
+||betanews.com##.btn-msg-bar+.btn-msg-bar 
+||betanews.com##.flexibleBoxad
+||betanews.com##.widesky
+||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
+||bizpanda.com
+||cbssports.com$inline-script
+||cdn.report-uri.com^
+||clksite.com^$important
+||disqus.com/count.js$script
+||disqus.com/embed.js$script,redirect=disqus.com/embed.js
+||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
+||disqusads.com^$important
+||exactmetrics.com
+||facebook-web-clients.appspot.com/
+||facebook.*/
+||facebook.net.edgekey.net/
+||fb.*/
+||fbcdn.*/
+||fbsbx.*/
+||fbsbx.com.online-metrix.net/
 ||ghacks.net^$csp=script-src 'self' 'unsafe-inline'
-@@||ghacks.net^$elemhide
+||guce.oath.com
+||guce.yahoo.com
+||http://yo/guce-js
+||ima3vpaid.appspot.com^
+||jamexistence.com^$important
+||mailtrack.io^$important
+||oath.com^all
+||phys.org^important
+||pwapi.washingtonpost.com^
+||reddit.com/api/me.json?*=$xmlhttprequest
+||reddit.com/static/pixel.png$image
+||reddit.com/web/log/$xmlhttprequest
+||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
+||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
+||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
+||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
+||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
+||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
+||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
+||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
+||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
+||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
+||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png
+||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
+||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Left_1200x1200.jpg^
+||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
+||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
+||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
+||s3.buysellads.com^
+||servebom.com^
+||sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
+||sports.yahoo.com##.ys-interstitial-container
+||static-42andpark-com.s3.amazonaws.com^
+||tfbnw.*/
+||volantix.com^
+||washingtonpost.com/*/adblocker-feature^$xhr
+||washingtonpost.com/*/wp-stat/pwapi/prod/*
+||whatsapp.*/
+||www.google-analytics.com/analytics.js
+||www.microsoft.com-windows-booster.live^
+||yahoo.com.cn^
+||yahoo.net^
+||ysearchblog.com^
+||zenfs.com^
