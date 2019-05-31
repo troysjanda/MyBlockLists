@@ -3,8 +3,8 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.1.0
-! Additions (+355) Deletions (0) Modified (0)
+! Version 1.1.1
+! Additions (+5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 !
