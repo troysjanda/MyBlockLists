@@ -3,8 +3,8 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.3.18a
-! Additions +3 Deletions -0 Modified +1
+! Version 1.3.19
+! Additions 0 Deletions -10 Modified 0
 !
 ! -- Start Filters --
 !
@@ -76,8 +76,6 @@ reddit.com##body > div[data-overflow]:last-child
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
-sports.yahoo.com###Lead-8-HeroBracket-Proxy
-sports.yahoo.com##.ys-teams-nav
 startapp(exchange|network|service)\.com$
 twitter.com##article:has(div:has-text(/^Promoted$/))
 www.ghacks.net##.ratings
@@ -91,25 +89,6 @@ www.reddit.com##.premium-banner
 www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
 www.reddit.com|$xmlhttprequest
-www.yahoo.com###applet_p_50000337
-www.yahoo.com###nps-container.surveymonkey-popup
-yahoo.com##.comment-btn-link
-yahoo.com##.js-stream-actions 
-yahoo.com##.js-stream-comment-counter
-yahoo.com##.js-stream-comment-counter-update
-yahoo.com##.js-stream-content:has-text(/Affiliate Publisher/i)
-yahoo.com##.js-stream-content:has-text(/Fantasy Sports/i)
-yahoo.com##.js-stream-content:has-text(/From Our Partner/i)
-yahoo.com##.js-stream-content:has-text(/Kaepernick/i)
-yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
-yahoo.com##.js-stream-content:has-text(/Sponsored/i)
-yahoo.com##.js-stream-content:has-text(/The National Interest/i)
-yahoo.com##.js-stream-content:has-text(/deal_of_the_day/i)
-yahoo.com##.js-stream-dislike-disabled
-yahoo.com##.js-stream-side-buttons 
-yahoo.com##.js-stream-tumblr-actions
-yahoo.com##.share-menu-wrapper
-yahoo.com##.uh-notifications
 youtube.com###chat
 youtube.com###watch-action-panels
 |http://*$script
@@ -184,7 +163,6 @@ youtube.com###watch-action-panels
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
 ||s3.buysellads.com^
 ||servebom.com^
-||sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
 ||sports.yahoo.com##.ys-interstitial-container
 ||static-42andpark-com.s3.amazonaws.com^
 ||tfbnw.*/
