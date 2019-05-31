@@ -8,6 +8,12 @@
 !
 ! -- Start Filters --
 !
+yahoo.com##.js-stream-comment-counter
+yahoo.com##.js-stream-comment-counter-update
+yahoo.com##.share-menu-wrapper
+yahoo.com##.uh-notifications
+yahoo.com##.comment-btn-link
+yahoo.com##.js-stream-actions
 /ads/yahoo/*
 /ads_yahoo.
 /yahoo-ad-
