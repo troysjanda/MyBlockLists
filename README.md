@@ -5,10 +5,12 @@
 Custom Filter List for use with Ublock Orgin Firefox addon
 
 XPI's Filter List 
-
-My-Ublock Static Filter List (Based on uBlock-user/uBO-Personal-Filters)
  
 https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
+
+Yahoo Complete annoyance blocking list
+
+https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 
 These filters are merged weekly from the above sources with my personal additions. Feel free to use these for your use.
 
