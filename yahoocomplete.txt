@@ -1,13 +1,28 @@
-[uBlock Origin 1.19.7rc1]
+[uBlock Origin 1.19.7rc2]
 ! Title: Xpi Yahoo Complete Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.2
-! Additions (+4) Deletions (0) Modified (0)
+! Version 1.4
+! Additions (9) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
 !
+sports.yahoo.com#@#[href*="bit.ly/"]
+||s.yimg.com/uc/fin/img/19/05/f516215.png$image
+yahoo.com###ColWrap:style(position: absolute !important; top: 100px !important; left: unset !important; right: unset !important;)
+yahoo.com###UH-MobileHeader:style(transform: none !important;)
+yahoo.com###UH:style(border-bottom: none !important;)
+yahoo.com###masterNav:style(position: relative !important; top: 0 !important; transform: none !important; width: 100% !important;)
+yahoo.com###mega-uh-wrapper:style(position: relative !important; box-shadow: none !important; margin-bottom: 5px !important;)
+yahoo.com###sticky-lrec2-footer, #masterNav:before:style(position: absolute !important;)
+yahoo.com##.HideBottomBar .HideBottomBar_Mt\(-35px\), .Trs\(subnavTransition\).T\(0\).UhHideSubnav_Mt\(-50px\):style(margin-top: 0 !important;)
+yahoo.com##.HideBottomBar .HideBottomBar_Op\(0\):style(opacity: 1 !important;)
+yahoo.com##.YDC-Header, .Sticky.ya-left-rail-sticker:style(position: absolute !important; top: 0 !important; transform: none !important;)
+yahoo.com##.sticky-outer-wrapper > .sticky-inner-wrapper:style(position: static !important; top: 0 !important; transform: none !important;)
+yahoo.com##.tdv2-applet-navrail:style(position: relative !important; width: 100% !important;)
+yahoo.com##.yvp-content:style(position: relative !important; width: 100% !important; height: 100% !important; left: 0 !important; bottom: unset !important; box-shadow: none !important; animation: none !important;)
+yahoo.com##.yvp-stream:style(position: static !important;)
 ||https://s.yimg.com/aaq/cmp/version/2.18.0/cmp.js:formatted^
 ||yahoo.com/url?*&source=web*&url=*$inline-script,domain=yahoo.com
 news.yahoo.com##.userintent-wrapper
