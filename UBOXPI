@@ -1,13 +1,37 @@
-[uBlock Origin 1.19.7rc1]
+[uBlock Origin 1.19.7rc2]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.4
-! Additions +1 Deletions 0 Modified 0
+! Version 1.5
+! Additions +23 Deletions 0 Modified 0
 !
 ! -- Start Filters --
 !
+*##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
+*##.tab-content .tab-pane:style(display:block !important;)
+*##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
+*##[data-ad-slot]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
+*##body:style(display:block !important; visibility:visible !important; height:100% !important; width:100% !important; padding:0px !important; margin:0px !important;)
+*##body:style(overflow:visible !important;)
+*##html:style(display:block !important; visibility:visible !important; height:100% !important; width:100% !important; padding:0px !important; margin:0px !important;)
+*##html:style(overflow:auto !important; word-break:normal !important; overflow-wrap:break-word !important; word-wrap:break-word !important;)
+ebay.com##*::before:style(display:none !important;)
+ebay.com##[id*="gh-gb"]:style(box-shadow:unset !important; background:none white !important; border:none !important;)
+ebay.com##[style*="display"][style*="none"]:style(display:unset !important;)
+ebay.com##body:style(background:none white !important;)
+ebay.com##headerFragment:style(background:none white !important;)
+github.com##.commit-desc:style(display:block !important;)
+github.com##.hidden-text-expander:style(display:none !important;)
+godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
+google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
+google.com/recaptcha/api2/bframe##[class*="image-tile"]:style(transition-delay:0s !important;  transition-duration:0s !important;)
+google.com/recaptcha/api2/bframe##[class*="imageselect-tile"]:style(transition-delay:0s !important;  transition-duration:0s !important;)
+reddit.com##*::before:style(display:none !important;)
+reddit.com##[id^="header"]::before:style(background:none lightgray !important;)
+reddit.com##button[name][type*="submit"]:style(display:block !important;)
+amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
+amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
