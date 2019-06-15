@@ -3,8 +3,8 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.5
-! Additions +23 Deletions 0 Modified 0
+! Version 1.6
+! Additions 0 Deletions 4 Modified 0
 !
 ! -- Start Filters --
 !
@@ -27,9 +27,6 @@ godaddy.com##html:style(background-image:none !important; background: none trans
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 google.com/recaptcha/api2/bframe##[class*="image-tile"]:style(transition-delay:0s !important;  transition-duration:0s !important;)
 google.com/recaptcha/api2/bframe##[class*="imageselect-tile"]:style(transition-delay:0s !important;  transition-duration:0s !important;)
-reddit.com##*::before:style(display:none !important;)
-reddit.com##[id^="header"]::before:style(background:none lightgray !important;)
-reddit.com##button[name][type*="submit"]:style(display:block !important;)
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
