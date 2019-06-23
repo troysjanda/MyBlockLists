@@ -1,13 +1,17 @@
-[uBlock Origin 1.19.7rc2]
+[uBlock Origin 1.20.1b3]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.8
+! Version 1.9
 ! Additions 0 Deletions 8 Modified 0
 !
 ! -- Start Filters --
 !
+@@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
+@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
+||bilsyndication.com^
+||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
 *##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *##.tab-content .tab-pane:style(display:block !important;)
 *##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
