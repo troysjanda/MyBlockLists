@@ -1,13 +1,24 @@
-[uBlock Origin 1.20.1b3]
+[uBlock Origin 1.20.3rc6]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.9
-! Additions 0 Deletions 8 Modified 0
+! Version 1.10
+! Additions 11 Deletions 8 Modified 0
 !
 ! -- Start Filters --
 !
+www.yahoo.com###applet_p_50000414
+getcomics.info###advanced_floating_content_85155
+everydayhealth.com##^script:has-text(/i10C/i)
+||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
+consent.yahoo.com##.consent-semi-transparent
+www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
+dlford.io##[href^="https://sifmail.com/"]
+||atwola.com^
+/p.gif
+||serving-sys.com^
+||https://s.yimg.com/os/mit/media/m/base/images/transparent-95031.png^
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
 ||bilsyndication.com^
