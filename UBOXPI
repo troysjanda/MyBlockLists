@@ -1,13 +1,17 @@
-[uBlock Origin 1.20.3rc6]
+[uBlock Origin 1.21.7b3]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.10
-! Additions 11 Deletions 8 Modified 0
+! Version 1.11
+! Additions 05 Deletions 2 Modified 0
 !
 ! -- Start Filters --
 !
+sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
+||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
+||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
+sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-promo
 www.yahoo.com###applet_p_50000414
 getcomics.info###advanced_floating_content_85155
 everydayhealth.com##^script:has-text(/i10C/i)
@@ -118,8 +122,6 @@ www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline 
 www.reddit.com|$xmlhttprequest
 youtube.com###chat
 youtube.com###watch-action-panels
-|http://*$script
-|http://*$script,inline-script
 ||*/facebook/*
 ||/analytics.js
 ||/sp.js
