@@ -1,10 +1,10 @@
-[uBlock Origin 1.20.1b3]
+[uBlock Origin 1.20.7b6]
 ! Title: Xpi Yahoo Complete Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.7
-! Additions (4) Deletions (0) Modified (0)
+! Version 1.8
+! Additions (0) Deletions (8+) Modified (0)
 !
 ! -- Start Filters --
 !
@@ -12,9 +12,6 @@ yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f
 yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\).W\(36px\).End\(0\).T\(50px\).Pos\(a\)
 www.yahoo.com###header-notification-button
 sports.yahoo.com#@#[href*="bit.ly/"]
-||s.yimg.com/uc/fin/img/19/05/f516215.png$image
-||https://s.yimg.com/aaq/cmp/version/2.18.0/cmp.js:formatted^
-||yahoo.com/url?*&source=web*&url=*$inline-script,domain=yahoo.com
 news.yahoo.com##.userintent-wrapper
 sports.yahoo.com##.js-stream-content:has-text(/Kaepernick/i)
 yahoo.com##.js-stream-comment-counter
@@ -88,22 +85,17 @@ mail.yahoo.com#@#.searchad
 yahoo.com#@#.type_ads_default
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1031iheartaustin.com|1037theq.com|1041beat.com|1053kissfm.com|1057ezrock.com|1067litefm.com|10news.com|1310news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|680news.com|700wlw.com|850koa.com|923jackfm.com|92q.com|940winz.com|94hjy.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am1300thezone.com|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|baynews9.com|bbc.co.uk|bbc.com|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|bnn.ca|boom92houston.com|boom945.com|boom973.com|boom997.com|boomphilly.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|calgaryherald.com|caller.com|canada.com|capitalfm.ca|cbslocal.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chez106.com|chfi.com|chicagobears.com|chicagotribune.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnet.com|coast933.com|colts.com|commercialappeal...
-||doubleclick.net^$third-party,domain=92q.com|abc-7.com|addictinggames.com|allbusiness.com|bizjournals.com|bloomberg.com|bnn.ca|boom92houston.com|boom945.com|boomphilly.com|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbslocal.com|complex.com|dailymail.co.uk|darkhorizons.com|doubleviking.com|edmunds.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|hawaiinewsnow.com|hellobeautiful.com|hiphopnc.com|hot1041stl.com|hothiphopdetroit.com|hotspotatl.com|hulu.com|imdb.com|indiatimes.com|indyhiphop.com|ipowerrichmond.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|ksl.com|kypost.com|kysdc.com|live5news.com|livestation.com|livestream.com|metro.us|metronews.ca|miamiherald.com|my9nj.com|myboom1029.com|mycolumbuspower.com|nbcrightnow.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|newshub.co.nz|newsone.com|nintendoeverything.com|oldschoolcincy.com|pagesuite-professional.co.uk|pandora.c...
 ||bankrate.com^$subdocument,domain=yahoo.com
 ||gemini.yahoo.com^*^syndication^
 ||im.ov.yahoo.co.jp^
-||richmedia.yahoo.com^$third-party
 ||yahoo.net^*/ads/
 ||yeas.yahoo.co.jp^
 ||yimg.com^*/dianominewwidget2.html$domain=yahoo.com
 ||yimg.com^*_skin_$domain=yahoo.com
 ||ads.yahoo.com^
 ||adss.yahoo.com^
-||augusta.com/sites/*/yca_plugin/yahoo.js$domain=augusta.com
 ||beap.gemini.yahoo.com^
 ||geocities.yahoo.*/js/sq.
-||http.atlas.cdn.yimg.com/yamplus/video_*.mp4?$object-subrequest,domain=yahoo.com
 ||iframe.travel.yahoo.com^
 ||mail.yahoo.com/mc/md.php?
 ||mail.yahoo.com/neo/mbimg?av/curveball/ds/
@@ -166,8 +158,6 @@ music.yahoo.com###YMusicRegion_T2_R2C2
 music.yahoo.com###YMusicRegion_T3_R2C2_R1
 music.yahoo.com###YMusicRegion_TN1_R2C2_R1
 yahoo.com###YSLUG
-1050talk.com,4chan.org,altervista.org,amazon.com,aol.com,awfuladvertisements.com,batmanstream.com,bitcoinmonitor.com,braingle.com,campusrn.com,chicagonow.com,cocoia.com,cryptoarticles.com,dailydigestnews.com,daisuki.net,devshed.com,djmickbabes.com,downforeveryoneorjustme.com,earthtechling.com,esquire.com,fantom-xp.com,farmville.com,fivethirtyeight.com,fosswire.com,g4tv.com,gifts.com,golackawanna.com,google.com,guiminer.org,helpwithwindows.com,hknepaliradio.com,ieradio.org,ifunnyplanet.com,ifyoulaughyoulose.com,imageshack.us,infowat.com,instapaper.com,internetradiouk.com,investorschronicle.co.uk,jamaicaradio.net,jamendo.com,jigzone.com,learnhub.com,legendofhallowdega.com,libertychampion.com,linkedin.com,livevss.net,loveshack.org,lshunter.tv,macstories.net,marketingpilgrim.com,mbta.com,milkandcookies.com,miningreview.com,msnbc.com,mydallaspost.com,nbcnews.com,neoseeker.com,ninemsn.com.au,nzherald.co.nz,omgili.com,onlineradios.in,phonezoo.com,politicops.com,printitgreen.com,psdispatch.com,psu....
-absoluteradio.co.uk,adv.li,allmyfaves.com,allthetests.com,arsenal.com,belfastmediagroup.com,blahblahblahscience.com,brandrepublic.com,christianpost.com,comicsalliance.com,cool-wallpaper.us,cumbrialive.co.uk,dailynews.lk,dealmac.com,dealsonwheels.co.nz,delcotimes.com,djmag.co.uk,djmag.com,dosgamesarchive.com,empowernetwork.com,farmtrader.co.nz,guardian.co.tt,guidespot.com,healthcentral.com,icq.com,imgmaster.net,in-cumbria.com,indianexpress.com,insideradio.com,irishcentral.com,isrtv.com,keygen-fm.ru,lemondrop.com,mediaite.com,morningjournal.com,movies.yahoo.com,moviesfoundonline.com,neave.com,news-herald.com,newstonight.co.za,nhregister.com,northernvirginiamag.com,nzmusicmonth.co.nz,ocia.net,openstreetmap.org,pbs.org,pgpartner.com,popeater.com,poughkeepsiejournal.com,proxy-list.org,ps3-hacks.com,registercitizen.com,roughlydrafted.com,safaricom.com,sail-world.com,saratogian.com,securityweek.com,sfx.co.uk,shortlist.com,similarsites.com,soccerway.com,sportinglife.com,starwarsunderworld.com,stops...
 yahoo.com###boxLREC
 movies.yahoo.com###customModule
 news.yahoo.com###darla
@@ -246,9 +236,6 @@ yahoo.com.au##.TL_genericads_columns
 yahoo.com.au##.TL_medRec_container
 rxlist.com##.Yahoo
 au.news.yahoo.com##.acc-moneyhound
-1047.com.au,1080phd.co,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,17track.net,2dayfm.com.au,2gofm.com.au,2mcfm.com.au,2rg.com.au,2wg.com.au,4tofm.com.au,5newsonline.com,6abc.com,7online.com,929.com.au,947wls.com,953srfm.com.au,9news.com,aa.co.za,aarp.org,abc10.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abovethelaw.com,accringtonobserver.co.uk,ack.net,adelaidenow.com.au,adelnews.com,adn.com,adsoftheworld.com,adsupplyads.com,adtmag.com,advocatepress.com,adweek.com,aero-news.net,agjournalonline.com,agra-net.net,ahlanlive.com,aledotimesrecord.com,algemeiner.com,aljazeera.com,allenwestrepublic.com,allkpop.com,allrecipes.co.in,allrecipes.com.au,amandala.com.bz,americanprofile.com,amestrib.com,amny.com,amtrib.com,anandtech.com,androidapps.com,androidauthority.com,aol.com,apalachtimes.com,appolicious.com,arabianbusiness.com,architectsjournal.co.uk,arseniohall.com,articlealley.com,asianjournal.com,asianwiki.com,associationsnow.com,audiko.net,aussieouta...
-techrepublic.com,yahoo.com##.ad-active
-1sale.com,7billionworld.com,9jaflaver.com,abajournal.com,achieveronline.co.za,altavista.com,androidfilehost.com,arcadeprehacks.com,asbarez.com,bbqonline.co.za,birdforum.net,bluechipjournal.co.za,boodigo.com,browardpalmbeach.com,canstarblue.co.nz,chordfrenzy.com,citypages.com,climatechangenews.com,coinad.com,cuzoogle.com,cyclingweekly.co.uk,dallasobserver.com,disconnect.me,domainnamenews.com,eco-business.com,energyforecastonline.co.za,energylivenews.com,exploreonline.co.za,facemoods.com,fashionnetwork.com,flashx.tv,focustaiwan.tw,foxbusiness.com,foxnews.com,freetvall.com,friendster.com,fstoppers.com,ftadviser.com,furaffinity.net,gentoo.org,geo.tv,ghananation.com,gmanetwork.com,gogoanime.tv,goodthingsguy.com,govtrack.us,gramfeed.com,gyazo.com,harvestsa.co.za,hispanicbusiness.com,houstonpress.com,html5test.com,hurricanevanessa.com,i-dressup.com,ichan.net,ieltsonlinetests.com,iheart.com,ilovetypography.com,indiatimes.com,infozambia.com,isearch.whitesmoke.com,itproportal.com,jooble.org,laptopmag...
 yahoo.com##.astro-promo
 mail.yahoo.com##.avLogo
 yahoo.com.au##.boxMidRt.pB0
@@ -336,44 +323,3 @@ yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]
 biz.yahoo.com##table[bgcolor="white"][width="100%"]
 dir.yahoo.com##td[width="215"]
-@@||ads.yimg.com/a/$domain=autos.yahoo.com
-@@||ads.yimg.com/la/adv/y/yahooxtra$image,domain=movies.yahoo.com
-@@||ads.yimg.com/la/adv/y/yahooxtra$image,domain=movies.yahoo.com
-@@||ads.yimg.com^*/any/yahoologo$image
-@@||adserver.yahoo.com/a?*&l=head&$script,domain=yahoo.com
-@@||adserver.yahoo.com/a?*&l=head&$script,domain=yahoo.com
-@@||adserver.yahoo.com/a?*&l=VID&$xmlhttprequest,domain=yahoo.com
-@@||adserver.yahoo.com/a?*&l=VID&$xmlhttprequest,domain=yahoo.com
-@@||adserver.yahoo.com/a?*=headr$script,domain=mail.yahoo.com
-@@||adserver.yahoo.com/a?*=headr$script,domain=mail.yahoo.com
-@@||adserver.yahoo.com/crossdomain.xml$object-subrequest
-@@||adserver.yahoo.com^*=weather&$domain=ca.weather.yahoo.com
-@@||adserver.yahoo.com^*=weather&$domain=ca.weather.yahoo.com
-@@||au.adserver.yahoo.com/a?$subdocument,domain=dating.yahoo.com.au
-@@||au.adserver.yahoo.com/a?$subdocument,domain=dating.yahoo.com.au
-@@||getprice.com.au/images/$domain=shopping.ninemsn.com.au|shopping.yahoo.com.au
-@@||images.vantage-media.net^$domain=yahoo.net
-@@||mail.yahoo.com/neo/assets/swf/uploader.swf
-@@||partnerads.ysm.yahoo.com/ypa/?ct=*-search_results%$subdocument,domain=ask.com
-@@||query.vap.yahoo.net/nicobarMan/ads/acctid=$object-subrequest,domain=yahoo.com
-@@||query.vap.yahoo.net/nicobarMan/ads/acctid=$object-subrequest,domain=yahoo.com
-@@||spotxchange.com/ad_player/as3.swf$domain=games.yahoo.com|onescreen.net
-@@||spotxchange.com/media/videos/flash/ad_player/$domain=directon.tv|games.yahoo.com|onescreen.net|wii-cast.tv
-@@||syndication.streamads.yahoo.com/na_stream_brewer/brew/*?cid=*&url=*&pvid=*&callback=$script,domain=yimg.com
-@@||yahoo.com/combo?$stylesheet
-@@||yahoo.net/1/adnetwork/$object-subrequest
-@@||yimg.com/ks/plugin/adplugin.swf?$domain=yahoo.com
-@@||yimg.com/nn/lib/metro/300_250_Human_Touch_mail.jpg$domain=yahoo.com
-@@||yimg.com/p/combo?$stylesheet,domain=yahoo.com
-@@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
-@@||yimg.com^*/adplugin_*.swf$object,domain=games.yahoo.com
-@@||yimg.com^*/ads-min.css$domain=yahoo.com
-@@||yimg.com^*_300x250.$image,domain=search.yahoo.com
-@@||yimg.jp/images/listing/tool/yads/impl/yads-stream-conf-top_smp.js$domain=yahoo.co.jp
-@@||yimg.jp/images/listing/tool/yads/yads-stream-conf-top_smp.js$domain=yahoo.co.jp
-@@||yimg.jp/images/listing/tool/yads/yjaxc-stream-ex.js$domain=yahoo.co.jp
-@@||eioservices.marketingsolutions.yahoo.com^$domain=eio.manhattan.yahoo.com
-@@||eioservices.marketingsolutions.yahoo.com^$domain=eio.manhattan.yahoo.com
-@@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
-@@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
-@@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
