@@ -1,10 +1,10 @@
-[uBlock Origin 1.21.7b3]
+[uBlock Origin 1.21.7b6]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.11
-! Additions 05 Deletions 2 Modified 0
+! Version 1.12
+! Additions 0 Deletions 0 Modified 1
 !
 ! -- Start Filters --
 !
@@ -202,6 +202,6 @@ youtube.com###watch-action-panels
 ||www.google-analytics.com/analytics.js
 ||www.microsoft.com-windows-booster.live^
 ||yahoo.com.cn^
-||yahoo.net^
+@@yahoo.net^
 ||ysearchblog.com^
 ||zenfs.com^
