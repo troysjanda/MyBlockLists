@@ -1,13 +1,25 @@
-[uBlock Origin 1.21.7b6]
+[uBlock Origin 1.21.9b7]
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.12
-! Additions 0 Deletions 0 Modified 1
+! Version 1.14
+! Additions 8 Deletions 0 Modified 0
 !
 ! -- Start Filters --
 !
+||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
+||*&fbclid=$document,important 
+||*?fbclid=$document,important
+*fbclid=$1p,document,important
+||mobilenations.com^
+www.windowscentral.com##.disclosure^
+www.windowscentral.com##.article-header__disclosure
+sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
+sports.yahoo.com##.M\(a\).Ta\(c\).Pos\(a\).ys-interstitial-container > div > .Start\(0\).T\(0\).Pos\(a\).H\(100\%\).W\(100\%\)
+||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-yc-fl-off-net-school-start-league-ji-070919-v-1-3-light-800-x-800-x-1-jpg_1566418730380.jpeg$image
+sports.yahoo.com##.Cur\(p\).My\(12px\) > path
+enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 ||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
