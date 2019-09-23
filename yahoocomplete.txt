@@ -1,13 +1,14 @@
-[uBlock Origin 1.20.7b8]
 ! Title: Xpi Yahoo Complete Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.9
-! Additions (0) Deletions (1) Modified (0)
+! Version 2.0
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 !
+sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4px\).Bds\(s\).Bdc\(\$c-fuji-grey-4\).gemini-banner-promo
+sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f.Td\(n\).comment-count.rapidnofollow.js-stream-comments-button.js-content-viewer
 yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\).W\(36px\).End\(0\).T\(50px\).Pos\(a\)
 www.yahoo.com###header-notification-button
