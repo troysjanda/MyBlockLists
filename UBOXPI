@@ -2,7 +2,7 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.15
+! Version 1.16
 ! Additions 8 Deletions 0 Modified 0
 !
 ! -- Start Filters --
@@ -89,10 +89,6 @@ doubleclick.net^$important
 egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write.js, decodeURIComponent)
 facebook.com##div.h_r03bd44ox.pagelet
-ghacks.net###post-author
-ghacks.net##.ghacks_share_widget.widget
-ghacks.net##.ghacks_this_day.widget
-ghacks.net##.mt--40.pt--40.border--top--gray:has([href*="paypal"])
 https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ieee.org##+js(abort-on-property-read.js, splashpage
 ign.com##^script:has-text(g01.ign.com)
@@ -172,9 +168,7 @@ youtube.com###watch-action-panels
 ||fbcdn.*/
 ||fbsbx.*/
 ||fbsbx.com.online-metrix.net/
-||ghacks.net^$csp=script-src 'self' 'unsafe-inline'
 ||guce.oath.com
-!||guce.yahoo.com
 ||http://yo/guce-js
 ||ima3vpaid.appspot.com^
 ||jamexistence.com^$important
