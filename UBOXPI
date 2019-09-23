@@ -2,7 +2,7 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.16
+! Version 1.17
 ! Additions 8 Deletions 0 Modified 0
 !
 ! -- Start Filters --
@@ -61,7 +61,6 @@ amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(heigh
 2mdn.net^$important
 @@||cbssports.com/video/player$inline-script
 @@||disqus.com/embed.js?_=1457540*$script
-@@||ghacks.net^$elemhide
 ^ad([sxv])?[0-9]*[-_.]
 ^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
 ^adtrack(er|ing)?[0-9]*[-.]
@@ -116,7 +115,6 @@ seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
 startapp(exchange|network|service)\.com$
 twitter.com##article:has(div:has-text(/^Promoted$/))
-www.ghacks.net##.ratings
 www.hackintoshzone.com###detectadbnotes
 www.hackintoshzone.com###loader-wrapperz
 www.hackintoshzone.com###loaderwrapperz
