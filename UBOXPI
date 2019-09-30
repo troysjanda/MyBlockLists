@@ -2,11 +2,17 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.17
-! Additions 8 Deletions 0 Modified 0
+! Version 1.18
+! Additions 6 Deletions 0 Modified 0
 !
 ! -- Start Filters --
 !
+||googleanalytics.net^
+yahoo.com##.js-sidekick-content
+yahoo.com##.js-fake-cluster
+yahoo.com##.related-gemini-ad
+www.washingtonpost.com###slug_leaderboard
+www.washingtonpost.com##div.relative
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
 ||*&fbclid=$document,important 
 ||*?fbclid=$document,important
