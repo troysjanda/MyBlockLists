@@ -2,8 +2,8 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.18
-! Additions 6 Deletions 0 Modified 0
+! Version 1.20
+! Additions 0 Deletions 1 Modified 0
 !
 ! -- Start Filters --
 !
@@ -157,7 +157,7 @@ youtube.com###watch-action-panels
 ||betanews.com##.widesky
 ||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
 ||bizpanda.com
-||cbssports.com$inline-script
+!||cbssports.com$inline-script
 ||cdn.report-uri.com^
 ||clksite.com^$important
 ||disqus.com/count.js$script
