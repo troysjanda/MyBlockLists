@@ -2,11 +2,19 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.23
-! Additions 0 Deletions 4 Modified 0
+! Version 1.24a
+! Additions 8 Deletions 0 Modified 0
 !
 ! -- Start Filters --
 !
+sports.yahoo.com##[id*="PromoImage-Proxy"]
+sports.yahoo.com##[id*="DailyFantasyPromo"]
+sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
+sports.yahoo.com##[id*="darla_csc_holder"]
+www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
+sports.yahoo.com###uh-tb-firefoxpromo
+thehackernews.com##.top-follow
+thehackernews.com##.cf.follow-box
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
