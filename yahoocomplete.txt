@@ -2,11 +2,29 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Author: XPI
 ! Expires: 7 days
-! Version 2.10
-! Additions (0) Deletions (11) Modified (0)
+! Version 2.20
+! Additions (18) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 !
+www.yahoo.com##.wafer-destroyed.wafer-beacon-loaded.has-beacon-click.native-leaderboard-ad.W\(720px\)--mnw1160.Px\(20px\)--mnw1160.Mx\(a\).Py\(10px\).Cf.Fld\(r\).D\(f\).Pos\(r\)
+yahoo.com##.js-stream-content:has-text(/Cosmo/i)
+yahoo.com##.js-stream-content:has-text(/TheBlast/i)
+yahoo.com##.js-stream-content:has-text(/SheKnows/i)
+yahoo.com##.js-stream-content:has-text(/Yahoo Canada Style/i)
+yahoo.com##.js-stream-content:has-text(/Allure/i)
+yahoo.com##.js-stream-content:has-text(/PureWow/i)
+yahoo.com##.drawer-fetch-target
+yahoo.com##.js-stream-content:has-text(/Elle/i)
+yahoo.com##.js-stream-content:has-text(/In The Know/i)
+yahoo.com##.js-stream-content:has-text(/Yahoo Style UK/i)
+yahoo.com##.js-stream-content:has-text(/Meredith Videos/i)
+yahoo.com##.js-stream-content:has-text(/Seventeen/i)
+yahoo.com##.js-stream-content:has-text(/House Beautiful/i)
+yahoo.com##.js-stream-content:has-text(/Country Living/i)
+yahoo.com##.js-stream-content:has-text(/Robb Report/i)
+yahoo.com##.js-stream-content:has-text(/Best Products/i)
+yahoo.com##.js-stream-content:has-text(/YourTango/i)
 ###ad-yahoo-simple
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
