@@ -2,11 +2,12 @@
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Expires: 7 days
-! Version 1.25a
-! Additions 15 Deletions 0 Modified 0
+! Version 1.26a
+! Additions 1 Deletions 0 Modified 0
 !
 ! -- Start Filters --
 !
+||digitru.st^
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
