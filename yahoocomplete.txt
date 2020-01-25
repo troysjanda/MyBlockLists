@@ -1,34 +1,12 @@
-! Title: Xpi Yahoo Complete Filters
-! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Author: XPI
 ! Expires: 7 days
-! Version 2.40
-! Additions (4) Deletions (0) Modified (0)
+! Hash: 41f13acd543a0a967b505099aa028aa0bd5b16ef29217b96f1ed9e978dd5de93
+! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
+! Title: Xpi Yahoo Complete Filters
+! Version 2.50
+! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
-!
-yahoo.com##.js-stream-content:has-text(/Who What Wear/i)
-yahoo.com##.js-stream-content:has-text(/INSIDER/i)
-yahoo.com##.js-stream-content:has-text(/Storyful/i)
-yahoo.com##.js-stream-content:has-text(/Dr. Phil CBS/i)
-www.yahoo.com##.wafer-destroyed.wafer-beacon-loaded.has-beacon-click.native-leaderboard-ad.W\(720px\)--mnw1160.Px\(20px\)--mnw1160.Mx\(a\).Py\(10px\).Cf.Fld\(r\).D\(f\).Pos\(r\)
-yahoo.com##.js-stream-content:has-text(/Cosmo/i)
-yahoo.com##.js-stream-content:has-text(/TheBlast/i)
-yahoo.com##.js-stream-content:has-text(/SheKnows/i)
-yahoo.com##.js-stream-content:has-text(/Yahoo Canada Style/i)
-yahoo.com##.js-stream-content:has-text(/Allure/i)
-yahoo.com##.js-stream-content:has-text(/PureWow/i)
-yahoo.com##.drawer-fetch-target
-yahoo.com##.js-stream-content:has-text(/Elle/i)
-yahoo.com##.js-stream-content:has-text(/In The Know/i)
-yahoo.com##.js-stream-content:has-text(/Yahoo Style UK/i)
-yahoo.com##.js-stream-content:has-text(/Meredith Videos/i)
-yahoo.com##.js-stream-content:has-text(/Seventeen/i)
-yahoo.com##.js-stream-content:has-text(/House Beautiful/i)
-yahoo.com##.js-stream-content:has-text(/Country Living/i)
-yahoo.com##.js-stream-content:has-text(/Robb Report/i)
-yahoo.com##.js-stream-content:has-text(/Best Products/i)
-yahoo.com##.js-stream-content:has-text(/YourTango/i)
 ###ad-yahoo-simple
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
@@ -64,8 +42,8 @@ yahoo.com##.js-stream-content:has-text(/YourTango/i)
 ##.yahooad
 ##.yahooad-image
 ##.yahooad-urlline
-##.yahooads
 ##.yahooAds
+##.yahooads
 ##.yahooContentMatch
 ##.yahootextads_content_bottom
 ##.yahoo_ad
@@ -179,6 +157,7 @@ weather.yahoo.com#@#.can_ad_slug
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
 www.yahoo.com###header-notification-button
+www.yahoo.com##.wafer-destroyed.wafer-beacon-loaded.has-beacon-click.native-leaderboard-ad.W\(720px\)--mnw1160.Px\(20px\)--mnw1160.Mx\(a\).Py\(10px\).Cf.Fld\(r\).D\(f\).Pos\(r\)
 www.yahoo.com#@##my-adsFPAD
 yahoo.com###boxLREC
 yahoo.com###darla-ad__LREC
@@ -230,12 +209,33 @@ yahoo.com##.astro-promo
 yahoo.com##.comment-btn-link
 yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f.Td\(n\).comment-count.rapidnofollow.js-stream-comments-button.js-content-viewer
 yahoo.com##.darla-container
+yahoo.com##.drawer-fetch-target
 yahoo.com##.Feedback
 yahoo.com##.fpad
 yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\).W\(36px\).End\(0\).T\(50px\).Pos\(a\)
 yahoo.com##.js-stream-actions
 yahoo.com##.js-stream-comment-counter
 yahoo.com##.js-stream-comment-counter-update
+yahoo.com##.js-stream-content:has-text(/Allure/i)
+yahoo.com##.js-stream-content:has-text(/Best Products/i)
+yahoo.com##.js-stream-content:has-text(/Cosmo/i)
+yahoo.com##.js-stream-content:has-text(/Country Living/i)
+yahoo.com##.js-stream-content:has-text(/Dr. Phil CBS/i)
+yahoo.com##.js-stream-content:has-text(/Elle/i)
+yahoo.com##.js-stream-content:has-text(/House Beautiful/i)
+yahoo.com##.js-stream-content:has-text(/In The Know/i)
+yahoo.com##.js-stream-content:has-text(/INSIDER/i)
+yahoo.com##.js-stream-content:has-text(/Meredith Videos/i)
+yahoo.com##.js-stream-content:has-text(/PureWow/i)
+yahoo.com##.js-stream-content:has-text(/Robb Report/i)
+yahoo.com##.js-stream-content:has-text(/Seventeen/i)
+yahoo.com##.js-stream-content:has-text(/SheKnows/i)
+yahoo.com##.js-stream-content:has-text(/Storyful/i)
+yahoo.com##.js-stream-content:has-text(/TheBlast/i)
+yahoo.com##.js-stream-content:has-text(/Who What Wear/i)
+yahoo.com##.js-stream-content:has-text(/Yahoo Canada Style/i)
+yahoo.com##.js-stream-content:has-text(/Yahoo Style UK/i)
+yahoo.com##.js-stream-content:has-text(/YourTango/i)
 yahoo.com##.lrec
 yahoo.com##.lrec-before-loading
 yahoo.com##.mballads
@@ -334,4 +334,3 @@ _yahooads/
 ||yimg.com^*_skin_$domain=yahoo.com
 ||yimg.com^*_west.swf$domain=yahoo.com
 ||ysm.yahoo.com^
-
