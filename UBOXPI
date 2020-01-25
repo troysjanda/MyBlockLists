@@ -1,18 +1,14 @@
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
+! Hash: b52067288995d352b8baa5c07aeff6a813115fa0d0ba48ac035bdc4e4c73cd12
+! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.30a
-! Additions (5) Deletions (0) Modified (0)
+! Version 1.40
+! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 !
-www.foxnews.com##.item-nation-trial-mod.item
-www.foxnews.com##.item-nation-email-mod.item
-dlford.io##.railAd
-dlford.io##.gGRGAW.footer__Styled-wff6aj-0
-dlford.io###ir_wrapper
-||digitru.st^
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
@@ -46,6 +42,9 @@ betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
 consent.yahoo.com##.consent-semi-transparent
 csp.yahoo.com^$important
+dlford.io###ir_wrapper
+dlford.io##.gGRGAW.footer__Styled-wff6aj-0
+dlford.io##.railAd
 dlford.io##[href^="https://sifmail.com/"]
 doubleclick.net^$important
 egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
@@ -101,6 +100,8 @@ thehackernews.com##.top-follow
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 uploadship.com##+js(std, adblock)
+www.foxnews.com##.item-nation-email-mod.item
+www.foxnews.com##.item-nation-trial-mod.item
 www.ghacks.net###download-widget
 www.ghacks.net###ghacks_share_widget-5
 www.ghacks.net##.ghacks-ad-loaded
@@ -180,6 +181,7 @@ youtube.com###watch-action-panels
 ||cdn.report-uri.com^
 ||clksite.com^$important
 ||cloudflare-dns.com/dns-query?$3p,xhr,domain=yahoo.com
+||digitru.st^
 ||disqusads.com^$important
 ||edge-mcdn.secure.yahoo.com^$1p
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
