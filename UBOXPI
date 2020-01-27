@@ -4,11 +4,15 @@
 ! Hash: b52067288995d352b8baa5c07aeff6a813115fa0d0ba48ac035bdc4e4c73cd12
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.40
-! Additions (0) Deletions (0) Modified (0)
+! Version 1.45
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 !
+||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
+||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
+||cdn.yottos.com^
+||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
