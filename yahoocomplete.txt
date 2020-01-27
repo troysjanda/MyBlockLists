@@ -3,8 +3,8 @@
 ! Hash: 41f13acd543a0a967b505099aa028aa0bd5b16ef29217b96f1ed9e978dd5de93
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 2.50
-! Additions (0) Deletions (0) Modified (0)
+! Version 2.55
+! Additions (0) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
 ###ad-yahoo-simple
@@ -63,8 +63,6 @@
 123moviesfree.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,coinad.com,dailypost.ng,dexerto.com,digitallydownloaded.net,dotmmo.com,ebookw.com,gizmochina.com,goal.com,guidedhacking.com,hlstester.com,limetorrents.info,majorgeeks.com,mydramalist.com,mymp3singer.site,naijaloaded.com.ng,onlinevideoconverter.com,owaahh.com,pcgamesn.com,premiumtimesng.com,retail.org.nz,rustourismnews.com,sh.st,smallseotools.com,sports.yahoo.com,ssbcrack.com,tetris.com,theblaze.com,thehackernews.com,thenationonlineng.net,torrentdownloads.me,ultshare.com,vumafm.co.za,wapking.site,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
 7search.com,filenewz.com,general-fil.es,general-files.com,generalfil.es,internetretailer.com,ixquick.co.uk,ixquick.com,nickjr.com,rewind949.com,slickdeals.net,startpage.com,webhostingtalk.com,yahoo.com###sponsored
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.am|~ads.bigbom.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.elcarado.com|~ads.google.com|~ads.harvard.edu|~ads.lapalingo.com|~ads.lordlucky.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.nc|~ads.nimses.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.socialtheater.com|~ads.taboola.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~seriouswheels.com
-@@||yahooapis.com^$script,domain=promptfile.com
-@@||yahooapis.com^$script,third-party,domain=truththeory.com
 abc15.com,abc2news.com,barchart.com,entrepreneur.com,globest.com,industryweek.com,kypost.com,myfoxboston.com,myfoxmemphis.com,newsarama.com,newsnet5.com,wcpo.com,wptv.com,wxyz.com,yahoo.com##.marketplace
 answers.yahoo.com###ya-darla-LDRB
 answers.yahoo.com###ya-darla-LREC
@@ -129,7 +127,6 @@ music.yahoo.com###YMusicRegion_T2_R2C2
 music.yahoo.com###YMusicRegion_T3_R2C2_R1
 music.yahoo.com###YMusicRegion_TN1_R2C2_R1
 mysanantonio.com##.yahoo-bg
-news.yahoo.com###darla
 news.yahoo.com###mw-ysm-cm_2-container
 news.yahoo.com###north
 news.yahoo.com##.userintent-wrapper
