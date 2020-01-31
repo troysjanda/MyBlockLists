@@ -4,11 +4,17 @@
 ! Hash: b52067288995d352b8baa5c07aeff6a813115fa0d0ba48ac035bdc4e4c73cd12
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.45
-! Additions (4) Deletions (0) Modified (0)
+! Version 1.55
+! Additions (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 !
+www.spanishdict.com###adSide2-container
+news.yahoo.com##.vdb-player-extra-advertisement-text
+||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
+||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
+||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
+ghacks.net##.ghacks-ad
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
 ||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
 ||cdn.yottos.com^
