@@ -1,24 +1,25 @@
 ! Title: Xpi uBO Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
-! Hash: b52067288995d352b8baa5c07aeff6a813115fa0d0ba48ac035bdc4e4c73cd12
+! Hash: aada919b2dab3ee4b54e12985d55504424ef0f78db284fbb1b01ea7caf241d8b
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.65
-! Additions (6) Deletions (0) Modified (0)
+! Version 1.75
+! Additions (17) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
-!
-www.spanishdict.com###adSide2-container
-news.yahoo.com##.vdb-player-extra-advertisement-text
-||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
-||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
-||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
-ghacks.net##.ghacks-ad
-||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
-||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
-||cdn.yottos.com^
-||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
+###bannerSmall
+###bg-banner
+###WIX_ADS
+##.abc_banner
+##.adv_wrap
+##.banner2
+##.Banner_Top
+##.bunner
+##.megaads
+##.place_for_ad
+##.topi_banner
+##[id="WIX_ADS"]
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
@@ -29,6 +30,8 @@ ghacks.net##.ghacks-ad
 */wp-content/plugins/adtoniq/^$important,third-party
 *fbclid=$1p,document,important
 /advert.js$important
+/bannery/$image
+/exoads/b/
 /generate_204
 /i.gif
 /p.gif
@@ -43,6 +46,7 @@ ghacks.net##.ghacks-ad
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
 adtoniq.com^$important,third-party
 amazon-adsystem\.com$
+amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
 anitube.*##+js(abort-on-property-read.js, redirect1)
@@ -63,6 +67,7 @@ enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !importan
 everydayhealth.com##^script:has-text(/i10C/i)
 facebook.com##div.h_r03bd44ox.pagelet
 getcomics.info###advanced_floating_content_85155
+ghacks.net##.ghacks-ad
 github.com##.commit-desc:style(display:block !important;)
 github.com##.hidden-text-expander:style(display:none !important;)
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
@@ -74,6 +79,7 @@ ieee.org##+js(abort-on-property-read.js, splashpage
 ign.com##^script:has-text(g01.ign.com)
 kaffnet\.com$
 magicalthirteen.com^$important
+news.yahoo.com##.vdb-player-extra-advertisement-text
 nexusmods.com##.areplacer
 pipocas.tv##+js(bab-defuser.js)
 pornhub.com###under-player-comments
@@ -107,6 +113,7 @@ sports.yahoo.com##[id*="PromoImage-Proxy"]
 startapp(exchange|network|service)\.com$
 thehackernews.com##.cf.follow-box
 thehackernews.com##.top-follow
+torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 uploadship.com##+js(std, adblock)
@@ -126,6 +133,7 @@ www.reddit.com##.premium-banner
 www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
 www.reddit.com|$xmlhttprequest
+www.spanishdict.com###adSide2-container
 www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
 www.washingtonpost.com###slug_leaderboard
 www.washingtonpost.com##div.relative
@@ -186,6 +194,7 @@ youtube.com###watch-action-panels
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
 ||cdn.adsafeprotected.com^
 ||cdn.report-uri.com^
+||cdn.yottos.com^
 ||clksite.com^$important
 ||cloudflare-dns.com/dns-query?$3p,xhr,domain=yahoo.com
 ||digitru.st^
@@ -198,6 +207,7 @@ youtube.com###watch-action-panels
 ||guce.oath.com
 ||hd-dev.com^
 ||http://yo/guce-js
+||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
 ||https://s.yimg.com/os/mit/media/m/base/images/transparent-95031.png^
 ||ima3vpaid.appspot.com^
 ||jamexistence.com^$important
@@ -209,6 +219,7 @@ youtube.com###watch-action-panels
 ||reddit.com/api/me.json?*=$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/web/log/$xmlhttprequest
+||report-uri.cloudflare.com^
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
 ||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
 ||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
@@ -220,6 +231,7 @@ youtube.com###watch-action-panels
 ||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
 ||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Left_1200x1200.jpg^
 ||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
+||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
 ||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
 ||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
 ||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
@@ -234,10 +246,13 @@ youtube.com###watch-action-panels
 ||serving-sys.com^
 ||sports.yahoo.com##.ys-interstitial-container
 ||static-42andpark-com.s3.amazonaws.com^
+||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
+||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
 ||stripe.rs-stripe.com
 ||syncronex.com^
 ||taboola.com^
 ||tfbnw.*/
+||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
 ||volantix.com^
 ||washingtonpost.com/*/adblocker-feature^$xhr
 ||washingtonpost.com/*/wp-stat/pwapi/prod/*
@@ -246,6 +261,8 @@ youtube.com###watch-action-panels
 ||www.google-analytics.com/analytics.js
 ||www.microsoft.com-windows-booster.live^
 ||www.oath.com^
+||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
 ||yahoo.com.cn^
 ||ysearchblog.com^
 ||zenfs.com^
+
