@@ -1,25 +1,13 @@
-! Title: Xpi uBO Personal Filters
+! Title: Xpi uBo Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! Author: XPI
 ! Hash: aada919b2dab3ee4b54e12985d55504424ef0f78db284fbb1b01ea7caf241d8b
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.75
-! Additions (17) Deletions (0) Modified (0)
+! Version 1.85
+! Additions (0) Deletions (8) Modified (0)
 !
 ! -- Start Filters --
-###bannerSmall
-###bg-banner
-###WIX_ADS
-##.abc_banner
-##.adv_wrap
-##.banner2
-##.Banner_Top
-##.bunner
-##.megaads
-##.place_for_ad
-##.topi_banner
-##[id="WIX_ADS"]
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
