@@ -1,12 +1,12 @@
 ! Author: XPI
 ! Expires: 7 days
-! Hash: 41f13acd543a0a967b505099aa028aa0bd5b16ef29217b96f1ed9e978dd5de93
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 2.55
-! Additions (0) Deletions (3) Modified (0)
+! Version 2.75
+! Additions (1) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
+www.yahoo.com###notif-badge
 ###ad-yahoo-simple
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
@@ -218,7 +218,7 @@ yahoo.com##.js-stream-content:has-text(/Best Products/i)
 yahoo.com##.js-stream-content:has-text(/Cosmo/i)
 yahoo.com##.js-stream-content:has-text(/Country Living/i)
 yahoo.com##.js-stream-content:has-text(/Dr. Phil CBS/i)
-yahoo.com##.js-stream-content:has-text(/Elle/i)
+!yahoo.com##.js-stream-content:has-text(/Elle/i)
 yahoo.com##.js-stream-content:has-text(/House Beautiful/i)
 yahoo.com##.js-stream-content:has-text(/In The Know/i)
 yahoo.com##.js-stream-content:has-text(/INSIDER/i)
