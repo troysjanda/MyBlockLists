@@ -3,10 +3,20 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.85
-! Additions (0) Deletions (8) Modified (0)
+! Version 1.95
+! Additions (10) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+www.forbes.com##.page-loaded
+www.latimes.com##.met-rule-2772.met-flyout
+www.reddit.com##.happening-now
+||wp.pl^$third-party,domain=~wp.pl
+||wpimg.pl^$third-party,domain=~wp.pl
+*/cleardot.gif$image,redirect=1x1-transparent.gif
+*/cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
+||yahoo.affex.org
+||yahoo.eulerian.com
+||yahoo.eulerian.net
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
