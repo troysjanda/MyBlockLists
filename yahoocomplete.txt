@@ -1,11 +1,13 @@
 ! Author: XPI
-! Expires: 7 days
+! Expires: 10 days
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 2.75
-! Additions (1) Deletions (0) Modified (1)
+! Version 2.95
+! Additions (2) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
+yahoo.com##.js-stream-content:has-text(/Teen Vogue/i)
+yahoo.com##.js-stream-content:has-text(/Best Life/i)
 www.yahoo.com###notif-badge
 ###ad-yahoo-simple
 ###PartialYahooJSAds-bottom-ads
