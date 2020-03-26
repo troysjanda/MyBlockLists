@@ -3,10 +3,13 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.95
-! Additions (10) Deletions (0) Modified (0)
+! Version 2.00
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+pandora.com##script:contains(getAdList)
+@@||pandora.com/web-version/*/ads.json$xhr
+www.fanatical.com##.cookie-collapsible
 www.forbes.com##.page-loaded
 www.latimes.com##.met-rule-2772.met-flyout
 www.reddit.com##.happening-now
