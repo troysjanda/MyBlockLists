@@ -3,10 +3,12 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 2.00
-! Additions (3) Deletions (0) Modified (0)
+! Version 2.15
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||beap.gemini.yahoo.com
+www.foxnews.com##.sticky-nav.collection-article-scroller.collection
 pandora.com##script:contains(getAdList)
 @@||pandora.com/web-version/*/ads.json$xhr
 www.fanatical.com##.cookie-collapsible
