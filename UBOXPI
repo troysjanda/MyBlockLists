@@ -3,10 +3,12 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 2.15
+! Version 2.25
 ! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||washingtonpost.com^*/pwapi-proxy.min.js
+www.ghacks.net##.tag-sponsored.tag-featured.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-160576.post-list-sponsored.mt--first--0.mt--60.post-list
 ||beap.gemini.yahoo.com
 www.foxnews.com##.sticky-nav.collection-article-scroller.collection
 pandora.com##script:contains(getAdList)
