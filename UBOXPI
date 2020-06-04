@@ -3,10 +3,12 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 2.40
-! Additions (1) Deletions (0) Modified (0)
+! Version 2.45
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
+b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
 ||content.jwplatform.com^$domain=variety.com
 ||src.ebay-us.com^*/check.js
 ||src.ebay-*.com/fp/check.js$script
