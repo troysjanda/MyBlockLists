@@ -2,10 +2,14 @@
 ! Expires: 7 days
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 3.45
-! Additions (2) Deletions (0) Modified (0)
+! Version 3.55
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||s.yimg.com/cv/apiv2/default/20200526/ymobile.jpg$image
+||s.yimg.com/cv/apiv2/default/20200526/ytech.jpg$image
+||s.yimg.com/cv/apiv2/default/20200526/yprotect.png$image
+||s.yimg.com/cv/apiv2/default/20200526/ymail.jpg$image
 yahoo.com##.js-stream-content:has-text(/Rumble/i)
 yahoo.com##.js-stream-content:has-text(/Colin Kaepernick/i)
 www.yahoo.com##.tv-wrapper
