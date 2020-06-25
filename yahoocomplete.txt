@@ -2,10 +2,12 @@
 ! Expires: 7 days
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 3.65
+! Version 3.75
 ! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
+||s.yimg.com/ny/api/res/1.2/5.ovmwOWtKvaSS10mSoWFQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNQ--/https://media.zenfs.com/en/autoblog_50/a90a19ed701ee2a76d856565c615eb6b$image
 yahoo.com##.js-stream-content:has-text(/Celebrity/i)
 yahoo.com##.js-stream-content:has-text(/Black Lives Matter/i)
 ||s.yimg.com/cv/apiv2/default/20200526/ymobile.jpg$image
