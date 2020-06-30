@@ -3,10 +3,14 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 2.55
-! Additions (3) Deletions (0) Modified (0)
+! Version 2.65
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+theforestmap.com##.in.fade.modal-backdrop
+theforestmap.com##.sidefloater
+||ghacks.net/statics/ads.min.js
+||ghacks.net/statics/px.gif
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
 www.kootenaivalleytimes.com#@#.section-social
 www.fark.com###abPleaBar
