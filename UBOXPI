@@ -3,10 +3,14 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 2.65
+! Version 2.75
 ! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+thebroodle.com##.EAJKXIqksYmj-default
+thebroodle.com##.EAJKXIqksYmj-bg
+||s.yimg.com/g/images/spaceball.gif^
+||reddit.com/static/pixel.png^
 theforestmap.com##.in.fade.modal-backdrop
 theforestmap.com##.sidefloater
 ||ghacks.net/statics/ads.min.js
