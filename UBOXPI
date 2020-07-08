@@ -3,8 +3,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 3.10
-! Additions (0) Deletions (46) Modified (0)
+! Version 3.15
+! Additions (0) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
 thebroodle.com##.EAJKXIqksYmj-default
@@ -163,7 +163,7 @@ youtube.com###watch-action-panels
 ||ads.adaptv.advertising.com^
 ||animeland.tv/scripts/$script
 ||atwola.com^
-||banananalytics.com^important
+||banananalytics.com^$important
 ||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
 ||bilsyndication.com^
 ||bizpanda.com
