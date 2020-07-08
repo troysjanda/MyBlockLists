@@ -1,4 +1,4 @@
-[![AUR](https://img.shields.io/aur/license/yaourt.svg?style=plastic)](https://github.com/troysjanda/MyBlockLists)
+![GitHub](https://img.shields.io/github/license/troysjanda/MyBlockLists?style=plastic)
 [![PyPI - Status](https://img.shields.io/pypi/status/Django.svg?style=plastic)](https://github.com/troysjanda/MyBlockLists)
 
 # XPI's Custom Annoyance Filter Lists
