@@ -3,8 +3,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 2.80
-! Additions (0) Deletions (1) Modified (1)
+! Version 3.00
+! Additions (0) Deletions (19) Modified (1)
 !
 ! -- Start Filters --
 thebroodle.com##.EAJKXIqksYmj-default
@@ -45,7 +45,6 @@ www.reddit.com##.happening-now
 *##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *##.tab-content .tab-pane:style(display:block !important;)
 *##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
-*##[data-ad-slot]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;
 */wp-content/plugins/adtoniq/^$important,third-party
 *fbclid=$1p,document,important
 /advert.js$important
@@ -91,10 +90,8 @@ github.com##.commit-desc:style(display:block !important;)
 github.com##.hidden-text-expander:style(display:none !important;)
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
-google.com/recaptcha/api2/bframe##[class*="image-tile"]:style(transition-delay:0s !important;  transition-duration:0s !important;)
-google.com/recaptcha/api2/bframe##[class*="imageselect-tile"]:style(transition-delay:0s !important;  transition-duration:0s !important;)
 https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
-ieee.org##+js(abort-on-property-read.js, splashpage
+
 ign.com##^script:has-text(g01.ign.com)
 kaffnet\.com$
 magicalthirteen.com^$important
@@ -157,7 +154,6 @@ www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
 www.washingtonpost.com###slug_leaderboard
 www.washingtonpost.com##div.relative
 www.windowscentral.com##.article-header__disclosure
-www.windowscentral.com##.disclosure^
 www.yahoo.com###applet_p_50000414
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
 yahoo.com##.js-fake-cluster
@@ -194,19 +190,6 @@ youtube.com###watch-action-panels
 ||animeland.tv/scripts/$script
 ||atwola.com^
 ||banananalytics.com^important
-||betanews.com###adtoniq-btns
-||betanews.com###adtoniq-msg  
-||betanews.com###adtoniq-msg-bar 
-||betanews.com###adtoniq-msg-bar.reveal-alert 
-||betanews.com###topAd 
-||betanews.com##.ad 
-||betanews.com##.articleBoxad
-||betanews.com##.bigLeader
-||betanews.com##.boxad
-||betanews.com##.btn-msg-bar  
-||betanews.com##.btn-msg-bar+.btn-msg-bar 
-||betanews.com##.flexibleBoxad
-||betanews.com##.widesky
 ||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
 ||bilsyndication.com^
 ||bizpanda.com
@@ -263,7 +246,6 @@ youtube.com###watch-action-panels
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
 ||servebom.com^
 ||serving-sys.com^
-||sports.yahoo.com##.ys-interstitial-container
 ||static-42andpark-com.s3.amazonaws.com^
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
 ||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
@@ -284,4 +266,3 @@ youtube.com###watch-action-panels
 ||yahoo.com.cn^
 ||ysearchblog.com^
 ||zenfs.com^
-
