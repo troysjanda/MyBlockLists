@@ -3,8 +3,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 3.00
-! Additions (0) Deletions (19) Modified (1)
+! Version 3.10
+! Additions (0) Deletions (46) Modified (0)
 !
 ! -- Start Filters --
 thebroodle.com##.EAJKXIqksYmj-default
@@ -36,9 +36,6 @@ www.reddit.com##.happening-now
 ||wpimg.pl^$third-party,domain=~wp.pl
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
-||yahoo.affex.org
-||yahoo.eulerian.com
-||yahoo.eulerian.net
 (^|\.)com\.media\.orehawa\.co\.uk$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
 (^|\.)net\.media\.orehawa\.co\.uk$
@@ -72,8 +69,6 @@ betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
-consent.yahoo.com##.consent-semi-transparent
-csp.yahoo.com^$important
 dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
@@ -91,7 +86,6 @@ github.com##.hidden-text-expander:style(display:none !important;)
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
-
 ign.com##^script:has-text(g01.ign.com)
 kaffnet\.com$
 magicalthirteen.com^$important
@@ -116,16 +110,6 @@ r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
-sports.yahoo.com###uh-tb-firefoxpromo
-sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
-sports.yahoo.com##.Cur\(p\).My\(12px\) > path
-sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-promo
-sports.yahoo.com##.M\(a\).Ta\(c\).Pos\(a\).ys-interstitial-container > div > .Start\(0\).T\(0\).Pos\(a\).H\(100\%\).W\(100\%\)
-sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
-sports.yahoo.com##[id*="DailyFantasyPromo"]
-sports.yahoo.com##[id*="darla_csc_holder"]
-sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
-sports.yahoo.com##[id*="PromoImage-Proxy"]
 startapp(exchange|network|service)\.com$
 thehackernews.com##.cf.follow-box
 thehackernews.com##.top-follow
@@ -154,16 +138,6 @@ www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
 www.washingtonpost.com###slug_leaderboard
 www.washingtonpost.com##div.relative
 www.windowscentral.com##.article-header__disclosure
-www.yahoo.com###applet_p_50000414
-www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
-yahoo.com##.js-fake-cluster
-yahoo.com##.js-sidekick-content
-yahoo.com##.js-stream-content:has-text(/Delish/i)
-yahoo.com##.js-stream-content:has-text(/Glamour/i)
-yahoo.com##.js-stream-content:has-text(/Good Housekeeping/i)
-yahoo.com##.js-stream-content:has-text(/InStyle/i)
-yahoo.com##.js-stream-content:has-text(/Marie Claire/i)
-yahoo.com##.related-gemini-ad
 youtube.com###chat
 youtube.com###watch-action-panels
 ^ad([sxv])?[0-9]*[-_.]
@@ -222,26 +196,6 @@ youtube.com###watch-action-panels
 ||reddit.com/static/pixel.png$image
 ||reddit.com/web/log/$xmlhttprequest
 ||report-uri.cloudflare.com^
-||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
-||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
-||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
-||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
-||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
-||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
-||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
-||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png
-||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
-||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Left_1200x1200.jpg^
-||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
-||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
-||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
-||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
-||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
-||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
-||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
-||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
-||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
-||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
 ||s3.buysellads.com^
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
 ||servebom.com^
@@ -263,6 +217,5 @@ youtube.com###watch-action-panels
 ||www.microsoft.com-windows-booster.live^
 ||www.oath.com^
 ||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
-||yahoo.com.cn^
 ||ysearchblog.com^
 ||zenfs.com^

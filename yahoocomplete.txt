@@ -2,10 +2,56 @@
 ! Expires: 7 days
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 3.75
-! Additions (2) Deletions (0) Modified (0)
+! Version 3.85
+! Additions (46) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||yahoo.affex.org
+||yahoo.eulerian.com
+||yahoo.eulerian.net
+consent.yahoo.com##.consent-semi-transparent
+csp.yahoo.com^$important
+sports.yahoo.com###uh-tb-firefoxpromo
+sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
+sports.yahoo.com##.Cur\(p\).My\(12px\) > path
+sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-promo
+sports.yahoo.com##.M\(a\).Ta\(c\).Pos\(a\).ys-interstitial-container > div > .Start\(0\).T\(0\).Pos\(a\).H\(100\%\).W\(100\%\)
+sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
+sports.yahoo.com##[id*="DailyFantasyPromo"]
+sports.yahoo.com##[id*="darla_csc_holder"]
+sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
+sports.yahoo.com##[id*="PromoImage-Proxy"]
+www.yahoo.com###applet_p_50000414
+www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
+||yahoo.com.cn^
+||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
+||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
+||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
+||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
+||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
+||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
+||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
+||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png
+||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
+||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Left_1200x1200.jpg^
+||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
+||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
+||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
+||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
+||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
+||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
+||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
+||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
+||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
+||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
+yahoo.com##.js-fake-cluster
+yahoo.com##.js-sidekick-content
+yahoo.com##.js-stream-content:has-text(/Delish/i)
+yahoo.com##.js-stream-content:has-text(/Glamour/i)
+yahoo.com##.js-stream-content:has-text(/Good Housekeeping/i)
+yahoo.com##.js-stream-content:has-text(/InStyle/i)
+yahoo.com##.js-stream-content:has-text(/Marie Claire/i)
+yahoo.com##.related-gemini-ad
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 ||s.yimg.com/ny/api/res/1.2/5.ovmwOWtKvaSS10mSoWFQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNQ--/https://media.zenfs.com/en/autoblog_50/a90a19ed701ee2a76d856565c615eb6b$image
 yahoo.com##.js-stream-content:has-text(/Celebrity/i)
