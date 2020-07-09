@@ -1,8 +1,10 @@
 ![GitHub](https://img.shields.io/github/license/troysjanda/MyBlockLists?style=plastic)
 [![PyPI - Status](https://img.shields.io/pypi/status/Django.svg?style=plastic)](https://github.com/troysjanda/MyBlockLists)
+![GitHub last commit](https://img.shields.io/github/last-commit/troysjanda/MyBlockLists?style=plastic)
 
-# XPI's Custom Annoyance Filter Lists
-Custom Filter List for use with Ublock Orgin Firefox addon
+# XPI's Custom Annoyance/Yahoo Filter Lists
+
+Custom Filter List for use with Ublock Orgin for Firefox.
 
 XPI's Filter List 
  
