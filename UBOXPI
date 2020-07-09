@@ -1,12 +1,16 @@
 ! Title: Xpi uBo Personal Filters
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
+! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 3.15
-! Additions (0) Deletions (0) Modified (1)
+! Version 3.20
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||facebook.com/plugins/*
+||connect.facebook.com
+||connect.facebook.net
 thebroodle.com##.EAJKXIqksYmj-default
 thebroodle.com##.EAJKXIqksYmj-bg
 ||reddit.com/static/pixel.png^

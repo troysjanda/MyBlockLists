@@ -3,7 +3,7 @@
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 3.85
+! Version 3.90
 ! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -381,7 +381,6 @@ _yahooads/
 ||yimg.com/i/i/de/cat/yahoo.html$domain=yahoo.com
 ||yimg.com/la/i/wan/widgets/wjobs/$subdocument,domain=yahoo.com
 ||yimg.com^*/billboardv2r5min.js$domain=yahoo.com
-||yimg.com^*/darla-secure-pre-min.js$domain=yahoo.com
 ||yimg.com^*/dianominewwidget2.html$domain=yahoo.com
 ||yimg.com^*/tickets/$domain=yahoo.com
 ||yimg.com^*/ya-answers-dmros-ssl-min.js$domain=yahoo.com
