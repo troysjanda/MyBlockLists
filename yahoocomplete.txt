@@ -1,9 +1,10 @@
 ! Author: XPI
 ! Expires: 7 days
+! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
 ! Version 3.85
-! Additions (46) Deletions (0) Modified (0)
+! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ||yahoo.affex.org
