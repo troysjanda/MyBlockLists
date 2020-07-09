@@ -3,10 +3,12 @@
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 ! Title: Xpi Yahoo Complete Filters
-! Version 3.90
-! Additions (0) Deletions (0) Modified (0)
+! Version 4.00
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+www.yahoo.com###storyswarm-wrapper
+www.yahoo.com##.pub-upsell-item
 ||yahoo.affex.org
 ||yahoo.eulerian.com
 ||yahoo.eulerian.net
