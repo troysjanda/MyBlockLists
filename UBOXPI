@@ -4,10 +4,12 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 3.20
-! Additions (3) Deletions (0) Modified (0)
+! Version 3.30
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+xhamster.com##.wih-spa.wih-spb
+www.foxbusiness.com##.is-programming.alert-banner
 ||facebook.com/plugins/*
 ||connect.facebook.com
 ||connect.facebook.net
