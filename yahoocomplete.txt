@@ -1,4 +1,3 @@
-
 [uBlock Origin]
 ! Title: Xpi Yahoo Complete Filters
 ! Author: XPI
@@ -6,7 +5,7 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 4.40
+! Version 4.50
 ! Additions (0) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
