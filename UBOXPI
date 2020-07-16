@@ -1,11 +1,12 @@
 ! Title: Xpi uBo Personal Filters
+! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 3.40
-! Additions (2) Deletions (0) Modified (0)
+! Version 3.50
+! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 en.wikipedia.org###frb-main

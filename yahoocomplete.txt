@@ -1,12 +1,14 @@
+! Title: Xpi Yahoo Complete Filters
 ! Author: XPI
+! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Title: Xpi Yahoo Complete Filters
-! Version 4.20
-! Additions (2) Deletions (0) Modified (0)
+! Version 4.30
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 www.yahoo.com###mega-banner
 www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
 ||s.yimg.com/cv/apiv2/default/20180730/FF-Launch-static__1HeadlineLarge_CreateLeague_880x150@.jpg
