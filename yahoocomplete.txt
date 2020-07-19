@@ -5,10 +5,11 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 4.50
-! Additions (0) Deletions (1) Modified (0)
+! Version 4.60
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
 yellowpages.com###yahoo_ss_border
 yahoo.com##li[id^="ad-"]
 yahoo.com##li[data-type="outlink"]
