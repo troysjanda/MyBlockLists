@@ -5,12 +5,11 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 4.80
-! Additions (1) Deletions (0) Modified (0)
+! Version 4.90
+! Additions (0) Deletions (6) Modified (0)
 !
 ! -- Start Filters --
 www.yahoo.com##.wafer-beacon.Pstart\(50px\).Pstart\(20px\)--md1200.Jc\(sb\).Bgc\(\#6001d2\).Ai\(c\).D\(f\).Td\(n\)
-||yahoo.com|^*/pixels
 yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
 yellowpages.com###yahoo_ss_border
 yahoo.com##li[id^="ad-"]
@@ -26,7 +25,6 @@ yahoo.com###YSLUG
 yahoo.com###yschsec
 yahoo.com###yn-gmy-promo-groups
 yahoo.com###yn-gmy-promo-answers
-yahoo.com###yn-darla2
 yahoo.com###ymh-invitational-recs
 yahoo.com###ylf-ysm
 yahoo.com###yl_pf_ysm
@@ -252,9 +250,6 @@ answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com###ya-darla-LREC
 answers.yahoo.com###ya-darla-LDRB
 answers.yahoo.com##.dmRosMBAdBorder
-abc15.com,abc2news.com,barchart.com,entrepreneur.com,globest.com,industryweek.com,kypost.com,myfoxboston.com,myfoxmemphis.com,newsarama.com,newsnet5.com,wcpo.com,wptv.com,wxyz.com,yahoo.com##.marketplace
-7search.com,filenewz.com,general-fil.es,general-files.com,generalfil.es,internetretailer.com,ixquick.co.uk,ixquick.com,nickjr.com,rewind949.com,slickdeals.net,startpage.com,webhostingtalk.com,yahoo.com###sponsored
-123moviesfree.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,coinad.com,dailypost.ng,dexerto.com,digitallydownloaded.net,dotmmo.com,ebookw.com,gizmochina.com,goal.com,guidedhacking.com,hlstester.com,limetorrents.info,majorgeeks.com,mydramalist.com,mymp3singer.site,naijaloaded.com.ng,onlinevideoconverter.com,owaahh.com,pcgamesn.com,premiumtimesng.com,retail.org.nz,rustourismnews.com,sh.st,smallseotools.com,sports.yahoo.com,ssbcrack.com,tetris.com,theblaze.com,thehackernews.com,thenationonlineng.net,torrentdownloads.me,ultshare.com,vumafm.co.za,wapking.site,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
 ||ysm.yahoo.com^
 ||yimg.com^*/yfpadobject.js$domain=yahoo.com
 ||yimg.com^*/yad*.js$domain=yahoo.com
