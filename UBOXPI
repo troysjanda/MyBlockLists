@@ -6,17 +6,17 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 3.80
-! Additions (0) Deletions (5) Modified (0)
+! Version 3.90
+! Additions (2) Deletions (6) Modified (0)
 !
 ! -- Start Filters --
+||washingtonpost.com/*/pwapi-proxy.min.js$script
+||subscribe.washingtonpost.com^
 www.indystar.com##.gnt_pm
 youtube.com###watch-action-panels
 youtube.com###chat
 xhamster.com##.wih-spa.wih-spb
 www.windowscentral.com##.article-header__disclosure
-www.washingtonpost.com##div.relative
-www.washingtonpost.com###slug_leaderboard
 www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
 www.spanishdict.com###adSide2-container
 www.reddit.com|$xmlhttprequest
@@ -117,9 +117,6 @@ adtoniq.com^$important,third-party
 ||wp.pl^$third-party,domain=~wp.pl
 ||windows.net^
 ||whatsapp.*/
-||washingtonpost.com^*/pwapi-proxy.min.js
-||washingtonpost.com/*/wp-stat/pwapi/prod/*
-||washingtonpost.com/*/adblocker-feature^$xhr
 ||volantix.com^
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
 ||tfbnw.*/
@@ -140,7 +137,6 @@ adtoniq.com^$important,third-party
 ||reddit.com/static/pixel.png$image
 ||reddit.com/static/pixel.png^
 ||reddit.com/api/me.json?*=$xmlhttprequest
-||pwapi.washingtonpost.com^
 ||phys.org^important
 ||oath.com^all
 ||mobilenations.com^
