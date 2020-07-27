@@ -6,10 +6,16 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 3.90
-! Additions (2) Deletions (6) Modified (0)
+! Version 4.00
+! Additions (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+thesolving.com##.nanoBackground
+ghacks.net###ghacks_ad_code-1
+ghacks.net###ghacks_ad_code-2
+ghacks.net###ghacks_ad_code-3
+ghacks.net###ghacks_ad_code-4
+ghacks.net###ghacks_ad_code-5
 ||washingtonpost.com/*/pwapi-proxy.min.js$script
 ||subscribe.washingtonpost.com^
 www.indystar.com##.gnt_pm

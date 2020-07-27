@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 4.90
-! Additions (0) Deletions (6) Modified (0)
+! Version 5.00
+! Additions (0) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
 www.yahoo.com##.wafer-beacon.Pstart\(50px\).Pstart\(20px\)--md1200.Jc\(sb\).Bgc\(\#6001d2\).Ai\(c\).D\(f\).Td\(n\)
@@ -282,7 +282,7 @@ answers.yahoo.com##.dmRosMBAdBorder
 ||yahoo.com/contextual-shortcuts
 ||yahoo.com.cn^
 ||yahoo.affex.org
-||yahoo.*/serv?s=
+!||yahoo.*/serv?s=
 ||w.homes.yahoo.net^
 ||themis.yahoo.com^
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
