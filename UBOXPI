@@ -6,10 +6,11 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.00
-! Additions (6) Deletions (0) Modified (0)
+! Version 4.10
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+ghacks.net##^script:has-text(AdBlockerDetector)
 thesolving.com##.nanoBackground
 ghacks.net###ghacks_ad_code-1
 ghacks.net###ghacks_ad_code-2
