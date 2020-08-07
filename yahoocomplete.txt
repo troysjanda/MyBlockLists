@@ -5,10 +5,13 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 5.10
-! Additions (1) Deletions (0) Modified (1)
+! Version 5.15
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+yahoo.com##.js-stream-content:has-text(/Entertainment/i)
+sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
+sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 www.yahoo.com##.wafer-beacon.Pstart\(50px\).Pstart\(20px\)--md1200.Jc\(sb\).Bgc\(\#6001d2\).Ai\(c\).D\(f\).Td\(n\)
 yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
