@@ -6,10 +6,23 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.15
-! Additions (0) Deletions (0) Modified (0)
+! Version 4.20
+! Additions (13) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||verizonmedia.com^
+www.theregister.com###adtoniq-msgr-bar
+||www.techpowerup.com/njutrvceser/*.jpg$image
+www.techpowerup.com##aside.mnmuzjsddc:nth-of-type(1)
+||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0-*.jpeg$image
+||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0*.jpeg$image
+forums.theregister.com###adtoniq-msgr-bar
+rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !important)
+rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
+rp-online.de##.park-article-paywall__content
+||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
+betanews.com##.articleBlurb:has-text(/Mark Wyciślik-Wilson/i)
+betanews.com##.articleBlurb:has-text(/Brian Fagioli/i)
 ghacks.net##^script:has-text(AdBlockerDetector)
 thesolving.com##.nanoBackground
 ghacks.net###ghacks_ad_code-1
