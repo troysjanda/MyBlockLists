@@ -5,7 +5,7 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 5.20
+! Version 5.25
 ! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -21,11 +21,9 @@ yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
 yellowpages.com###yahoo_ss_border
 yahoo.com##li[id^="ad-"]
 yahoo.com##li[data-type="outlink"]
-yahoo.com##li[data-beacon^="https://beap.gemini.yahoo.com/"]
 yahoo.com##li[data-beacon^="https://beap.adss.yahoo.com/"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##div[id^="tile-mb-"]
-yahoo.com##div[id^="tile-A"][data-beacon-url^="https://beap.gemini.yahoo.com/mbcsc?"]
 yahoo.com##div[data-type="ADS"]
 yahoo.com##div[class*="ads-"]
 yahoo.com###YSLUG
@@ -170,7 +168,6 @@ thetandd.com##.yahoo_content_match
 sports.yahoo.com###uh-tb-firefoxpromo
 sports.yahoo.com##[id*="PromoImage-Proxy"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
-sports.yahoo.com##[id*="darla_csc_holder"]
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
@@ -291,7 +288,6 @@ answers.yahoo.com##.dmRosMBAdBorder
 ||yahoo.affex.org
 !||yahoo.*/serv?s=
 ||w.homes.yahoo.net^
-||themis.yahoo.com^
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||s.yimg.com/ny/api/res/1.2/5.ovmwOWtKvaSS10mSoWFQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNQ--/https://media.zenfs.com/en/autoblog_50/a90a19ed701ee2a76d856565c615eb6b$image
