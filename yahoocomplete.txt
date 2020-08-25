@@ -5,10 +5,11 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 5.25
-! Additions (0) Deletions (0) Modified (0)
+! Version 5.30
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+yahoo.com##.news-tabs-RR
 ||s.yimg.com/cv/apiv2/sports/fantasy-promo/2020-sports-home-ff-takeover@2x.jpg
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
 yahoo.com###render-target-default > div[class*="fuji-purple"]:style(background-color: transparent !important)
