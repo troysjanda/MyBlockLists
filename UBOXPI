@@ -6,10 +6,15 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.30
-! Additions (2) Deletions (0) Modified (0)
+! Version 4.40
+! Additions (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+foxnews.com##.content:has-text(/SPONSORED/i)
+||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
+thehackernews.com##.sidebar.clear > [href="https://go.thn.li/webinar-2"]
+thehackernews.com##[href="https://go.thn.li/mpu"]
+foxnews.com##.is-programming.alert-banner
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
 www.phoronix.com###\31 ca940
 ||verizonmedia.com^
