@@ -5,10 +5,18 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 5.40
-! Additions (6) Deletions (0) Modified (0)
+! Version 5.55
+! Additions (8) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_FOMO_Countdown_082820__September9@1x.jpg^
+||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
+||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_Phase4_082820_880x150@1x.jpg^
+yahoo.com##.js-stream-content:has-text(/yahoo life shopping/i)
+yahoo.com##.js-stream-content:has-text(/scary mommy/i)
+yahoo.com##.js-stream-content:has-text(/eat this, not that!/i)
+yahoo.com##.js-stream-content:has-text(/gq/i)
+yahoo.com##.js-stream-content.stream-item:has-text(/style/i)
 ||s.yimg.com/cv/apiv2/fantasy/promo/YFF_2020_In-Product_Banners_FOMO_082820_880x150@2x.jpg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 sports.yahoo.com###Col1-4-Interstitial-Proxy > .Z\(11\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(f\).ys-interstitial

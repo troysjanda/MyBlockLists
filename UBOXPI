@@ -6,10 +6,11 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.40
-! Additions (5) Deletions (0) Modified (0)
+! Version 4.55
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+||www.palemoon.org/images/donate_vertbanner.png$image
 foxnews.com##.content:has-text(/SPONSORED/i)
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
 thehackernews.com##.sidebar.clear > [href="https://go.thn.li/webinar-2"]
