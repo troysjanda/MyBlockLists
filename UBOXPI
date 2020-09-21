@@ -6,10 +6,28 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.55
-! Additions (1) Deletions (0) Modified (0)
+! Version 4.65
+! Additions (18) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+www.ghacks.net##.category-deals
+www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
+||xcp-ng.org/blog/content/images/2020/04/banner*-forum-2.png$image
+noscript.net##style:has-text(data:image):remove()
+||consent.google.com^
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+www.thekitchenmagpie.com###wprm-recipe-container-36576 > .food-bank-note
+www.thekitchenmagpie.com###text-125 > .widget-wrap > .textwidget > .food-bank-note
+www.nascar.com##div#ad_oop_skin_01.globalSkinAdSlot
+www.nascar.com##div#ad_impression_tracker_01
+www.nascar.com##div#ad_impression_tracker_02
+www.nascar.com##div#ad_impression_tracker_03
+www.nascar.com##div#ad_impression_tracker_04
+www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.nascar-ad-container
+www.nascar.com##div#ad_bnr_atf_01.nascar-advertisement.ad_bnr_atf_01
+www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.ad-close-container
+www.nascar.com##footer#footer.site-footer.site-footer-nascar > div.nascar-footer > footer > div.row.divider > div.col-3 > div.disclaimer-container
+www.nascar.com##div#consent_blackbar
 ||www.palemoon.org/images/donate_vertbanner.png$image
 foxnews.com##.content:has-text(/SPONSORED/i)
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
