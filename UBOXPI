@@ -6,262 +6,266 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.65
-! Additions (18) Deletions (0) Modified (0)
+! Version 4.75
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
-www.ghacks.net##.category-deals
-www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
-||xcp-ng.org/blog/content/images/2020/04/banner*-forum-2.png$image
-noscript.net##style:has-text(data:image):remove()
-||consent.google.com^
-google.*##+js(aeld, DOMContentLoaded, CONSENT)
-www.thekitchenmagpie.com###wprm-recipe-container-36576 > .food-bank-note
-www.thekitchenmagpie.com###text-125 > .widget-wrap > .textwidget > .food-bank-note
-www.nascar.com##div#ad_oop_skin_01.globalSkinAdSlot
-www.nascar.com##div#ad_impression_tracker_01
-www.nascar.com##div#ad_impression_tracker_02
-www.nascar.com##div#ad_impression_tracker_03
-www.nascar.com##div#ad_impression_tracker_04
-www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.nascar-ad-container
-www.nascar.com##div#ad_bnr_atf_01.nascar-advertisement.ad_bnr_atf_01
-www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.ad-close-container
-www.nascar.com##footer#footer.site-footer.site-footer-nascar > div.nascar-footer > footer > div.row.divider > div.col-3 > div.disclaimer-container
-www.nascar.com##div#consent_blackbar
-||www.palemoon.org/images/donate_vertbanner.png$image
-foxnews.com##.content:has-text(/SPONSORED/i)
-||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
-thehackernews.com##.sidebar.clear > [href="https://go.thn.li/webinar-2"]
-thehackernews.com##[href="https://go.thn.li/mpu"]
-foxnews.com##.is-programming.alert-banner
-||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
-www.phoronix.com###\31 ca940
-||verizonmedia.com^
-www.theregister.com###adtoniq-msgr-bar
-||www.techpowerup.com/njutrvceser/*.jpg$image
-www.techpowerup.com##aside.mnmuzjsddc:nth-of-type(1)
-||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0-*.jpeg$image
-||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0*.jpeg$image
+(^|\.)co\.uk\.media\.orehawa\.co\.uk$
+(^|\.)com\.media\.orehawa\.co\.uk$
+(^|\.)net\.media\.orehawa\.co\.uk$
+*##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
+*##.tab-content .tab-pane:style(display:block !important;)
+*##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
+*/cleardot.gif$image,redirect=1x1-transparent.gif
+*/cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
+*/wp-content/plugins/adtoniq/^$important,third-party
+*fbclid=$1p,document,important
+/advert.js$important
+/bannery/$image
+/exoads/b/
+/generate_204
+/i.gif
+/p.gif
+/pixel2.gif?
+/static/pixel.png
+/wp-admin/admin-ajax.php
+/wp-content/plugins/wp-content-copy-protector^
+2mdn.net^$important
+@@||cbssports.com/video/player$inline-script
+@@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
+@@||outbrain.com^$script,domain=dailywire.com
+@@||pandora.com/web-version/*/ads.json$xhr
+@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
+^ad([sxv])?[0-9]*[-_.]
+^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
+^adtrack(er|ing)?[0-9]*[-.]
+^advert(s|is(ing|ements?))?[0-9]*[-_.]
+^aff(iliat(es?|ion))?[-.]
+^analytics?[-.]
+^banners?[-.]
+^beacons?[0-9]*[-.]
+^clicks?[-.]
+^count(ers?)?[0-9]*[-.]
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[-.]
+^telemetry[-.]
+^track(ers?|ing)?[0-9]*[-.]
+^traff(ic)?[-.]
+adtoniq.com^$important,third-party
+amazon-adsystem\.com$
+amazon.com##[data-component-type="sp-sponsored-result"]
+amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
+amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
+anitube.*##+js(abort-on-property-read.js, redirect1)
+b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
+betanews.com##.clearfix.articleBreak
+betanews.com##.clearfix.content > .halfCol
+betanews.com##.header > h2
+betanews.com##.twitter-share-button-error.twitter-share-button
+dlford.io###ir_wrapper
+dlford.io##.gGRGAW.footer__Styled-wff6aj-0
+dlford.io##.railAd
+dlford.io##[href^="https://sifmail.com/"]
+doubleclick.net^$important
+egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
+egy.best##+js(abort-on-property-write.js, decodeURIComponent)
+en.wikipedia.org###frb-main
+en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
+enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
+everydayhealth.com##^script:has-text(/i10C/i)
+facebook.com##div.h_r03bd44ox.pagelet
 forums.theregister.com###adtoniq-msgr-bar
-rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !important)
-rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
-rp-online.de##.park-article-paywall__content
-||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
-ghacks.net##^script:has-text(AdBlockerDetector)
-thesolving.com##.nanoBackground
+foxnews.com##.content:has-text(/SPONSORED/i)
+foxnews.com##.is-programming.alert-banner
+getcomics.info###advanced_floating_content_85155
 ghacks.net###ghacks_ad_code-1
 ghacks.net###ghacks_ad_code-2
 ghacks.net###ghacks_ad_code-3
 ghacks.net###ghacks_ad_code-4
 ghacks.net###ghacks_ad_code-5
-||washingtonpost.com/*/pwapi-proxy.min.js$script
-||subscribe.washingtonpost.com^
-www.indystar.com##.gnt_pm
-youtube.com###watch-action-panels
-youtube.com###chat
-xhamster.com##.wih-spa.wih-spb
-www.windowscentral.com##.article-header__disclosure
-www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
-www.spanishdict.com###adSide2-container
-www.reddit.com|$xmlhttprequest
-www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
-www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
-www.reddit.com##.premium-banner
-www.reddit.com##.happening-now
-www.mediafire.com###abnotify
-www.latimes.com##.met-rule-2772.met-flyout
-www.kootenaivalleytimes.com#@#.section-social
-www.ghacks.net###ghacks_share_widget-5
-www.ghacks.net###download-widget
-www.ghacks.net##.tag-sponsored.tag-featured.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-160576.post-list-sponsored.mt--first--0.mt--60.post-list
-www.ghacks.net##.tag-sponsored.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-155900.post-list-sponsored.mt--first--0.mt--60.post-list
-www.ghacks.net##.ghacks-ad-loaded
-www.foxnews.com##.sticky-nav.collection-article-scroller.collection
-www.foxnews.com##.item-nation-trial-mod.item
-www.foxnews.com##.item-nation-email-mod.item
-www.foxbusiness.com##.is-programming.alert-banner
-www.forbes.com##.page-loaded
-www.fark.com###abPleaBar
-www.fanatical.com##.cookie-collapsible
-uploadship.com##+js(std, adblock)
-uploadship.com##+js(acis, document.getElementById, adblock)
-twitter.com##article:has(div:has-text(/^Promoted$/))
-torrentgalaxy.to##.alert-dismissible.alert-danger.alert
-thehackernews.com##.top-follow
-thehackernews.com##.cf.follow-box
-theforestmap.com##.sidefloater
-theforestmap.com##.in.fade.modal-backdrop
-thebroodle.com##.EAJKXIqksYmj-default
-thebroodle.com##.EAJKXIqksYmj-bg
-startapp(exchange|network|service)\.com$
-spiegel.de##^script:has-text(.createShadowRoot)
+ghacks.net##.ghacks-ad
+ghacks.net##^script:has-text(AdBlockerDetector)
+github.com##.commit-desc:style(display:block !important;)
+github.com##.hidden-text-expander:style(display:none !important;)
+github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
+godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
+https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
+ign.com##^script:has-text(g01.ign.com)
+kaffnet\.com$
+magicalthirteen.com^$important
+news.yahoo.com##.vdb-player-extra-advertisement-text
+nexusmods.com##.areplacer
+noscript.net##style:has-text(data:image):remove()
+pandora.com##script:contains(getAdList)
+pipocas.tv##+js(bab-defuser.js)
+pornhub.com###under-player-comments
+pornhub.com###welcome
+r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
+reddit.com###ad_1
+reddit.com###ad_4
+reddit.com###ad_5
+reddit.com###ad_6
+reddit.com##+js(remove-attr.js, data-inbound-url, a[data-href-url])
+reddit.com##._3RPJ8hHnfFohktLZca18J6
+reddit.com##.author-tooltip
+reddit.com##.dfp-ad-container
+reddit.com##.premium-banner
+reddit.com##.s1tljykw-0
+reddit.com##.ynts11-1
+reddit.com##body > div[data-overflow]:last-child
+rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
+rp-online.de##.park-article-paywall__content
+rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !important)
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
-reddit.com##body > div[data-overflow]:last-child
-reddit.com##+js(remove-attr.js, data-inbound-url, a[data-href-url])
-reddit.com###ad_6
-reddit.com###ad_5
-reddit.com###ad_4
-reddit.com###ad_1
-reddit.com##.ynts11-1
-reddit.com##.s1tljykw-0
-reddit.com##.premium-banner
-reddit.com##.dfp-ad-container
-reddit.com##.author-tooltip
-reddit.com##._3RPJ8hHnfFohktLZca18J6
-r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
-pornhub.com###welcome
-pornhub.com###under-player-comments
-pipocas.tv##+js(bab-defuser.js)
-pandora.com##script:contains(getAdList)
-nexusmods.com##.areplacer
-news.yahoo.com##.vdb-player-extra-advertisement-text
-magicalthirteen.com^$important
-kaffnet\.com$
-ign.com##^script:has-text(g01.ign.com)
-https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
-google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
-godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
-github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
-github.com##.hidden-text-expander:style(display:none !important;)
-github.com##.commit-desc:style(display:block !important;)
-ghacks.net##.ghacks-ad
-getcomics.info###advanced_floating_content_85155
-facebook.com##div.h_r03bd44ox.pagelet
-everydayhealth.com##^script:has-text(/i10C/i)
-enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
-en.wikipedia.org###frb-main
-en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
-egy.best##+js(abort-on-property-write.js, decodeURIComponent)
-egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
-doubleclick.net^$important
-dlford.io###ir_wrapper
-dlford.io##[href^="https://sifmail.com/"]
-dlford.io##.railAd
-dlford.io##.gGRGAW.footer__Styled-wff6aj-0
-betanews.com##.twitter-share-button-error.twitter-share-button
-betanews.com##.header > h2
-betanews.com##.clearfix.content > .halfCol
-betanews.com##.clearfix.articleBreak
-b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
-anitube.*##+js(abort-on-property-read.js, redirect1)
-amazon.com##[data-component-type="sp-sponsored-result"]
-amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
-amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
-amazon-adsystem\.com$
-adtoniq.com^$important,third-party
-2mdn.net^$important
-||zenfs.com^
-||ysearchblog.com^
-||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
-||www.oath.com^
-||www.microsoft.com-windows-booster.live^
-||www.google-analytics.com/analytics.js
-||wpimg.pl^$third-party,domain=~wp.pl
-||wp.pl^$third-party,domain=~wp.pl
-||windows.net^
-||whatsapp.*/
-||volantix.com^
-||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
-||tfbnw.*/
-||taboola.com^
-||syncronex.com^
-||stripe.rs-stripe.com
-||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
-||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
-||static-42andpark-com.s3.amazonaws.com^
-||src.ebay-us.com^*/check.js
-||src.ebay-*.com/fp/check.js$script
-||serving-sys.com^
-||servebom.com^
-||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
-||s3.buysellads.com^
-||report-uri.cloudflare.com^
-||reddit.com/web/log/$xmlhttprequest
+spiegel.de##^script:has-text(.createShadowRoot)
+startapp(exchange|network|service)\.com$
+thebroodle.com##.EAJKXIqksYmj-bg
+thebroodle.com##.EAJKXIqksYmj-default
+theforestmap.com##.in.fade.modal-backdrop
+theforestmap.com##.sidefloater
+thehackernews.com##.cf.follow-box
+thehackernews.com##.sidebar.clear > [href="https://go.thn.li/webinar-2"]
+thehackernews.com##.top-follow
+thehackernews.com##[href="https://go.thn.li/mpu"]
+thesolving.com##.nanoBackground
+torrentgalaxy.to##.alert-dismissible.alert-danger.alert
+twitter.com##article:has(div:has-text(/^Promoted$/))
+uploadship.com##+js(acis, document.getElementById, adblock)
+uploadship.com##+js(std, adblock)
+www.fanatical.com##.cookie-collapsible
+www.fark.com###abPleaBar
+www.forbes.com##.page-loaded
+www.foxbusiness.com##.is-programming.alert-banner
+www.foxnews.com##.is-breaking.alert-banner
+www.foxnews.com##.item-nation-email-mod.item
+www.foxnews.com##.item-nation-trial-mod.item
+www.foxnews.com##.sticky-nav.collection-article-scroller.collection
+www.ghacks.net###download-widget
+www.ghacks.net###ghacks_share_widget-5
+www.ghacks.net##.category-deals
+www.ghacks.net##.ghacks-ad-loaded
+www.ghacks.net##.tag-sponsored.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-155900.post-list-sponsored.mt--first--0.mt--60.post-list
+www.ghacks.net##.tag-sponsored.tag-featured.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-160576.post-list-sponsored.mt--first--0.mt--60.post-list
+www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
+www.indystar.com##.gnt_pm
+www.kootenaivalleytimes.com#@#.section-social
+www.latimes.com##.met-rule-2772.met-flyout
+www.mediafire.com###abnotify
+www.msn.com###irisbanner > .irisbannertop.irisbanner
+www.nascar.com##div#ad_bnr_atf_01.nascar-advertisement.ad_bnr_atf_01
+www.nascar.com##div#ad_impression_tracker_01
+www.nascar.com##div#ad_impression_tracker_02
+www.nascar.com##div#ad_impression_tracker_03
+www.nascar.com##div#ad_impression_tracker_04
+www.nascar.com##div#ad_oop_skin_01.globalSkinAdSlot
+www.nascar.com##div#consent_blackbar
+www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.ad-close-container
+www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.nascar-ad-container
+www.nascar.com##footer#footer.site-footer.site-footer-nascar > div.nascar-footer > footer > div.row.divider > div.col-3 > div.disclaimer-container
+www.phoronix.com###\31 ca940
+www.reddit.com##.happening-now
+www.reddit.com##.premium-banner
+www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
+www.reddit.com|$xmlhttprequest
+www.spanishdict.com###adSide2-container
+www.techpowerup.com##aside.mnmuzjsddc:nth-of-type(1)
+www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
+www.thekitchenmagpie.com###text-125 > .widget-wrap > .textwidget > .food-bank-note
+www.thekitchenmagpie.com###wprm-recipe-container-36576 > .food-bank-note
+www.theregister.com###adtoniq-msgr-bar
+www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-affiliate > strong > [href^="http://www.restoro.com/includes/route.php"]
+www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-content > div.c24ff8f4a2da697123def04f69833d8b > span > strong > [href^="http://www.restoro.com/includes/route.php"]
+www.windowscentral.com##.article-header__disclosure
+xhamster.com##.wih-spa.wih-spb
+youtube.com###chat
+youtube.com###watch-action-panels
+||/analytics.js
+||/sp.js
+||/vendor/sp.js
+||2822.v.fwmrm.net^
+||accountkit.*/
+||ads.adaptv.advertising.com^
+||animeland.tv/scripts/$script
+||atwola.com^
+||banananalytics.com^$important
+||beap.gemini.yahoo.com
+||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
+||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
+||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0*.jpeg$image
+||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0-*.jpeg$image
+||bilsyndication.com^
+||bizpanda.com
+||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
+||cdn.adsafeprotected.com^
+||cdn.report-uri.com^
+||cdn.yottos.com^
+||clksite.com^$important
+||cloudflare-dns.com/dns-query?$3p,xhr,domain=yahoo.com
+||connect.facebook.com
+||connect.facebook.net
+||consent.google.com^
+||content.jwplatform.com^$domain=variety.com
+||digitru.st^
+||disqusads.com^$important
+||edge-mcdn.secure.yahoo.com^$1p
+||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
+||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
+||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
+||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-yc-fl-off-net-school-start-league-ji-070919-v-1-3-light-800-x-800-x-1-jpg_1566418730380.jpeg$image
+||exactmetrics.com
+||facebook.com/plugins/*
+||ghacks.net/statics/ads.min.js
+||ghacks.net/statics/px.gif
+||googleanalytics.net^
+||guce.oath.com
+||hd-dev.com^
+||http://yo/guce-js
+||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
+||https://s.yimg.com/os/mit/media/m/base/images/transparent-95031.png^
+||ima3vpaid.appspot.com^
+||jamexistence.com^$important
+||mailtrack.io^$important
+||mobilenations.com^
+||oath.com^all
+||phys.org^important
+||reddit.com/api/me.json?*=$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/static/pixel.png^
-||reddit.com/api/me.json?*=$xmlhttprequest
-||phys.org^important
-||oath.com^all
-||mobilenations.com^
-||mailtrack.io^$important
-||jamexistence.com^$important
-||ima3vpaid.appspot.com^
-||https://s.yimg.com/os/mit/media/m/base/images/transparent-95031.png^
-||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
-||http://yo/guce-js
-||hd-dev.com^
-||guce.oath.com
-||googleanalytics.net^
-||ghacks.net/statics/px.gif
-||ghacks.net/statics/ads.min.js
-||facebook.com/plugins/*
-||exactmetrics.com
-||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-yc-fl-off-net-school-start-league-ji-070919-v-1-3-light-800-x-800-x-1-jpg_1566418730380.jpeg$image
-||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
-||edge-mcdn.secure.yahoo.com^$1p
-||disqusads.com^$important
-||digitru.st^
-||content.jwplatform.com^$domain=variety.com
-||connect.facebook.net
-||connect.facebook.com
-||cloudflare-dns.com/dns-query?$3p,xhr,domain=yahoo.com
-||clksite.com^$important
-||cdn.yottos.com^
-||cdn.report-uri.com^
-||cdn.adsafeprotected.com^
-||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
-||bizpanda.com
-||bilsyndication.com^
-||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
-||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
-||beap.gemini.yahoo.com
-||banananalytics.com^$important
-||atwola.com^
-||animeland.tv/scripts/$script
-||ads.adaptv.advertising.com^
-||accountkit.*/
-||2822.v.fwmrm.net^
-||/vendor/sp.js
-||/sp.js
-||/analytics.js
-^traff(ic)?[-.]
-^track(ers?|ing)?[0-9]*[-.]
-^telemetry[-.]
-^stat(s|istics)?[0-9]*[-.]
-^pixels?[-.]
-^count(ers?)?[0-9]*[-.]
-^clicks?[-.]
-^beacons?[0-9]*[-.]
-^banners?[-.]
-^analytics?[-.]
-^aff(iliat(es?|ion))?[-.]
-^advert(s|is(ing|ements?))?[0-9]*[-_.]
-^adtrack(er|ing)?[0-9]*[-.]
-^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
-^ad([sxv])?[0-9]*[-_.]
-/wp-content/plugins/wp-content-copy-protector^
-/wp-admin/admin-ajax.php
-/static/pixel.png
-/pixel2.gif?
-/p.gif
-/i.gif
-/generate_204
-/exoads/b/
-/bannery/$image
-/advert.js$important
-*fbclid=$1p,document,important
-*##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
-*##.tab-content .tab-pane:style(display:block !important;)
-*##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
-*/wp-content/plugins/adtoniq/^$important,third-party
-*/cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
-*/cleardot.gif$image,redirect=1x1-transparent.gif
-@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
-@@||pandora.com/web-version/*/ads.json$xhr
-@@||outbrain.com^$script,domain=dailywire.com
-@@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
-@@||cbssports.com/video/player$inline-script
-(^|\.)net\.media\.orehawa\.co\.uk$
-(^|\.)com\.media\.orehawa\.co\.uk$
-(^|\.)co\.uk\.media\.orehawa\.co\.uk$
+||reddit.com/web/log/$xmlhttprequest
+||report-uri.cloudflare.com^
+||s3.buysellads.com^
+||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
+||servebom.com^
+||serving-sys.com^
+||src.ebay-*.com/fp/check.js$script
+||src.ebay-us.com^*/check.js
+||static-42andpark-com.s3.amazonaws.com^
+||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
+||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
+||stripe.rs-stripe.com
+||subscribe.washingtonpost.com^
+||syncronex.com^
+||taboola.com^
+||tfbnw.*/
+||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
+||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
+||verizonmedia.com^
+||volantix.com^
+||washingtonpost.com/*/pwapi-proxy.min.js$script
+||whatsapp.*/
+||windows.net^
+||wp.pl^$third-party,domain=~wp.pl
+||wpimg.pl^$third-party,domain=~wp.pl
+||www.google-analytics.com/analytics.js
+||www.microsoft.com-windows-booster.live^
+||www.oath.com^
+||www.palemoon.org/images/donate_vertbanner.png$image
+||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
+||www.techpowerup.com/njutrvceser/*.jpg$image
+||xcp-ng.org/blog/content/images/2020/04/banner*-forum-2.png$image
+||ysearchblog.com^
+||zenfs.com^
