@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 5.65
-! Additions (4) Deletions (0) Modified (0)
+! Version 5.75
+! Additions (0) Deletions (6) Modified (0)
 !
 ! -- Start Filters --
 
@@ -66,8 +66,6 @@
 /yahoofeedproxy.
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.am|~ads.bigbom.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.elcarado.com|~ads.google.com|~ads.harvard.edu|~ads.lapalingo.com|~ads.lordlucky.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.nc|~ads.nimses.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.socialtheater.com|~ads.taboola.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~seriouswheels.com
 _yahooads/
-answers.yahoo.com###ya-darla-LDRB
-answers.yahoo.com###ya-darla-LREC
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
 arnnet.com.au,cio.com.au,computerworld.com.au,foodandwine.com,healthcareitnews.com,nbcnews.com,techworld.com.au,travelandleisure.com,tvnz.co.nz,yahoo.com###marketplace
@@ -180,8 +178,6 @@ www.yahoo.com##.comment-count
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
-www.yahoo.com##.wafer-beacon.Pstart\(50px\).Pstart\(20px\)--md1200.Jc\(sb\).Bgc\(\#6001d2\).Ai\(c\).D\(f\).Td\(n\)
-www.yahoo.com##.wafer-destroyed.wafer-beacon-loaded.has-beacon-click.native-leaderboard-ad.W\(720px\)--mnw1160.Px\(20px\)--mnw1160.Mx\(a\).Py\(10px\).Cf.Fld\(r\).D\(f\).Pos\(r\)
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com#@##my-adsFPAD
 yahoo.com###LREC
@@ -233,7 +229,6 @@ yahoo.com##.Maw\(600px\).Bg\(\$premium_promote_bgc\).Bdrs\(8px\).D\(ib\).Mb\(20p
 yahoo.com##.astro-promo
 yahoo.com##.comment-btn-link
 yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f.Td\(n\).comment-count.rapidnofollow.js-stream-comments-button.js-content-viewer
-yahoo.com##.darla-container
 yahoo.com##.drawer-fetch-target
 yahoo.com##.fpad
 yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\).W\(36px\).End\(0\).T\(50px\).Pos\(a\)
@@ -300,7 +295,6 @@ yahoo.com##.y708-promo-middle
 yahoo.com##.y7moneyhound
 yahoo.com##.y7partners
 yahoo.com##.ya-LDRB
-yahoo.com##.ya-darla-LREC
 yahoo.com##.yad
 yahoo.com##.yad-cpa
 yahoo.com##.yschspns
