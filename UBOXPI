@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.75
-! Additions (4) Deletions (0) Modified (0)
+! Version 4.85
+! Additions (7) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
@@ -135,6 +135,9 @@ torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 uploadship.com##+js(std, adblock)
+www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-bp-xl-v.cnx-bp-lg-st.cnx-in-ps-landscape.cnx-playspace-container
+www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ratio
+www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
 www.forbes.com##.page-loaded
@@ -149,7 +152,9 @@ www.ghacks.net##.category-deals
 www.ghacks.net##.ghacks-ad-loaded
 www.ghacks.net##.tag-sponsored.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-155900.post-list-sponsored.mt--first--0.mt--60.post-list
 www.ghacks.net##.tag-sponsored.tag-featured.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-160576.post-list-sponsored.mt--first--0.mt--60.post-list
+www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
+www.google.com##:root:style(overflow-y: visible !important;)
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
 www.latimes.com##.met-rule-2772.met-flyout
@@ -180,6 +185,8 @@ www.theregister.com###adtoniq-msgr-bar
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-affiliate > strong > [href^="http://www.restoro.com/includes/route.php"]
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-content > div.c24ff8f4a2da697123def04f69833d8b > span > strong > [href^="http://www.restoro.com/includes/route.php"]
 www.windowscentral.com##.article-header__disclosure
+www.youtube.com###dialog
+www.youtube.com##.opened
 xhamster.com##.wih-spa.wih-spb
 youtube.com###chat
 youtube.com###watch-action-panels
