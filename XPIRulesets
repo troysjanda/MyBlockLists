@@ -20,47 +20,52 @@ yahoo.com *
     _ yimg.com image allow
     _ yimg.com script allow
 
-deviantart.com deviantart.com cookie allow
-deviantart.com deviantart.com css allow
-deviantart.com deviantart.com script allow
-deviantart.com deviantart.com xhr allow
-deviantart.com deviantart.net image allow
-deviantart.com st.deviantart.net css allow
-deviantart.com st.deviantart.net script allow
+deviantart.com *
+    - deviantart.com cookie allow
+    - deviantart.com css allow
+    - deviantart.com script allow
+    - deviantart.com xhr allow
+    - deviantart.net image allow
+    - st.deviantart.net css allow
+    - st.deviantart.net script allow
 
-flickr.com api.flickr.com xhr allow
-flickr.com flickr.com cookie allow
-flickr.com s.yimg.com css allow
-flickr.com s.yimg.com image allow
-flickr.com s.yimg.com script allow
-flickr.com staticflickr.com image allow
-flickr.com www.flickr.com css allow
-flickr.com www.flickr.com image allow
-flickr.com www.flickr.com script allow
-flickr.com www.flickr.com xhr allow
-flickr.com yahoo.com cookie allow
+flickr.com *
+    - api.flickr.com xhr allow
+    - flickr.com cookie allow
+    - s.yimg.com css allow
+    - s.yimg.com image allow
+    - s.yimg.com script allow
+    - staticflickr.com image allow
+    - www.flickr.com css allow
+    - www.flickr.com image allow
+    - www.flickr.com script allow
+    - www.flickr.com xhr allow
+    - yahoo.com cookie allow
 
-vimeo.com f.vimeocdn.com css allow
-vimeo.com f.vimeocdn.com script allow
-vimeo.com i.vimeocdn.com image allow
-vimeo.com skyfire.vimeocdn.com xhr allow
-vimeo.com vimeo.com css allow
-vimeo.com vimeo.com script allow
-vimeo.com vimeo.com xhr allow
+vimeo.com *
+    - f.vimeocdn.com css allow
+    - f.vimeocdn.com script allow
+    - i.vimeocdn.com image allow
+    - skyfire.vimeocdn.com xhr allow
+    - vimeo.com css allow
+    - vimeo.com script allow
+    - vimeo.com xhr allow
 
-wikipedia.org upload.wikimedia.org image allow
-wikipedia.org wikipedia.org css allow
-wikipedia.org wikipedia.org image allow
+wikipedia.org *
+    - upload.wikimedia.org image allow
+    - wikipedia.org css allow
+    - wikipedia.org image allow
 
-youtube.com ggpht.com image allow
-youtube.com googlevideo.com xhr allow
-youtube.com s.ytimg.com css allow
-youtube.com s.ytimg.com script allow
-youtube.com s.ytimg.com xhr allow
-youtube.com www.youtube.com css allow
-youtube.com www.youtube.com script allow
-youtube.com www.youtube.com xhr allow
-youtube.com ytimg.com image allow
+youtube.com *
+    - ggpht.com image allow
+    - googlevideo.com xhr allow
+    - s.ytimg.com css allow
+    - s.ytimg.com script allow
+    - s.ytimg.com xhr allow
+    - www.youtube.com css allow
+    - www.youtube.com script allow
+    - www.youtube.com xhr allow
+    - ytimg.com image allow
 
 reddit.com *
 ! I am only making reddit work, not external media on reddit.
