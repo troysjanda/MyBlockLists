@@ -1,0 +1,125 @@
+! uMatrix: Ruleset recipes 1.0
+! Title: Rulesets for English websites
+! Maintainer: XPI
+
+duckduckgo.com *
+    _ duckduckgo.com css allow
+    _ duckduckgo.com image allow
+    _ duckduckgo.com script allow
+    _ duckduckgo.com xhr allow
+    _ duckduckgo.com frame allow
+
+yahoo.com *
+    _ yahoo.com css allow
+    _ yahoo.com image allow
+    _ yahoo.com script allow
+    _ yahoo.com xhr allow
+    _ bing.net image allow
+    _ yahooapis.com script allow
+    _ yimg.com css allow
+    _ yimg.com image allow
+    _ yimg.com script allow
+
+deviantart.com deviantart.com cookie allow
+deviantart.com deviantart.com css allow
+deviantart.com deviantart.com script allow
+deviantart.com deviantart.com xhr allow
+deviantart.com deviantart.net image allow
+deviantart.com st.deviantart.net css allow
+deviantart.com st.deviantart.net script allow
+
+flickr.com api.flickr.com xhr allow
+flickr.com flickr.com cookie allow
+flickr.com s.yimg.com css allow
+flickr.com s.yimg.com image allow
+flickr.com s.yimg.com script allow
+flickr.com staticflickr.com image allow
+flickr.com www.flickr.com css allow
+flickr.com www.flickr.com image allow
+flickr.com www.flickr.com script allow
+flickr.com www.flickr.com xhr allow
+flickr.com yahoo.com cookie allow
+
+vimeo.com f.vimeocdn.com css allow
+vimeo.com f.vimeocdn.com script allow
+vimeo.com i.vimeocdn.com image allow
+vimeo.com skyfire.vimeocdn.com xhr allow
+vimeo.com vimeo.com css allow
+vimeo.com vimeo.com script allow
+vimeo.com vimeo.com xhr allow
+
+wikipedia.org upload.wikimedia.org image allow
+wikipedia.org wikipedia.org css allow
+wikipedia.org wikipedia.org image allow
+
+youtube.com ggpht.com image allow
+youtube.com googlevideo.com xhr allow
+youtube.com s.ytimg.com css allow
+youtube.com s.ytimg.com script allow
+youtube.com s.ytimg.com xhr allow
+youtube.com www.youtube.com css allow
+youtube.com www.youtube.com script allow
+youtube.com www.youtube.com xhr allow
+youtube.com ytimg.com image allow
+
+reddit.com *
+! I am only making reddit work, not external media on reddit.
+    _ 1st-party *
+    _ www.reddit.com script
+    _ redditmedia.com image
+    _ b.thumbs.redditmedia.com css
+    _ www.redditstatic.com *
+    _ www.redditstatic.com script
+
+xvideos.com *
+    _ 1st-party *
+    _ 1st-party script
+    _ xvideos-cdn.com xhr
+    _ xvideos-cdn.com image
+
+microsoft.com *
+    _ 1st-party *
+    _ akamaized.net image
+    _ akamaized.net css
+    _ s-microsoft.com image
+    _ s-microsoft.com css
+    _ onestore.ms css
+    _ onestore.ms image
+    _ onestore.ms script
+    _ www.microsoft.com script
+
+login.live.com *
+    _ 1st-party *
+    _ 1st-party script
+    _ gfx.ms image
+    _ gfx.ms css
+
+office.com *
+    _ 1st-party *
+    _ akamaized.net image
+    _ akamaized.net css
+    _ msocdn.com image
+    _ msocdn.com css
+    _ msocdn.com script
+    _ onestore.ms css
+    _ query.prod.cms.rt.microsoft.com css
+
+google.com *
+    _ 1st-party *
+    _ apis.google.com script
+    _ docs.google.com script
+    _ www.google.com script
+    _ www.gstatic.com script
+    _ fonts.gstatic.com css
+    _ ssl.gstatic.com image
+    !needed for google sheets
+    no-workers: _ false
+
+mail.google.com *
+    _ 1st-party *
+    _ googleusercontent.com image
+    _ gstatic.com image
+    _ gstatic.com script
+    ! to remove annoying allow javascript banner
+    noscript-spoof: _ false
+
