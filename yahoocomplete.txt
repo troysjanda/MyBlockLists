@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 5.85
-! Additions (13) Deletions (1) Modified (0)
+! Version 5.95
+! Additions (42) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -168,6 +168,7 @@ weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
 www.yahoo.com###applet_p_50000287 > div > .Pos\(r\).Mb\(20px\).Bxz\(bb\).C\(\#fff\).tdv2-wafer-Featurebar > .Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#6001d2\)
 www.yahoo.com###applet_p_50000314 > div > .stream-items.P\(0\).List\(n\) > .wafer-destroyed.wafer-fetch-complete.Pb\(10px\).Mx\(-20px\).stream-item-card > div > .wafer-beacon.Bgc\(\#fdb5d2\).Pstart\(50px\).Pstart\(20px\)--md1200.Mx\(20px\).Jc\(sb\).Ai\(c\).D\(f\).Td\(n\)
 www.yahoo.com###applet_p_50000314 > div > .stream-items.P\(0\).List\(n\) > li.Bgc\(\#fff\).Pos\(r\).js-stream-content.stream-item > .Mih\(140px\) > .Cf.Pos\(r\).Py\(12px\).userintent-hidestrmitem_D\(n\) > .Ov\(h\).Pend\(45px\) > .P\(0\).Pos\(r\).Fz\(12px\).Mt\(12px\).List\(n\) > li.Mb\(8px\)--md1160.W\(100\%\)\!--md1160.W\(50\%\).Fl\(start\)
+www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > .wafer-destroyed.wafer-fetch-complete.Pb\(10px\).Mx\(-20px\).stream-item-card > div > .Bgc\(\#fdb5d2\).Pstart\(50px\).Pstart\(20px\)--md1200.Mx\(20px\).Jc\(sb\).Ai\(c\).D\(f\).Td\(n\)
 www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > li.stream-grid-view_Flxb\(1\/3\).My\(12px\).Pos\(r\).Bgc\(t\).js-stream-content.stream-item > .stream-grid-view_Fld\(c\).D\(f\).Pos\(r\).userintent-hidestrmitem_D\(n\) > .Fxg\(1\).Fxb\(0\).Fld\(c\).D\(f\) > .P\(0\).Pos\(r\).Fz\(12px\).Mt\(4px\).List\(n\).Mend\(50px\) > li.W\(50\%\).Fl\(start\) > .wafer-destroyed.Mend\(5\%\).W\(95\%\).Va\(t\).D\(ib\).Td\(n\).rapidnofollow.js-content-viewer
 www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > li.stream-grid-view_Flxb\(1\/3\).My\(12px\).Pos\(r\).Bgc\(t\).js-stream-content.stream-item > .stream-grid-view_Fld\(c\).D\(f\).Pos\(r\).userintent-hidestrmitem_D\(n\) > .Fxg\(1\).Fxb\(0\).Fld\(c\).D\(f\) > .wafer-destroyed.wafer-fetch-complete
 www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > li.stream-grid-view_Flxb\(1\/3\).My\(12px\).Pos\(r\).Bgc\(t\).js-stream-content.stream-item > .stream-grid-view_Fld\(c\).D\(f\).Pos\(r\).userintent-hidestrmitem_D\(n\) > .user-intent-options.End\(0\).T\(0\).Pos\(a\) > div > .has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\) > .has-fetch-click.C\(\$c_icon\).D\(b\).Td\(n\).Td\(n\)\:h.fetch-with-session-retry.wafer-fetch.Fill\(\#828c93\).userintent-panelbtn.userintentmgmt-panel\:h\>Fill\(\$streamBrandHoverClass\).Py\(0\).Pend\(0\).Pstart\(4px\).O\(n\)\:f.Bd\(n\).Pos\(r\)
@@ -295,6 +296,47 @@ yahoo.com##.share-menu-wrapper
 yahoo.com##.sharing-toolbar
 yahoo.com##.spns
 yahoo.com##.spon.clearfix
+yahoo.com##.stream-item:has-text(/Allure/i)
+yahoo.com##.stream-item:has-text(/Best Life/i)
+yahoo.com##.stream-item:has-text(/Best Products/i)
+yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
+yahoo.com##.stream-item:has-text(/Celebrity/i)
+yahoo.com##.stream-item:has-text(/Colin Kaepernick/i)
+yahoo.com##.stream-item:has-text(/Cosmo/i)
+yahoo.com##.stream-item:has-text(/Country Living/i)
+yahoo.com##.stream-item:has-text(/Delish/i)
+yahoo.com##.stream-item:has-text(/Dr. Phil CBS/i)
+yahoo.com##.stream-item:has-text(/Entertainment/i)
+yahoo.com##.stream-item:has-text(/Footware News/i)
+yahoo.com##.stream-item:has-text(/Glamour/i)
+yahoo.com##.stream-item:has-text(/Good Housekeeping/i)
+yahoo.com##.stream-item:has-text(/House Beautiful/i)
+yahoo.com##.stream-item:has-text(/INSIDER/i)
+yahoo.com##.stream-item:has-text(/In The Know/i)
+yahoo.com##.stream-item:has-text(/InStyle/i)
+yahoo.com##.stream-item:has-text(/Lifestyle/i)
+yahoo.com##.stream-item:has-text(/Marie Claire/i)
+yahoo.com##.stream-item:has-text(/Meredith Videos/i)
+yahoo.com##.stream-item:has-text(/PA Media: Sport/i)
+yahoo.com##.stream-item:has-text(/POPSUGAR/i)
+yahoo.com##.stream-item:has-text(/PureWow/i)
+yahoo.com##.stream-item:has-text(/Robb Report/i)
+yahoo.com##.stream-item:has-text(/Rumble/i)
+yahoo.com##.stream-item:has-text(/Seventeen/i)
+yahoo.com##.stream-item:has-text(/SheKnows/i)
+yahoo.com##.stream-item:has-text(/Storyful/i)
+yahoo.com##.stream-item:has-text(/Teen Vogue/i)
+yahoo.com##.stream-item:has-text(/TheBlast/i)
+yahoo.com##.stream-item:has-text(/Who What Wear/i)
+yahoo.com##.stream-item:has-text(/Yahoo Canada Style/i)
+yahoo.com##.stream-item:has-text(/Yahoo Style UK/i)
+yahoo.com##.stream-item:has-text(/YourTango/i)
+yahoo.com##.stream-item:has-text(/bbc/i)
+yahoo.com##.stream-item:has-text(/eat this, not that!/i)
+yahoo.com##.stream-item:has-text(/gq/i)
+yahoo.com##.stream-item:has-text(/scary mommy/i)
+yahoo.com##.stream-item:has-text(/style/i)
+yahoo.com##.stream-item:has-text(/yahoo life shopping/i)
 yahoo.com##.uh-notifications
 yahoo.com##.wdpa1
 yahoo.com##.y7-breakout-bracket
@@ -329,6 +371,7 @@ yellowpages.com###yahoo_ss_border
 ||bankrate.com^$subdocument,domain=yahoo.com
 ||beap.gemini.yahoo.com^
 ||beap.gemini.yahoo.com^$popup,domain=mail.yahoo.com
+||csp.yahoo.com^
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
