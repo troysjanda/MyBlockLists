@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 4.95
-! Additions (3) Deletions (0) Modified (0)
+! Version 5.00
+! Additions (2) Deletions (0) Modified (8)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk$
@@ -21,9 +21,6 @@
 */wp-content/plugins/adtoniq/^$important,third-party
 *fbclid=$1p,document,important
 /advert.js$important
-/bannery/$image
-/exoads/b/
-/generate_204
 /i.gif
 /p.gif
 /pixel2.gif?
@@ -56,7 +53,7 @@ amazon-adsystem\.com$
 amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
-anitube.*##+js(abort-on-property-read.js, redirect1)
+anitube.*##+js(abort-on-property-read, redirect1)
 b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
 betanews.com###bd > .sideCol > .submitNews.content
 betanews.com###bd > .sideCol > div.flexibleBoxad > .adbox-header
@@ -69,8 +66,8 @@ dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
 dlford.io##[href^="https://sifmail.com/"]
 doubleclick.net^$important
-egy.best##+js(abort-current-inline-script.js, WinMsgHtml, adblock_msg)
-egy.best##+js(abort-on-property-write.js, decodeURIComponent)
+egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
+egy.best##+js(abort-on-property-write, decodeURIComponent)
 en.wikipedia.org###frb-main
 en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
@@ -93,7 +90,7 @@ github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
-https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
+||https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ign.com##^script:has-text(g01.ign.com)
 kaffnet\.com$
 magicalthirteen.com^$important
@@ -101,7 +98,7 @@ news.yahoo.com##.vdb-player-extra-advertisement-text
 nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
 pandora.com##script:contains(getAdList)
-pipocas.tv##+js(bab-defuser.js)
+pipocas.tv##+js(bab-defuser)
 pornhub.com###under-player-comments
 pornhub.com###welcome
 r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
@@ -109,7 +106,7 @@ reddit.com###ad_1
 reddit.com###ad_4
 reddit.com###ad_5
 reddit.com###ad_6
-reddit.com##+js(remove-attr.js, data-inbound-url, a[data-href-url])
+reddit.com##+js(remove-attr, data-inbound-url, a[data-href-url])
 reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.author-tooltip
 reddit.com##.dfp-ad-container
