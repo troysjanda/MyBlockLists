@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.20
-! Additions (20) Deletions (0) Modified (0)
+! Version 5.25
+! Additions (0) Deletions (0) Modified (3)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -192,7 +192,7 @@ youtube.com###watch-action-panels
 ||2822.v.fwmrm.net^
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
-||analytics.js
+/analytics.js
 ||animeland.tv/scripts/$script
 ||atwola.com^
 ||banananalytics.com^$important
@@ -246,7 +246,7 @@ youtube.com###watch-action-panels
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
 ||servebom.com^
 ||serving-sys.com^
-||sp.js
+/sp.js
 ||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
 ||static-42andpark-com.s3.amazonaws.com^
@@ -259,7 +259,7 @@ youtube.com###watch-action-panels
 ||tfbnw.*/
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
-||vendor/sp.js
+/vendor/sp.js
 ||verizonmedia.com^
 ||volantix.com^
 ||washingtonpost.com/*/pwapi-proxy.min.js$script
