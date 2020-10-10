@@ -6,10 +6,13 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.10
-! Additions (0) Deletions (20) Modified (5)
+! Version 5.20
+! Additions (20) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+(^|\.)co\.uk\.media\.orehawa\.co\.uk/$
+(^|\.)com\.media\.orehawa\.co\.uk/$
+(^|\.)net\.media\.orehawa\.co\.uk/$
 *##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *##.tab-content .tab-pane:style(display:block !important;)
 *##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
@@ -17,10 +20,26 @@
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
 *fbclid=$1p,document,important
+/^ad([sxv])?[0-9]*[-_.]
+/^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
+/^adtrack(er|ing)?[0-9]*[-.]
+/^advert(s|is(ing|ements?))?[0-9]*[-_.]
+/^aff(iliat(es?|ion))?[-.]
+/^analytics?[-.]
+/^banners?[-.]
+/^beacons?[0-9]*[-.]
+/^clicks?[-.]
+/^count(ers?)?[0-9]*[-.]
+/^pixels?[-.]
+/^stat(s|istics)?[0-9]*[-.]
+/^telemetry[-.]
+/^track(ers?|ing)?[0-9]*[-.]
+/^traff(ic)?[-.]
 /advert.js$important
 /i.gif
 /p.gif
 /pixel2.gif?
+/r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
 /static/pixel.png
 /wp-admin/admin-ajax.php
 /wp-content/plugins/wp-content-copy-protector^
@@ -72,7 +91,6 @@ github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
-||https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ign.com##^script:has-text(g01.ign.com)
 kaffnet.com$
 magicalthirteen.com^$important
@@ -101,6 +119,7 @@ rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !i
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
+startapp/(exchange|network|service)\.com/$
 thebroodle.com##.EAJKXIqksYmj-bg
 thebroodle.com##.EAJKXIqksYmj-default
 theforestmap.com##.in.fade.modal-backdrop
@@ -170,12 +189,10 @@ www.youtube.com##.opened
 xhamster.com##.wih-spa.wih-spb
 youtube.com###chat
 youtube.com###watch-action-panels
-||analytics.js
-||sp.js
-||vendor/sp.js
 ||2822.v.fwmrm.net^
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
+||analytics.js
 ||animeland.tv/scripts/$script
 ||atwola.com^
 ||banananalytics.com^$important
@@ -212,6 +229,7 @@ youtube.com###watch-action-panels
 ||hd-dev.com^
 ||http://yo/guce-js
 ||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
+||https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ||https://s.yimg.com/os/mit/media/m/base/images/transparent-95031.png^
 ||ima3vpaid.appspot.com^
 ||jamexistence.com^$important
@@ -228,6 +246,7 @@ youtube.com###watch-action-panels
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
 ||servebom.com^
 ||serving-sys.com^
+||sp.js
 ||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
 ||static-42andpark-com.s3.amazonaws.com^
@@ -240,6 +259,7 @@ youtube.com###watch-action-panels
 ||tfbnw.*/
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
+||vendor/sp.js
 ||verizonmedia.com^
 ||volantix.com^
 ||washingtonpost.com/*/pwapi-proxy.min.js$script
