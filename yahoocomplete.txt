@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.00
-! Additions (0) Deletions (0) Modified (0)
+! Version 6.10
+! Additions (0) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -263,7 +263,6 @@ yahoo.com##.js-stream-content:has-text(/Footware News/i)
 yahoo.com##.js-stream-content:has-text(/Glamour/i)
 yahoo.com##.js-stream-content:has-text(/Good Housekeeping/i)
 yahoo.com##.js-stream-content:has-text(/House Beautiful/i)
-yahoo.com##.js-stream-content:has-text(/INSIDER/i)
 yahoo.com##.js-stream-content:has-text(/In The Know/i)
 yahoo.com##.js-stream-content:has-text(/InStyle/i)
 yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
@@ -311,7 +310,6 @@ yahoo.com##.stream-item:has-text(/Footware News/i)
 yahoo.com##.stream-item:has-text(/Glamour/i)
 yahoo.com##.stream-item:has-text(/Good Housekeeping/i)
 yahoo.com##.stream-item:has-text(/House Beautiful/i)
-yahoo.com##.stream-item:has-text(/INSIDER/i)
 yahoo.com##.stream-item:has-text(/In The Know/i)
 yahoo.com##.stream-item:has-text(/InStyle/i)
 yahoo.com##.stream-item:has-text(/Lifestyle/i)
