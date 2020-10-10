@@ -6,13 +6,10 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.00
-! Additions (2) Deletions (0) Modified (8)
+! Version 5.10
+! Additions (0) Deletions (20) Modified (5)
 !
 ! -- Start Filters --
-(^|\.)co\.uk\.media\.orehawa\.co\.uk$
-(^|\.)com\.media\.orehawa\.co\.uk$
-(^|\.)net\.media\.orehawa\.co\.uk$
 *##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *##.tab-content .tab-pane:style(display:block !important;)
 *##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
@@ -33,23 +30,8 @@
 @@||outbrain.com^$script,domain=dailywire.com
 @@||pandora.com/web-version/*/ads.json$xhr
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
-^ad([sxv])?[0-9]*[-_.]
-^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
-^adtrack(er|ing)?[0-9]*[-.]
-^advert(s|is(ing|ements?))?[0-9]*[-_.]
-^aff(iliat(es?|ion))?[-.]
-^analytics?[-.]
-^banners?[-.]
-^beacons?[0-9]*[-.]
-^clicks?[-.]
-^count(ers?)?[0-9]*[-.]
-^pixels?[-.]
-^stat(s|istics)?[0-9]*[-.]
-^telemetry[-.]
-^track(ers?|ing)?[0-9]*[-.]
-^traff(ic)?[-.]
 adtoniq.com^$important,third-party
-amazon-adsystem\.com$
+amazon-adsystem.com$
 amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
@@ -92,7 +74,7 @@ google.*##+js(aeld, DOMContentLoaded, CONSENT)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 ||https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ign.com##^script:has-text(g01.ign.com)
-kaffnet\.com$
+kaffnet.com$
 magicalthirteen.com^$important
 news.yahoo.com##.vdb-player-extra-advertisement-text
 nexusmods.com##.areplacer
@@ -101,7 +83,6 @@ pandora.com##script:contains(getAdList)
 pipocas.tv##+js(bab-defuser)
 pornhub.com###under-player-comments
 pornhub.com###welcome
-r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
 reddit.com###ad_1
 reddit.com###ad_4
 reddit.com###ad_5
@@ -120,7 +101,6 @@ rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !i
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
-startapp(exchange|network|service)\.com$
 thebroodle.com##.EAJKXIqksYmj-bg
 thebroodle.com##.EAJKXIqksYmj-default
 theforestmap.com##.in.fade.modal-backdrop
@@ -190,9 +170,9 @@ www.youtube.com##.opened
 xhamster.com##.wih-spa.wih-spb
 youtube.com###chat
 youtube.com###watch-action-panels
-||/analytics.js
-||/sp.js
-||/vendor/sp.js
+||analytics.js
+||sp.js
+||vendor/sp.js
 ||2822.v.fwmrm.net^
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
