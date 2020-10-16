@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.25
-! Additions (0) Deletions (0) Modified (3)
+! Version 5.30
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -36,11 +36,14 @@
 /^track(ers?|ing)?[0-9]*[-.]
 /^traff(ic)?[-.]
 /advert.js$important
+/analytics.js
 /i.gif
 /p.gif
 /pixel2.gif?
 /r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
+/sp.js
 /static/pixel.png
+/vendor/sp.js
 /wp-admin/admin-ajax.php
 /wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
@@ -138,6 +141,8 @@ www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
+www.fastcompany.com##.box-195736
+www.fastcompany.com##.preloaded_lightbox
 www.forbes.com##.page-loaded
 www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
@@ -192,7 +197,6 @@ youtube.com###watch-action-panels
 ||2822.v.fwmrm.net^
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
-/analytics.js
 ||animeland.tv/scripts/$script
 ||atwola.com^
 ||banananalytics.com^$important
@@ -213,6 +217,7 @@ youtube.com###watch-action-panels
 ||connect.facebook.net
 ||consent.google.com^
 ||content.jwplatform.com^$domain=variety.com
+||dev-nano.com^$all
 ||digitru.st^
 ||disqusads.com^$important
 ||edge-mcdn.secure.yahoo.com^$1p
@@ -237,6 +242,7 @@ youtube.com###watch-action-panels
 ||mobilenations.com^
 ||oath.com^all
 ||phys.org^important
+||polyfill.io^$all
 ||reddit.com/api/me.json?*=$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/static/pixel.png^
@@ -246,7 +252,6 @@ youtube.com###watch-action-panels
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
 ||servebom.com^
 ||serving-sys.com^
-/sp.js
 ||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
 ||static-42andpark-com.s3.amazonaws.com^
@@ -259,7 +264,6 @@ youtube.com###watch-action-panels
 ||tfbnw.*/
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
-/vendor/sp.js
 ||verizonmedia.com^
 ||volantix.com^
 ||washingtonpost.com/*/pwapi-proxy.min.js$script
