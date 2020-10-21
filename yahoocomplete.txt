@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.20
-! Additions (1) Deletions (0) Modified (0)
+! Version 6.25
+! Additions (1) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -50,7 +50,7 @@
 ##.yahooad-urlline
 ##.yahooads
 ##.yahootextads_content_bottom
-*$3p,script,denyallow=yimg.com|yahoodns.net|twitter.com|fastly.net,domain=yahoo.com|sports.yahoo.com
+*$3p,script,denyallow=yimg.com|instagram.com|yahoodns.net|twitter.com|fastly.net,domain=yahoo.com|sports.yahoo.com
 /YahooAd_
 /ads/yahoo/*
 /ads_yahoo.
@@ -151,6 +151,7 @@ sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W
 sports.yahoo.com##.Cur\(p\).My\(12px\) > path
 sports.yahoo.com##.M\(a\).Ta\(c\).Pos\(a\).ys-interstitial-container > div > .Start\(0\).T\(0\).Pos\(a\).H\(100\%\).W\(100\%\)
 sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-promo
+sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4px\).Bds\(s\).Bdc\(\$c-fuji-grey-4\).gemini-banner-promo
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
