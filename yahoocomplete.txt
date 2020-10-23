@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.25
-! Additions (1) Deletions (0) Modified (1)
+! Version 6.30
+! Additions (0) Deletions (1) Modified (1)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -50,7 +50,7 @@
 ##.yahooad-urlline
 ##.yahooads
 ##.yahootextads_content_bottom
-*$3p,script,denyallow=yimg.com|instagram.com|yahoodns.net|twitter.com|fastly.net,domain=yahoo.com|sports.yahoo.com
+!*$3p,script,denyallow=yimg.com|instagram.com|yahoodns.net|twitter.com|fastly.net,domain=yahoo.com|sports.yahoo.com
 /YahooAd_
 /ads/yahoo/*
 /ads_yahoo.
