@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.30
-! Additions (0) Deletions (1) Modified (1)
+! Version 6.40
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -50,7 +50,6 @@
 ##.yahooad-urlline
 ##.yahooads
 ##.yahootextads_content_bottom
-!*$3p,script,denyallow=yimg.com|instagram.com|yahoodns.net|twitter.com|fastly.net,domain=yahoo.com|sports.yahoo.com
 /YahooAd_
 /ads/yahoo/*
 /ads_yahoo.
@@ -155,6 +154,7 @@ sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4px\).Bds\(s\).Bdc\(\$c-fuji-grey-4\).gemini-banner-promo
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
+sports.yahoo.com##.vp-docked-mode.StretchedBox
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id*="PromoImage-Proxy"]
@@ -184,6 +184,7 @@ www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\)
 www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\) > .C\(\#232a31\)
+www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.StretchedBox
 www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
 www.yahoo.com##.comment-count
@@ -338,6 +339,7 @@ yahoo.com##.stream-item:has-text(/scary mommy/i)
 yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.stream-item:has-text(/yahoo life shopping/i)
 yahoo.com##.uh-notifications
+yahoo.com##.vp-docked-mode.StretchedBox
 yahoo.com##.wdpa1
 yahoo.com##.y7-breakout-bracket
 yahoo.com##.y708-ad-eyebrow
