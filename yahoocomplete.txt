@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.40
-! Additions (3) Deletions (0) Modified (0)
+! Version 6.50
+! Additions (2) Deletions (4) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -191,6 +191,7 @@ www.yahoo.com##.comment-count
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
+www.yahoo.com##.wafer-error.wafer-img
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com#@##my-adsFPAD
 yahoo.com###LREC
@@ -360,7 +361,6 @@ yahoo.com##div[class*="ads-"]
 yahoo.com##div[data-type="ADS"]
 yahoo.com##div[id^="tile-mb-"]
 yahoo.com##div[style*="/ads/"]
-yahoo.com##li[data-beacon^="https://beap.adss.yahoo.com/"]
 yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]
 yahoo.com#@#.type_ads_default
@@ -371,8 +371,6 @@ yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
 ||bankrate.com^$subdocument,domain=yahoo.com
-||beap.gemini.yahoo.com^
-||beap.gemini.yahoo.com^$popup,domain=mail.yahoo.com
 ||csp.yahoo.com^
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
@@ -421,6 +419,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
 ||s.yimg.com/ny/api/res/1.2/5.ovmwOWtKvaSS10mSoWFQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNQ--/https://media.zenfs.com/en/autoblog_50/a90a19ed701ee2a76d856565c615eb6b$image
+||s.yimg.com/ny/api/res/1.2/KJY4K36Dqt5EJZBczydWGA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTIzNg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-10/4c7d4030-17ad-11eb-bf75-2fe43501d3fe$image
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||w.homes.yahoo.net^
@@ -434,7 +433,6 @@ yellowpages.com###yahoo_ss_border
 ||yahoo.eulerian.net
 ||yahoo.net^*/ads/
 ||yeas.yahoo.co.jp^
-||yimg.com/ao/adv/$script,domain=yahoo.com
 ||yimg.com/cv/ae/ca/audience/$image,domain=yahoo.com
 ||yimg.com/cv/ae/us/audience/$image,domain=yahoo.com
 ||yimg.com/cv/eng/*.webm$domain=yahoo.com

@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.45
-! Additions (8) Deletions (0) Modified (0)
+! Version 5.55
+! Additions (5) Deletions (5) Modified (1)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -71,6 +71,7 @@ dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
 dlford.io##[href^="https://sifmail.com/"]
 doubleclick.net^$important
+duckduckgo.com##.is-slotted-first.grid-3-cols.has-grid.has-hidden-vertical.bing.has-main-source.js-module--products.module--carousel-products.module--carousel.module
 egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
 en.wikipedia.org###frb-main
@@ -98,7 +99,6 @@ google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-a
 ign.com##^script:has-text(g01.ign.com)
 kaffnet.com$
 magicalthirteen.com^$important
-news.yahoo.com##.vdb-player-extra-advertisement-text
 nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
 pandora.com##script:contains(getAdList)
@@ -178,12 +178,16 @@ www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > d
 www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.nascar-ad-container
 www.nascar.com##footer#footer.site-footer.site-footer-nascar > div.nascar-footer > footer > div.row.divider > div.col-3 > div.disclaimer-container
 www.ninersnation.com##.adblock-allowlist-messaging__wrapper
+www.ninersnation.com##div.c-compact-river__entry:nth-of-type(10)
 www.phoronix.com###\31 ca940
 www.reddit.com##.happening-now
 www.reddit.com##.premium-banner
 www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
 www.reddit.com|$xmlhttprequest
+www.rockpapershotgun.com###onetrust-button-group-parent
+www.rockpapershotgun.com###onetrust-group-container
+www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
 www.spanishdict.com###adSide2-container
 www.techpowerup.com##aside.mnmuzjsddc:nth-of-type(1)
 www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
@@ -206,7 +210,6 @@ youtube.com###watch-action-panels
 ||animeland.tv/scripts/$script
 ||atwola.com^
 ||banananalytics.com^$important
-||beap.gemini.yahoo.com
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
 ||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
 ||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0*.jpeg$image
@@ -219,7 +222,6 @@ youtube.com###watch-action-panels
 ||cdn.report-uri.com^
 ||cdn.yottos.com^
 ||clksite.com^$important
-||cloudflare-dns.com/dns-query?$3p,xhr,domain=yahoo.com
 ||connect.facebook.com
 ||connect.facebook.net
 ||consent.google.com^
@@ -227,7 +229,6 @@ youtube.com###watch-action-panels
 ||dev-nano.com^$all
 ||digitru.st^
 ||disqusads.com^$important
-||edge-mcdn.secure.yahoo.com^$1p
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
@@ -242,7 +243,6 @@ youtube.com###watch-action-panels
 ||http://yo/guce-js
 ||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
 ||https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
-||https://s.yimg.com/os/mit/media/m/base/images/transparent-95031.png^
 ||ima3vpaid.appspot.com^
 ||jamexistence.com^$important
 ||mailtrack.io^$important
