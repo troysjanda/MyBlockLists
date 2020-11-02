@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.50
-! Additions (2) Deletions (4) Modified (0)
+! Version 6.65
+! Additions (6) Deletions (4) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -88,8 +88,10 @@ finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.yfi_ad_s
+finance.yahoo.com##div.O\(n\).Va\(t\)\!.D\(ib\).nedImage.Pos\(r\).W\(33\.3\%\) > div
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 finance.yahoo.com,news.yahoo.com##.yom-ysmcm
+finance.yahoo.om##.adfeedback-tripledot
 foxnews.com,yahoo.com#@#.ad-enabled
 games.yahoo.com,movies.yahoo.com##.md.links
 groups.yahoo.com##.yg-mbad-row
@@ -136,6 +138,7 @@ realestate.yahoo.com###pdp-ysm
 realestate.yahoo.com###srp-ysm
 reflector.com##.yahooboss
 rxlist.com##.Yahoo
+search.yahoo.com###browserExtensionPromotionBanner
 search.yahoo.com##.prod_listings_pe
 search.yahoo.com##.sys_shopleguide
 sevenload.com###yahoo-container
@@ -193,6 +196,7 @@ www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
 www.yahoo.com##.wafer-error.wafer-img
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
+www.yahoo.com##figure.caas-figure:nth-of-type(5)
 www.yahoo.com#@##my-adsFPAD
 yahoo.com###LREC
 yahoo.com###LREC-sizer
@@ -367,6 +371,8 @@ yahoo.com#@#.type_ads_default
 yahoo.com.au##.TL_genericads_columns
 yahoo.com.au##.TL_medRec_container
 yahoo.com.au##.boxMidRt.pB0
+yahoo.com^*utm_$queryprune=|utm_
+yahoo.om##.adfeedback-tripledot
 yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
