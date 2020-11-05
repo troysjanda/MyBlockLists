@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.65
-! Additions (10) Deletions (0) Modified (0)
+! Version 5.75
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -48,6 +48,7 @@
 /wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
 @@||cbssports.com/video/player$inline-script
+@@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||outbrain.com^$script,domain=dailywire.com
 @@||pandora.com/web-version/*/ads.json$xhr
@@ -234,6 +235,9 @@ youtube.com###watch-action-panels
 ||content.jwplatform.com^$domain=variety.com
 ||dev-nano.com^$all
 ||digitru.st^
+||disqus.com/count.js$script
+||disqus.com/embed.js$script,redirect=disqus_embed.js
+||disqus.com/forums/*/embed.js$script,redirect=disqus_forums_embed.js
 ||disqusads.com^$important
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
