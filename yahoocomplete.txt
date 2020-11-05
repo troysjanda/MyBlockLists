@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.65
-! Additions (6) Deletions (4) Modified (0)
+! Version 6.75
+! Additions (0) Deletions (8) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -80,7 +80,6 @@ biz.yahoo.com##table[bgcolor="white"][width="100%"]
 candofinance.com,idealhomegarden.com##.yahooSl
 consent.yahoo.com##.consent-semi-transparent
 cricket.yahoo.com###video-branding
-csp.yahoo.com^$important
 dir.yahoo.com##td[width="215"]
 everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
 finance.yahoo.com###mediabankrate_container
@@ -377,11 +376,9 @@ yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
 ||bankrate.com^$subdocument,domain=yahoo.com
-||csp.yahoo.com^
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
-||gemini.yahoo.com^*^syndication^
 ||geocities.yahoo.*/js/sq.
 ||iframe.travel.yahoo.com^
 ||im.ov.yahoo.co.jp^
@@ -424,8 +421,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
-||s.yimg.com/ny/api/res/1.2/5.ovmwOWtKvaSS10mSoWFQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNQ--/https://media.zenfs.com/en/autoblog_50/a90a19ed701ee2a76d856565c615eb6b$image
-||s.yimg.com/ny/api/res/1.2/KJY4K36Dqt5EJZBczydWGA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTIzNg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-10/4c7d4030-17ad-11eb-bf75-2fe43501d3fe$image
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||w.homes.yahoo.net^
@@ -455,8 +450,4 @@ yellowpages.com###yahoo_ss_border
 ||yimg.com^*/ya-answers-dmros-ssl-min.js$domain=yahoo.com
 ||yimg.com^*/yad*.js$domain=yahoo.com
 ||yimg.com^*/yfpadobject.js$domain=yahoo.com
-||yimg.com^*_east.swf$domain=yahoo.com
-||yimg.com^*_north.swf$domain=yahoo.com
 ||yimg.com^*_skin_$domain=yahoo.com
-||yimg.com^*_west.swf$domain=yahoo.com
-||ysm.yahoo.com^
