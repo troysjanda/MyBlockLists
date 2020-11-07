@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.75
-! Additions (0) Deletions (8) Modified (0)
+! Version 6.85
+! Additions (9) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -128,6 +128,7 @@ music.yahoo.com###lrecTop
 mysanantonio.com##.yahoo-bg
 news.yahoo.com###mw-ysm-cm_2-container
 news.yahoo.com###north
+news.yahoo.com##.Bg\(featurebarGradient-0\).W\(100\%\).Pend\(163px\).Py\(8px\).Pstart\(0\).Whs\(n\).Bxz\(bb\).Bdrs\(2px\)
 news.yahoo.com##.userintent-wrapper
 newsok.com##.yahoo_cm
 nz.yahoo.com##.y7countdown
@@ -142,10 +143,12 @@ search.yahoo.com##.prod_listings_pe
 search.yahoo.com##.sys_shopleguide
 sevenload.com###yahoo-container
 shopping.yahoo.com##.shmod-ysm
+sports.yahoo.com###Col1-0-BreakingNews-Proxy > div
 sports.yahoo.com###Col1-1-Interstitial-Proxy > .Z\(11\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(f\).ys-interstitial
 sports.yahoo.com###Col1-3-Interstitial-Proxy > .Z\(11\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(f\).ys-interstitial
 sports.yahoo.com###Col1-4-Interstitial-Proxy > .Z\(11\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(f\).ys-interstitial
 sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
+sports.yahoo.com###Lead-3-BreakingNews-Proxy > div
 sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
 sports.yahoo.com###uh-tb-firefoxpromo
 sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
@@ -186,13 +189,19 @@ www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\)
 www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\) > .C\(\#232a31\)
+www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44px\).Fz\(13px\).Bgc\(\$c-fuji-smurfette\).C\(\#fff\).Bdc\(\$c-fuji-smurfette\).Bdrs\(22px\).Bdw\(1px\).Fw\(b\).Bds\(s\).W\(100\%\).uh-banner-wide_D\(n\).Cur\(p\)
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
+www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
+www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
 www.yahoo.com##.StretchedBox
 www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
+www.yahoo.com##.balance-container
+www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
+www.yahoo.com##.wafer
 www.yahoo.com##.wafer-error.wafer-img
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
