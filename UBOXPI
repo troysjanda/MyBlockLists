@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.85
-! Additions (0) Deletions (1) Modified (0)
+! Version 5.95
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -20,6 +20,7 @@
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
 *fbclid=$1p,document,important
+*utm_$document,1p,queryprune=|utm_
 /^ad([sxv])?[0-9]*[-_.]
 /^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
 /^adtrack(er|ing)?[0-9]*[-.]
@@ -256,11 +257,13 @@ youtube.com###watch-action-panels
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
 ||mailtrack.io^$important
+||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
 ||mobilenations.com^
 ||oath.com^all
 ||phys.org^important
 ||polyfill.io^
 ||polyfill.io^$all
+||rawgit.com^$important
 ||reddit.com/api/me.json?*=$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/static/pixel.png^
@@ -275,6 +278,7 @@ youtube.com###watch-action-panels
 ||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
 ||static-42andpark-com.s3.amazonaws.com^
+||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
 ||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
 ||stripe.rs-stripe.com
