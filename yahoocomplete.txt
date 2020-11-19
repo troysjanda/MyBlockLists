@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.85
-! Additions (9) Deletions (0) Modified (0)
+! Version 6.95
+! Additions (1) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -269,7 +269,6 @@ yahoo.com##.js-stream-content:has-text(/Best Life/i)
 yahoo.com##.js-stream-content:has-text(/Best Products/i)
 yahoo.com##.js-stream-content:has-text(/Black Lives Matter/i)
 yahoo.com##.js-stream-content:has-text(/Celebrity/i)
-yahoo.com##.js-stream-content:has-text(/Colin Kaepernick/i)
 yahoo.com##.js-stream-content:has-text(/Cosmo/i)
 yahoo.com##.js-stream-content:has-text(/Country Living/i)
 yahoo.com##.js-stream-content:has-text(/Delish/i)
@@ -316,7 +315,6 @@ yahoo.com##.stream-item:has-text(/Best Life/i)
 yahoo.com##.stream-item:has-text(/Best Products/i)
 yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
 yahoo.com##.stream-item:has-text(/Celebrity/i)
-yahoo.com##.stream-item:has-text(/Colin Kaepernick/i)
 yahoo.com##.stream-item:has-text(/Cosmo/i)
 yahoo.com##.stream-item:has-text(/Country Living/i)
 yahoo.com##.stream-item:has-text(/Delish/i)
@@ -410,6 +408,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_FOMO_Countdown_082820__September9@1x.jpg^
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_Phase4_082820_880x150@1x.jpg^
+||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_Banners_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
 ||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png

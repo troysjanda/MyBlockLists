@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 5.95
-! Additions (4) Deletions (0) Modified (0)
+! Version 6.0
+! Additions (12) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -103,6 +103,8 @@ kaffnet.com$
 magicalthirteen.com^$important
 nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
+noypigeeks.com##a[target="_blank"] > img[src*=".noypigeeks.com/"]
+nytimes.com##form[name="newsletter-banner"]:upward([aria-hidden])
 pandora.com##script:contains(getAdList)
 pipocas.tv##+js(bab-defuser)
 pl.premium4kflix.club###playerCta-wrapper
@@ -166,7 +168,15 @@ www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .U
 www.google.com##:root:style(overflow-y: visible !important;)
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
+www.latimes.com###\38 cd4c321-9fd2-4261-b708-33ff456f0217
+www.latimes.com###rule-2999
+www.latimes.com###rule-3000
 www.latimes.com##.met-rule-2772.met-flyout
+www.latimes.com##.met-rule-3004.met-flyout > .met-button-varB
+www.latimes.com##.met-rule-3007.met-flyout
+www.latimes.com##.ncm-container
+www.latimes.com##.overlay
+www.latimes.com##.wrapclicker
 www.mediafire.com###abnotify
 www.mercurynews.com##.videoPlayer.smartMatch.hasStarted.float
 www.msn.com###irisbanner > .irisbannertop.irisbanner
@@ -209,6 +219,7 @@ www.youtube.com##.opened
 xhamster.com##.wih-spa.wih-spb
 youtube.com###chat
 youtube.com###watch-action-panels
+youtube.com##.ytp-paid-content-overlay-tex
 ||2822.v.fwmrm.net^
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
@@ -259,6 +270,7 @@ youtube.com###watch-action-panels
 ||mailtrack.io^$important
 ||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
 ||mobilenations.com^
+||nc0.co^$important
 ||oath.com^all
 ||phys.org^important
 ||polyfill.io^
