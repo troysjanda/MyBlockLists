@@ -5,7 +5,7 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 6.95
+! Version 7.15
 ! Additions (1) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
