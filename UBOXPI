@@ -6,10 +6,11 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.15
-! Additions (0) Deletions (0) Modified (0)
+! Version 7.25
+! Additions (7) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+$removeparam=/utm_.*/
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
@@ -46,6 +47,7 @@
 /static/pixel.png
 /vendor/sp.js
 /wp-admin/admin-ajax.php
+/wp-content/plugins/convertplug^
 /wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
 @@||disqus.com/embed.js?_=1457540*$script
@@ -77,7 +79,9 @@ duckduckgo.com##.is-slotted-first.grid-3-cols.has-grid.has-hidden-vertical.bing.
 egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
 en.wikipedia.org###frb-main
+en.wikipedia.org##.frb-country-US.frb-rml-enabled.frb
 en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
+en.wikipedia.org##.reveal.frb-rml-enabled.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 everydayhealth.com##^script:has-text(/i10C/i)
 facebook.com##div.h_r03bd44ox.pagelet
@@ -139,6 +143,9 @@ thehackernews.com##.top-follow
 thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
+troypoint.com###cboxOverlay
+troypoint.com##.easy-notification-bar
+troypoint.com##.fusion-secondary-header
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 uploadship.com##+js(std, adblock)
