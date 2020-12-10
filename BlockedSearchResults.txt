@@ -1,0 +1,3 @@
+*://*.twitter.com/*
+*://*.facebook.com/*
+*://*.instagram.com/*
