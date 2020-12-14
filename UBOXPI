@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.15
-! Additions (0) Deletions (0) Modified (0)
+! Version 7.35
+! Additions (0) Deletions (13) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -85,13 +85,6 @@ forums.theregister.com###adtoniq-msgr-bar
 foxnews.com##.content:has-text(/SPONSORED/i)
 foxnews.com##.is-programming.alert-banner
 getcomics.info###advanced_floating_content_85155
-ghacks.net###ghacks_ad_code-1
-ghacks.net###ghacks_ad_code-2
-ghacks.net###ghacks_ad_code-3
-ghacks.net###ghacks_ad_code-4
-ghacks.net###ghacks_ad_code-5
-ghacks.net##.ghacks-ad
-ghacks.net##^script:has-text(AdBlockerDetector)
 github.com##.commit-desc:style(display:block !important;)
 github.com##.hidden-text-expander:style(display:none !important;)
 github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
@@ -157,12 +150,6 @@ www.foxnews.com##.is-breaking.alert-banner
 www.foxnews.com##.item-nation-email-mod.item
 www.foxnews.com##.item-nation-trial-mod.item
 www.foxnews.com##.sticky-nav.collection-article-scroller.collection
-www.ghacks.net###download-widget
-www.ghacks.net###ghacks_share_widget-5
-www.ghacks.net##.category-deals
-www.ghacks.net##.ghacks-ad-loaded
-www.ghacks.net##.tag-sponsored.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-155900.post-list-sponsored.mt--first--0.mt--60.post-list
-www.ghacks.net##.tag-sponsored.tag-featured.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-160576.post-list-sponsored.mt--first--0.mt--60.post-list
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
 www.google.com##:root:style(overflow-y: visible !important;)
@@ -307,7 +294,6 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||windows.net^
 ||wp.pl^$third-party,domain=~wp.pl
 ||wpimg.pl^$third-party,domain=~wp.pl
-||www.ghacks.net/wp-content/plugins/geoip-detect//js/dist/frontend.5faa9eb4.js?ver=3.0.1$script,domain=www.ghacks.net,important
 ||www.google-analytics.com/analytics.js
 ||www.microsoft.com-windows-booster.live^
 ||www.oath.com^
