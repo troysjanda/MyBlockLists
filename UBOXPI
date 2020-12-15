@@ -6,13 +6,16 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.35
-! Additions (0) Deletions (13) Modified (0)
+! Version 7.45
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
+*##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
+*##+js(no-fetch-if, adsbygoogle.js)
+*##+js(no-fetch-if, cmp.js)
 *##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *##.tab-content .tab-pane:style(display:block !important;)
 *##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
@@ -211,6 +214,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
 ||alb.reddit.com^$all
+||ampproject.org^
 ||animeland.tv/scripts/$script
 ||atwola.com^
 ||banananalytics.com^$important

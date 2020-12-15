@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 7.15
-! Additions (1) Deletions (2) Modified (0)
+! Version 7.35
+! Additions (1) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -159,7 +159,6 @@ sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4px\).Bds\(s\).Bdc\(\$c-fuji-grey-4\).gemini-banner-promo
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
-sports.yahoo.com##.vp-docked-mode.StretchedBox
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id*="PromoImage-Proxy"]
@@ -193,7 +192,6 @@ www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
-www.yahoo.com##.StretchedBox
 www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
@@ -350,7 +348,6 @@ yahoo.com##.stream-item:has-text(/scary mommy/i)
 yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.stream-item:has-text(/yahoo life shopping/i)
 yahoo.com##.uh-notifications
-yahoo.com##.vp-docked-mode.StretchedBox
 yahoo.com##.wdpa1
 yahoo.com##.y7-breakout-bracket
 yahoo.com##.y708-ad-eyebrow
@@ -408,6 +405,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_FOMO_Countdown_082820__September9@1x.jpg^
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_Phase4_082820_880x150@1x.jpg^
+||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_880x150@1x.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_Banners_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
