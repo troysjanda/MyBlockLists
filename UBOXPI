@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.45
-! Additions (4) Deletions (0) Modified (0)
+! Version 7.55
+! Additions (6) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -137,7 +137,9 @@ thesolving.com##.nanoBackground
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
-uploadship.com##+js(std, adblock)
+www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup
+www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__background
+www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__wrapper--wide.popup__wrapper
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-bp-xl-v.cnx-bp-lg-st.cnx-in-ps-landscape.cnx-playspace-container
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ratio
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
@@ -203,6 +205,7 @@ www.theregister.com###adtoniq-msgr-bar
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-affiliate > strong > [href^="http://www.restoro.com/includes/route.php"]
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-content > div.c24ff8f4a2da697123def04f69833d8b > span > strong > [href^="http://www.restoro.com/includes/route.php"]
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12.col-md-4 > .sidebar > .widget_text.group.widget
+www.tomshardware.com###affiliateDisclaimer
 www.windowscentral.com##.article-header__disclosure
 www.youtube.com###dialog
 www.youtube.com##.opened
@@ -213,6 +216,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||2822.v.fwmrm.net^
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
+||advertisermirror.com^
 ||alb.reddit.com^$all
 ||ampproject.org^
 ||animeland.tv/scripts/$script
@@ -235,6 +239,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||connect.facebook.net
 ||consent.google.com^
 ||content.jwplatform.com^$domain=variety.com
+||curtistimes.com^
 ||dev-nano.com^$all
 ||digitru.st^
 ||disqus.com/count.js$script
