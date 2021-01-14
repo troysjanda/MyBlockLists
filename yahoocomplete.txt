@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 7.45
-! Additions (0) Deletions (0) Modified (0)
+! Version 7.55
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -196,6 +196,7 @@ www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrol
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
+www.yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
@@ -402,6 +403,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
 ||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
 ||s.yimg.com/cv/apiv2/default/20180730/FF-Launch-static__1HeadlineLarge_CreateLeague_880x150@.jpg
+||s.yimg.com/cv/apiv2/default/20180730/FH_Phase3_InProduct_Grad_880x150@1x.png$image
 ||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_FOMO_Countdown_082820__September9@1x.jpg^
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_Phase4_082820_880x150@1x.jpg^

@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.55
-! Additions (6) Deletions (1) Modified (0)
+! Version 7.65
+! Additions (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -16,6 +16,7 @@
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
 *##+js(no-fetch-if, adsbygoogle.js)
 *##+js(no-fetch-if, cmp.js)
+*##+js(nobab)
 *##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *##.tab-content .tab-pane:style(display:block !important;)
 *##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
@@ -137,6 +138,7 @@ thesolving.com##.nanoBackground
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
+utm_$queryprune=/^utm_/
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__background
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__wrapper--wide.popup__wrapper
@@ -171,6 +173,7 @@ www.latimes.com##.overlay
 www.latimes.com##.wrapclicker
 www.mediafire.com###abnotify
 www.mercurynews.com##.videoPlayer.smartMatch.hasStarted.float
+www.microcenter.com###ads
 www.msn.com###irisbanner > .irisbannertop.irisbanner
 www.msn.com##.loaded.allowvig.articlecontent > .shadow
 www.msn.com##.scrolled.head
@@ -264,6 +267,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
 ||mailtrack.io^$important
+||mcdn-report.wc.yahoodns.net^
 ||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
 ||mobilenations.com^
 ||nc0.co^$important
@@ -315,3 +319,4 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||youtube.com^*gclid*$queryprune=gclid
 ||ysearchblog.com^
 ||zenfs.com^
+||zupimages.net/up/19/42/6umy.gif$image
