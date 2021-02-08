@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 7.55
-! Additions (2) Deletions (0) Modified (0)
+! Version 7.75
+! Additions (0) Deletions (20+) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -87,9 +87,7 @@ finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.yfi_ad_s
-finance.yahoo.com##div.O\(n\).Va\(t\)\!.D\(ib\).nedImage.Pos\(r\).W\(33\.3\%\) > div
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
-finance.yahoo.com,news.yahoo.com##.yom-ysmcm
 finance.yahoo.om##.adfeedback-tripledot
 foxnews.com,yahoo.com#@#.ad-enabled
 games.yahoo.com,movies.yahoo.com##.md.links
@@ -171,17 +169,6 @@ weather.yahoo.com#@#.ad_slug_table
 weather.yahoo.com#@#.can_ad_slug
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
-www.yahoo.com###applet_p_50000287 > div > .Pos\(r\).Mb\(20px\).Bxz\(bb\).C\(\#fff\).tdv2-wafer-Featurebar > .Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#6001d2\)
-www.yahoo.com###applet_p_50000314 > div > .stream-items.P\(0\).List\(n\) > .wafer-destroyed.wafer-fetch-complete.Pb\(10px\).Mx\(-20px\).stream-item-card > div > .wafer-beacon.Bgc\(\#fdb5d2\).Pstart\(50px\).Pstart\(20px\)--md1200.Mx\(20px\).Jc\(sb\).Ai\(c\).D\(f\).Td\(n\)
-www.yahoo.com###applet_p_50000314 > div > .stream-items.P\(0\).List\(n\) > li.Bgc\(\#fff\).Pos\(r\).js-stream-content.stream-item > .Mih\(140px\) > .Cf.Pos\(r\).Py\(12px\).userintent-hidestrmitem_D\(n\) > .Ov\(h\).Pend\(45px\) > .P\(0\).Pos\(r\).Fz\(12px\).Mt\(12px\).List\(n\) > li.Mb\(8px\)--md1160.W\(100\%\)\!--md1160.W\(50\%\).Fl\(start\)
-www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > .wafer-destroyed.wafer-fetch-complete.Pb\(10px\).Mx\(-20px\).stream-item-card > div > .Bgc\(\#fdb5d2\).Pstart\(50px\).Pstart\(20px\)--md1200.Mx\(20px\).Jc\(sb\).Ai\(c\).D\(f\).Td\(n\)
-www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > li.stream-grid-view_Flxb\(1\/3\).My\(12px\).Pos\(r\).Bgc\(t\).js-stream-content.stream-item > .stream-grid-view_Fld\(c\).D\(f\).Pos\(r\).userintent-hidestrmitem_D\(n\) > .Fxg\(1\).Fxb\(0\).Fld\(c\).D\(f\) > .P\(0\).Pos\(r\).Fz\(12px\).Mt\(4px\).List\(n\).Mend\(50px\) > li.W\(50\%\).Fl\(start\) > .wafer-destroyed.Mend\(5\%\).W\(95\%\).Va\(t\).D\(ib\).Td\(n\).rapidnofollow.js-content-viewer
-www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > li.stream-grid-view_Flxb\(1\/3\).My\(12px\).Pos\(r\).Bgc\(t\).js-stream-content.stream-item > .stream-grid-view_Fld\(c\).D\(f\).Pos\(r\).userintent-hidestrmitem_D\(n\) > .Fxg\(1\).Fxb\(0\).Fld\(c\).D\(f\) > .wafer-destroyed.wafer-fetch-complete
-www.yahoo.com###applet_p_50000314 > div > .stream-items.grid-layout.P\(0\).List\(n\) > li.stream-grid-view_Flxb\(1\/3\).My\(12px\).Pos\(r\).Bgc\(t\).js-stream-content.stream-item > .stream-grid-view_Fld\(c\).D\(f\).Pos\(r\).userintent-hidestrmitem_D\(n\) > .user-intent-options.End\(0\).T\(0\).Pos\(a\) > div > .has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\) > .has-fetch-click.C\(\$c_icon\).D\(b\).Td\(n\).Td\(n\)\:h.fetch-with-session-retry.wafer-fetch.Fill\(\#828c93\).userintent-panelbtn.userintentmgmt-panel\:h\>Fill\(\$streamBrandHoverClass\).Py\(0\).Pend\(0\).Pstart\(4px\).O\(n\)\:f.Bd\(n\).Pos\(r\)
-www.yahoo.com###applet_p_50000336
-www.yahoo.com###applet_p_50000414
-www.yahoo.com###applet_p_50000473 > .Mb\(20px\) > .C\(\#232a31\).Fz\(18px\).Fw\(b\).Mb\(10px\) > .Va\(m\).D\(ib\)
-www.yahoo.com###applet_p_50000473 > .Mb\(20px\) > .Fz\(15px\).Fw\(b\).Mb\(10px\)
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###notif-badge
@@ -200,8 +187,6 @@ www.yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
-www.yahoo.com##.wafer
-www.yahoo.com##.wafer-error.wafer-img
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
 www.yahoo.com#@##my-adsFPAD
@@ -262,43 +247,6 @@ yahoo.com##.js-sidekick-content
 yahoo.com##.js-stream-actions
 yahoo.com##.js-stream-comment-counter
 yahoo.com##.js-stream-comment-counter-update
-yahoo.com##.js-stream-content.stream-item:has-text(/style/i)
-yahoo.com##.js-stream-content:has-text(/Allure/i)
-yahoo.com##.js-stream-content:has-text(/Best Life/i)
-yahoo.com##.js-stream-content:has-text(/Best Products/i)
-yahoo.com##.js-stream-content:has-text(/Black Lives Matter/i)
-yahoo.com##.js-stream-content:has-text(/Celebrity/i)
-yahoo.com##.js-stream-content:has-text(/Cosmo/i)
-yahoo.com##.js-stream-content:has-text(/Country Living/i)
-yahoo.com##.js-stream-content:has-text(/Delish/i)
-yahoo.com##.js-stream-content:has-text(/Dr. Phil CBS/i)
-yahoo.com##.js-stream-content:has-text(/Entertainment/i)
-yahoo.com##.js-stream-content:has-text(/Footware News/i)
-yahoo.com##.js-stream-content:has-text(/Glamour/i)
-yahoo.com##.js-stream-content:has-text(/Good Housekeeping/i)
-yahoo.com##.js-stream-content:has-text(/House Beautiful/i)
-yahoo.com##.js-stream-content:has-text(/In The Know/i)
-yahoo.com##.js-stream-content:has-text(/InStyle/i)
-yahoo.com##.js-stream-content:has-text(/Lifestyle/i)
-yahoo.com##.js-stream-content:has-text(/Marie Claire/i)
-yahoo.com##.js-stream-content:has-text(/Meredith Videos/i)
-yahoo.com##.js-stream-content:has-text(/POPSUGAR/i)
-yahoo.com##.js-stream-content:has-text(/PureWow/i)
-yahoo.com##.js-stream-content:has-text(/Robb Report/i)
-yahoo.com##.js-stream-content:has-text(/Rumble/i)
-yahoo.com##.js-stream-content:has-text(/Seventeen/i)
-yahoo.com##.js-stream-content:has-text(/SheKnows/i)
-yahoo.com##.js-stream-content:has-text(/Storyful/i)
-yahoo.com##.js-stream-content:has-text(/Teen Vogue/i)
-yahoo.com##.js-stream-content:has-text(/TheBlast/i)
-yahoo.com##.js-stream-content:has-text(/Who What Wear/i)
-yahoo.com##.js-stream-content:has-text(/Yahoo Canada Style/i)
-yahoo.com##.js-stream-content:has-text(/Yahoo Style UK/i)
-yahoo.com##.js-stream-content:has-text(/YourTango/i)
-yahoo.com##.js-stream-content:has-text(/eat this, not that!/i)
-yahoo.com##.js-stream-content:has-text(/gq/i)
-yahoo.com##.js-stream-content:has-text(/scary mommy/i)
-yahoo.com##.js-stream-content:has-text(/yahoo life shopping/i)
 yahoo.com##.lrec
 yahoo.com##.lrec-before-loading
 yahoo.com##.mballads
