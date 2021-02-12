@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 7.75
-! Additions (0) Deletions (20+) Modified (0)
+! Version 7.85
+! Additions (0) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -183,7 +183,6 @@ www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrol
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
-www.yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
