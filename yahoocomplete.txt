@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 7.85
-! Additions (0) Deletions (1) Modified (0)
+! Version 7.95
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -177,12 +177,14 @@ www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(42
 www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\) > .C\(\#232a31\)
 www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44px\).Fz\(13px\).Bgc\(\$c-fuji-smurfette\).C\(\#fff\).Bdc\(\$c-fuji-smurfette\).Bdrs\(22px\).Bdw\(1px\).Fw\(b\).Bds\(s\).W\(100\%\).uh-banner-wide_D\(n\).Cur\(p\)
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
+www.yahoo.com##.Mt\(10px\).Mah\(345px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
 www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
+www.yahoo.com##.has-fetch-click.C\(\$c_icon\).D\(b\).Td\(n\).Td\(n\)\:h.fetch-with-session-retry.wafer-fetch.Fill\(\#828c93\).userintent-panelbtn.userintentmgmt-panel\:h\>Fill\(\$streamBrandHoverClass\).Py\(0\).Pend\(0\).Pstart\(4px\).O\(n\)\:f.Bd\(n\).Pos\(r\)
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
@@ -287,6 +289,7 @@ yahoo.com##.stream-item:has-text(/Teen Vogue/i)
 yahoo.com##.stream-item:has-text(/TheBlast/i)
 yahoo.com##.stream-item:has-text(/Who What Wear/i)
 yahoo.com##.stream-item:has-text(/Yahoo Canada Style/i)
+yahoo.com##.stream-item:has-text(/Yahoo Sports/i)
 yahoo.com##.stream-item:has-text(/Yahoo Style UK/i)
 yahoo.com##.stream-item:has-text(/YourTango/i)
 yahoo.com##.stream-item:has-text(/bbc/i)

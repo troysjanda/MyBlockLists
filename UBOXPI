@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.75
-! Additions (0) Deletions (0) Modified (0)
+! Version 7.85
+! Additions (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -139,6 +139,9 @@ torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 utm_$queryprune=/^utm_/
+wordpress.com##.lpc-vip-modal-backdrop
+wordpress.com##.lpc-vip-modal-window-container
+wordpress.com#@##gdpr-cookie-banner
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__background
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__wrapper--wide.popup__wrapper
@@ -217,6 +220,7 @@ youtube.com###chat
 youtube.com###watch-action-panels
 youtube.com##.ytp-paid-content-overlay-tex
 ||2822.v.fwmrm.net^
+||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
@@ -266,6 +270,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||ima3vpaid.appspot.com^
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
+||m4ufree.tv/js/m4ufree-tv-3-min.js$script,1p
 ||mailtrack.io^$important
 ||mcdn-report.wc.yahoodns.net^
 ||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
@@ -299,6 +304,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||taboola.com^
 ||tfbnw.*/
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
+||tinypass.com^$3p
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
 ||verizonmedia.com^
 ||volantix.com^
