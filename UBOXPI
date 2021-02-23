@@ -6,16 +6,14 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.85
-! Additions (6) Deletions (0) Modified (0)
+! Version 7.95
+! Additions (6) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
-*##+js(no-fetch-if, adsbygoogle.js)
-*##+js(no-fetch-if, cmp.js)
 *##+js(nobab)
 *##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *##.tab-content .tab-pane:style(display:block !important;)
@@ -264,9 +262,9 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||googleanalytics.net^
 ||guce.oath.com
 ||hd-dev.com^
-||http://yo/guce-js
-||https://contributor.google.com/scripts/807037fac4e803f4/loader.js
-||https://img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
+||yo/guce-js
+||contributor.google.com/scripts/807037fac4e803f4/loader.js
+||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ||ima3vpaid.appspot.com^
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important

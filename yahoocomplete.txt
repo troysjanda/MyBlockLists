@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 7.95
-! Additions (3) Deletions (0) Modified (0)
+! Version 8.00
+! Additions (0) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -160,7 +160,6 @@ sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id*="PromoImage-Proxy"]
-sports.yahoo.com#@#[href*="bit.ly/"]
 thetandd.com##.yahoo_content_match
 travel.yahoo.com##.tgl-block
 travel.yahoo.com##.ysmcm
@@ -186,7 +185,6 @@ www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
 www.yahoo.com##.has-fetch-click.C\(\$c_icon\).D\(b\).Td\(n\).Td\(n\)\:h.fetch-with-session-retry.wafer-fetch.Fill\(\#828c93\).userintent-panelbtn.userintentmgmt-panel\:h\>Fill\(\$streamBrandHoverClass\).Py\(0\).Pend\(0\).Pstart\(4px\).O\(n\)\:f.Bd\(n\).Pos\(r\)
 www.yahoo.com##.pub-upsell-item
-www.yahoo.com##.tv-wrapper
 www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
