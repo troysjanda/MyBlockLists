@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.00
-! Additions (0) Deletions (3) Modified (0)
+! Version 8.0.1
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -124,6 +124,7 @@ music.yahoo.com###YMusicRegion_TN1_R2C2_R1
 music.yahoo.com###lrec
 music.yahoo.com###lrecTop
 mysanantonio.com##.yahoo-bg
+news.search.yahoo.com##.searchTop.cardReg
 news.yahoo.com###mw-ysm-cm_2-container
 news.yahoo.com###north
 news.yahoo.com##.Bg\(featurebarGradient-0\).W\(100\%\).Pend\(163px\).Py\(8px\).Pstart\(0\).Whs\(n\).Bxz\(bb\).Bdrs\(2px\)

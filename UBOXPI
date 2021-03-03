@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 7.95
-! Additions (6) Deletions (2) Modified (0)
+! Version 8.0.1
+! Additions (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -42,7 +42,7 @@
 /analytics.js
 /i.gif
 /p.gif
-/pixel2.gif?
+/pixel*.gif^
 /r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
 /sp.js
 /static/pixel.png
@@ -70,6 +70,7 @@ betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
+cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
 dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
@@ -124,6 +125,7 @@ seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
 startapp/(exchange|network|service)\.com/$
+stupidfanboy.wordpress.com##.native-ad-marker:upward(article)
 thebroodle.com##.EAJKXIqksYmj-bg
 thebroodle.com##.EAJKXIqksYmj-default
 theforestmap.com##.in.fade.modal-backdrop
@@ -233,6 +235,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0-*.jpeg$image
 ||bilsyndication.com^
 ||bizpanda.com
+||boilingcredit.com^
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
 ||cdn.adsafeprotected.com^
 ||cdn.concert.io/lib/adblock/*
@@ -244,6 +247,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||connect.facebook.net
 ||consent.google.com^
 ||content.jwplatform.com^$domain=variety.com
+||contributor.google.com/scripts/807037fac4e803f4/loader.js
 ||curtistimes.com^
 ||dev-nano.com^$all
 ||digitru.st^
@@ -262,10 +266,8 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||googleanalytics.net^
 ||guce.oath.com
 ||hd-dev.com^
-||yo/guce-js
-||contributor.google.com/scripts/807037fac4e803f4/loader.js
-||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ||ima3vpaid.appspot.com^
+||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
 ||m4ufree.tv/js/m4ufree-tv-3-min.js$script,1p
@@ -285,6 +287,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||reddit.com/web/log/$xmlhttprequest
 ||reddit.com^*utm_$queryprune=|utm_
 ||report-uri.cloudflare.com^
+||riotpixels.net^
 ||s3.buysellads.com^
 ||scotthelme.report-uri.com^$all
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
@@ -317,8 +320,10 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||www.palemoon.org/images/donate_vertbanner.png$image
 ||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
 ||www.techpowerup.com/njutrvceser/*.jpg$image
+||www.techpowerup.com/thlknzrjbv^
 ||www.washingtonpost.com/zeus/*$script,domain=www.washingtonpost.com
 ||xcp-ng.org/blog/content/images/2020/04/banner*-forum-2.png$image
+||yo/guce-js
 ||youtube.com^*fbclid*$queryprune=fbclid
 ||youtube.com^*gclid*$queryprune=gclid
 ||ysearchblog.com^
