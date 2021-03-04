@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.1
-! Additions (5) Deletions (0) Modified (0)
+! Version 8.0.2
+! Additions (4) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -97,6 +97,8 @@ google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-a
 ign.com##^script:has-text(g01.ign.com)
 kaffnet.com$
 magicalthirteen.com^$important
+megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
+megaup.net#@#[id^="AdskeeperComposite"]:style(padding-top:1100px!important;)
 nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
 noypigeeks.com##a[target="_blank"] > img[src*=".noypigeeks.com/"]
@@ -126,6 +128,8 @@ seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
 startapp/(exchange|network|service)\.com/$
 stupidfanboy.wordpress.com##.native-ad-marker:upward(article)
+techpowerup.com##.mnmuzjsddc
+techpowerup.com##.site-header__logo-wrapper + div > a[target="_blank"] img
 thebroodle.com##.EAJKXIqksYmj-bg
 thebroodle.com##.EAJKXIqksYmj-default
 theforestmap.com##.in.fade.modal-backdrop
@@ -287,7 +291,6 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||reddit.com/web/log/$xmlhttprequest
 ||reddit.com^*utm_$queryprune=|utm_
 ||report-uri.cloudflare.com^
-||riotpixels.net^
 ||s3.buysellads.com^
 ||scotthelme.report-uri.com^$all
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
