@@ -97,7 +97,8 @@ finance.yahoo.com###mrt-node-Col1-0-ComboAd
 finance.yahoo.com###mrt-node-Col2-0-ComboAd
 finance.yahoo.com###mrt-node-Col2-6-Ad
 finance.yahoo.com###mrt-node-Col2-14-AdUnitWithTdAds
-finance.yahoo.com###defaultLDRB-wrapper > .darla 
+finance.yahoo.com##.darla
+||s.yimg.com/rq/darla$subdocument
 ||bf.us.y.atwola.com/adcount*
 ||tag.sp.advertising.com^$script,1p
 ||s.yimg.com/cb/af/*$script,1p
