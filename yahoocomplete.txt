@@ -95,6 +95,7 @@ finance.yahoo.com###mrt-node-Lead-1-Ad
 finance.yahoo.com###mrt-node-Col1-0-Ad
 finance.yahoo.com###mrt-node-Col1-0-ComboAd
 finance.yahoo.com###mrt-node-Col2-0-ComboAd
+finance.yahoo.com###Col2-0-ComboAd-Proxy
 finance.yahoo.com###mrt-node-Col2-6-Ad
 finance.yahoo.com###mrt-node-Col2-14-AdUnitWithTdAds
 finance.yahoo.com##.darla
