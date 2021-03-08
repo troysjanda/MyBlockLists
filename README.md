@@ -16,6 +16,12 @@ These filters help to reduce Yahoo tracking, Beacons, Pixel tracking, and ads ma
 
 https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 
+XPI CNAMEFilterList
+
+https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/CNAMEFilterList.txt
+
+The aim of this filter list is to block websites from using CNAMES to track or serve ads. This list is compiled from the adguard list and will be updated as needed with addition filters from Adguard and other sources. As with my other list if you'd like to add/remove filter please submit a pull request, this will be reviewed and if approved will be added to the filterlist.
+
 Notes:
 
 Users can suggest addition filters be added by creating a issue, or pull request. I will review and approve those addions on a by weekly basis. Users can also report bad, or invalid filter using the same methods. 
