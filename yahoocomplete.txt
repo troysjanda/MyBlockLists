@@ -89,6 +89,20 @@ finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).
 finance.yahoo.com##.yfi_ad_s
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 finance.yahoo.om##.adfeedback-tripledot
+finance.yahoo.com##.native-ad-item.gemini-ad
+finance.yahoo.com###mrt-node-Lead-0-Ad
+finance.yahoo.com###mrt-node-Lead-1-Ad
+finance.yahoo.com###mrt-node-Col1-0-Ad
+finance.yahoo.com###mrt-node-Col1-0-ComboAd
+finance.yahoo.com###mrt-node-Col2-0-ComboAd
+finance.yahoo.com###mrt-node-Col2-6-Ad
+finance.yahoo.com###mrt-node-Col2-14-AdUnitWithTdAds
+finance.yahoo.com###defaultLDRB-wrapper > .darla 
+||bf.us.y.atwola.com/adcount*
+||tag.sp.advertising.com^$script,1p
+||s.yimg.com/cb/af/*$script,1p
+||prod-m-node-1111.ssp.advertising.com^
+||ter-adserver-origin-us.prod.adtechus.com^$image
 foxnews.com,yahoo.com#@#.ad-enabled
 games.yahoo.com,movies.yahoo.com##.md.links
 groups.yahoo.com##.yg-mbad-row
