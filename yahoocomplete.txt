@@ -5,7 +5,7 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.1
+! Version 8.0.2
 ! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -82,29 +82,23 @@ consent.yahoo.com##.consent-semi-transparent
 cricket.yahoo.com###video-branding
 dir.yahoo.com##td[width="215"]
 everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
+finance.yahoo.com###Col2-0-ComboAd-Proxy
 finance.yahoo.com###mediabankrate_container
-finance.yahoo.com###yfi_ad_FB2
-finance.yahoo.com###yfi_ad_cl
-finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
-finance.yahoo.com##.yfi_ad_s
-finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
-finance.yahoo.om##.adfeedback-tripledot
-finance.yahoo.com##.native-ad-item.gemini-ad
-finance.yahoo.com###mrt-node-Lead-0-Ad
-finance.yahoo.com###mrt-node-Lead-1-Ad
 finance.yahoo.com###mrt-node-Col1-0-Ad
 finance.yahoo.com###mrt-node-Col1-0-ComboAd
 finance.yahoo.com###mrt-node-Col2-0-ComboAd
-finance.yahoo.com###Col2-0-ComboAd-Proxy
-finance.yahoo.com###mrt-node-Col2-6-Ad
 finance.yahoo.com###mrt-node-Col2-14-AdUnitWithTdAds
+finance.yahoo.com###mrt-node-Col2-6-Ad
+finance.yahoo.com###mrt-node-Lead-0-Ad
+finance.yahoo.com###mrt-node-Lead-1-Ad
+finance.yahoo.com###yfi_ad_FB2
+finance.yahoo.com###yfi_ad_cl
+finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.darla
-||s.yimg.com/rq/darla$subdocument
-||bf.us.y.atwola.com/adcount*
-||tag.sp.advertising.com^$script,1p
-||s.yimg.com/cb/af/*$script,1p
-||prod-m-node-1111.ssp.advertising.com^
-||ter-adserver-origin-us.prod.adtechus.com^$image
+finance.yahoo.com##.native-ad-item.gemini-ad
+finance.yahoo.com##.yfi_ad_s
+finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
+finance.yahoo.om##.adfeedback-tripledot
 foxnews.com,yahoo.com#@#.ad-enabled
 games.yahoo.com,movies.yahoo.com##.md.links
 groups.yahoo.com##.yg-mbad-row
@@ -346,6 +340,7 @@ yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
 ||bankrate.com^$subdocument,domain=yahoo.com
+||bf.us.y.atwola.com/adcount*
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
@@ -357,8 +352,10 @@ yellowpages.com###yahoo_ss_border
 ||marketingsolutions.yahoo.com^
 ||music.yahoo.com/get-free-html
 ||playlist.yahoo.com/makeplaylist.dll?$domain=au.tv.yahoo.com
+||prod-m-node-1111.ssp.advertising.com^
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
+||s.yimg.com/cb/af/*$script,1p
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
 ||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
 ||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
@@ -394,8 +391,11 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
+||s.yimg.com/rq/darla$subdocument
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
+||tag.sp.advertising.com^$script,1p
+||ter-adserver-origin-us.prod.adtechus.com^$image
 ||w.homes.yahoo.net^
 ||yahoo.affex.org
 ||yahoo.com.cn^
