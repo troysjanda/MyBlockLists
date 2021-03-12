@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.3
-! Additions (0) Deletions (0) Modified (0)
+! Version 8.0.4
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -371,6 +371,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_Phase4_082820_880x150@1x.jpg^
 ||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_880x150@1x.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_Banners_880x150@2x.jpg$image
+||s.yimg.com/cv/apiv2/default/20180730/image-2021-03-12-10-24-27-979.png$image
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
 ||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png
