@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.3
-! Additions (4) Deletions (1) Modified (0)
+! Version 8.0.4
+! Additions (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -63,6 +63,9 @@ amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
 anitube.*##+js(abort-on-property-read, redirect1)
+armourgaming.co###tidio-chat-iframe
+armourgaming.co##.notifyjs-container
+armourgaming.co##.np-inside
 b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
 betanews.com###bd > .sideCol > .submitNews.content
 betanews.com###bd > .sideCol > div.flexibleBoxad > .adbox-header
@@ -70,6 +73,7 @@ betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
+charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
 dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
@@ -222,6 +226,7 @@ www.youtube.com##.opened
 xhamster.com##.wih-spa.wih-spb
 youtube.com###chat
 youtube.com###watch-action-panels
+youtube.com##.iv-branding.annotation-type-custom.annotation
 youtube.com##.ytp-paid-content-overlay-tex
 ||2822.v.fwmrm.net^
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
@@ -245,6 +250,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||cdn.concert.io/lib/adblock/*
 ||cdn.concert.io/lib/adblock/vox_support_explanatory.html$subdocument
 ||cdn.report-uri.com^
+||cdn.shopifycloud.com/messenger_commerce/assets/custom-button/*.png$image
 ||cdn.yottos.com^
 ||clksite.com^$important
 ||connect.facebook.com
