@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.4
-! Additions (1) Deletions (0) Modified (0)
+! Version 8.0.6
+! Additions (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -162,10 +162,12 @@ sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
 sports.yahoo.com###uh-tb-firefoxpromo
 sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
 sports.yahoo.com##.Cur\(p\).My\(12px\) > path
+sports.yahoo.com##.Fw\(b\).Fz\(20px\).C\(\#fff\).Ta\(c\).Pt\(10px\)
 sports.yahoo.com##.M\(a\).Ta\(c\).Pos\(a\).ys-interstitial-container > div > .Start\(0\).T\(0\).Pos\(a\).H\(100\%\).W\(100\%\)
 sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-promo
 sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4px\).Bds\(s\).Bdc\(\$c-fuji-grey-4\).gemini-banner-promo
+sports.yahoo.com##.Px\(9px\).Py\(16px\).Bgc\(\$c-fuji-grey-a\).Bxz\(bb\).W\(100\%\).tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 sports.yahoo.com##[id*="DailyFantasyPromo"]
@@ -179,17 +181,20 @@ weather.yahoo.com#@#.ad_slug_table
 weather.yahoo.com#@#.can_ad_slug
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
+www.yahoo.com###applet_p_50000349 > div > div
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\)
 www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\) > .C\(\#232a31\)
+www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44px\).Fz\(13px\).Bgc\(\$c-fuji-smurfette\).C\(\#fff\).Bdc\(\$c-fuji-smurfette\).Bdrs\(22px\).Bdw\(1px\).Fw\(b\).Bds\(s\).W\(100\%\).uh-banner-wide_D\(n\).Cur\(p\)
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mt\(10px\).Mah\(345px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
+www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ovx\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
 www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
@@ -371,6 +376,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_Phase4_082820_880x150@1x.jpg^
 ||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_880x150@1x.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_Banners_880x150@2x.jpg$image
+||s.yimg.com/cv/apiv2/default/20180730/_880x150@1x__1_.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/image-2021-03-12-10-24-27-979.png$image
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image

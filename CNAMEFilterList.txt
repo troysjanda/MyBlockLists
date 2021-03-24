@@ -6,7 +6,7 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 1.0.0.4
+! Version 1.0.0.6
 ! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
