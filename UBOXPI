@@ -6,11 +6,10 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.6
-! Additions (0) Deletions (0) Modified (0)
+! Version 8.0.7
+! Additions (7) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
-
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
@@ -99,6 +98,7 @@ github.com##.hidden-text-expander:style(display:none !important;)
 github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
+google.*##^script:has-text(consentCookiePayload)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 ign.com##^script:has-text(g01.ign.com)
 kaffnet.com$
@@ -170,6 +170,8 @@ www.foxnews.com##.is-breaking.alert-banner
 www.foxnews.com##.item-nation-email-mod.item
 www.foxnews.com##.item-nation-trial-mod.item
 www.foxnews.com##.sticky-nav.collection-article-scroller.collection
+www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
+www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item > span.spansored-title
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
 www.google.com##:root:style(overflow-y: visible !important;)
@@ -258,6 +260,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||connect.facebook.com
 ||connect.facebook.net
 ||consent.google.com^
+||consent.youtube.com^
 ||content.jwplatform.com^$domain=variety.com
 ||contributor.google.com/scripts/807037fac4e803f4/loader.js
 ||curtistimes.com^
@@ -306,6 +309,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||serving-sys.com^
 ||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
+||st.chatango.com/h5/gz/r0402211818/id.html$subdocument
 ||static-42andpark-com.s3.amazonaws.com^
 ||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
@@ -326,6 +330,8 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||wp.pl^$third-party,domain=~wp.pl
 ||wpimg.pl^$third-party,domain=~wp.pl
 ||www.google-analytics.com/analytics.js
+||www.infobae.com/pf/dist/page/poZcLt1ZOcfL2s/default.js$script,domain=www.infobae.com
+||www.infobae.com/pf/resources/dist/infobae/js/main.js$script,domain=www.infobae.com
 ||www.microsoft.com-windows-booster.live^
 ||www.oath.com^
 ||www.palemoon.org/images/donate_vertbanner.png$image

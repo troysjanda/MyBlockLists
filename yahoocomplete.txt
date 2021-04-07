@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.6
-! Additions (6) Deletions (0) Modified (0)
+! Version 8.0.7
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -93,6 +93,7 @@ finance.yahoo.com###mrt-node-Lead-0-Ad
 finance.yahoo.com###mrt-node-Lead-1-Ad
 finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
+finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.darla
 finance.yahoo.com##.native-ad-item.gemini-ad
@@ -393,10 +394,13 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
 ||s.yimg.com/cv/apiv2/fantasy/promo/YFF_2020_In-Product_Banners_FOMO_082820_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
+||s.yimg.com/cv/apiv2/finance/YFi_Plus_Bottom_sticky_banner.png
 ||s.yimg.com/cv/apiv2/sports/fantasy-promo/2020-sports-home-ff-takeover@2x.jpg
 ||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
+||s.yimg.com/cv/apiv2/subscriptions/20210322/YProtect_300x500_2x.jpg$image
+||s.yimg.com/cv/apiv2/subscriptions/20210322/YahooHP_AdBlocker_YMailPlus_300x500_2x.jpg$image
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
 ||s.yimg.com/rq/darla$subdocument
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
