@@ -6,7 +6,7 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.7
+! Version 8.0.8
 ! Additions (7) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -22,7 +22,6 @@
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
-*fbclid=$1p,document,important
 *utm_$document,1p,queryprune=|utm_
 /^ad([sxv])?[0-9]*[-_.]
 /^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
