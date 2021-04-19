@@ -6,18 +6,14 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.8
-! Additions (7) Deletions (0) Modified (0)
+! Version 8.0.9
+! Additions (5) Deletions (4) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
-*##+js(nobab)
-*##.adsbygoogle:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
-*##.tab-content .tab-pane:style(display:block !important;)
-*##[data-ad-client]:style(display:none !important; width:0px !important; height:0px !important; visibility:hidden !important;)
 *$doc,frame,xhr,removeparam=/^utm_/
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
@@ -69,6 +65,7 @@ armourgaming.co##.np-inside
 b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
 betanews.com###bd > .sideCol > .submitNews.content
 betanews.com###bd > .sideCol > div.flexibleBoxad > .adbox-header
+betanews.com##.articleBoxad
 betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
@@ -99,6 +96,7 @@ godaddy.com##html:style(background-image:none !important; background: none trans
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
 google.*##^script:has-text(consentCookiePayload)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
+idfg.idaho.gov##.row.alert-warning.alert
 ign.com##^script:has-text(g01.ign.com)
 kaffnet.com$
 magicalthirteen.com^$important
@@ -133,6 +131,7 @@ seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
 startapp/(exchange|network|service)\.com/$
 stupidfanboy.wordpress.com##.native-ad-marker:upward(article)
+technicpack.net##+js(acis, document.createElement, admiral)
 techpowerup.com##.mnmuzjsddc
 techpowerup.com##.site-header__logo-wrapper + div > a[target="_blank"] img
 thebroodle.com##.EAJKXIqksYmj-bg
@@ -148,6 +147,7 @@ torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 utm_$queryprune=/^utm_/
+winaero.com##.entry-content > div
 wordpress.com##.lpc-vip-modal-backdrop
 wordpress.com##.lpc-vip-modal-window-container
 wordpress.com#@##gdpr-cookie-banner
@@ -269,6 +269,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||disqus.com/embed.js$script,redirect=disqus_embed.js
 ||disqus.com/forums/*/embed.js$script,redirect=disqus_forums_embed.js
 ||disqusads.com^$important
+||dockdigestion.com^
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
