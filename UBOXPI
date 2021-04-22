@@ -6,14 +6,15 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.9
-! Additions (5) Deletions (4) Modified (0)
+! Version 8.0.10
+! Additions (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
+*##^responseheader(report-to)
 *$doc,frame,xhr,removeparam=/^utm_/
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
@@ -106,6 +107,7 @@ nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
 noypigeeks.com##a[target="_blank"] > img[src*=".noypigeeks.com/"]
 nytimes.com##form[name="newsletter-banner"]:upward([aria-hidden])
+ownedcore.com/forums/ocpbanners^
 pandora.com##script:contains(getAdList)
 pipocas.tv##+js(bab-defuser)
 pl.premium4kflix.club###playerCta-wrapper
@@ -204,6 +206,10 @@ www.nascar.com##footer#footer.site-footer.site-footer-nascar > div.nascar-footer
 www.ninersnation.com##.adblock-allowlist-messaging__wrapper
 www.ninersnation.com##.tab-bar-fixed.c-tab-bar
 www.ninersnation.com##div.c-compact-river__entry:nth-of-type(10)
+www.ownedcore.com##.b-below-so-wrapper
+www.ownedcore.com##.s2nFrameHost
+www.ownedcore.com##[href^="https://www.ownedcore.com/forums/cb.php"]
+www.ownedcore.com##[src="https://www.ownedcore.com/forums/./ocpbanners/1/3/9/6/9/4/8/33b0c70aaf89c4d9fdfc94f2bf6259a5.png"]
 www.phoronix.com###\31 ca940
 www.reddit.com##.happening-now
 www.reddit.com##.premium-banner
