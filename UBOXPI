@@ -6,10 +6,35 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.10
-! Additions (6) Deletions (0) Modified (0)
+! Version 8.0.11
+! Additions (40) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+$removeparam=_openstat
+$removeparam=action_object_map
+$removeparam=action_ref_map
+$removeparam=action_type_map
+$removeparam=guccounter
+$removeparam=guce_referrer
+$removeparam=guce_referrer_sig
+$removeparam=utm_campaign
+$removeparam=utm_channel
+$removeparam=utm_cid
+$removeparam=utm_content
+$removeparam=utm_medium
+$removeparam=utm_name
+$removeparam=utm_place
+$removeparam=utm_pubreferrer
+$removeparam=utm_reader
+$removeparam=utm_referrer
+$removeparam=utm_social
+$removeparam=utm_social-type
+$removeparam=utm_source
+$removeparam=utm_swu
+$removeparam=utm_term
+$removeparam=utm_userid
+$removeparam=utm_viz_id
+$removeparam=yclid
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
@@ -146,6 +171,10 @@ thehackernews.com##.top-follow
 thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
+torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
+torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
+torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
+torrentlawyer.com##+js(set, document.onselectstart, noopFunc)
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 utm_$queryprune=/^utm_/
@@ -244,7 +273,10 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||advertisermirror.com^
 ||alb.reddit.com^$all
 ||ampproject.org^
+||analytics-api.samsunghealthcn.com^
+||analytics.pointdrive.linkedin.com^
 ||animeland.tv/scripts/$script
+||appmetrica.yandex.com^
 ||atwola.com^
 ||banananalytics.com^$important
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
@@ -269,6 +301,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||content.jwplatform.com^$domain=variety.com
 ||contributor.google.com/scripts/807037fac4e803f4/loader.js
 ||curtistimes.com^
+||data.mistat.xiaomi.com^
 ||dev-nano.com^$all
 ||digitru.st^
 ||disqus.com/count.js$script
@@ -281,6 +314,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-yc-fl-off-net-school-start-league-ji-070919-v-1-3-light-800-x-800-x-1-jpg_1566418730380.jpeg$image
 ||exactmetrics.com
+||extmaps-api.yandex.net^
 ||facebook.com/plugins/*
 ||ghacks.net/statics/ads.min.js
 ||ghacks.net/statics/px.gif
@@ -291,10 +325,14 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
+||logbak.hicloud.com^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
 ||m4ufree.tv/js/m4ufree-tv-3-min.js$script,1p
 ||mailtrack.io^$important
 ||mcdn-report.wc.yahoodns.net^
 ||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
+||metrics.icloud.com^
 ||mobilenations.com^
 ||nc0.co^$important
 ||oath.com^all
@@ -322,11 +360,13 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
 ||stripe.rs-stripe.com
 ||subscribe.washingtonpost.com^
+||supportmetrics.apple.com^
 ||syncronex.com^
 ||taboola.com^
 ||tfbnw.*/
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
 ||tinypass.com^$3p
+||trk.pinterest.com^
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
 ||verizonmedia.com^
 ||volantix.com^
