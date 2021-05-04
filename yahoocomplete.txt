@@ -5,7 +5,7 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.8
+! Version 8.0.9
 ! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -194,6 +194,7 @@ www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44
 www.yahoo.com##.H\(67px\).W\(318px\).Bgc\(\$c-fuji-smurfette\).Bdrs\(1px\).Fz\(14px\).Bxz\(bb\).Bxsh\(\$streamFilterTooltipShadow\).Pos\(r\).Py\(15px\).Pstart\(20px\).D\(f\).Jc\(sb\).Ai\(c\).wafer-tooltip-wrapper
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mt\(10px\).Mah\(345px\).Mstart\(20px\).Ov\(h\)
+www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
 www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ovx\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
@@ -381,6 +382,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_Banners_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/_880x150@1x__1_.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/image-2021-03-12-10-24-27-979.png$image
+||s.yimg.com/cv/apiv2/default/20180730/screenshot-1.png$image
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
 ||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
 ||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png

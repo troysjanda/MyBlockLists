@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.11
-! Additions (40) Deletions (0) Modified (0)
+! Version 8.0.12
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 $removeparam=_openstat
@@ -120,6 +120,8 @@ github.com##.hidden-text-expander:style(display:none !important;)
 github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
+google.*##+js(cookie-remover, CONSENT)
+google.*##^responseheader(set-cookie)    
 google.*##^script:has-text(consentCookiePayload)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 idfg.idaho.gov##.row.alert-warning.alert
