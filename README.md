@@ -12,17 +12,12 @@ https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 
 A collection of personal filters from my daily web activity. These are uncatagorized and may cause breakage. If you find problems, or want to contribute please submit a pull request and ill review and merge.
 
-Yahoo Complete annoyance blocking list
 
-These filters help to reduce Yahoo tracking, Beacons, Pixel tracking, and ads making Yahoo a more cleaner experience. Note: Some filters can cause blank gaps in articles or sidebar this is unavoidable due in part to the way Yahoo obscures its div, classes in an effort to circumvent blockers.
+Yahoo Complete annoyance blocking list
 
 https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 
-XPI CNAMEFilterList
-
-https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/CNAMEFilterList.txt
-
-The aim of this filter list is to block websites from using CNAMES to track or serve ads. This list is compiled from the adguard list and will be updated as needed with addition filters from Adguard and other sources. As with my other list if you'd like to add/remove filter please submit a pull request, this will be reviewed and if approved will be added to the filterlist.
+These filters help to reduce Yahoo tracking, Beacons, Pixel tracking, and ads making Yahoo a more cleaner experience. Note: Some filters can cause blank gaps in articles or sidebar this is unavoidable due in part to the way Yahoo obscures its div, classes in an effort to circumvent blockers.
 
 Notes:
 
