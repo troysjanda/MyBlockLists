@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.12
-! Additions (2) Deletions (0) Modified (0)
+! Version 8.0.13
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 $removeparam=_openstat
@@ -266,8 +266,10 @@ www.youtube.com##.opened
 xhamster.com##.wih-spa.wih-spb
 youtube.com###chat
 youtube.com###watch-action-panels
+youtube.com##+js(cookie-remover, CONSENT)
 youtube.com##.iv-branding.annotation-type-custom.annotation
 youtube.com##.ytp-paid-content-overlay-tex
+youtube.com##^responseheader(set-cookie)    
 ||2822.v.fwmrm.net^
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
@@ -336,6 +338,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 ||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
 ||metrics.icloud.com^
 ||mobilenations.com^
+||mssl.fwmrm.net/p/nbcu_rsn_live/AdManager.js$document,important
 ||nc0.co^$important
 ||oath.com^all
 ||phys.org^important

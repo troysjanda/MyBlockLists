@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.9
-! Additions (2) Deletions (0) Modified (0)
+! Version 8.0.10
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -171,6 +171,7 @@ sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4
 sports.yahoo.com##.Px\(9px\).Py\(16px\).Bgc\(\$c-fuji-grey-a\).Bxz\(bb\).W\(100\%\).tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
+sports.yahoo.com##.ys-sportsbook-featured-odds
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id*="PromoImage-Proxy"]
@@ -374,6 +375,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
 ||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
 ||s.yimg.com/cv/apiv2/default/20180730/FF-Launch-static__1HeadlineLarge_CreateLeague_880x150@.jpg
+||s.yimg.com/cv/apiv2/default/20180730/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
 ||s.yimg.com/cv/apiv2/default/20180730/FH_Phase3_InProduct_Grad_880x150@1x.png$image
 ||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
 ||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_FOMO_Countdown_082820__September9@1x.jpg^
@@ -393,6 +395,8 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20200729/Welcome_msg_x3.png
 ||s.yimg.com/cv/apiv2/default/20200817/y*.jpg$image
 ||s.yimg.com/cv/apiv2/default/20200817/ysystemmech.jpg$image
+||s.yimg.com/cv/apiv2/default/20210319/YPlusSecure_300x500@2x.jpg
+||s.yimg.com/cv/apiv2/default/20210319/YahooHP_AdBlocker_YMailPlus_300x500_AdFreeLite@2x.jpg
 ||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
 ||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Left_1200x1200.jpg^
 ||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
