@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.10
-! Additions (4) Deletions (0) Modified (0)
+! Version 8.0.11
+! Additions (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads

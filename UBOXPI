@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.13
-! Additions (3) Deletions (0) Modified (0)
+! Version 8.0.14
+! Additions (4) Deletions (5) Modified (0)
 !
 ! -- Start Filters --
 $removeparam=_openstat
@@ -39,12 +39,10 @@ $removeparam=yclid
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
-*##^responseheader(report-to)
 *$doc,frame,xhr,removeparam=/^utm_/
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
-*utm_$document,1p,queryprune=|utm_
 /^ad([sxv])?[0-9]*[-_.]
 /^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
 /^adtrack(er|ing)?[0-9]*[-.]
@@ -74,6 +72,7 @@ $removeparam=yclid
 2mdn.net^$important
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
+@@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
 @@||outbrain.com^$script,domain=dailywire.com
 @@||pandora.com/web-version/*/ads.json$xhr
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
@@ -111,6 +110,7 @@ en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 everydayhealth.com##^script:has-text(/i10C/i)
 facebook.com##div.h_r03bd44ox.pagelet
+faucethero.com##+js(acis, blockAdBlock)
 forums.theregister.com###adtoniq-msgr-bar
 foxnews.com##.content:has-text(/SPONSORED/i)
 foxnews.com##.is-programming.alert-banner
@@ -155,6 +155,7 @@ reddit.com##body > div[data-overflow]:last-child
 rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
 rp-online.de##.park-article-paywall__content
 rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !important)
+sec.gov##div[style="break-before: page; margin-top: 6pt; margin-bottom: 6pt"], div[style="page-break-before: always; margin-top: 6pt; margin-bottom: 6pt"]:remove()
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
@@ -179,7 +180,6 @@ torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
 torrentlawyer.com##+js(set, document.onselectstart, noopFunc)
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
-utm_$queryprune=/^utm_/
 winaero.com##.entry-content > div
 wordpress.com##.lpc-vip-modal-backdrop
 wordpress.com##.lpc-vip-modal-window-container
@@ -323,7 +323,6 @@ youtube.com##^responseheader(set-cookie)
 ||ghacks.net/statics/ads.min.js
 ||ghacks.net/statics/px.gif
 ||googleanalytics.net^
-||guce.oath.com
 ||hd-dev.com^
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
@@ -334,7 +333,6 @@ youtube.com##^responseheader(set-cookie)
 ||logservice1.hicloud.com^
 ||m4ufree.tv/js/m4ufree-tv-3-min.js$script,1p
 ||mailtrack.io^$important
-||mcdn-report.wc.yahoodns.net^
 ||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
 ||metrics.icloud.com^
 ||mobilenations.com^
@@ -359,6 +357,7 @@ youtube.com##^responseheader(set-cookie)
 ||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
 ||st.chatango.com/h5/gz/r0402211818/id.html$subdocument
+||st.chatango.com/h5/gz/r0409211505/id.html$subdocument
 ||static-42andpark-com.s3.amazonaws.com^
 ||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
@@ -384,7 +383,6 @@ youtube.com##^responseheader(set-cookie)
 ||www.infobae.com/pf/dist/page/poZcLt1ZOcfL2s/default.js$script,domain=www.infobae.com
 ||www.infobae.com/pf/resources/dist/infobae/js/main.js$script,domain=www.infobae.com
 ||www.microsoft.com-windows-booster.live^
-||www.oath.com^
 ||www.palemoon.org/images/donate_vertbanner.png$image
 ||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
 ||www.techpowerup.com/njutrvceser/*.jpg$image
