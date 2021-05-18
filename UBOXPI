@@ -6,14 +6,20 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.14
-! Additions (4) Deletions (5) Modified (0)
+! Version 8.0.15
+! Additions (7) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 $removeparam=_openstat
 $removeparam=action_object_map
 $removeparam=action_ref_map
 $removeparam=action_type_map
+$removeparam=fb_action_ids
+$removeparam=fb_action_types
+$removeparam=fb_comment_id
+$removeparam=fb_ref
+$removeparam=fb_source
+$removeparam=fbclid
 $removeparam=guccounter
 $removeparam=guce_referrer
 $removeparam=guce_referrer_sig
@@ -39,7 +45,6 @@ $removeparam=yclid
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
-*$doc,frame,xhr,removeparam=/^utm_/
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
@@ -323,6 +328,7 @@ youtube.com##^responseheader(set-cookie)
 ||ghacks.net/statics/ads.min.js
 ||ghacks.net/statics/px.gif
 ||googleanalytics.net^
+||googlevideo.com*ctier$xhr,domain=youtube.com
 ||hd-dev.com^
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg

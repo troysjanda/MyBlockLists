@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.11
-! Additions (0) Deletions (0) Modified (0)
+! Version 8.0.12
+! Additions (2) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -95,7 +95,6 @@ finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
-finance.yahoo.com##.darla
 finance.yahoo.com##.native-ad-item.gemini-ad
 finance.yahoo.com##.yfi_ad_s
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
@@ -355,6 +354,7 @@ yellowpages.com###yahoo_ss_border
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
 ||geocities.yahoo.*/js/sq.
+||guce.yahoo.com^
 ||iframe.travel.yahoo.com^
 ||im.ov.yahoo.co.jp^
 ||mail.yahoo.com/mc/md.php?
@@ -402,6 +402,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
 ||s.yimg.com/cv/apiv2/fantasy/promo/YFF_2020_In-Product_Banners_FOMO_082820_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
+||s.yimg.com/cv/apiv2/ffnfl/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
 ||s.yimg.com/cv/apiv2/finance/YFi_Plus_Bottom_sticky_banner.png
 ||s.yimg.com/cv/apiv2/sports/fantasy-promo/2020-sports-home-ff-takeover@2x.jpg
 ||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
@@ -410,7 +411,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/subscriptions/20210322/YProtect_300x500_2x.jpg$image
 ||s.yimg.com/cv/apiv2/subscriptions/20210322/YahooHP_AdBlocker_YMailPlus_300x500_2x.jpg$image
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
-||s.yimg.com/rq/darla$subdocument
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||tag.sp.advertising.com^$script,1p
