@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.12
-! Additions (2) Deletions (2) Modified (0)
+! Version 8.0.13
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -266,6 +266,7 @@ yahoo.com##.js-sidekick-content
 yahoo.com##.js-stream-actions
 yahoo.com##.js-stream-comment-counter
 yahoo.com##.js-stream-comment-counter-update
+yahoo.com##.js-stream-content:has-text(/Screen Rant/i)
 yahoo.com##.lrec
 yahoo.com##.lrec-before-loading
 yahoo.com##.mballads
@@ -405,6 +406,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/ffnfl/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
 ||s.yimg.com/cv/apiv2/finance/YFi_Plus_Bottom_sticky_banner.png
 ||s.yimg.com/cv/apiv2/sports/fantasy-promo/2020-sports-home-ff-takeover@2x.jpg
+||s.yimg.com/cv/apiv2/sports/promo/DFS_SingleGame_040121_880x150@2x.jpg
 ||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image

@@ -6,8 +6,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 7 days
-! Version 8.0.15
-! Additions (7) Deletions (1) Modified (0)
+! Version 8.0.16
+! Additions (2) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 $removeparam=_openstat
@@ -81,6 +81,7 @@ $removeparam=yclid
 @@||outbrain.com^$script,domain=dailywire.com
 @@||pandora.com/web-version/*/ads.json$xhr
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
+@@||techisignals.com^$generichide
 @@||www.askdavetaylor.com/detroitchicago/*$script,domain=www.askdavetaylor.com
 @@||www.broadwayworld.com/detroitchicago/*$script,domain=www.broadwayworld.com
 adtoniq.com^$important,third-party
@@ -145,6 +146,7 @@ pipocas.tv##+js(bab-defuser)
 pl.premium4kflix.club###playerCta-wrapper
 pornhub.com###under-player-comments
 pornhub.com###welcome
+ppss.kr##+js(aost, Math.random, invoke)
 reddit.com###ad_1
 reddit.com###ad_4
 reddit.com###ad_5
@@ -281,7 +283,6 @@ youtube.com##^responseheader(set-cookie)
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
 ||alb.reddit.com^$all
-||ampproject.org^
 ||analytics-api.samsunghealthcn.com^
 ||analytics.pointdrive.linkedin.com^
 ||animeland.tv/scripts/$script
