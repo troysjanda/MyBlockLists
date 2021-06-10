@@ -5,8 +5,8 @@
 ! Expires: 7 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.13
-! Additions (2) Deletions (0) Modified (0)
+! Version 8.0.14
+! Additions (1) Deletions (6) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -187,8 +187,6 @@ www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
-www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\)
-www.yahoo.com###user-dialog-lite > div > .wafer-rapid-module > .Pos\(r\).Maw\(420px\).Bxsh\(userDialogBxsh\).Bgc\(\#fff\).P\(24px\).Bxz\(bb\).Pend\(134px\).Bgz\(134px\,140px\).Bgr\(nr\).Bgpy\(b\).Bgpx\(end\).Bgi\(fugiUserDialogBg\).user-dialog-grid-layout.Bdrs\(8px\).Pt\(26px\) > .C\(\#232a31\)
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44px\).Fz\(13px\).Bgc\(\$c-fuji-smurfette\).C\(\#fff\).Bdc\(\$c-fuji-smurfette\).Bdrs\(22px\).Bdw\(1px\).Fw\(b\).Bds\(s\).W\(100\%\).uh-banner-wide_D\(n\).Cur\(p\)
 www.yahoo.com##.H\(67px\).W\(318px\).Bgc\(\$c-fuji-smurfette\).Bdrs\(1px\).Fz\(14px\).Bxz\(bb\).Bxsh\(\$streamFilterTooltipShadow\).Pos\(r\).Py\(15px\).Pstart\(20px\).D\(f\).Jc\(sb\).Ai\(c\).wafer-tooltip-wrapper
@@ -203,9 +201,8 @@ www.yahoo.com##.Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
-www.yahoo.com##.has-fetch-click.C\(\$c_icon\).D\(b\).Td\(n\).Td\(n\)\:h.fetch-with-session-retry.wafer-fetch.Fill\(\#828c93\).userintent-panelbtn.userintentmgmt-panel\:h\>Fill\(\$streamBrandHoverClass\).Py\(0\).Pend\(0\).Pstart\(4px\).O\(n\)\:f.Bd\(n\).Pos\(r\)
 www.yahoo.com##.pub-upsell-item
-www.yahoo.com##.userintent-tooltip-box.Bxsh\(\$userintent_shadow\).Bdrs\(2px\).wafer-toggle.Bgc\(\$c-fuji-blue-1-a\).C\(\#fff\).Z\(1\).Lh\(1\.5\).T\(10px\).Fz\(12px\).H\(a\).Ta\(start\).Fw\(200\).P\(12px\).Pos\(a\)
+www.yahoo.com##.wafer-video-complete.tv-wrapper.wafer-video.D\(f\)
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
 www.yahoo.com#@##my-adsFPAD
@@ -260,7 +257,6 @@ yahoo.com##.comment-btn-link
 yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f.Td\(n\).comment-count.rapidnofollow.js-stream-comments-button.js-content-viewer
 yahoo.com##.drawer-fetch-target
 yahoo.com##.fpad
-yahoo.com##.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\).W\(36px\).End\(0\).T\(50px\).Pos\(a\)
 yahoo.com##.js-fake-cluster
 yahoo.com##.js-sidekick-content
 yahoo.com##.js-stream-actions
