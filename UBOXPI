@@ -5,9 +5,9 @@
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
-! Expires: 7 days
-! Version 8.0.17
-! Additions (5) Deletions (0) Modified (0)
+! Expires: 10 days
+! Version 8.0.18
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 $removeparam=_openstat
@@ -103,6 +103,8 @@ betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
+! Note Following Filter removed posts on Betanews that are authored by Sofia Wyciślik-Wilson, please add exemption filter to re-enable.
+betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
 charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
 dlford.io###ir_wrapper
@@ -270,6 +272,7 @@ www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > 
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-content > div.c24ff8f4a2da697123def04f69833d8b > span > strong > [href^="http://www.restoro.com/includes/route.php"]
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12.col-md-4 > .sidebar > .widget_text.group.widget
 www.tomshardware.com###affiliateDisclaimer
+www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
 www.youtube.com###dialog
 www.youtube.com##.opened
@@ -384,6 +387,7 @@ youtube.com##^responseheader(set-cookie)
 ||tinypass.com^$3p
 ||trk.pinterest.com^
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
+||upst.fwdcdn.com/temp/blocks/*$image
 ||verizonmedia.com^
 ||volantix.com^
 ||washingtonpost.com/*/pwapi-proxy.min.js$script

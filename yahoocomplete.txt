@@ -2,11 +2,11 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Author: XPI
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
-! Expires: 7 days
+! Expires: 10 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.16
-! Additions (1) Deletions (0) Modified (0)
+! Version 8.0.17
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -203,6 +203,7 @@ www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
 www.yahoo.com##.has-wafer-click.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.pub-upsell-item
+www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##.wafer-video-complete.tv-wrapper.wafer-video.D\(f\)
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
@@ -315,6 +316,7 @@ yahoo.com##.stream-item:has-text(/scary mommy/i)
 yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.stream-item:has-text(/yahoo life shopping/i)
 yahoo.com##.uh-notifications
+yahoo.com##.wafer-toggle.Bgc
 yahoo.com##.wdpa1
 yahoo.com##.y7-breakout-bracket
 yahoo.com##.y708-ad-eyebrow
@@ -403,6 +405,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/ffnfl/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
 ||s.yimg.com/cv/apiv2/finance/YFi_Plus_Bottom_sticky_banner.png
 ||s.yimg.com/cv/apiv2/sports/fantasy-promo/2020-sports-home-ff-takeover@2x.jpg
+||s.yimg.com/cv/apiv2/sports/promo/DFS_NBA_EV_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/sports/promo/DFS_SingleGame_040121_880x150@2x.jpg
 ||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
