@@ -5,8 +5,8 @@
 ! Expires: 10 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.17
-! Additions (3) Deletions (0) Modified (0)
+! Version 8.0.18
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -413,6 +413,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/subscriptions/20210322/YProtect_300x500_2x.jpg$image
 ||s.yimg.com/cv/apiv2/subscriptions/20210322/YahooHP_AdBlocker_YMailPlus_300x500_2x.jpg$image
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
+||s.yimg.com/rq/darla/4-8-0/html/r-sf-flx.html$subdocument
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||tag.sp.advertising.com^$script,1p
