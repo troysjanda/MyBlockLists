@@ -6,41 +6,16 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 10 days
-! Version 8.0.18
-! Additions (3) Deletions (0) Modified (0)
+! Version 8.0.19
+! Additions (0) Deletions (10) Modified (0)
 !
 ! -- Start Filters --
-$removeparam=_openstat
-$removeparam=action_object_map
-$removeparam=action_ref_map
-$removeparam=action_type_map
+
 $removeparam=fb_action_ids
 $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
-$removeparam=fbclid
-$removeparam=guccounter
-$removeparam=guce_referrer
-$removeparam=guce_referrer_sig
-$removeparam=utm_campaign
-$removeparam=utm_channel
-$removeparam=utm_cid
-$removeparam=utm_content
-$removeparam=utm_medium
-$removeparam=utm_name
-$removeparam=utm_place
-$removeparam=utm_pubreferrer
-$removeparam=utm_reader
-$removeparam=utm_referrer
-$removeparam=utm_social
-$removeparam=utm_social-type
-$removeparam=utm_source
-$removeparam=utm_swu
-$removeparam=utm_term
-$removeparam=utm_userid
-$removeparam=utm_viz_id
-$removeparam=yclid
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
