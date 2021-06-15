@@ -6,11 +6,10 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 10 days
-! Version 8.0.19
-! Additions (0) Deletions (10) Modified (0)
+! Version 8.0.20
+! Additions (0) Deletions (5) Modified (0)
 !
 ! -- Start Filters --
-
 $removeparam=fb_action_ids
 $removeparam=fb_action_types
 $removeparam=fb_comment_id
@@ -104,10 +103,6 @@ github.com##.commit-desc:style(display:block !important;)
 github.com##.hidden-text-expander:style(display:none !important;)
 github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
-google.*##+js(aeld, DOMContentLoaded, CONSENT)
-google.*##+js(cookie-remover, CONSENT)
-google.*##^responseheader(set-cookie)    
-google.*##^script:has-text(consentCookiePayload)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 idfg.idaho.gov##.row.alert-warning.alert
 ign.com##^script:has-text(g01.ign.com)
@@ -351,7 +346,6 @@ youtube.com##^responseheader(set-cookie)
 ||static-42andpark-com.s3.amazonaws.com^
 ||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
-||storage.googleapis.com/orbit4.lun.ua/js/bundle/bundle.js
 ||stripe.rs-stripe.com
 ||subscribe.washingtonpost.com^
 ||supportmetrics.apple.com^
