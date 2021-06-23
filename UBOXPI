@@ -1,4 +1,5 @@
 [uBlock Origin]
+! SHA1 Hash: AF7D0CE4B7D52FEB12E6858FD22C266CA072B902
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
@@ -6,17 +7,16 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 10 days
-! Version 8.0.21
-! Additions (22) Deletions (0) Modified (0)
+! Version 8.0.22
+! Additions (7) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
-$removeparam=_openstat
+$removeparam=fbclid
 $removeparam=fb_action_ids
 $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
-$removeparam=fbclid
 $removeparam=guccounter
 $removeparam=guce_referrer
 $removeparam=guce_referrer_sig
@@ -37,13 +37,26 @@ $removeparam=utm_term
 $removeparam=utm_userid
 $removeparam=utm_viz_id
 $removeparam=yclid
-(^|\.)co\.uk\.media\.orehawa\.co\.uk/$
+$removeparam=_openstat
 (^|\.)com\.media\.orehawa\.co\.uk/$
+(^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
+*#?#[href*="mail-to:"]
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
+/advert.js$important
+/analytics.js
+/i.gif
+/p.gif
+/pixel*.gif^
+/r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
+/sp.js
+/static/pixel.png
+/vendor/sp.js
+/wp-admin/admin-ajax.php
+/wp-content/plugins/wp-content-copy-protector^
 /^ad([sxv])?[0-9]*[-_.]
 /^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
 /^adtrack(er|ing)?[0-9]*[-.]
@@ -59,17 +72,6 @@ $removeparam=yclid
 /^telemetry[-.]
 /^track(ers?|ing)?[0-9]*[-.]
 /^traff(ic)?[-.]
-/advert.js$important
-/analytics.js
-/i.gif
-/p.gif
-/pixel*.gif^
-/r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
-/sp.js
-/static/pixel.png
-/vendor/sp.js
-/wp-admin/admin-ajax.php
-/wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
@@ -91,6 +93,8 @@ armourgaming.co###tidio-chat-iframe
 armourgaming.co##.notifyjs-container
 armourgaming.co##.np-inside
 askvg.com##.ad-unit
+autonews.com##+js(nostif, t.stackTrace)
+autonews.com##body,html:style(overflow:auto !important)
 b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
 betanews.com###bd > .sideCol > .submitNews.content
 betanews.com###bd > .sideCol > div.flexibleBoxad > .adbox-header
@@ -103,6 +107,7 @@ betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
 charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
+distrowatch.com##h2
 dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
@@ -148,12 +153,12 @@ reddit.com###ad_4
 reddit.com###ad_5
 reddit.com###ad_6
 reddit.com##+js(remove-attr, data-inbound-url, a[data-href-url])
-reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.author-tooltip
 reddit.com##.dfp-ad-container
 reddit.com##.premium-banner
 reddit.com##.s1tljykw-0
 reddit.com##.ynts11-1
+reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##body > div[data-overflow]:last-child
 rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
 rp-online.de##.park-article-paywall__content
@@ -181,6 +186,7 @@ torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
 torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
 torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
 torrentlawyer.com##+js(set, document.onselectstart, noopFunc)
+tutsgalaxy.net##+js(nobab)
 twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 winaero.com##.entry-content > div
@@ -205,6 +211,7 @@ www.foxnews.com##.is-breaking.alert-banner
 www.foxnews.com##.item-nation-email-mod.item
 www.foxnews.com##.item-nation-trial-mod.item
 www.foxnews.com##.sticky-nav.collection-article-scroller.collection
+www.ghacks.net##.category-sponsored
 www.ghacks.net##.tag-featured.tag-disclaimer.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-170847.post-list-sponsored.mt--first--0.mt--60.post-list
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item > span.spansored-title
@@ -213,9 +220,9 @@ www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .U
 www.google.com##:root:style(overflow-y: visible !important;)
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
-www.latimes.com###\38 cd4c321-9fd2-4261-b708-33ff456f0217
 www.latimes.com###rule-2999
 www.latimes.com###rule-3000
+www.latimes.com###\38 cd4c321-9fd2-4261-b708-33ff456f0217
 www.latimes.com##.met-rule-2772.met-flyout
 www.latimes.com##.met-rule-3004.met-flyout > .met-button-varB
 www.latimes.com##.met-rule-3007.met-flyout
@@ -257,6 +264,7 @@ www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
 www.spanishdict.com###adSide2-container
 www.techpowerup.com##aside.mnmuzjsddc:nth-of-type(1)
 www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
+www.theglobeandmail.com###fixedpencil-subs
 www.thekitchenmagpie.com###text-125 > .widget-wrap > .textwidget > .food-bank-note
 www.thekitchenmagpie.com###wprm-recipe-container-36576 > .food-bank-note
 www.theregister.com###adtoniq-msgr-bar
