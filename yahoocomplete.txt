@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: 8D6C9836DF9E3A394C241AC0BB172E01F3152775
+! SHA1 Hash: 421593A03504239065F1C5126D0ED01D3CC8DB28
 ! Title: Xpi Yahoo Complete Filters
 ! Author: XPI
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! Expires: 10 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.19
-! Additions (1) Deletions (0) Modified (0)
+! Version 8.0.20
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -196,6 +196,7 @@ www.yahoo.com##.Mt\(10px\).Mah\(345px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
+www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ov\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
 www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ovx\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
 www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
 www.yahoo.com##.Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ovx\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
@@ -366,6 +367,7 @@ yellowpages.com###yahoo_ss_border
 ||prod-m-node-1111.ssp.advertising.com^
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
+||s.yimg.com/bx/adb/20210614184714644.jpg$image
 ||s.yimg.com/cb/af/*$script,1p
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
 ||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image

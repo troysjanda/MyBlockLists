@@ -1,5 +1,5 @@
 [uBlock Origin]
-! SHA1 Hash: AF7D0CE4B7D52FEB12E6858FD22C266CA072B902
+! SHA1 Hash: 8A09B5AB55B14C4433F5A62678E50CBC144E4103
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
@@ -7,16 +7,17 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 10 days
-! Version 8.0.22
-! Additions (7) Deletions (0) Modified (0)
+! Version 8.0.23
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
-$removeparam=fbclid
+$removeparam=_openstat
 $removeparam=fb_action_ids
 $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+$removeparam=fbclid
 $removeparam=guccounter
 $removeparam=guce_referrer
 $removeparam=guce_referrer_sig
@@ -37,26 +38,14 @@ $removeparam=utm_term
 $removeparam=utm_userid
 $removeparam=utm_viz_id
 $removeparam=yclid
-$removeparam=_openstat
-(^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
+(^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
 *#?#[href*="mail-to:"]
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
-/advert.js$important
-/analytics.js
-/i.gif
-/p.gif
-/pixel*.gif^
-/r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
-/sp.js
-/static/pixel.png
-/vendor/sp.js
-/wp-admin/admin-ajax.php
-/wp-content/plugins/wp-content-copy-protector^
 /^ad([sxv])?[0-9]*[-_.]
 /^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
 /^adtrack(er|ing)?[0-9]*[-.]
@@ -72,6 +61,17 @@ $removeparam=_openstat
 /^telemetry[-.]
 /^track(ers?|ing)?[0-9]*[-.]
 /^traff(ic)?[-.]
+/advert.js$important
+/analytics.js
+/i.gif
+/p.gif
+/pixel*.gif^
+/r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
+/sp.js
+/static/pixel.png
+/vendor/sp.js
+/wp-admin/admin-ajax.php
+/wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
@@ -105,6 +105,7 @@ betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
 ! Note Following Filter removed posts on Betanews that are authored by Sofia Wyciślik-Wilson, please add exemption filter to re-enable.
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
+blockadblock.com##+js(nobab)
 charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
 distrowatch.com##h2
@@ -153,12 +154,12 @@ reddit.com###ad_4
 reddit.com###ad_5
 reddit.com###ad_6
 reddit.com##+js(remove-attr, data-inbound-url, a[data-href-url])
+reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.author-tooltip
 reddit.com##.dfp-ad-container
 reddit.com##.premium-banner
 reddit.com##.s1tljykw-0
 reddit.com##.ynts11-1
-reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##body > div[data-overflow]:last-child
 rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
 rp-online.de##.park-article-paywall__content
@@ -220,9 +221,9 @@ www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .U
 www.google.com##:root:style(overflow-y: visible !important;)
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
+www.latimes.com###\38 cd4c321-9fd2-4261-b708-33ff456f0217
 www.latimes.com###rule-2999
 www.latimes.com###rule-3000
-www.latimes.com###\38 cd4c321-9fd2-4261-b708-33ff456f0217
 www.latimes.com##.met-rule-2772.met-flyout
 www.latimes.com##.met-rule-3004.met-flyout > .met-button-varB
 www.latimes.com##.met-rule-3007.met-flyout
