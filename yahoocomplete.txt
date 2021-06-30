@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: 421593A03504239065F1C5126D0ED01D3CC8DB28
+! SHA1 Hash: 61A4B227785DED8E7C6C3B5F90334CDAC819A8BB
 ! Title: Xpi Yahoo Complete Filters
 ! Author: XPI
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! Expires: 10 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.20
-! Additions (2) Deletions (0) Modified (0)
+! Version 8.0.21
+! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -192,6 +192,7 @@ www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44px\).Fz\(13px\).Bgc\(\$c-fuji-smurfette\).C\(\#fff\).Bdc\(\$c-fuji-smurfette\).Bdrs\(22px\).Bdw\(1px\).Fw\(b\).Bds\(s\).W\(100\%\).uh-banner-wide_D\(n\).Cur\(p\)
 www.yahoo.com##.H\(67px\).W\(318px\).Bgc\(\$c-fuji-smurfette\).Bdrs\(1px\).Fz\(14px\).Bxz\(bb\).Bxsh\(\$streamFilterTooltipShadow\).Pos\(r\).Py\(15px\).Pstart\(20px\).D\(f\).Jc\(sb\).Ai\(c\).wafer-tooltip-wrapper
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
+www.yahoo.com##.Mb\(20px\)
 www.yahoo.com##.Mt\(10px\).Mah\(345px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)

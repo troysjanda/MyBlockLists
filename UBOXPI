@@ -1,5 +1,5 @@
 [uBlock Origin]
-! SHA1 Hash: 8A09B5AB55B14C4433F5A62678E50CBC144E4103
+! SHA1 Hash: 8292F3FD0EDE7DC65AF672867DAF8C0C3BB14107
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
@@ -7,8 +7,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 10 days
-! Version 8.0.23
-! Additions (1) Deletions (0) Modified (0)
+! Version 8.0.24
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 $removeparam=_openstat
@@ -103,12 +103,12 @@ betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
-! Note Following Filter removed posts on Betanews that are authored by Sofia Wyciślik-Wilson, please add exemption filter to re-enable.
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
 blockadblock.com##+js(nobab)
 charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
 distrowatch.com##h2
+distrowatch.com##td:nth-of-type(3) > table.News:nth-of-type(1)
 dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
@@ -284,6 +284,7 @@ youtube.com##+js(cookie-remover, CONSENT)
 youtube.com##.iv-branding.annotation-type-custom.annotation
 youtube.com##.ytp-paid-content-overlay-tex
 youtube.com##^responseheader(set-cookie)    
+yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
@@ -326,6 +327,7 @@ youtube.com##^responseheader(set-cookie)
 ||disqus.com/forums/*/embed.js$script,redirect=disqus_forums_embed.js
 ||disqusads.com^$important
 ||dockdigestion.com^
+||embed.acast.com/yahoosportsmlb$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
