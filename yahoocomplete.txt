@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: 8E9CC08F2054DF29EC0511AB5D894B6E38D02444
+! SHA1 Hash: CC77BAE680C9C4A6593D90BBAC6081FA948BB9B2
 ! Title: Xpi Yahoo Complete Filters
 ! Author: XPI
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! Expires: 10 days
 ! License: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
-! Version 8.0.22
-! Additions (1) Deletions (0) Modified (0)
+! Version 8.0.23
+! Additions (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -370,6 +370,9 @@ yellowpages.com###yahoo_ss_border
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
 ||s.yimg.com/bx/adb/20210614184714644.jpg$image
+||s.yimg.com/bx/adb/20210709185323318.png
+||s.yimg.com/bx/adb/20210713164918586.jpg
+||s.yimg.com/bx/adb/20210720220256822.jpg
 ||s.yimg.com/cb/af/*$script,1p
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
 ||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
@@ -418,6 +421,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/subscriptions/20210322/YProtect_300x500_2x.jpg$image
 ||s.yimg.com/cv/apiv2/subscriptions/20210322/YahooHP_AdBlocker_YMailPlus_300x500_2x.jpg$image
 ||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
+||s.yimg.com/cv/apiv2/y20/fantasy/V2_Y20_Banner_880x150@2x.jpg$image
 ||s.yimg.com/ep/cx/blendr/v2/image-ysb-the-slate-us-open-730-pm-1000-x-1000-1-x-min-jpg_1623975656099.jpeg$image
 ||s.yimg.com/rq/darla/4-8-0/html/r-sf-flx.html$subdocument
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image

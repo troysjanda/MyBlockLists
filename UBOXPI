@@ -1,5 +1,5 @@
 [uBlock Origin]
-! SHA1 Hash: C25E43F189568DC7C38D6C00F2FCD03B4FD3CF98
+! SHA1 Hash: DC96AEC1BA961F53FC365AA543B20598044A0C93
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
@@ -7,8 +7,8 @@
 ! Author: XPI
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Expires: 10 days
-! Version 8.0.25
-! Additions (0) Deletions (25) Modified (0)
+! Version 8.0.26
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -107,6 +107,7 @@ godaddy.com##html:style(background-image:none !important; background: none trans
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 idfg.idaho.gov##.row.alert-warning.alert
 ign.com##^script:has-text(g01.ign.com)
+instagram.com###fb-root + div[role=presentation]
 kaffnet.com$
 magicalthirteen.com^$important
 megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
@@ -189,6 +190,7 @@ www.ghacks.net##.category-sponsored
 www.ghacks.net##.tag-featured.tag-disclaimer.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-170847.post-list-sponsored.mt--first--0.mt--60.post-list
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item > span.spansored-title
+www.google.*##a[href*="agoda.com"]:upward(.g)
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
 www.google.com##:root:style(overflow-y: visible !important;)
