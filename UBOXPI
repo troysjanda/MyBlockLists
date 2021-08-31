@@ -1,19 +1,18 @@
 [uBlock Origin]
-! SHA1 Hash: B039C3709953AB29C6891A1223476F362582C32C
+! SHA1 Hash: 096E0E15AF6FBA873F69C1AD1E166F545FCFD708
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version 8.0.28
-! Additions (11) Deletions (0) Modified (0)
+! Version 8.0.29
+! Additions (0) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
-*##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
 *#?#[href*="mail-to:"]
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
