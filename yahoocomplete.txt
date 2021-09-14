@@ -1,12 +1,12 @@
 [uBlock Origin]
-! SHA1 Hash: F60219D868FAA0CF5C53CF15929815E6CB65FA1E
+! SHA1 Hash: FEB8DB1305165D64E472CEB3F9C8983B33AFEB23
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! Expires: 10 dayshttps://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
-! Version 8.0.30
+! Version 8.0.31
 ! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -293,6 +293,7 @@ yahoo.com##.stream-item:has-text(/Footware News/i)
 yahoo.com##.stream-item:has-text(/Glamour/i)
 yahoo.com##.stream-item:has-text(/Good Housekeeping/i)
 yahoo.com##.stream-item:has-text(/House Beautiful/i)
+yahoo.com##.stream-item:has-text(/HuffPost/i)
 yahoo.com##.stream-item:has-text(/In The Know/i)
 yahoo.com##.stream-item:has-text(/InStyle/i)
 yahoo.com##.stream-item:has-text(/Lifestyle/i)

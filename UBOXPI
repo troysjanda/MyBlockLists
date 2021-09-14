@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: EB85A93552D4461175E200923A42C5CC571A571C
+! SHA1 Hash: D5A662D8FFCEA474B1E12238C037B138DEF6B3F3
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version 8.0.30
-! Additions (6) Deletions (0) Modified (0)
+! Version 8.0.31
+! Additions (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -139,6 +139,7 @@ resid3ncy.com###chated-overlay
 rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
 rp-online.de##.park-article-paywall__content
 rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !important)
+scotthelme.co.uk##.support
 sec.gov##div[style="break-before: page; margin-top: 6pt; margin-bottom: 6pt"], div[style="page-break-before: always; margin-top: 6pt; margin-bottom: 6pt"]:remove()
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
@@ -180,6 +181,8 @@ www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > 
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-bp-xl-v.cnx-bp-lg-st.cnx-in-ps-landscape.cnx-playspace-container
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ratio
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
+www.cbssports.com##.nav-network-bar
+www.cbssports.com##.site-nav-inner
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
 www.fastcompany.com##.box-195736
@@ -363,6 +366,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||src.ebay-us.com^*/check.js
 ||st.chatango.com/h5/gz/r0402211818/id.html$subdocument
 ||st.chatango.com/h5/gz/r0409211505/id.html$subdocument
+||st.chatango.com/h5/gz/r0817211056/id.html$subdocument
 ||static-42andpark-com.s3.amazonaws.com^
 ||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
@@ -377,6 +381,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||tpucdn.com/images/*75willrunoutofdirssoon*/$image
 ||trk.pinterest.com^
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
+||unpkg.com/@tryghost/*$script
 ||upst.fwdcdn.com/temp/blocks/*$image
 ||verizonmedia.com^
 ||volantix.com^
