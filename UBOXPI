@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: D5A662D8FFCEA474B1E12238C037B138DEF6B3F3
+! SHA1 Hash: B3CFD31636989955F1A14A4ED650BF3BE7CC1067
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version 8.0.31
-! Additions (5) Deletions (0) Modified (0)
+! Version 8.0.32
+! Additions (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -18,6 +18,7 @@
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
+/\/gen\_204\?/$important
 /^ad([sxv])?[0-9]*[-_.]
 /^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
 /^adtrack(er|ing)?[0-9]*[-.]
@@ -162,6 +163,7 @@ thehackernews.com##.sidebar.clear > [href="https://go.thn.li/webinar-2"]
 thehackernews.com##.top-follow
 thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
+torrentgalaxy.su##.txlight.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
 torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
@@ -327,6 +329,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||forum.opnsense.org/adds/content/x*_20160413.jpg.pagespeed.ic.*.webp$image
 ||ghacks.net/statics/ads.min.js
 ||ghacks.net/statics/px.gif
+||google.*$removeparam=gws_rd=ssl
 ||googleanalytics.net^
 ||googlevideo.com*ctier$xhr,domain=youtube.com
 ||hd-dev.com^

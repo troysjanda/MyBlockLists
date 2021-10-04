@@ -1,12 +1,12 @@
 [uBlock Origin]
-! SHA1 Hash: FEB8DB1305165D64E472CEB3F9C8983B33AFEB23
+! SHA1 Hash: 0F3C6C034113CC3BFC2B27E8091CBBD52D65FCF0
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! Expires: 10 dayshttps://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
-! Version 8.0.31
+! Version 8.0.32
 ! Additions (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -171,6 +171,7 @@ sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4px\).Bds\(s\).Bdc\(\$c-fuji-grey-4\).gemini-banner-promo
 sports.yahoo.com##.Px\(9px\).Py\(16px\).Bgc\(\$c-fuji-grey-a\).Bxz\(bb\).W\(100\%\).tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
+sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 sports.yahoo.com##.ys-sportsbook-featured-odds
 sports.yahoo.com##[id*="DailyFantasyPromo"]
