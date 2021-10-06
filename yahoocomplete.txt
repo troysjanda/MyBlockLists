@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: 0F3C6C034113CC3BFC2B27E8091CBBD52D65FCF0
+! SHA1 Hash: 41D1DE578CDB906E3BC52A89691FFFE6955B45B0
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! Expires: 10 dayshttps://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
-! Version 8.0.32
-! Additions (1) Deletions (0) Modified (0)
+! Version 8.0.33
+! Additions (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -209,6 +209,7 @@ www.yahoo.com##.comment-count
 www.yahoo.com##.has-wafer-click.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.userintent-tooltip-box
+www.yahoo.com##.wafer-beacon.mxhpset
 www.yahoo.com##.wafer-video-complete.tv-wrapper.wafer-video.D\(f\)
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
@@ -371,6 +372,7 @@ yellowpages.com###yahoo_ss_border
 ||prod-m-node-1111.ssp.advertising.com^
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
+||s.yimg.com/aaq/yc/js/iframe-1.0.26.js$script,important
 ||s.yimg.com/bx/adb/*.jpg$image
 ||s.yimg.com/bx/adb/*.png$image
 ||s.yimg.com/bx/adb/20210614184714644.jpg$image
