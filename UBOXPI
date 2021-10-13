@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: D323A01BDDC3DAB35F7EB1C335175F4CE6F16445
+! SHA1 Hash: 898884B70250621E28685E812DFAA1BEDDEBA065
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version 8.0.33
-! Additions (3) Deletions (0) Modified (0)
+! Version: 8.0.34
+! Additions: (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -92,6 +92,8 @@ duckduckgo.com##.is-slotted-first.grid-3-cols.has-grid.has-hidden-vertical.bing.
 egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
 en.wikipedia.org###frb-main
+en.wikipedia.org##.frb-button.frb-nag-link
+en.wikipedia.org##.frb-country-US.frb-rml-enabled.frb
 en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 everydayhealth.com##^script:has-text(/i10C/i)
@@ -128,6 +130,7 @@ reddit.com###ad_1
 reddit.com###ad_4
 reddit.com###ad_5
 reddit.com###ad_6
+reddit.com##+js(no-xhr-if, method:POST url:https://www.reddit.com,)
 reddit.com##+js(remove-attr, data-inbound-url, a[data-href-url])
 reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.author-tooltip
@@ -376,6 +379,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||static-42andpark-com.s3.amazonaws.com^
 ||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
+||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2021_comments_01.jpg
 ||stripe.rs-stripe.com
 ||subscribe.washingtonpost.com^
 ||supportmetrics.apple.com^
