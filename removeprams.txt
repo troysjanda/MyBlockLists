@@ -1,5 +1,5 @@
 [uBlock Origin]
-! SHA1 Hash: 
+! SHA1 Hash: 781C6365370D71AB0B1C7109A7C5CB2C31430B8E
 ! Title: Xpi uBo $Removepram Filterlist
 ! Description: Filters to remove Tracking $removepram's
 ! Homepage: https://github.com/troysjanda/removeprams.txt
