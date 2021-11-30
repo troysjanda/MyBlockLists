@@ -1,5 +1,5 @@
 [uBlock Origin]
-! SHA1 Hash: 78A28228E59B8F5A2E3C04FB3D8AF09516EB115CE5B6CAFDDBC6104FC57791CC
+! SHA256 Hash: 78A28228E59B8F5A2E3C04FB3D8AF09516EB115CE5B6CAFDDBC6104FC57791CC
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
