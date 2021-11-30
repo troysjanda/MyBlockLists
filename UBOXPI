@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA1 Hash: 898884B70250621E28685E812DFAA1BEDDEBA065
+! SHA1 Hash:  52D9CDF4D75E34592FECC82D3CC243731F13FEFDAEB5A8AB622380214C98A3F7
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.34
-! Additions: (4) Deletions (0) Modified (0)
+! Version: 8.0.35
+! Additions: (7) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -37,6 +37,7 @@
 /advert.js$important
 /analytics.js
 /i.gif
+/info/p.gif
 /p.gif
 /pixel*.gif^
 /r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
@@ -81,6 +82,7 @@ betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
 blockadblock.com##+js(nobab)
 charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
+deadline.com##.a-wrapper.pmc-u-padding-a-1.u-box-shadow-medium.pmc-u-background-white.pmc-u-margin-b-0
 distrowatch.com##h2
 distrowatch.com##td:nth-of-type(3) > table.News:nth-of-type(1)
 dlford.io###ir_wrapper
@@ -149,6 +151,7 @@ seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 spiegel.de##^script:has-text(.createShadowRoot)
 startapp/(exchange|network|service)\.com/$
+strikeout.cc##+js(nostif, userHasAdblocker)
 stupidfanboy.wordpress.com##.native-ad-marker:upward(article)
 technicpack.net##+js(acis, document.createElement, admiral)
 techpowerup.com##.mnmuzjsddc
@@ -209,6 +212,7 @@ www.google.*##a[href*="agoda.com"]:upward(.g)
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
 www.google.com##:root:style(overflow-y: visible !important;)
+www.independent.co.uk##.video-sticky-video
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
 www.latimes.com###\38 cd4c321-9fd2-4261-b708-33ff456f0217
@@ -278,6 +282,7 @@ youtube.com##.ytp-paid-content-overlay-tex
 youtube.com##^responseheader(set-cookie)    
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
+||9b.news/ads$image
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
@@ -339,6 +344,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||googleanalytics.net^
 ||googlevideo.com*ctier$xhr,domain=youtube.com
 ||hd-dev.com^
+||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ||img.picturegalaxy.org/data/statics/gen4ever.gif$image
@@ -400,6 +406,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||windows.net^
 ||wp.pl^$third-party,domain=~wp.pl
 ||wpimg.pl^$third-party,domain=~wp.pl
+||www.builtbygirls.com^
 ||www.ghacks.net/statics/dfp.js
 ||www.google-analytics.com/analytics.js
 ||www.infobae.com/pf/dist/page/poZcLt1ZOcfL2s/default.js$script,domain=www.infobae.com

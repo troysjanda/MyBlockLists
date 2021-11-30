@@ -6,7 +6,7 @@
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 1.0.0
+! Version: 1.0.1
 ! Additions: (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
