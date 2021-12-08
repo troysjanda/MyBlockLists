@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  52D9CDF4D75E34592FECC82D3CC243731F13FEFDAEB5A8AB622380214C98A3F7
+! SHA256 Hash: 8FC9775DD5B81B9FAD68390C8B0CC0450725AB839ABEC16511BF387CF4121D28
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.35
-! Additions: (7) Deletions (0) Modified (0)
+! Version: 8.0.36
+! Additions: (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -15,6 +15,7 @@
 (^|\.)net\.media\.orehawa\.co\.uk/$
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
 *#?#[href*="mail-to:"]
+*$object,redirect-rule=empty,domain=sonixgvn.net
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
@@ -36,6 +37,7 @@
 /^traff(ic)?[-.]
 /advert.js$important
 /analytics.js
+/hads-ak-prn2/1487645_6012475414660_1439393861_n.png
 /i.gif
 /info/p.gif
 /p.gif
@@ -47,6 +49,8 @@
 /wp-admin/admin-ajax.php
 /wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
+9b.news##tr:nth-of-type(14)
+9b.news##tr:nth-of-type(15) > .auto-style89
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
@@ -169,6 +173,7 @@ thehackernews.com##.sidebar.clear > [href="https://go.thn.li/webinar-2"]
 thehackernews.com##.top-follow
 thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
+tikolu.net##+js(aopr, HTMLElement.prototype.oncontextmenu)
 torrentgalaxy.su##.txlight.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
@@ -361,6 +366,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||mobilenations.com^
 ||mssl.fwmrm.net/p/nbcu_rsn_live/AdManager.js$document,important
 ||nc0.co^$important
+||notix.io
 ||oath.com^all
 ||phys.org^important
 ||polyfill.io^
