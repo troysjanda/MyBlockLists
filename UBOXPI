@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 8FC9775DD5B81B9FAD68390C8B0CC0450725AB839ABEC16511BF387CF4121D28
+! SHA256 Hash: FA8B4BC557B993D4A8C7B2F6463839D2BF353F6F5428181B888460190B4D2A0D
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.36
-! Additions: (6) Deletions (0) Modified (0)
+! Version: 8.0.37
+! Additions: (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -83,6 +83,7 @@ betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
+bing.com##+js(ra, target, #b_results a[href][target="_blank"])
 blockadblock.com##+js(nobab)
 charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
@@ -99,6 +100,7 @@ egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
 en.wikipedia.org###frb-main
 en.wikipedia.org##.frb-button.frb-nag-link
+en.wikipedia.org##.frb-country-US.frb-rml-disabled.frb
 en.wikipedia.org##.frb-country-US.frb-rml-enabled.frb
 en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
@@ -208,7 +210,10 @@ www.foxnews.com##.is-breaking.alert-banner
 www.foxnews.com##.item-nation-email-mod.item
 www.foxnews.com##.item-nation-trial-mod.item
 www.foxnews.com##.sticky-nav.collection-article-scroller.collection
+www.foxnews.com#@#.content:has-text(/SPONSORED/i)
 www.ghacks.net##.category-sponsored
+www.ghacks.net##.slick-arrow.slick-next
+www.ghacks.net##.slick-arrow.slick-prev
 www.ghacks.net##.tag-featured.category-windows-11-help.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-173988.post-list-sponsored.mt--first--0.mt--60.post-list
 www.ghacks.net##.tag-featured.tag-disclaimer.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-170847.post-list-sponsored.mt--first--0.mt--60.post-list
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
