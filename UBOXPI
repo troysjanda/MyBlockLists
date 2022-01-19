@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 3ACB61754C9F3DED65F4F0D1BCC3FBAFDBE34916954EEA407461F33C3EB6433A
+! SHA256 Hash: FA8B4BC557B993D4A8C7B2F6463839D2BF353F6F5428181B888460190B4D2A0D
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.38
-! Additions: (134) Deletions (0) Modified (0)
+! Version: 8.0.37
+! Additions: (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -16,8 +16,6 @@
 *##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
 *#?#[href*="mail-to:"]
 *$object,redirect-rule=empty,domain=sonixgvn.net
-*$ping,important
-*$websocket,domain=~slack.com|~github.com|~speedtest.net|~redirect-ads.com|~facebook.com|~web.whatsapp.com
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
@@ -41,7 +39,6 @@
 /analytics.js
 /hads-ak-prn2/1487645_6012475414660_1439393861_n.png
 /i.gif
-/images/event/*$image,1p,domain=myanimelist.net
 /info/p.gif
 /p.gif
 /pixel*.gif^
@@ -52,14 +49,9 @@
 /wp-admin/admin-ajax.php
 /wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
-9anime.*##+js(nosiif, /try|(n)/)
-9anime.*##.popover, #tags, .hd-buttons.row, #comment, .comment.widget > .widget-title, .comment.widget > .widget-body, .socials, #social, .twitter-follow-button, .sticky, .share, .text-center.crop.widget, .text-center.widget, .azlist, .mb20, [href*="twitter.com"], .alert, #fb-root, [href*="dynamicadx.com/"], [href*="popmonetizer.com/redirect"], .textlinks:remove()
 9b.news##tr:nth-of-type(14)
 9b.news##tr:nth-of-type(15) > .auto-style89
-@@/wp-content/*/1x1.trans.gif$image,1p,badfilter
-@@||adblockanalytics.com/ads.js|$badfilter
 @@||disqus.com/embed.js?_=1457540*$script
-@@||gemius.pl/gstream.js$badfilter
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
 @@||js.taplytics.com/jssdk/*$script,domain=foxnews.com
@@ -75,13 +67,7 @@ amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
 amp$doc,removeparam=amp,domain=theathletic.com|betanews.com
-anime8.ru##.text-center.alert.ann-home, #btnShowComments:remove()
-animehub.ac##.footer-follow, .sb-subs.goblock > .clearfix, .comments, .detail-anime.goblock > .go-full.goblock-content > .goblock-bottom, .gc-share.gc-icon, .gc-comments.gc-icon, .dialog-ovelay, #sidebar > .clearfix\, #discordapp, #info_player > p, #info_player > div > div:remove()
-animenewsnetwork.com###cover_image,.floating-image,.box.alert,#infinite-scroll-outlet,.spaceRow,#prompt-message,.social-button,.ezoic-ad,div[style$="overflow: hidden;"], .youtube:remove()
 anitube.*##+js(abort-on-property-read, redirect1)
-app.slack.com##+js(set, console.info, noopFunc)
-app.slack.com##.p-client__banners,.c-fullscreen_modal__content:remove()
-app.slack.com##^meta[http-equiv="Content-Security-Policy"]
 armourgaming.co###tidio-chat-iframe
 armourgaming.co##.notifyjs-container
 armourgaming.co##.np-inside
@@ -102,18 +88,14 @@ blockadblock.com##+js(nobab)
 charlesmknox.com##.adsbycontextcue > iframe
 cricketarchive.com##+js(set, Pigeon.paywall, noopFunc)
 deadline.com##.a-wrapper.pmc-u-padding-a-1.u-box-shadow-medium.pmc-u-background-white.pmc-u-margin-b-0
-developer.mozilla.org##.mdn-cta-container, [class^="notification"]:remove()
 distrowatch.com##h2
 distrowatch.com##td:nth-of-type(3) > table.News:nth-of-type(1)
 dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
 dlford.io##[href^="https://sifmail.com/"]
-dnsleaktest.com##p[style="padding-bottom: 100px"]:remove()
-dood.*##+js(aeld, /DOMMouseScroll|mousewheel/)
 doubleclick.net^$important
 duckduckgo.com##.is-slotted-first.grid-3-cols.has-grid.has-hidden-vertical.bing.has-main-source.js-module--products.module--carousel-products.module--carousel.module
-duckduckgo.com##.onboarding-ed, .tag-home__wrapper, .footer, .ia-modules, .badge-link, .js-module--products.module--carousel-products:remove()
 egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
 en.wikipedia.org###frb-main
@@ -124,38 +106,23 @@ en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 everydayhealth.com##^script:has-text(/i10C/i)
 facebook.com##div.h_r03bd44ox.pagelet
-fandom.com###WikiaBar, #WikiaRailWrapper, .banner-notifications-placeholder, .aff-unit__disclaimer-message, .mw-notification-area, [href^="https://myanimelist.net/"]:remove()
 faucethero.com##+js(acis, blockAdBlock)
-fmovies.*##+js(nosiif, try)
-fmovies.*,ffmovies.*##.text, .widget:nth-of-type(5), #tags, .hidden-sm.widget, .hd-buttons.row, .col-right, .widget:nth-of-type(4), [href*="twitter.com"], div[data-go="#comment"], .socials, .twitter-follow-button, [href*="/redirect"], .streamhd, .stream4k, .home-socials, .addthis_native_toolbox, #fb-root, .alert, [href^="https://dynamicadx.com/"], #comment:remove()
 forums.theregister.com###adtoniq-msgr-bar
 foxnews.com##.content:has-text(/SPONSORED/i)
 foxnews.com##.is-programming.alert-banner
 getcomics.info###advanced_floating_content_85155
-ghacks.net###comments, [href*="/#comments"], .tag-sponsored, [id^="snhb-snhb_ghacks_bottom-"], .widget_stackcommerce_widget:remove()
 github.com##.commit-desc:style(display:block !important;)
 github.com##.hidden-text-expander:style(display:none !important;)
 github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
-github.com##.survey-container, .js-notice-dismiss, .mb-4.bg-white, .code-navigation-banner, .js-notice:remove()
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
-hentaiplay.net###footbar:remove()
-hentaiplay.net##+js(set-attr, preload|controls, auto, video)
-hollywoodreporter.com##.autoload-spinner, .blog-post-thr-newsletter-section, .speedbump-carousel:remove()
 idfg.idaho.gov##.row.alert-warning.alert
 ign.com##^script:has-text(g01.ign.com)
 instagram.com###fb-root + div[role=presentation]
-instagram.com##+js(sa, preload|controls, auto, video, loop)
-instagram.com##video:style(z-index: 1000 !important)
 kaffnet.com$
-kimcartoon.to,kimcartoon.li##.w-right, #hideAds, .videoAdClose, .kcAds, .alert-info.alert, .mb15.full, #btnShowComments, #videoAd, #divComments, #disqus_thread, .twitter-follow-button, [id*="ScriptRoot"], #adbWarnContainer, #msg, div[style*="width: 300px; height: 250px"], #myContainer > .kcAds1, .top_page_alert, .kcAds1:remove()
-kissanime.nz##.dialog-ovelay,#upgrade_pop,#divComments,.related_news,.full:nth-child(14),.footer_watching_link,.tab-head,#popular_animes:remove()
-kisscartoon.nz###divComments:remove()
 magicalthirteen.com^$important
-mega.nz##.ads-left-block, .ads-right-block, .active.top-login-warning, .red.download-button.button, .checkbox-bl.download:remove()
 megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
 megaup.net#@#[id^="AdskeeperComposite"]:style(padding-top:1100px!important;)
-myanimelist.net##.mal-koukoku-unit,.btn-mal-service,.banner-header-anime-straming,.footer-link-icon-block,.clearfix.index-watch-description,.anime-detail-header-affiliate,.amazon, .anime_discussions.widget,.video-providers,.js-sns-icon-container,.icon-block-small.js-sns-icon-container,.promotional-video,.anime-detail-header-video,.mb4.di-ib,.fb-page,.root,[id^="div-gpt-ad"],.watch-description,.text-ad-links,.right_top_ad,.mal-ad-unit,.gdpr-modal-ad,.ad-skin-side-bg,.mal-side-ad--l,.mal-side-ad--r,.mal-live-pop-up,.free-manga-pop-up,[href^="https://mallive.myanimelist.net"], [href^="https://otsukai.com/"], [src*="/banner/"],.banner-footer-anime-streaming,.btn-affiliate,.left-info-block-manga-store-button,.btn-forum-manga-store,.mb24.mt24.pb24.pt24,.footer-app,div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"],div[style="padding:16px 0px 0px 0px;"],.amazon-ads,.border_top,[class^="mal-"][class$="-unit"]:remove()
 nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
 noypigeeks.com##a[target="_blank"] > img[src*=".noypigeeks.com/"]
@@ -177,11 +144,9 @@ reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.author-tooltip
 reddit.com##.dfp-ad-container
 reddit.com##.premium-banner
-reddit.com##.promotedlink, [id^="ad_"], #redesign-beta-optin-btn, [href="/premium"], .comment-visits-box, .premium-banner-outer, .share, #adblock-test, .giftgold, .snoovatar-link, .give-gold-button, .bottom > .spacer, .happening-now-wrap, .hohoho-header, .hohoho, #gtm-jail:remove()
 reddit.com##.s1tljykw-0
 reddit.com##.ynts11-1
 reddit.com##body > div[data-overflow]:last-child
-relay.firefox.com##.addon.banner-gradient-bg:remove()
 resid3ncy.com###chated-overlay
 rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
 rp-online.de##.park-article-paywall__content
@@ -190,8 +155,6 @@ scotthelme.co.uk##.support
 sec.gov##div[style="break-before: page; margin-top: 6pt; margin-bottom: 6pt"], div[style="page-break-before: always; margin-top: 6pt; margin-bottom: 6pt"]:remove()
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
-speed.cloudflare.com##.mapboxgl-map:upward(1):remove()
-speedtest.net##.high-placeholder.pure-u-1, .u-c.pure-u-custom-ad-rectangle, .u-c.pure-u-custom-ad-skyscraper, .top-placeholder.pure-u-1, .eot-dd-content, .u-c.pure-u-1-4:nth-of-type(1) > ul.menu-footer:nth-of-type(2), .lowerboard-content:remove()
 spiegel.de##^script:has-text(.createShadowRoot)
 startapp/(exchange|network|service)\.com/$
 strikeout.cc##+js(nostif, userHasAdblocker)
@@ -212,27 +175,16 @@ thehackernews.com##.sidebar.clear > [href="https://go.thn.li/webinar-2"]
 thehackernews.com##.top-follow
 thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
-thewrap.com##+js(ra, style, .wrappro-paywall, stay)
-thewrap.com##.wallkit-paywall-block
-thewrap.com##.wrappro-paywall-member-link-for-reader
-thewrap.com##style:has-text(wallkit-paywall-block):remove()
 tikolu.net##+js(aopr, HTMLElement.prototype.oncontextmenu)
-torrentfreak.com##.widget_text, .o-widget--rotated.o-widget, .comments, .footer__widget--stats, .preview-article__comments, .hero__comments, .socials:remove()
 torrentgalaxy.su##.txlight.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
 torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
 torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
 torrentlawyer.com##+js(set, document.onselectstart, noopFunc)
-translate.google.com##.notification-area,.gt-cc:remove()
-truecaller.com##.absolute.flex, .ad, [href*="premium"], [id="app"] > footer + .pin-b, span > .max-w-md.shadow-lg:remove()
 tutsgalaxy.net##+js(nobab)
-twitch.tv###twilight-sticky-footer-root:remove()
-twitter.com##.r-g6jmlv.r-ipm5af.r-1xcajam.r-xr3zp9.r-1pjcn9w.r-1777fci.r-1pi2tsx.r-18u37iz.r-1kihuf0.r-1awozwy.css-1dbjc4n,.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.r-11z020y.css-1dbjc4n,.r-qo02w8.r-l5o3uw.css-1dbjc4n:style(position:absolute !important;left:-99999px !important)
 twitter.com##article:has(div:has-text(/^Promoted$/))
-twitter.com##html:style(overflow:auto !important)
 uploadship.com##+js(acis, document.getElementById, adblock)
-utm_$doc,removeparam=/^utm_/,1p
 winaero.com##.entry-content > div
 windowscentral.com##div:nth-of-type(7)
 wordpress.com##.lpc-vip-modal-backdrop
@@ -266,7 +218,6 @@ www.ghacks.net##.tag-featured.category-windows-11-help.hentry.has-post-thumbnail
 www.ghacks.net##.tag-featured.tag-disclaimer.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-170847.post-list-sponsored.mt--first--0.mt--60.post-list
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item > span.spansored-title
-www.google.*###prm-pt, .b2hzT, .exp-outline, [id^="ed_"], [id^="eob_"], [title*="Share"], #gws-output-pages-elements-homepage_additional_languages__als, #wmxmsg, #prm, .uU7dJb,[class$="middle-slot-promo"]:remove()
 www.google.*##a[href*="agoda.com"]:upward(.g)
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
@@ -337,34 +288,21 @@ youtube.com###chat
 youtube.com###watch-action-panels
 youtube.com##+js(cookie-remover, CONSENT)
 youtube.com##.iv-branding.annotation-type-custom.annotation
-youtube.com##.ytp-ad-progress-list, #player-ads, #watch-action-panels, #chat, .ytp-ce-covering-overlay, .subscribecard-endscreen, .ytp-ce-element, #ytd-promoted-video-renderer, #watch-sidebar-live-chat, #pla-shelf, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander, .hats-categorical-style-vertical, #movie-upsell-card, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup, .style-default.force-icon-button.ytd-menu-renderer.style-scope, #sponsor-button, .ytp-miniplayer-button, .ytd-metadata-row-header-renderer.style-scope .html5-stop-propagation.ytp-drawer, #masthead-ad, #ticker.ytd-masthead, #merch-shelf, #offer-module, .ytp-cards-teaser, .ytp-paid-content-overlay, .ytp-pause-overlay, .ytp-title-channel, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope, .ytd-search-pyv-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-merch-shelf-renderer, .share-panel-services, .ytp-share-button, #secondarylinks, #content > .ytd-metadata-row-header-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint, #hover-overlays.style-scope.ytd-thumbnail, #dismissable.ytd-compact-promoted-item-renderer.style-scope, #dismissable.ytd-rich-shelf-renderer.style-scope, #clarify-box, .ytd-vertical-product-card-renderer, .ytd-primetime-promo-renderer, .ytd-inline-survey-renderer, #consent-bump, ytd-rich-section-renderer, .ytp-paid-content-overlay-text, #comments, .ytp-promotooltip-wrapper, [href="/premium"], .yt-tooltip-renderer.style-scope, ytd-feed-nudge-renderer:remove()
 youtube.com##.ytp-paid-content-overlay-tex
 youtube.com##^responseheader(set-cookie)    
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
-||2mdn.net^$important
 ||9b.news/ads$image
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
-||ad.$1p
-||addthis.com^$important
-||adnxs.com^$important
 ||ads.adaptv.advertising.com^
-||adskeeper.co.uk^$important
 ||advertisermirror.com^
-||advertising.com^$important
 ||alb.reddit.com^$all
-||amazon-adsystem.com^$important
 ||analytics-api.samsunghealthcn.com^
-||analytics.$1p
 ||analytics.pointdrive.linkedin.com^
 ||animeland.tv/scripts/$script
-||animenewsnetwork.com/logger.performance^$1p
-||animenewsnetwork.com/sponsor/$1p
 ||api.chated.io/sdk/v1/popups/*$subdocument
-||api.github.com/_private/browser/errors^
 ||appmetrica.yandex.com^
-||arc.io^
 ||atwola.com^
 ||banananalytics.com^$important
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
@@ -375,90 +313,54 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||bilsyndication.com^
 ||bizpanda.com
 ||boilingcredit.com^
-||buymeacoffee.com^
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
-||cbox.ws^$important
-||cbsi.com^
-||cbsinteractive.com^
 ||cdn.adsafeprotected.com^
 ||cdn.concert.io/lib/adblock/*
 ||cdn.concert.io/lib/adblock/vox_support_explanatory.html$subdocument
 ||cdn.report-uri.com^
 ||cdn.shopifycloud.com/messenger_commerce/assets/custom-button/*.png$image
 ||cdn.yottos.com^
-||chatango.com^
-||chatbro.com^
 ||clksite.com^$important
-||coinmarketcap.com^$3p
 ||connect.facebook.com
 ||connect.facebook.net
-||consensu.org^$important,redirect=noopjs
 ||consent.google.com^
 ||consent.youtube.com^
 ||content.jwplatform.com^$domain=variety.com
 ||contributor.google.com/scripts/807037fac4e803f4/loader.js
-||contributor.google.com^$important
 ||coronavirus.idaho.gov/wp-content/uploads/2021/08/Button_CoronavirusWebsite-*.png$image
-||cse.google.com^$important
 ||curtistimes.com^
-||data.microsoft.com^$important
 ||data.mistat.xiaomi.com^
 ||dev-nano.com^$all
 ||digitru.st^
-||discord.com^$3p
-||discordapp.com^
 ||disqus.com/api/3.0/threadReactions/
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script,redirect=disqus_embed.js
 ||disqus.com/forums/*/embed.js$script,redirect=disqus_forums_embed.js
-||disqus.com^$important
 ||disqusads.com^$important
 ||dockdigestion.com^
-||doubleclick.net^$important
-||doubleclickbygoogle.com^$important
 ||embed.acast.com/yahoosportsmlb$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-yc-fl-off-net-school-start-league-ji-070919-v-1-3-light-800-x-800-x-1-jpg_1566418730380.jpeg$image
 ||exactmetrics.com
-||exoclick.com^$important
-||exosrv.com^$important
 ||extmaps-api.yandex.net^
 ||facebook.com/plugins/*
-||facebook.com^$important,3p,domain=~instagram.com
-||facebook.net^$3p,important
-||firebase.googleapis.com^
 ||flintos.io/wp-content/plugins/popup-builder/*
-||fonts.googleapis.com^$important
-||fonts.gstatic.com^$important
 ||forum.opnsense.org/adds/content/x*_20160413.jpg.pagespeed.ic.*.webp$image
-||getsentry.com^$important
 ||ghacks.net/statics/ads.min.js
 ||ghacks.net/statics/px.gif
-||gleamjs.io^
-||google-analytics.com^$important
 ||google.*$removeparam=gws_rd=ssl
-||google.com/cse/cse.js^
-||googleadservices.com^$important
 ||googleanalytics.net^
-||googlesyndication.com^$important
-||googletagmanager.com^$important
-||googletagservices.com^$important
 ||googlevideo.com*ctier$xhr,domain=youtube.com
-||gravatar.com^
 ||hd-dev.com^
-||hollywoodreporter.com/fe_data/$1p,xmlhttprequest
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
 ||img.picturegalaxy.org/data/statics/gen4ever.gif$image
 ||img.picturegalaxy.org/data/statics/gennew.gif^
-||instagram.com^$3p
-||intercom.com^$3p
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
-||licensebuttons.net^
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
@@ -466,43 +368,26 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||mailtrack.io^$important
 ||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
 ||metrics.icloud.com^
-||mgid.com^$important
 ||mobilenations.com^
 ||mssl.fwmrm.net/p/nbcu_rsn_live/AdManager.js$document,important
-||myanimelist.net/static/logging.html^$xmlhttprequest,1p
 ||nc0.co^$important
 ||notix.io
 ||oath.com^all
-||omtrdc.net^$important
-||opta.net^
 ||phys.org^important
-||play.google.com/log?$xmlhttprequest,important
 ||polyfill.io^
 ||polyfill.io^$all
 ||rawgit.com^$important
-||readcomiconline.to/wp-includes/*/*.html^$subdocument,1p
 ||reddit.com/api/me.json?*=$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/static/pixel.png^
 ||reddit.com/web/log/$xmlhttprequest
 ||reddit.com^*utm_$queryprune=|utm_
-||redventures.io^$important
 ||report-uri.cloudflare.com^
 ||s3.buysellads.com^
-||scorecardresearch.com^$important
 ||scotthelme.report-uri.com^$all
-||scroll.com^$important
 ||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
-||search.brave.com/api/feedback^
-||segment.com^$important
-||sentry-cdn.com^$important
 ||servebom.com^
-||services.wikia.com^
 ||serving-sys.com^
-||sharethis.com^$important
-||slack.com/api/promo.banner^
-||slack.com/api/ublockworkaround^
-||spot.im^$important
 ||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
 ||st.chatango.com/h5/gz/r0402211818/id.html$subdocument
@@ -512,36 +397,22 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
 ||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2021_comments_01.jpg
-||stats.$1p
-||stripe.com^$important
-||stripe.network^$important
 ||stripe.rs-stripe.com
 ||subscribe.washingtonpost.com^
 ||supportmetrics.apple.com^
 ||syncronex.com^
 ||taboola.com^
-||taboola.com^$important
-||tags.tiqcdn.com^$important
-||tawk.to^$important
 ||tfbnw.*/
 ||thehackernews.com/images/-bCcBfZ1l2S0/Xq2HbDKTajI/AAAAAAAA2uI/MlJiZjsDHuwqqQuDT4xKygGqI9wtXBdRQCLcBGAsYHQ/s300-e100/sidebar-webinar-2.jpg$image
 ||tinypass.com^$3p
-||tinypass.com^$important
 ||tpucdn.com/images/*75willrunoutofdirssoon*/$image
 ||trk.pinterest.com^
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
-||trust-provider.com^
-||twitter.com^$important,3p
-||typekit.net^
-||ubembed.com^
 ||unpkg.com/@tryghost/*$script
 ||upst.fwdcdn.com/temp/blocks/*$image
 ||verizonmedia.com^
-||viafoura.co^
-||vk.com^$3p
 ||volantix.com^
 ||washingtonpost.com/*/pwapi-proxy.min.js$script
-||washingtonpost.com/pwapiv2/$xhr,1p
 ||whatsapp.*/
 ||windows.net^
 ||wp.pl^$third-party,domain=~wp.pl
@@ -560,11 +431,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.washingtonpost.com/zeus/*$script,domain=www.washingtonpost.com
 ||xcp-ng.org/blog/content/images/2020/04/banner*-forum-2.png$image
 ||yo/guce-js
-||youtube.com/comment_service_ajax?action_get_comments^$xhr
-||youtube.com/error_204?^$xhr
-||youtube.com/youtubei/v1/log_event^$xhr
-||youtube.com^*/annotations_module.js
-||youtube.com^*/endscreen.js
 ||youtube.com^*fbclid*$queryprune=fbclid
 ||youtube.com^*gclid*$queryprune=gclid
 ||ysearchblog.com^
