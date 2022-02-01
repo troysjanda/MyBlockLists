@@ -1,12 +1,12 @@
 [uBlock Origin]
-! SHA256 Hash: 78A28228E59B8F5A2E3C04FB3D8AF09516EB115CE5B6CAFDDBC6104FC57791CC
+! SHA256 Hash: 2768305C3EC26D290E8A89CB624427FC4B764788E61B82977D314DAE3605AE59
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.35
+! Version: 8.0.36
 ! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -92,11 +92,13 @@ finance.yahoo.com###mrt-node-Col2-14-AdUnitWithTdAds
 finance.yahoo.com###mrt-node-Col2-6-Ad
 finance.yahoo.com###mrt-node-Lead-0-Ad
 finance.yahoo.com###mrt-node-Lead-1-Ad
+finance.yahoo.com###mrt-node-Overlay-0-Lightbox
 finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.native-ad-item.gemini-ad
+finance.yahoo.com##.wafer-rapid-tracked.wafer-rapid-module.overlay-module.monalixa-overlay.monalixa
 finance.yahoo.com##.yfi_ad_s
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 finance.yahoo.om##.adfeedback-tripledot
@@ -382,6 +384,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/bx/adb/20210709185323318.png
 ||s.yimg.com/bx/adb/20210713164918586.jpg
 ||s.yimg.com/bx/adb/20210720220256822.jpg
+||s.yimg.com/bx/spo/YS_NFLLive_InProduct_1200x627@2x.jpg
 ||s.yimg.com/bx/spo/YS_NFLLive_InProduct_880x150@1x.jpg$image
 ||s.yimg.com/cb/af/*$script,1p
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
