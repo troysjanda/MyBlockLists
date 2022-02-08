@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 9DF882260FFB5CD80E23F5EF1E3BCCFADBEAD079B7C10F7F7EA62F35FA090EB2
+! SHA256 Hash: 2965FEBAD12BFCE04DFA20B300D74F5804447B5B9B8C8B138703ABFECAEB63E5
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.40
-! Additions: (0) Deletions (3) Modified (0)
+! Version: 8.0.41
+! Additions: (0) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -66,7 +66,6 @@ amazon-adsystem.com$
 amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
-amp$doc,removeparam=amp,domain=theathletic.com|betanews.com
 anitube.*##+js(abort-on-property-read, redirect1)
 armourgaming.co###tidio-chat-iframe
 armourgaming.co##.notifyjs-container
