@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 6036DBAA1997A76CE2A0027C3A7DB934F4A488A665F75E9D8B5B0DC1457CE7DD
+! SHA256 Hash: 9DF882260FFB5CD80E23F5EF1E3BCCFADBEAD079B7C10F7F7EA62F35FA090EB2
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.39
-! Additions: (1) Deletions (0) Modified (0)
+! Version: 8.0.40
+! Additions: (0) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -111,9 +111,6 @@ forums.theregister.com###adtoniq-msgr-bar
 foxnews.com##.content:has-text(/SPONSORED/i)
 foxnews.com##.is-programming.alert-banner
 getcomics.info###advanced_floating_content_85155
-github.com##.commit-desc:style(display:block !important;)
-github.com##.hidden-text-expander:style(display:none !important;)
-github.com##.js-notice.f4-md.f6.text-bold.text-white.text-md-center.text-left.p-3
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 idfg.idaho.gov##.row.alert-warning.alert

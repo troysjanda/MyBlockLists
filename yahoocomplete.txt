@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 313B69475DA168F4CCAFCA9B511E80013ECC19D4CC0C587CF0477E0F81A36415
+! SHA256 Hash: 80DEA26B2B96031A3D602D89CF856AC63F73A539AEFAB1ADC540CC613BAF3B9E
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.37
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.38
+! Additions: (0) Deletions (22) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -97,11 +97,9 @@ finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.native-ad-item.gemini-ad
-finance.yahoo.com##.wafer-rapid-tracked.wafer-rapid-module.overlay-module.monalixa-overlay.monalixa
 finance.yahoo.com##.yfi_ad_s
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 finance.yahoo.om##.adfeedback-tripledot
-foxnews.com,yahoo.com#@#.ad-enabled
 games.yahoo.com,movies.yahoo.com##.md.links
 groups.yahoo.com##.yg-mbad-row
 horsemart.co.uk,merkatia.com,mysportsclubs.com,news.yahoo.com#@#.ad_header
@@ -364,8 +362,6 @@ yellowpages.com###yahoo_ss_border
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
-||geocities.yahoo.*/js/sq.
-||guce.yahoo.com^
 ||iframe.travel.yahoo.com^
 ||im.ov.yahoo.co.jp^
 ||mail.yahoo.com/mc/md.php?
@@ -392,22 +388,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
 ||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
 ||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
-||s.yimg.com/cv/apiv2/default/20180604/On-Net_5nights_880x150.png
-||s.yimg.com/cv/apiv2/default/20180604/On-Net_Premieres_880x150.png
-||s.yimg.com/cv/apiv2/default/20180730/FF-Launch-static__1HeadlineLarge_CreateLeague_880x150@.jpg
-||s.yimg.com/cv/apiv2/default/20180730/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
-||s.yimg.com/cv/apiv2/default/20180730/FH_Phase3_InProduct_Grad_880x150@1x.png$image
-||s.yimg.com/cv/apiv2/default/20180730/Grad_880x150_x1.jpg$image
-||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_FOMO_Countdown_082820__September9@1x.jpg^
-||s.yimg.com/cv/apiv2/default/20180730/YFF_2020_In-Product_Banners_Phase4_082820_880x150@1x.jpg^
-||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_880x150@1x.jpg$image
-||s.yimg.com/cv/apiv2/default/20180730/YS_FB_In-Product_Banners_880x150@2x.jpg$image
-||s.yimg.com/cv/apiv2/default/20180730/_880x150@1x__1_.jpg$image
-||s.yimg.com/cv/apiv2/default/20180730/image-2021-03-12-10-24-27-979.png$image
-||s.yimg.com/cv/apiv2/default/20180730/screenshot-1.png$image
-||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg
-||s.yimg.com/cv/apiv2/default/20190104/NFL18_PlayoffGeneric_880x150_v2.jpg$image
-||s.yimg.com/cv/apiv2/default/20190306/Tourney_In-Product_Phase1_880_150.png
 ||s.yimg.com/cv/apiv2/default/20200526/ymail.jpg$image
 ||s.yimg.com/cv/apiv2/default/20200526/ymobile.jpg$image
 ||s.yimg.com/cv/apiv2/default/20200526/yprotect.png$image
@@ -418,8 +398,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/default/20210319/YPlusSecure_300x500@2x.jpg
 ||s.yimg.com/cv/apiv2/default/20210319/YahooHP_AdBlocker_YMailPlus_300x500_AdFreeLite@2x.jpg
 ||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
-||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Left_1200x1200.jpg^
-||s.yimg.com/cv/apiv2/default/YS_Tourney19_Skins_Sports-Right_1200x1200.jpg^
 ||s.yimg.com/cv/apiv2/fantasy/promo/YFF_2020_In-Product_Banners_FOMO_082820_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
 ||s.yimg.com/cv/apiv2/ffnfl/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
