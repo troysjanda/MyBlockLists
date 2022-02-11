@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 80DEA26B2B96031A3D602D89CF856AC63F73A539AEFAB1ADC540CC613BAF3B9E
+! SHA256 Hash: 1F7BC11C7D5CC6814333C4160FBEA27692BC33296D7E288AB53C9E61D41A3F66
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.38
-! Additions: (0) Deletions (22) Modified (0)
+! Version: 8.0.39
+! Additions: (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -64,6 +64,7 @@
 /yahooadsobject.
 /yahoofeedproxy.
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.am|~ads.bigbom.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.elcarado.com|~ads.google.com|~ads.harvard.edu|~ads.lapalingo.com|~ads.lordlucky.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.nc|~ads.nimses.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.socialtheater.com|~ads.taboola.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~seriouswheels.com
+@@||video-api.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos$xhr,domain=yahoo.com
 _yahooads/
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
@@ -176,6 +177,8 @@ sports.yahoo.com##.ys-sportsbook-featured-odds
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id*="PromoImage-Proxy"]
+sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
+sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 thetandd.com##.yahoo_content_match
 travel.yahoo.com##.tgl-block
 travel.yahoo.com##.ysmcm
@@ -212,6 +215,7 @@ www.yahoo.com##.mxhpset
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##.wafer-beacon.mxhpset
+www.yahoo.com##.wafer-tooltip-wrapper
 www.yahoo.com##.wafer-video-complete.tv-wrapper.wafer-video.D\(f\)
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
