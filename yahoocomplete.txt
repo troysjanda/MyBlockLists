@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 1F7BC11C7D5CC6814333C4160FBEA27692BC33296D7E288AB53C9E61D41A3F66
+! SHA256 Hash: 9F4D7FD54805F556934B8417DEF6728B78CB44F0ECC9E256268EF4D8880AAEB2
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.39
-! Additions: (4) Deletions (0) Modified (0)
+! Version: 8.0.40
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -172,6 +172,7 @@ sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4
 sports.yahoo.com##.Px\(9px\).Py\(16px\).Bgc\(\$c-fuji-grey-a\).Bxz\(bb\).W\(100\%\).tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.surveymonkey-popup
+sports.yahoo.com##.teams-nav
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 sports.yahoo.com##.ys-sportsbook-featured-odds
 sports.yahoo.com##[id*="DailyFantasyPromo"]
@@ -196,6 +197,7 @@ www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44px\).Fz\(13px\).Bgc\(\$c-fuji-smurfette\).C\(\#fff\).Bdc\(\$c-fuji-smurfette\).Bdrs\(22px\).Bdw\(1px\).Fw\(b\).Bds\(s\).W\(100\%\).uh-banner-wide_D\(n\).Cur\(p\)
+www.yahoo.com##.Bxsh\(sticky-footer\)
 www.yahoo.com##.H\(67px\).W\(318px\).Bgc\(\$c-fuji-smurfette\).Bdrs\(1px\).Fz\(14px\).Bxz\(bb\).Bxsh\(\$streamFilterTooltipShadow\).Pos\(r\).Py\(15px\).Pstart\(20px\).D\(f\).Jc\(sb\).Ai\(c\).wafer-tooltip-wrapper
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mb\(20px\)
@@ -264,6 +266,7 @@ yahoo.com###ymh-invitational-recs
 yahoo.com###yn-gmy-promo-answers
 yahoo.com###yn-gmy-promo-groups
 yahoo.com###yschsec
+yahoo.com##+js(ra, loading, img[loading])
 yahoo.com##.Feedback
 yahoo.com##.Maw\(600px\).Bg\(\$premium_promote_bgc\).Bdrs\(8px\).D\(ib\).Mb\(20px\).Pos\(r\).H\(60px\)
 yahoo.com##.astro-promo
