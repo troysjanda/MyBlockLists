@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 9F4D7FD54805F556934B8417DEF6728B78CB44F0ECC9E256268EF4D8880AAEB2
+! SHA256 Hash: 682BDFC83483E68E18F4B630E1DC4B1835D82F07789AC50EE952C2467B49563F
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.40
-! Additions: (3) Deletions (0) Modified (0)
+! Version: 8.0.43
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -237,6 +237,7 @@ yahoo.com###leftGutter
 yahoo.com###lrec2
 yahoo.com###lrec_mod
 yahoo.com###mbAds
+yahoo.com###module-hpset
 yahoo.com###mw-ysm-cm
 yahoo.com###my-promo-hover
 yahoo.com###paas-lrec
@@ -290,6 +291,7 @@ yahoo.com##.share-menu-wrapper
 yahoo.com##.sharing-toolbar
 yahoo.com##.spns
 yahoo.com##.spon.clearfix
+yahoo.com##.stream-header
 yahoo.com##.stream-item:has-text(/Allure/i)
 yahoo.com##.stream-item:has-text(/Best Life/i)
 yahoo.com##.stream-item:has-text(/Best Products/i)
