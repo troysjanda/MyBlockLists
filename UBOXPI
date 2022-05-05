@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 6388EEC1BDFADCE2C45FB54D726C18E32B13388F937898997716F8C6E78F21BB
+! SHA256 Hash:  0BC6961BC6F08410F52C263722E34386ED0D35482A97114F7DA1E860D71B05FF
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.43
-! Additions: (3) Deletions (0) Modified (0)
+! Version: 8.0.44
+! Additions: (7) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -109,6 +109,10 @@ faucethero.com##+js(acis, blockAdBlock)
 forums.theregister.com###adtoniq-msgr-bar
 foxnews.com##.content:has-text(/SPONSORED/i)
 foxnews.com##.is-programming.alert-banner
+gearspace.com###adwus
+gearspace.com###collapseobj_latestDeals
+gearspace.com###site-notice-container
+gearspace.com##.sfs-srdx.sfs-desktop.subforum-sponsor
 getcomics.info###advanced_floating_content_85155
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
@@ -265,6 +269,7 @@ www.reddit.com|$xmlhttprequest
 www.rockpapershotgun.com###onetrust-button-group-parent
 www.rockpapershotgun.com###onetrust-group-container
 www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
+www.sejda.com##.bottom-fixed.step3a.centered
 www.spanishdict.com###adSide2-container
 www.techpowerup.com##.nkuzlfvdywj
 www.techpowerup.com##aside.mnmuzjsddc:nth-of-type(1)
@@ -300,6 +305,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||advertisermirror.com^
 ||alb.reddit.com^$all
 ||analytics-api.samsunghealthcn.com^
+||analytics.gandi.net^
 ||analytics.pointdrive.linkedin.com^
 ||animeland.tv/scripts/$script
 ||api.chated.io/sdk/v1/popups/*$subdocument
@@ -420,6 +426,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||windows.net^
 ||wp.pl^$third-party,domain=~wp.pl
 ||wpimg.pl^$third-party,domain=~wp.pl
+||www.bing.com/rewardsapp/flyout$subdocument
 ||www.builtbygirls.com^
 ||www.ghacks.net/statics/dfp.js
 ||www.google-analytics.com/analytics.js
