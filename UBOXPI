@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  82E298A9523CB66F6BFAFBFA587A4C1861F3730B3BD133E6B28C1AE8B9D2EFD5
+! SHA256 Hash:  FAE53E7EE01B513F160FF2CD6C03DEF71C5CDB1B029ACBF7C0579EFE7A13D147
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.45
-! Additions: (1) Deletions (2) Modified (0)
+! Version: 8.0.46
+! Additions: (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -95,6 +95,7 @@ dlford.io##.railAd
 dlford.io##[href^="https://sifmail.com/"]
 doubleclick.net^$important
 duckduckgo.com##.is-slotted-first.grid-3-cols.has-grid.has-hidden-vertical.bing.has-main-source.js-module--products.module--carousel-products.module--carousel.module
+ebay.com##.s-item:has-text(Sponsored):xpath(//*[string-length(@aria-labelledby) = 8]):upward(.s-item)
 egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
 en.wikipedia.org###frb-main
@@ -114,6 +115,8 @@ gearspace.com###collapseobj_latestDeals
 gearspace.com###site-notice-container
 gearspace.com##.sfs-srdx.sfs-desktop.subforum-sponsor
 getcomics.info###advanced_floating_content_85155
+ghacks.net##^noscript
+ghacks.net##^script:has-text(/AdBlockerDetector/i)
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
 idfg.idaho.gov##.row.alert-warning.alert
@@ -180,6 +183,7 @@ thesolving.com##.nanoBackground
 tikolu.net##+js(aopr, HTMLElement.prototype.oncontextmenu)
 torrentgalaxy.su##.txlight.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
+torrentgalaxy.to##.smallhide.col-sm-12.col-lg-2 > center > div
 torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
 torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
 torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
@@ -200,6 +204,7 @@ www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
 www.cbssports.com##.nav-network-bar
 www.cbssports.com##.site-nav-inner
+www.cbssports.com#@#.site-nav-inner
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
 www.fastcompany.com##.box-195736
@@ -430,6 +435,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.bing.com/rewardsapp/flyout$subdocument
 ||www.builtbygirls.com^
 ||www.ghacks.net/statics/dfp.js
+||www.ghacks.net/wp-content/plugins/geoip-detect/*$script,domain=www.ghacks.net,important
 ||www.google-analytics.com/analytics.js
 ||www.infobae.com/pf/dist/page/poZcLt1ZOcfL2s/default.js$script,domain=www.infobae.com
 ||www.infobae.com/pf/resources/dist/infobae/js/main.js$script,domain=www.infobae.com
