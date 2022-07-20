@@ -1,20 +1,18 @@
 [uBlock Origin]
-! SHA256 Hash:  E785812FA6902BAFBCCE480BB92F2A4644D9C1A41E9A0ED5D88BF0AF4C972951
+! SHA256 Hash:  0366D2D57B89CDCD48D5F338ECD6421EE878009A47E8677C423265CEA84A132A
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.47
-! Additions: (6) Deletions (0) Modified (0)
+! Version: 8.0.50
+! Additions: (1) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
 (^|\.)com\.media\.orehawa\.co\.uk/$
 (^|\.)net\.media\.orehawa\.co\.uk/$
-*##+js(no-fetch-if, /adsbygoogle.js$/ method:/HEAD|POST/)
-*#?#[href*="mail-to:"]
 *$object,redirect-rule=empty,domain=sonixgvn.net
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
@@ -249,6 +247,7 @@ www.microcenter.com###ads
 www.msn.com###irisbanner > .irisbannertop.irisbanner
 www.msn.com##.loaded.allowvig.articlecontent > .shadow
 www.msn.com##.scrolled.head
+www.nascar.com###lightbox-iframe-5d70b5c6-2942-4be9-945d-90d19567df7f
 www.nascar.com##div#ad_bnr_atf_01.nascar-advertisement.ad_bnr_atf_01
 www.nascar.com##div#ad_impression_tracker_01
 www.nascar.com##div#ad_impression_tracker_02
