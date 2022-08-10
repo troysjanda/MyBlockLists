@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  D0E4768421CBC01B067FA15F5D8F3CEE62BBD5CFD7151B4F2F2B2EB39F2BB72B
+! SHA256 Hash:  79D65E08DF66A3CDA21961B995BFDF69D431C1F29AD563E67F81A44B3791FDE7
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.51
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.52
+! Additions: (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -195,6 +195,7 @@ windowscentral.com##div:nth-of-type(7)
 wordpress.com##.lpc-vip-modal-backdrop
 wordpress.com##.lpc-vip-modal-window-container
 wordpress.com#@##gdpr-cookie-banner
+worldpopulationreview.com##+js(abort-current-inline-script, document.createElement, admiral)
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__background
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__wrapper--wide.popup__wrapper
@@ -217,6 +218,7 @@ www.foxnews.com##.item-nation-email-mod.item
 www.foxnews.com##.item-nation-trial-mod.item
 www.foxnews.com##.sticky-nav.collection-article-scroller.collection
 www.foxnews.com#@#.content:has-text(/SPONSORED/i)
+www.ghacks.net##.category-deals,important
 www.ghacks.net##.category-sponsored
 www.ghacks.net##.slick-arrow.slick-next
 www.ghacks.net##.slick-arrow.slick-prev
@@ -377,6 +379,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||img.picturegalaxy.org/data/statics/gennew.gif^
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
+||jsfixer.com/a/crf/ga.js$script,domain=clutchpoints.com,important
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
@@ -390,6 +393,8 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||notix.io
 ||oath.com^all
 ||phys.org^important
+||pixel.quantserve.com/pixel/*
+||pocketfaucet.com^
 ||polyfill.io^
 ||polyfill.io^$all
 ||rawgit.com^$important
