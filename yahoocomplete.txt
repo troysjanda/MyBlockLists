@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  00765DE8CF9655482D8CC2CE6B9E221451E298CDC78C1989A9767EA0554E617C
+! SHA256 Hash:  927E98621A5A7CB8BF258E910E0097954FDDD70F860CDC574C1519B6984CAB45
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.52
-! Additions: (1) Deletions (0) Modified (0)
+! Version: 8.0.53
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -176,6 +176,7 @@ sports.yahoo.com##.adsStreamWrapper
 sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
+sports.yahoo.com##.vp-adplugin-video
 sports.yahoo.com##.ys-sportsbook-featured-odds
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
@@ -342,6 +343,7 @@ yahoo.com##.stream-item:has-text(/scary mommy/i)
 yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.stream-item:has-text(/yahoo life shopping/i)
 yahoo.com##.uh-notifications
+yahoo.com##.vp-adplugin-video
 yahoo.com##.wafer-toggle.Bgc
 yahoo.com##.wdpa1
 yahoo.com##.y7-breakout-bracket
@@ -359,6 +361,7 @@ yahoo.com##.ysptblbdr3
 yahoo.com##[data-ad-enhanced="card"]
 yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
+yahoo.com##^script:has-text(nonce):has-text(/stream/)
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[data-type="ADS"]
 yahoo.com##div[id^="tile-mb-"]
