@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  3530630E9BCD9874BEA08337B05F0538C906E28EF50A9738FA23EBCC5A2B6832
+! SHA256 Hash:  AAECD61B204100FAC4583DE2EB76124209BAFBB216928DB0A496E07FE9BA2F07
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.55
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.56
+! Additions: (3) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -177,6 +177,7 @@ sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 sports.yahoo.com##.vp-adplugin-video
+sports.yahoo.com##.wafer-rapid-tracked.wafer-rapid-module.Trsp\(bottom\).Trsdu\(0\.3s\).hasScrolled_B\(0\).B\(-100px\).H\(100px\).Bdrstend\(4px\).Bdrststart\(4px\).Mx\(a\).End\(0\).Start\(0\).Z\(2\).Pos\(f\)
 sports.yahoo.com##.ys-sportsbook-featured-odds
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
@@ -202,6 +203,7 @@ www.yahoo.com###storyswarm-wrapper
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgc\(\$c-fuji-dory\)\:h.Bdc\(\$c-fuji-dory\)\:h.Mb\(20px\).H\(44px\).Fz\(13px\).Bgc\(\$c-fuji-smurfette\).C\(\#fff\).Bdc\(\$c-fuji-smurfette\).Bdrs\(22px\).Bdw\(1px\).Fw\(b\).Bds\(s\).W\(100\%\).uh-banner-wide_D\(n\).Cur\(p\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
+www.yahoo.com##.D
 www.yahoo.com##.H\(67px\).W\(318px\).Bgc\(\$c-fuji-smurfette\).Bdrs\(1px\).Fz\(14px\).Bxz\(bb\).Bxsh\(\$streamFilterTooltipShadow\).Pos\(r\).Py\(15px\).Pstart\(20px\).D\(f\).Jc\(sb\).Ai\(c\).wafer-tooltip-wrapper
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mb\(20px\)
@@ -226,6 +228,7 @@ www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##.wafer-beacon.mxhpset
 www.yahoo.com##.wafer-tooltip-wrapper
 www.yahoo.com##.wafer-video-complete.tv-wrapper.wafer-video.D\(f\)
+www.yahoo.com##div#HPSPON-ad
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
 www.yahoo.com#@##my-adsFPAD
@@ -360,7 +363,6 @@ yahoo.com##.ysptblbdr3
 yahoo.com##[data-ad-enhanced="card"]
 yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
-!yahoo.com##^script:has-text(nonce):has-text(/stream/)
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[data-type="ADS"]
 yahoo.com##div[id^="tile-mb-"]
