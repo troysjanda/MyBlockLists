@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  AAECD61B204100FAC4583DE2EB76124209BAFBB216928DB0A496E07FE9BA2F07
+! SHA256 Hash:  EB49DB1EAA104E8DAD73EE511EEB7034970D3345E1C23E480E6957543678A99C
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.56
-! Additions: (3) Deletions (1) Modified (0)
+! Version: 8.0.57
+! Additions: (6) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -85,6 +85,7 @@ cricket.yahoo.com###video-branding
 dir.yahoo.com##td[width="215"]
 everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
 finance.yahoo.com###Col2-0-ComboAd-Proxy
+finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
 finance.yahoo.com###mediabankrate_container
 finance.yahoo.com###mrt-node-Col1-0-Ad
 finance.yahoo.com###mrt-node-Col1-0-ComboAd
@@ -178,10 +179,13 @@ sports.yahoo.com##.teams-nav
 sports.yahoo.com##.teams-nav.Lh\(39px\).Va\(t\).M\(0\).Grid.Fz\(15px\)
 sports.yahoo.com##.vp-adplugin-video
 sports.yahoo.com##.wafer-rapid-tracked.wafer-rapid-module.Trsp\(bottom\).Trsdu\(0\.3s\).hasScrolled_B\(0\).B\(-100px\).H\(100px\).Bdrstend\(4px\).Bdrststart\(4px\).Mx\(a\).End\(0\).Start\(0\).Z\(2\).Pos\(f\)
+sports.yahoo.com##.ybar-menu-hover-open
 sports.yahoo.com##.ys-sportsbook-featured-odds
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id*="PromoImage-Proxy"]
+sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
+sports.yahoo.com##li._yb_1wkzz:nth-of-type(3)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 thetandd.com##.yahoo_content_match
@@ -209,6 +213,7 @@ www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mb\(20px\)
 www.yahoo.com##.Mt\(10px\).Mah\(345px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
+www.yahoo.com##.Mt\(4px\).wafer-toggle
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
 www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(--white\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ov\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
@@ -409,6 +414,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
 ||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
 ||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
+||s.yimg.com/cv/apiv2/default/*_300x*.jpg$image
 ||s.yimg.com/cv/apiv2/default/20200526/ymail.jpg$image
 ||s.yimg.com/cv/apiv2/default/20200526/ymobile.jpg$image
 ||s.yimg.com/cv/apiv2/default/20200526/yprotect.png$image

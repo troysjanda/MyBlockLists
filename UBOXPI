@@ -1,12 +1,12 @@
 [uBlock Origin]
-! SHA256 Hash:  50AF371BD5C7B3F3C38769A87FCEBA1A0B9F5A8987ACFA996FEED4110A51CA1D
+! SHA256 Hash:  0967A15B8038599E2C6C32A7470E060158EA60F38FC59FAD04B9F1676323BC4C
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.56
+! Version: 8.0.57
 ! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -78,6 +78,7 @@ betanews.com##.articleBoxad
 betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
+betanews.com##.socialMedia
 betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
 bing.com##+js(ra, target, #b_results a[href][target="_blank"])
@@ -386,6 +387,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||img.picturegalaxy.org/data/statics/gennew.gif^
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
+||js.hs-banner.com/53.js$important
 ||jsfixer.com/a/crf/ga.js$script,domain=clutchpoints.com,important
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
