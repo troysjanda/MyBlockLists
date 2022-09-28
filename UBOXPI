@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  8F8C06927A4A49477F27F19184D4141F945C4CB0328D15D41BE8AAAEBFBCD107
+! SHA256 Hash:  8EA440B6CDCDFA48B19296080B98F5FAC8E6AF554D3FBEBB35D7B1914ADEF5B6
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.60
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.61
+! Additions: (0) Deletions (4) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -307,7 +307,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||9b.news/ads$image
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
-||accounts.google.com/gsi/iframe/select$subdocument
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
 ||alb.reddit.com^$all
@@ -335,10 +334,8 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||clksite.com^$important
 ||connect.facebook.com
 ||connect.facebook.net
-||consent.google.com^
 ||consent.youtube.com^
 ||content.jwplatform.com^$domain=variety.com
-||contributor.google.com/scripts/807037fac4e803f4/loader.js
 ||coronavirus.idaho.gov/wp-content/uploads/2021/08/Button_CoronavirusWebsite-*.png$image
 ||curtistimes.com^
 ||data.mistat.xiaomi.com^
@@ -393,7 +390,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||pixel.quantserve.com/pixel^
 ||pocketfaucet.com^
 ||polyfill.io^
-||polyfill.io^$all
 ||rawgit.com^$important
 ||reddit.com/api/me.json?*=$xmlhttprequest
 ||reddit.com/web/log/$xmlhttprequest
