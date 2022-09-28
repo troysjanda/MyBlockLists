@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  52BB1F5667C7E67AF118D1702E3150E1ED8BFD89F77DA0F2BFABC801908F20A9
+! SHA256 Hash: 682D50A345FF00B5304C6F469DD186E02702FCABE307075D2CFA1D1ACC8A5D16 
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.58
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.59
+! Additions: (0) Deletions (16) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -36,13 +36,11 @@
 /analytics.js
 /hads-ak-prn2/1487645_6012475414660_1439393861_n.png
 /i.gif
-/info/p.gif
 /p.gif
 /pixel*.gif^
 /r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
 /sp.js
 /static/pixel.png
-/vendor/sp.js
 /wp-admin/admin-ajax.php
 /wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
@@ -202,13 +200,10 @@ wordpress.com##.lpc-vip-modal-window-container
 wordpress.com#@##gdpr-cookie-banner
 worldpopulationreview.com##+js(abort-current-inline-script, document.createElement, admiral)
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup
-www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__background
-www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup > .popup__wrapper--wide.popup__wrapper
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-bp-xl-v.cnx-bp-lg-st.cnx-in-ps-landscape.cnx-playspace-container
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ratio
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
 www.cbssports.com##.nav-network-bar
-www.cbssports.com##.site-nav-inner
 www.cbssports.com#@#.site-nav-inner
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
@@ -230,9 +225,7 @@ www.ghacks.net##.category-sponsored
 www.ghacks.net##.slick-arrow.slick-next
 www.ghacks.net##.slick-arrow.slick-prev
 www.ghacks.net##.tag-featured.category-windows-11-help.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-173988.post-list-sponsored.mt--first--0.mt--60.post-list
-www.ghacks.net##.tag-featured.tag-disclaimer.category-sponsored.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-170847.post-list-sponsored.mt--first--0.mt--60.post-list
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
-www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item > span.spansored-title
 www.google.*##a[href*="agoda.com"]:upward(.g)
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
@@ -277,7 +270,6 @@ www.ownedcore.com##[src="https://www.ownedcore.com/forums/./ocpbanners/1/3/9/6/9
 www.phoronix.com###\31 ca940
 www.publish0x.com##.modal-content
 www.reddit.com##.happening-now
-www.reddit.com##.premium-banner
 www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
 www.reddit.com|$xmlhttprequest
@@ -287,7 +279,6 @@ www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
 www.sejda.com##.bottom-fixed.step3a.centered
 www.spanishdict.com###adSide2-container
 www.techpowerup.com##.nkuzlfvdywj
-www.techpowerup.com##aside.mnmuzjsddc:nth-of-type(1)
 www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
 www.theglobeandmail.com###fixedpencil-subs
 www.thekitchenmagpie.com###text-125 > .widget-wrap > .textwidget > .food-bank-note
@@ -332,7 +323,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
 ||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
 ||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0*.jpeg$image
-||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0-*.jpeg$image
 ||betanews.com/wp-includes/js/wp-emoji-release.min.js$script,important
 ||bilsyndication.com^
 ||bizpanda.com
@@ -340,7 +330,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
 ||cdn.adsafeprotected.com^
 ||cdn.concert.io/lib/adblock/*
-||cdn.concert.io/lib/adblock/vox_support_explanatory.html$subdocument
 ||cdn.report-uri.com^
 ||cdn.shopifycloud.com/messenger_commerce/assets/custom-button/*.png$image
 ||cdn.yottos.com^
@@ -402,15 +391,12 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||notix.io
 ||oath.com^all
 ||phys.org^important
-||pixel.quantserve.com/pixel/*
 ||pixel.quantserve.com/pixel^
 ||pocketfaucet.com^
 ||polyfill.io^
 ||polyfill.io^$all
 ||rawgit.com^$important
 ||reddit.com/api/me.json?*=$xmlhttprequest
-||reddit.com/static/pixel.png$image
-||reddit.com/static/pixel.png^
 ||reddit.com/web/log/$xmlhttprequest
 ||reddit.com^*utm_$queryprune=|utm_
 ||report-uri.cloudflare.com^
@@ -454,7 +440,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.builtbygirls.com^
 ||www.ghacks.net/statics/dfp.js
 ||www.ghacks.net/wp-content/plugins/geoip-detect/*$script,domain=www.ghacks.net,important
-||www.google-analytics.com/analytics.js
 ||www.infobae.com/pf/dist/page/poZcLt1ZOcfL2s/default.js$script,domain=www.infobae.com
 ||www.infobae.com/pf/resources/dist/infobae/js/main.js$script,domain=www.infobae.com
 ||www.microsoft.com-windows-booster.live^
@@ -463,7 +448,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.techpowerup.com/njutrvceser/*.jpg$image
 ||www.techpowerup.com/review/*75345380048075*/images/$image
 ||www.techpowerup.com/thlknzrjbv^
-||www.washingtonpost.com/wp-stat/pwapi/prod/fusion/pwapi-proxy.min.js$script,domain=www.washingtonpost.com
 ||www.washingtonpost.com/zeus/*$script,domain=www.washingtonpost.com
 ||xcp-ng.org/blog/content/images/2020/04/banner*-forum-2.png$image
 ||yo/guce-js
