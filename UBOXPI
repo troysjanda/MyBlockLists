@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  8EA440B6CDCDFA48B19296080B98F5FAC8E6AF554D3FBEBB35D7B1914ADEF5B6
+! SHA256 Hash:  D59360957A210716F752024F2DDC04458639EDD1E5AA4DCFF47E4BEEB38AFF4E
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.61
-! Additions: (0) Deletions (4) Modified (0)
+! Version: 8.0.62
+! Additions: (11) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -44,8 +44,14 @@
 /wp-admin/admin-ajax.php
 /wp-content/plugins/wp-content-copy-protector^
 2mdn.net^$important
+9b.news##.auto-style122
+9b.news##tr:nth-of-type(13) > .auto-style79
 9b.news##tr:nth-of-type(14)
+9b.news##tr:nth-of-type(15)
 9b.news##tr:nth-of-type(15) > .auto-style89
+9b.news##tr:nth-of-type(16)
+9b.news##tr:nth-of-type(17)
+9b.news##tr:nth-of-type(18)
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
@@ -99,6 +105,7 @@ en.wikipedia.org###frb-main
 en.wikipedia.org##.frb-button.frb-nag-link
 en.wikipedia.org##.frb-country-US.frb-rml-disabled.frb
 en.wikipedia.org##.frb-country-US.frb-rml-enabled.frb
+en.wikipedia.org##.frb-inline-row
 en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 everydayhealth.com##^script:has-text(/i10C/i)
@@ -224,6 +231,7 @@ www.ghacks.net##.category-sponsored
 www.ghacks.net##.slick-arrow.slick-next
 www.ghacks.net##.slick-arrow.slick-prev
 www.ghacks.net##.tag-featured.category-windows-11-help.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-173988.post-list-sponsored.mt--first--0.mt--60.post-list
+www.ghacks.net##[id^="ghacks_ad_code-"]
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
 www.google.*##a[href*="agoda.com"]:upward(.g)
 www.google.com###lb
@@ -305,6 +313,7 @@ youtube.com##^responseheader(set-cookie)
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||9b.news/ads$image
+||9b.news/ads/*$image,important
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
@@ -337,6 +346,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||consent.youtube.com^
 ||content.jwplatform.com^$domain=variety.com
 ||coronavirus.idaho.gov/wp-content/uploads/2021/08/Button_CoronavirusWebsite-*.png$image
+||cse.google.com/cse.js$script,important
 ||curtistimes.com^
 ||data.mistat.xiaomi.com^
 ||dev-nano.com^$all
@@ -365,6 +375,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||googleanalytics.net^
 ||googlevideo.com*ctier$xhr,domain=youtube.com
 ||hd-dev.com^
+||https://edge-mcdn.secure.yahoo.com/ybar/cerebro_min.js
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
