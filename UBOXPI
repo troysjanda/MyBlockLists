@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  D59360957A210716F752024F2DDC04458639EDD1E5AA4DCFF47E4BEEB38AFF4E
+! SHA256 Hash:  2F0543019557DCE4BE2D13A6275A6738436F5E8739B586E7C24FFC6C6A8B03A7
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.62
-! Additions: (11) Deletions (0) Modified (0)
+! Version: 8.0.63
+! Additions: (0) Deletions (12) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -297,19 +297,7 @@ www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12
 www.tomshardware.com###affiliateDisclaimer
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
-www.youtube.com###dialog
-www.youtube.com##.opened
-www.youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])
-xhamster.com##.wih-spa.wih-spb
-youtube.com###chat
-youtube.com###watch-action-panels
-youtube.com##+js(cookie-remover, CONSENT)
-youtube.com##+js(json-prune, adPlacements)
-youtube.com##+js(json-prune, messages)
-youtube.com##+js(json-prune, playerAds)
-youtube.com##.iv-branding.annotation-type-custom.annotation
-youtube.com##.ytp-paid-content-overlay-tex
-youtube.com##^responseheader(set-cookie)    
+xhamster.com##.wih-spa.wih-spb    
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||9b.news/ads$image
@@ -373,7 +361,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||ghacks.net/statics/px.gif
 ||google.*$removeparam=gws_rd=ssl
 ||googleanalytics.net^
-||googlevideo.com*ctier$xhr,domain=youtube.com
 ||hd-dev.com^
 ||https://edge-mcdn.secure.yahoo.com/ybar/cerebro_min.js
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
