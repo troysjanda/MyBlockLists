@@ -1,18 +1,15 @@
 [uBlock Origin]
-! SHA256 Hash:  204142BBC8E2E3DB7AA7C1663D40F05F4DE7B71D6C290FA346327A7A11C7D83F
+! SHA256 Hash:  C98F2B92C4C19E1DBEFBCE44252975ED983E781274E3751CF107B1A005B0F4DF
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.64
+! Version: 8.0.65
 ! Additions: (0) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
-(^|\.)co\.uk\.media\.orehawa\.co\.uk/$
-(^|\.)com\.media\.orehawa\.co\.uk/$
-(^|\.)net\.media\.orehawa\.co\.uk/$
 *$object,redirect-rule=empty,domain=sonixgvn.net
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
@@ -27,6 +24,7 @@
 /^beacons?[0-9]*[-.]
 /^clicks?[-.]
 /^count(ers?)?[0-9]*[-.]
+/^pixel?[-.]
 /^pixels?[-.]
 /^stat(s|istics)?[0-9]*[-.]
 /^telemetry[-.]
@@ -301,7 +299,6 @@ xhamster.com##.wih-spa.wih-spb
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||9b.news/ads$image
-||9b.news/ads/*$image,important
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
@@ -334,7 +331,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||consent.youtube.com^
 ||content.jwplatform.com^$domain=variety.com
 ||coronavirus.idaho.gov/wp-content/uploads/2021/08/Button_CoronavirusWebsite-*.png$image
-||cse.google.com/cse.js$script,important
 ||curtistimes.com^
 ||data.mistat.xiaomi.com^
 ||dev-nano.com^$all
