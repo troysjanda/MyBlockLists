@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 42EC74784A0367AAF81CD0459D9A06E84ACC50CFB96283DA77F57961254D7D11
+! SHA256 Hash: 8A1480283738DCC2E8223C758E9B66880E68149B39016FEDB6FA50E1395F16AC
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.61
-! Additions: (0) Deletions (2) Modified (0)
+! Version: 8.0.62
+! Additions: (0) Deletions (37) Modified (1)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -99,7 +99,6 @@ finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.native-ad-item.gemini-ad
-finance.yahoo.com##.wafer-beacon.P\(20px\).Bdrs\(8px\).Bxsh\(sticky-footer\).Bgc\(\#fff\).W\(400px\)
 finance.yahoo.com##.yfi_ad_s
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 games.yahoo.com,movies.yahoo.com##.md.links
@@ -107,25 +106,6 @@ groups.yahoo.com##.yg-mbad-row
 horsemart.co.uk,merkatia.com,mysportsclubs.com,news.yahoo.com#@#.ad_header
 lifestyle.yahoo.com###hd-prop-logo-hero
 local.yahoo.com##.yls-rs-paid
-mail.yahoo.com###MIP4
-mail.yahoo.com###MNW
-mail.yahoo.com###modal-upsell
-mail.yahoo.com###northbanner
-mail.yahoo.com###nwPane
-mail.yahoo.com###slot_LREC
-mail.yahoo.com###slot_MB
-mail.yahoo.com###slot_REC
-mail.yahoo.com###swPane
-mail.yahoo.com###tgtMNW
-mail.yahoo.com##.avLogo
-mail.yahoo.com##.left_mb
-mail.yahoo.com##.mb > .tbl
-mail.yahoo.com##a[data-test-id="pencil-ad"]
-mail.yahoo.com##div#msg-list .list-view .ml-bg:not(.list-view-item-container)
-mail.yahoo.com##li[data-test-id="infinite-scroll-AD"]
-mail.yahoo.com##li[data-test-id="infinite-scroll-PENCIL"]
-mail.yahoo.com#@#.searchad
-mail.yahoo.com,skateboardermag.com###SKY
 missoulian.com###yahoo-contentmatch
 movies.yahoo.com###customModule
 movies.yahoo.com##.results[bgcolor="#ECF5FA"]
@@ -155,9 +135,6 @@ search.yahoo.com##.sys_shopleguide
 sevenload.com###yahoo-container
 shopping.yahoo.com##.shmod-ysm
 sports.yahoo.com###Col1-0-BreakingNews-Proxy > div
-sports.yahoo.com###Col1-1-Interstitial-Proxy > .Z\(11\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(f\).ys-interstitial
-sports.yahoo.com###Col1-3-Interstitial-Proxy > .Z\(11\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(f\).ys-interstitial
-sports.yahoo.com###Col1-4-Interstitial-Proxy > .Z\(11\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(f\).ys-interstitial
 sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
 sports.yahoo.com###Lead-3-BreakingNews-Proxy > div
 sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
@@ -217,13 +194,10 @@ www.yahoo.com##.Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
-www.yahoo.com##.has-wafer-click.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.mxhpset
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.stream-vertical-separator
 www.yahoo.com##.userintent-tooltip-box
-www.yahoo.com##.wafer-tooltip-wrapper
-www.yahoo.com##.wafer-video-complete.tv-wrapper.wafer-video.D\(f\)
 www.yahoo.com##div#HPSPON-ad
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
@@ -234,8 +208,6 @@ yahoo.com###LREC2-sizer
 yahoo.com###MREC
 yahoo.com###YSLUG
 yahoo.com###boxLREC
-yahoo.com###darla-ad__LREC
-yahoo.com###darla-ad__LREC2
 yahoo.com###default-p_24457750
 yahoo.com###eyebrow > #ypromo
 yahoo.com###genie-widgetgroup
@@ -251,11 +223,9 @@ yahoo.com###paas-mrec
 yahoo.com###promo_links_list
 yahoo.com###rec
 yahoo.com###reg-promos
-yahoo.com###render-target-default > div[class*="fuji-purple"]:style(background-color: transparent !important)
 yahoo.com###rightGutter
 yahoo.com###sticky-lrec2-footer
 yahoo.com###theMNWAd
-yahoo.com###tiles-container > #row-2[style="height: 389.613px; padding-bottom: 10px;"]
 yahoo.com###u_2588582-p
 yahoo.com###y708-ad-lrec1
 yahoo.com###y708-sponmid
@@ -340,6 +310,7 @@ yahoo.com##.stream-item:has-text(/gq/i)
 yahoo.com##.stream-item:has-text(/scary mommy/i)
 yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.stream-item:has-text(/yahoo life shopping/i)
+yahoo.com##.type_ads_default
 yahoo.com##.uh-notifications
 yahoo.com##.vp-adplugin-video
 yahoo.com##.wafer-toggle.Bgc
@@ -365,7 +336,6 @@ yahoo.com##div[id^="tile-mb-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]
-yahoo.com#@#.type_ads_default
 yahoo.com.au##.TL_genericads_columns
 yahoo.com.au##.TL_medRec_container
 yahoo.com.au##.boxMidRt.pB0
@@ -389,7 +359,6 @@ yellowpages.com###yahoo_ss_border
 ||prod-m-node-1111.ssp.advertising.com^
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
-||s.yimg.com/aaq/yc/js/iframe-1.0.26.js$script,important
 ||s.yimg.com/bx/adb/*.jpg$image
 ||s.yimg.com/bx/adb/*.png$image
 ||s.yimg.com/bx/adb/20210709185323318.png
@@ -405,14 +374,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
 ||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
 ||s.yimg.com/cv/apiv2/default/*_300x*.jpg$image
-||s.yimg.com/cv/apiv2/default/20200526/ymail.jpg$image
-||s.yimg.com/cv/apiv2/default/20200526/ymobile.jpg$image
-||s.yimg.com/cv/apiv2/default/20200526/yprotect.png$image
-||s.yimg.com/cv/apiv2/default/20200526/ytech.jpg$image
-||s.yimg.com/cv/apiv2/default/20200729/Welcome_msg_x3.png
-||s.yimg.com/cv/apiv2/default/20200817/y*.jpg$image
-||s.yimg.com/cv/apiv2/default/20210319/YPlusSecure_300x500@2x.jpg
-||s.yimg.com/cv/apiv2/default/20210319/YahooHP_AdBlocker_YMailPlus_300x500_AdFreeLite@2x.jpg
 ||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
 ||s.yimg.com/cv/apiv2/fantasy/promo/YFF_2020_In-Product_Banners_FOMO_082820_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
@@ -424,9 +385,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
-||s.yimg.com/cv/apiv2/subscriptions/20210322/YProtect_300x500_2x.jpg$image
-||s.yimg.com/cv/apiv2/subscriptions/20210322/YahooHP_AdBlocker_YMailPlus_300x500_2x.jpg$image
-||s.yimg.com/cv/apiv2/tourney2/_Tourney_In-Product_Phase_2_880x150@2x.jpg^
 ||s.yimg.com/cv/apiv2/y20/fantasy/V2_Y20_Banner_880x150@2x.jpg$image
 ||s.yimg.com/ep/cx/blendr/v2/image-ysb-the-slate-us-open-730-pm-1000-x-1000-1-x-min-jpg_1623975656099.jpeg$image
 ||s.yimg.com/rq/darla/4-8-0/html/r-sf-flx.html$subdocument

@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  2F0543019557DCE4BE2D13A6275A6738436F5E8739B586E7C24FFC6C6A8B03A7
+! SHA256 Hash:  204142BBC8E2E3DB7AA7C1663D40F05F4DE7B71D6C290FA346327A7A11C7D83F
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.63
-! Additions: (0) Deletions (12) Modified (0)
+! Version: 8.0.64
+! Additions: (0) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
 (^|\.)co\.uk\.media\.orehawa\.co\.uk/$
@@ -346,7 +346,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||disqus.com/forums/*/embed.js$script,redirect=disqus_forums_embed.js
 ||disqusads.com^$important
 ||dockdigestion.com^
-||embed.acast.com/yahoosportsmlb$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image
@@ -362,7 +361,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||google.*$removeparam=gws_rd=ssl
 ||googleanalytics.net^
 ||hd-dev.com^
-||https://edge-mcdn.secure.yahoo.com/ybar/cerebro_min.js
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
@@ -377,7 +375,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||logservice1.hicloud.com^
 ||m4ufree.tv/js/m4ufree-tv-3-min.js$script,1p
 ||mailtrack.io^$important
-||media-router-brb71.prod.media.vip.gq1.yahoo.com^$important
 ||metrics.icloud.com^
 ||mobilenations.com^
 ||mssl.fwmrm.net/p/nbcu_rsn_live/AdManager.js$document,important
