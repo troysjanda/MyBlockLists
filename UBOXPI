@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  C98F2B92C4C19E1DBEFBCE44252975ED983E781274E3751CF107B1A005B0F4DF
+! SHA256 Hash: 3DDC8F00920605C4CF11E3066188B6F4DE267BBF2D49F4D74FD57490369E74DD 
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.65
-! Additions: (0) Deletions (3) Modified (0)
+! Version: 8.0.66
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -50,6 +50,7 @@
 9b.news##tr:nth-of-type(16)
 9b.news##tr:nth-of-type(17)
 9b.news##tr:nth-of-type(18)
+9b.news##tr:nth-of-type(21) > .auto-style101
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
@@ -128,6 +129,7 @@ kaffnet.com$
 magicalthirteen.com^$important
 megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
 megaup.net#@#[id^="AdskeeperComposite"]:style(padding-top:1100px!important;)
+msfn.org##.focus-social--iconOnly.focus-social
 nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
 noypigeeks.com##a[target="_blank"] > img[src*=".noypigeeks.com/"]
@@ -218,6 +220,7 @@ www.forbes.com##.page-loaded
 www.fosshub.com##.ad-alt > form
 www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
+www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
 www.foxnews.com##.item-nation-email-mod.item
 www.foxnews.com##.item-nation-trial-mod.item

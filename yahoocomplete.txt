@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 8A1480283738DCC2E8223C758E9B66880E68149B39016FEDB6FA50E1395F16AC
+! SHA256 Hash: ADC0D3A0E37FD1A14D21A6226F768762B4C4690C5056978247DDBB44D30F3A38
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.62
-! Additions: (0) Deletions (37) Modified (1)
+! Version: 8.0.63
+! Additions: (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -120,6 +120,7 @@ news.search.yahoo.com##.searchTop.cardReg
 news.yahoo.com###mw-ysm-cm_2-container
 news.yahoo.com###north
 news.yahoo.com##.Bg\(featurebarGradient-0\).W\(100\%\).Pend\(163px\).Py\(8px\).Pstart\(0\).Whs\(n\).Bxz\(bb\).Bdrs\(2px\)
+news.yahoo.com##.stream-related-content
 news.yahoo.com##.userintent-wrapper
 newsok.com##.yahoo_cm
 nz.yahoo.com##.y7countdown
@@ -138,6 +139,7 @@ sports.yahoo.com###Col1-0-BreakingNews-Proxy > div
 sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
 sports.yahoo.com###Lead-3-BreakingNews-Proxy > div
 sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
+sports.yahoo.com###root_2:upward(li)
 sports.yahoo.com###root_2:upward(li)
 sports.yahoo.com###uh-tb-firefoxpromo
 sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
@@ -194,6 +196,7 @@ www.yahoo.com##.Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
+www.yahoo.com##.has-wafer-click.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.mxhpset
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.stream-vertical-separator
@@ -267,6 +270,7 @@ yahoo.com##.sharing-toolbar
 yahoo.com##.spns
 yahoo.com##.spon.clearfix
 yahoo.com##.stream-header
+yahoo.com##.stream-header > .Mt
 yahoo.com##.stream-item:has-text(/Allure/i)
 yahoo.com##.stream-item:has-text(/BGR/i)
 yahoo.com##.stream-item:has-text(/Best Life/i)
