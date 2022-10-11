@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 3DDC8F00920605C4CF11E3066188B6F4DE267BBF2D49F4D74FD57490369E74DD 
+! SHA256 Hash:  09A2E94297532C516CAD9194915295340B503A5B8135F1A023345FA0274E49DA
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.66
-! Additions: (3) Deletions (0) Modified (0)
+! Version: 8.0.67
+! Additions: (0) Deletions (12) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -54,7 +54,6 @@
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
-@@||js.taplytics.com/jssdk/*$script,domain=foxnews.com
 @@||outbrain.com^$script,domain=dailywire.com
 @@||pandora.com/web-version/*/ads.json$xhr
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
@@ -222,11 +221,6 @@ www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
-www.foxnews.com##.item-nation-email-mod.item
-www.foxnews.com##.item-nation-trial-mod.item
-www.foxnews.com##.sticky-nav.collection-article-scroller.collection
-www.foxnews.com##div.tablet-desktop.vendor-unit:nth-of-type(4)
-www.foxnews.com#@#.content:has-text(/SPONSORED/i)
 www.ghacks.net##.category-deals,important
 www.ghacks.net##.category-sponsored
 www.ghacks.net##.slick-arrow.slick-next
@@ -401,9 +395,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||st.chatango.com/h5/gz/r0409211505/id.html$subdocument
 ||st.chatango.com/h5/gz/r0817211056/id.html$subdocument
 ||static-42andpark-com.s3.amazonaws.com^
-||static.foxnews.com/static/orion/html/elections/2020/banner/index.html$subdocument
-||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2019_american_patriots_2.jpg^
-||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/nation_promo_2021_comments_01.jpg
 ||stripe.rs-stripe.com
 ||subscribe.washingtonpost.com^
 ||supportmetrics.apple.com^
