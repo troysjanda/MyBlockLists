@@ -1,12 +1,12 @@
 [uBlock Origin]
-! SHA256 Hash: 54087B8631C684DD98A5018A450EA4F42628D3B2AABA3E30F26B34EE72EBDB7D 
+! SHA256 Hash:  AB13C1648978A5AF9381D12845E3770D174DC15523AEE31DFB3B578443D33CC5
 ! Title: XPI Ubo Social Plus
 ! Description: Social Plus Network based filter list.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
-! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
-! Author: Troy Janda
+! Licence: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+! Author: Originally, Yuki2718, Currently: Troy Janda
 ! Expires: 10 days
-! Version: 1.0
+! Version: 1.1
 ! Additions: (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
