@@ -1,10 +1,15 @@
-! Title: Social media Plus
-! Expires: 5 days
-! Homepage: 
-! Licence: 
-! Version: .4a
-
-! General Social contents
+[uBlock Origin]
+! SHA256 Hash: 54087B8631C684DD98A5018A450EA4F42628D3B2AABA3E30F26B34EE72EBDB7D 
+! Title: XPI Ubo Social Plus
+! Description: Social Plus Network based filter list.
+! Homepage: https://github.com/troysjanda/MyBlockLists
+! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
+! Author: Troy Janda
+! Expires: 10 days
+! Version: 1.0
+! Additions: (0) Deletions (0) Modified (0)
+!
+! -- Start Filters --
 /dp-magjam/img/social/evernote-box.
 /dp-mature/img/social/evernote.
 /facebook-pagelike-widget/*
@@ -46,47 +51,37 @@
 /rss.gif$image
 /rss.png$image
 /sango-theme/library/images/feedly.
+/share_link_$image,~third-party,domain=123moviesg.com|9anime.work|gogoanime.ai|gogoanime.lol|gogoanime.so|gogoanime.video|gogoanimehub.tv|gogoanimes.tv|kissanime.rest
 /themes/snow-monkey/vendor/*/wp-share-buttons/*
 /twitter-blackbird-pie/*$important
 /xeory-core/modules/xeory-social/*
+||0x65.dev/static/img/social-icons/
 ||ampproject.org^*/amp-social-share
+||apis.google.com/_/scs/apps-static/_/js/*=plusone/
 ||apis.google.com/js/plusone.
 ||apis.google.com/se/0/_/+1/sharebutton
-||apis.google.com/_/scs/apps-static/_/js/*=plusone/
+||bbc.co.uk^*/share_tools_44px.
+||bbc.co.uk^*/share_tools_88px.
 ||blogger.com/img/share_buttons
+||catchvideo.net/static/Twitter.
 ||cdnen.rt.com/static/js/services.sharing
 ||cdns.gigya.com/js/gigya.services.socialize.
 ||connect.facebook.net^*/all.js
-!||connect.facebook.net^*/sdk.js
 ||download.skype.com/share/skypebuttons/
-||feedburner.com/fb/images/pub/feed-
-||flipboard.com/badges/flipboard_
-||gstatic.com/images/icons/gplus-16.
-||m.facebook.com/a/bz|
-||pinterest.com/images/PinExt.
-!||platform.twitter.com/widgets.js
-||public-api.wordpress.com/connect/?googleplus-sign-in
-||socialize.us1.gigya.com^
-!||static.evernote.com^$third-party
-||twitter.com/javascripts/typepad.
-||wp.com/s3.feedly.com/img/follows/
-
-! Social contents on individual sites
-/share_link_$image,~third-party,domain=123moviesg.com|9anime.work|gogoanime.ai|gogoanime.lol|gogoanime.so|gogoanime.video|gogoanimehub.tv|gogoanimes.tv|kissanime.rest
-||0x65.dev/static/img/social-icons/
-||bbc.co.uk^*/share_tools_44px.
-||bbc.co.uk^*/share_tools_88px.
-||catchvideo.net/static/Twitter.
 ||els-jbs-prod-cdn.literatumonline.com/pb/assets/raw/webfiles/images/feed-icon
 ||europa.eu/webtools/webtools.sbkm.
+||feedburner.com/fb/images/pub/feed-
 ||filehorse.com/img/addthis.
 ||finnishdesignshop.com/layout/images/some/share-icons/
+||flipboard.com/badges/flipboard_
+||gstatic.com/images/icons/gplus-16.
 ||idge.staticworld.net/images/
 ||imshopping.rediff.com/shoprediff/js/sns_mobile_
 ||imworld.rediff.com^/sns_ind_
 ||investors.com/wp-content/themes/ibd/dist/images/share-icons/
 ||lakeshorelearning.com/assets/images/share-
 ||littletikes.com/mas_assets/plugin/segments/js/social_share_item
+||m.facebook.com/a/bz|
 ||m.imgur.com/assets/icon-share-chat.
 ||macrumors.com/images-new/button-
 ||media.yoox.biz/ytos/resources/MONCLER/accessibility/icons/svg-mono-white/social
@@ -101,11 +96,13 @@
 ||myfreemp3cc.com/img/telegram.
 ||myfreemp3cc.com/img/viber.
 ||myfreemp3cc.com/img/whatsapp.
-||pasty.info/images/facebook.
 ||pasty.info/images/email.
+||pasty.info/images/facebook.
 ||pasty.info/images/telegram.
 ||pasty.info/images/whatsapp.
+||pinterest.com/images/PinExt.
 ||piratebay.party/static/img/latest.
+||public-api.wordpress.com/connect/?googleplus-sign-in
 ||rbl.ms/static/js-build/social-ux/
 ||rbth.com/rbth/img/icons.
 ||rbth.com/rbth/view/sharing.
@@ -114,15 +111,18 @@
 ||s4.reutersmedia.net/resources_v3/js/win-sharetools.
 ||scoop.it/resources/img/hs/btn.
 ||securityweek.com/images/RSS-
+||socialize.us1.gigya.com^
 ||socialstat.rt.com/socialstat
 ||staticcontent.fxstreet.com/website/mustache/socialmediabar/
 ||thecollegefix.com/wp-content/themes/the-college-fix/img/TCF-social-default
 ||torrentdownloads.me/templates/new/images/rss_icon.
 ||tpb.party/static/img/rss_small.
+||twitter.com/javascripts/typepad.
 ||us-cert.gov/profiles/*-button.png|
 ||us-cert.gov/sites/default/files/images/rss-button-
 ||vidoza.net/images-newtheme/social/$important
 ||vidtomp3.com/images/facebook.$image,~third-party
+||wp.com/s3.feedly.com/img/follows/
 
 ! Exception Filters
 @@||apis.google.com/js/plusone.js$domain=abcnews.go.com
