@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  09A2E94297532C516CAD9194915295340B503A5B8135F1A023345FA0274E49DA
+! SHA256 Hash:  137FC919C28789C930BFB53FC8BB7ED88AE0C0392FE47F2F1F7AF4FA6A834941
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.67
-! Additions: (0) Deletions (12) Modified (0)
+! Version: 8.0.68
+! Additions: (0) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -80,7 +80,6 @@ betanews.com##.articleBoxad
 betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
-betanews.com##.socialMedia
 betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
 bing.com##+js(ra, target, #b_results a[href][target="_blank"])
@@ -311,7 +310,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||banananalytics.com^$important
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
 ||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
-||betanews.com/wp-content/uploads/2020/08/16B11DAC-9A30-4442-9349-6D1D69E471D0*.jpeg$image
 ||betanews.com/wp-includes/js/wp-emoji-release.min.js$script,important
 ||bilsyndication.com^
 ||bizpanda.com
