@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  871E90F539EA742709AFA9705F37A6CAD30E79454DFE047FF24E0A460AAAF4F8
+! SHA256 Hash:  400B26367026E8F02206D143CD065A98F35700F2E86281F4AEE8FF940F2206C0
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.69
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.70
+! Additions: (0) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -25,7 +25,6 @@
 /^clicks?[-.]
 /^count(ers?)?[0-9]*[-.]
 /^pixel?[-.]
-/^pixels?[-.]
 /^stat(s|istics)?[0-9]*[-.]
 /^telemetry[-.]
 /^track(ers?|ing)?[0-9]*[-.]
@@ -426,7 +425,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.techpowerup.com/review/*75345380048075*/images/$image
 ||www.techpowerup.com/thlknzrjbv^
 ||www.washingtonpost.com/zeus/*$script,domain=www.washingtonpost.com
-||xcp-ng.org/blog/content/images/2020/04/banner*-forum-2.png$image
 ||yo/guce-js
 ||yonxatuor.com
 ||ysearchblog.com^
