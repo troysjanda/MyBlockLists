@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  137FC919C28789C930BFB53FC8BB7ED88AE0C0392FE47F2F1F7AF4FA6A834941
+! SHA256 Hash:  871E90F539EA742709AFA9705F37A6CAD30E79454DFE047FF24E0A460AAAF4F8
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.68
-! Additions: (0) Deletions (3) Modified (0)
+! Version: 8.0.69
+! Additions: (0) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -81,7 +81,6 @@ betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
-betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
 bing.com##+js(ra, target, #b_results a[href][target="_blank"])
 blockadblock.com##+js(nobab)
 charlesmknox.com##.adsbycontextcue > iframe
