@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: ADC0D3A0E37FD1A14D21A6226F768762B4C4690C5056978247DDBB44D30F3A38
+! SHA256 Hash: DE8DDE6951C06E3991ACFA4C9E9A73DDC650D9BB129B9DAC2A4DC97B8A28095E
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.63
-! Additions: (4) Deletions (0) Modified (0)
+! Version: 8.0.64
+! Additions: (0) Deletions (5) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -363,13 +363,6 @@ yellowpages.com###yahoo_ss_border
 ||prod-m-node-1111.ssp.advertising.com^
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
-||s.yimg.com/bx/adb/*.jpg$image
-||s.yimg.com/bx/adb/*.png$image
-||s.yimg.com/bx/adb/20210709185323318.png
-||s.yimg.com/bx/adb/20210713164918586.jpg
-||s.yimg.com/bx/adb/20210720220256822.jpg
-||s.yimg.com/bx/spo/YS_NFLLive_InProduct_1200x627@2x.jpg
-||s.yimg.com/bx/spo/YS_NFLLive_InProduct_880x150@1x.jpg$image
 ||s.yimg.com/cb/af/*$script,1p
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
 ||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
