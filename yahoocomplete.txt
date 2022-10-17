@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: ADC0D3A0E37FD1A14D21A6226F768762B4C4690C5056978247DDBB44D30F3A38
+! SHA256 Hash: 9D6EA56CCC2203BB045FF80463346ACE68B8B233987B1DA9B9BEFFB596BEE7E2
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.63
-! Additions: (4) Deletions (0) Modified (0)
+! Version: 8.0.64
+! Additions: (1) Deletions (0) Modified (43)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -158,6 +158,7 @@ sports.yahoo.com##.teams-nav
 sports.yahoo.com##.wafer-rapid-tracked.wafer-rapid-module.Trsp\(bottom\).Trsdu\(0\.3s\).hasScrolled_B\(0\).B\(-100px\).H\(100px\).Bdrstend\(4px\).Bdrststart\(4px\).Mx\(a\).End\(0\).Start\(0\).Z\(2\).Pos\(f\)
 sports.yahoo.com##.ybar-menu-hover-open
 sports.yahoo.com##.ys-sportsbook-featured-odds
+sports.yahoo.com##[href="https://fanatics.ncw6.net/WmG9A"]
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
@@ -271,49 +272,49 @@ yahoo.com##.spns
 yahoo.com##.spon.clearfix
 yahoo.com##.stream-header
 yahoo.com##.stream-header > .Mt
-yahoo.com##.stream-item:has-text(/Allure/i)
-yahoo.com##.stream-item:has-text(/BGR/i)
-yahoo.com##.stream-item:has-text(/Best Life/i)
-yahoo.com##.stream-item:has-text(/Best Products/i)
-yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
-yahoo.com##.stream-item:has-text(/Celebrity/i)
-yahoo.com##.stream-item:has-text(/Consumer Reports/i)
-yahoo.com##.stream-item:has-text(/Cosmo/i)
-yahoo.com##.stream-item:has-text(/Country Living/i)
-yahoo.com##.stream-item:has-text(/Delish/i)
-yahoo.com##.stream-item:has-text(/Dr. Phil CBS/i)
-yahoo.com##.stream-item:has-text(/Entertainment/i)
-yahoo.com##.stream-item:has-text(/Footware News/i)
-yahoo.com##.stream-item:has-text(/Glamour/i)
-yahoo.com##.stream-item:has-text(/Good Housekeeping/i)
-yahoo.com##.stream-item:has-text(/House Beautiful/i)
-yahoo.com##.stream-item:has-text(/HuffPost/i)
-yahoo.com##.stream-item:has-text(/In The Know/i)
-yahoo.com##.stream-item:has-text(/InStyle/i)
-yahoo.com##.stream-item:has-text(/Lifestyle/i)
-yahoo.com##.stream-item:has-text(/Marie Claire/i)
-yahoo.com##.stream-item:has-text(/Meredith Videos/i)
-yahoo.com##.stream-item:has-text(/PA Media: Sport/i)
-yahoo.com##.stream-item:has-text(/POPSUGAR/i)
-yahoo.com##.stream-item:has-text(/PureWow/i)
-yahoo.com##.stream-item:has-text(/Robb Report/i)
-yahoo.com##.stream-item:has-text(/Rumble/i)
-yahoo.com##.stream-item:has-text(/Seventeen/i)
-yahoo.com##.stream-item:has-text(/SheKnows/i)
-yahoo.com##.stream-item:has-text(/Storyful/i)
-yahoo.com##.stream-item:has-text(/Teen Vogue/i)
-yahoo.com##.stream-item:has-text(/TheBlast/i)
-yahoo.com##.stream-item:has-text(/Who What Wear/i)
-yahoo.com##.stream-item:has-text(/Yahoo Canada Style/i)
-yahoo.com##.stream-item:has-text(/Yahoo Sports/i)
-yahoo.com##.stream-item:has-text(/Yahoo Style UK/i)
-yahoo.com##.stream-item:has-text(/YourTango/i)
-yahoo.com##.stream-item:has-text(/bbc/i)
-yahoo.com##.stream-item:has-text(/eat this, not that!/i)
-yahoo.com##.stream-item:has-text(/gq/i)
-yahoo.com##.stream-item:has-text(/scary mommy/i)
-yahoo.com##.stream-item:has-text(/style/i)
-yahoo.com##.stream-item:has-text(/yahoo life shopping/i)
+yahoo.com##.stream-item:has-text(/Allure/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/BGR/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Best Life/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Best Products/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Black Lives Matter/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Celebrity/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Consumer Reports/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Cosmo/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Country Living/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Delish/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Dr. Phil CBS/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Entertainment/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Footware News/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Glamour/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Good Housekeeping/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/House Beautiful/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/HuffPost/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/In The Know/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/InStyle/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Lifestyle/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Marie Claire/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Meredith Videos/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/PA Media: Sport/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/POPSUGAR/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/PureWow/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Robb Report/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Rumble/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Seventeen/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/SheKnows/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Storyful/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Teen Vogue/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/TheBlast/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Who What Wear/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Yahoo Canada Style/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Yahoo Sports/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/Yahoo Style UK/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/YourTango/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/bbc/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/eat this, not that!/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/gq/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/scary mommy/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/style/i):upward(.stream-item)
+yahoo.com##.stream-item:has-text(/yahoo life shopping/i):upward(.stream-item)
 yahoo.com##.type_ads_default
 yahoo.com##.uh-notifications
 yahoo.com##.vp-adplugin-video
