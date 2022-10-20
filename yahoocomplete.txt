@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 7F86BF713E0AEE5D7330FD7F2E7F300FF9C7173EDB0957C09979129BBB247899
+! SHA256 Hash: C26C09625AD10ABB10CD86C030CDE492C9495488475DE297A5F5C37FB73657B6
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.65
-! Additions: (1) Deletions (0) Modified (43)
+! Version: 8.0.66
+! Additions: (8) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -210,6 +210,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Best Produc
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Black Lives Matter/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/BuzzFeed/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Celebrity/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Consequence of Sound/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Consumer Reports/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Cosmo/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Country Living/i):upward(.stream-item)
@@ -223,21 +224,28 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/House Beaut
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/HuffPost/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/In The Know/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/InStyle/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Jalopnik/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Lifehacker/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Lifestyle/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Living Etc/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Marie Claire/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Meredith Videos/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/PA Media: Sport/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/POPSUGAR/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/PetHelpful/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/PureWow/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Robb Report/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Rumble/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Seventeen/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/SheKnows/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Storyful/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TODAY/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Teen Vogue/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TheBlast/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Variety/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Who What Wear/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Canada Style/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Life/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Sports/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Style UK/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/YourTango/i):upward(.stream-item)
