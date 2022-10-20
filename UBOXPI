@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 43404C695C3577973F8883D4E8F486747A4B86090583033CD8A5EFB0230E367D
+! SHA256 Hash: 318B343172CC9C6A5292A044A5572ABDD736C4C8F2B53737674FE7A317D3053A
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.71
-! Additions: (2) Deletions (0) Modified (0)
+! Version: 8.0.72
+! Additions: (0) Deletions (5) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -143,8 +143,6 @@ reddit.com###ad_1
 reddit.com###ad_4
 reddit.com###ad_5
 reddit.com###ad_6
-reddit.com##+js(no-xhr-if, method:POST url:https://www.reddit.com,)
-reddit.com##+js(remove-attr, data-inbound-url, a[data-href-url])
 reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.author-tooltip
 reddit.com##.dfp-ad-container
@@ -271,7 +269,6 @@ www.publish0x.com##.modal-content
 www.reddit.com##.happening-now
 www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
-www.reddit.com|$xmlhttprequest
 www.rockpapershotgun.com###onetrust-button-group-parent
 www.rockpapershotgun.com###onetrust-group-container
 www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
@@ -377,8 +374,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||pocketfaucet.com^
 ||polyfill.io^
 ||rawgit.com^$important
-||reddit.com/api/me.json?*=$xmlhttprequest
-||reddit.com/web/log/$xmlhttprequest
 ||reddit.com^*utm_$queryprune=|utm_
 ||report-uri.cloudflare.com^
 ||s3.buysellads.com^
