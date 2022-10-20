@@ -1,5 +1,5 @@
 [uBlock Origin]
-! SHA256 Hash: C26C09625AD10ABB10CD86C030CDE492C9495488475DE297A5F5C37FB73657B6
+! SHA256 Hash: F49949BDB91148B6BCEE1194D12118AA2A141E5ECCC52BAF6A2E9EACE2324003
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
@@ -7,7 +7,7 @@
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
 ! Version: 8.0.66
-! Additions: (8) Deletions (0) Modified (0)
+! Additions: (14) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -325,6 +325,12 @@ yahoo.com##.spns
 yahoo.com##.spon.clearfix
 yahoo.com##.stream-header
 yahoo.com##.stream-header > .Mt
+yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
+yahoo.com##.stream-item:has-text(/Celebrity/i)
+yahoo.com##.stream-item:has-text(/Entertainment/i)
+yahoo.com##.stream-item:has-text(/InStyle/i)
+yahoo.com##.stream-item:has-text(/Lifestyle/i)
+yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.type_ads_default
 yahoo.com##.uh-notifications
 yahoo.com##.vp-adplugin-video
