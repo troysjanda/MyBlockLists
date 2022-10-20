@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  400B26367026E8F02206D143CD065A98F35700F2E86281F4AEE8FF940F2206C0
+! SHA256 Hash: 43404C695C3577973F8883D4E8F486747A4B86090583033CD8A5EFB0230E367D
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.70
-! Additions: (0) Deletions (2) Modified (0)
+! Version: 8.0.71
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -295,6 +295,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||9b.news/ads$image
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
+||accounts.google.com/gsi/iframe/select$subdocument
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
 ||alb.reddit.com^$all
@@ -312,6 +313,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||bilsyndication.com^
 ||bizpanda.com
 ||boilingcredit.com^
+||c.amazon-adsystem.com/aax2/apstag.js$script,domain=foxnews.com,important,badfilter
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
 ||cdn.adsafeprotected.com^
 ||cdn.concert.io/lib/adblock/*

@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: ADC0D3A0E37FD1A14D21A6226F768762B4C4690C5056978247DDBB44D30F3A38
+! SHA256 Hash: 801A388C5EC16EC3EAA709D6247E1A82C40DB6558F25C12CA0C28B354417A9BC
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.63
-! Additions: (4) Deletions (0) Modified (0)
+! Version: 8.0.64
+! Additions: (2) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -153,11 +153,13 @@ sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4
 sports.yahoo.com##.Px\(9px\).Py\(16px\).Bgc\(\$c-fuji-grey-a\).Bxz\(bb\).W\(100\%\).tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.adsStreamWrapper
+sports.yahoo.com##.js-stream-content:has-text(/The Guardian/i)
 sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.wafer-rapid-tracked.wafer-rapid-module.Trsp\(bottom\).Trsdu\(0\.3s\).hasScrolled_B\(0\).B\(-100px\).H\(100px\).Bdrstend\(4px\).Bdrststart\(4px\).Mx\(a\).End\(0\).Start\(0\).Z\(2\).Pos\(f\)
 sports.yahoo.com##.ybar-menu-hover-open
 sports.yahoo.com##.ys-sportsbook-featured-odds
+sports.yahoo.com##[href="https://fanatics.ncw6.net/WmG9A"]
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
@@ -370,7 +372,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/bx/adb/20210720220256822.jpg
 ||s.yimg.com/bx/spo/YS_NFLLive_InProduct_1200x627@2x.jpg
 ||s.yimg.com/bx/spo/YS_NFLLive_InProduct_880x150@1x.jpg$image
-||s.yimg.com/cb/af/*$script,1p
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
 ||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
 ||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
@@ -391,7 +392,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
 ||s.yimg.com/cv/apiv2/y20/fantasy/V2_Y20_Banner_880x150@2x.jpg$image
 ||s.yimg.com/ep/cx/blendr/v2/image-ysb-the-slate-us-open-730-pm-1000-x-1000-1-x-min-jpg_1623975656099.jpeg$image
-||s.yimg.com/rq/darla/4-8-0/html/r-sf-flx.html$subdocument
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||tag.sp.advertising.com^$script,1p
