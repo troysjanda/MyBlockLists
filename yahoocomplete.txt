@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: F49949BDB91148B6BCEE1194D12118AA2A141E5ECCC52BAF6A2E9EACE2324003
+! SHA256 Hash: A9ACBB00CCAEF78275F8F392971F3883FE09D08554BF5CE210E3CF708F808D72
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.66
-! Additions: (14) Deletions (0) Modified (0)
+! Version: 8.0.67
+! Additions: (6) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -216,6 +216,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Cosmo/i):up
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Country Living/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Delish/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Dr. Phil CBS/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/E! News/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Entertainment/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Footware News/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Glamour/i):upward(.stream-item)
@@ -251,9 +252,14 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Style
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/YourTango/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/bbc/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/eat this, not that!/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/elle/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/esquire/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/gq/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/nextshark/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/people/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/scary mommy/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/style/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/the root/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo life shopping/i):upward(.stream-item)
 www.yahoo.com##div#HPSPON-ad
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
