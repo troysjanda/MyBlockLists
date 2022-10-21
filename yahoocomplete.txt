@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: A9ACBB00CCAEF78275F8F392971F3883FE09D08554BF5CE210E3CF708F808D72
+! SHA256 Hash: FE0F4AB87DCCDAE209BD2F3A668F876F1EF3EE2C0E03C4C66D78F0449EB55F40
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.67
-! Additions: (6) Deletions (0) Modified (0)
+! Version: 8.0.68
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -204,6 +204,7 @@ www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.stream-vertical-separator
 www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Allure/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Atlanta Black Star/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/BGR/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Best Life/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Best Products/i):upward(.stream-item)
@@ -261,6 +262,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/scary mommy
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/style/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/the root/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo life shopping/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo news canada/i):upward(.stream-item)
 www.yahoo.com##div#HPSPON-ad
 www.yahoo.com##figure.caas-figure:nth-of-type(2) > .caas-img-container
 www.yahoo.com##figure.caas-figure:nth-of-type(5)
@@ -334,6 +336,7 @@ yahoo.com##.stream-header > .Mt
 yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
 yahoo.com##.stream-item:has-text(/Celebrity/i)
 yahoo.com##.stream-item:has-text(/Entertainment/i)
+yahoo.com##.stream-item:has-text(/Health/i)
 yahoo.com##.stream-item:has-text(/InStyle/i)
 yahoo.com##.stream-item:has-text(/Lifestyle/i)
 yahoo.com##.stream-item:has-text(/style/i)
