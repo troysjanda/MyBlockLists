@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 1E47DBF14AA07D712B23F89B00BB2CC6C59D48953D6D1FCB2760C15618801063
+! SHA256 Hash: 9797B4063BA878FFF7A03E13DED177E6C582CB086ACAC8BCF445358F6B83E0EA
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.74
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.75
+! Additions: (1) Deletions (15) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -151,20 +151,6 @@ reddit.com##.s1tljykw-0
 reddit.com##.ynts11-1
 reddit.com##body > div[data-overflow]:last-child
 resid3ncy.com###chated-overlay
-root-nation.com###id-custom_banner
-root-nation.com##+js(abort-on-property-read, td_ad_background_click_target)
-root-nation.com##+js(set-constant, td_ad_background_click_link, undefined)
-root-nation.com##.adsbygoogle
-root-nation.com##.backstretch
-root-nation.com##^.td-a-rec
-root-nation.com##^body > a
-root-nation.com##a[href*="/ad.admitad.com/"]
-root-nation.com##a[href*="aff_c?offer_id"]
-root-nation.com##body > a[href] > img[src*="banner"]
-root-nation.com##body > a[href][target="_blank"]
-root-nation.com##body > div[style^="position: fixed; display: flow-root; z-index:"]
-root-nation.com##html > body:style(cursor: default !important)
-root-nation.com##html:not(#id) > body:not(#id):style(background: none !important)
 rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
 rp-online.de##.park-article-paywall__content
 rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !important)
@@ -195,6 +181,7 @@ thehackernews.com##.top-follow
 thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
 tikolu.net##+js(aopr, HTMLElement.prototype.oncontextmenu)
+toolxox.com##^script:has-text(#adblock_)
 torrentgalaxy.su##.txlight.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.smallhide.col-sm-12.col-lg-2 > center > div
@@ -243,7 +230,6 @@ www.ghacks.net##body > main > section.intro-articles-section > div.large-contain
 www.google.*##a[href*="agoda.com"]:upward(.g)
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
-www.google.com##:root:style(overflow-y: visible !important;)
 www.independent.co.uk##.video-sticky-video
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
