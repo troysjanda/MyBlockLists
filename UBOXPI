@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 318B343172CC9C6A5292A044A5572ABDD736C4C8F2B53737674FE7A317D3053A
+! SHA256 Hash: 967495C156BA6D86427837C5EF000A184AA0042CEFCD11EB800042200CFAD3AE
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.72
-! Additions: (0) Deletions (5) Modified (0)
+! Version: 8.0.73
+! Additions: (17) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -151,6 +151,20 @@ reddit.com##.s1tljykw-0
 reddit.com##.ynts11-1
 reddit.com##body > div[data-overflow]:last-child
 resid3ncy.com###chated-overlay
+root-nation.com###id-custom_banner
+root-nation.com##+js(abort-on-property-read, td_ad_background_click_target)
+root-nation.com##+js(set-constant, td_ad_background_click_link, undefined)
+root-nation.com##.adsbygoogle
+root-nation.com##.backstretch
+root-nation.com##^.td-a-rec
+root-nation.com##^body > a
+root-nation.com##a[href*="/ad.admitad.com/"]
+root-nation.com##a[href*="aff_c?offer_id"]
+root-nation.com##body > a[href] > img[src*="banner"]
+root-nation.com##body > a[href][target="_blank"]
+root-nation.com##body > div[style^="position: fixed; display: flow-root; z-index:"]
+root-nation.com##html > body:style(cursor: default !important)
+root-nation.com##html:not(#id) > body:not(#id):style(background: none !important)
 rp-online.de##.park-article--reduced::after:style(content:none !important; background-image:none !important)
 rp-online.de##.park-article-paywall__content
 rp-online.de##p.text-blurred:style(color:initial !important; text-shadow:none !important)
@@ -200,6 +214,8 @@ wordpress.com##.lpc-vip-modal-window-container
 wordpress.com#@##gdpr-cookie-banner
 worldpopulationreview.com##+js(abort-current-inline-script, document.createElement, admiral)
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup
+www.amazon.com##^nav-swmslot,important
+www.amazon.com##^script:has-text(hveNavSwmCountdownWidget)
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-bp-xl-v.cnx-bp-lg-st.cnx-in-ps-landscape.cnx-playspace-container
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ratio
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
@@ -216,6 +232,7 @@ www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
+www.foxnews.com#@#.promo
 www.ghacks.net##.category-deals,important
 www.ghacks.net##.category-sponsored
 www.ghacks.net##.slick-arrow.slick-next
