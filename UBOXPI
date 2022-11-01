@@ -1,15 +1,16 @@
 [uBlock Origin]
-! SHA256 Hash: 4FCCA06849B4C8936015D1E53DDF7CD57DAD7AF04262D1F03A75FCD50909A44D
+! SHA256 Hash: BDC611A2FA65D928E53B9BD27606DB17C2ED6A3AF254430052FE4B903A96496C
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.76
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.77
+! Additions: (1) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
+*$3p,script,redirect-rule=noop.js,domain=dragontea.ink
 *$object,redirect-rule=empty,domain=sonixgvn.net
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
@@ -200,8 +201,6 @@ wordpress.com##.lpc-vip-modal-window-container
 wordpress.com#@##gdpr-cookie-banner
 worldpopulationreview.com##+js(abort-current-inline-script, document.createElement, admiral)
 www.177milkstreet.com##.popup--enabled.popup--required.popup.newsletter-popup
-www.amazon.com##^nav-swmslot,important
-www.amazon.com##^script:has-text(hveNavSwmCountdownWidget)
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-bp-xl-v.cnx-bp-lg-st.cnx-in-ps-landscape.cnx-playspace-container
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ratio
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
