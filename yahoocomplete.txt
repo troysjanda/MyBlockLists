@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: CE28AE2D93EAA85A1684C8412DD7AE5E197C5B339F7650BF06E63976AFE59E76
+! SHA256 Hash: 53348A568A79902943F67CC178EC45A18BF2F48827C3260387155E3FA4E48913
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.70
-! Additions: (01) Deletions (1) Modified (0)
+! Version: 8.0.71
+! Additions: (0) Deletions (4) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -140,7 +140,6 @@ sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
 sports.yahoo.com###Lead-3-BreakingNews-Proxy > div
 sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
 sports.yahoo.com###root_2:upward(li)
-sports.yahoo.com###root_2:upward(li)
 sports.yahoo.com###uh-tb-firefoxpromo
 sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
 sports.yahoo.com##.Cur\(p\).My\(12px\) > path
@@ -173,8 +172,6 @@ weather.yahoo.com#@#.can_ad_slug
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
 www.yahoo.com###applet_p_50000349 > div > div
-www.yahoo.com###commerce-module-articles
-www.yahoo.com###commerce-module-container
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###mega-banner-wrapper
@@ -182,7 +179,6 @@ www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
-www.yahoo.com##.D
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mb\(20px\)
 www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
@@ -313,7 +309,6 @@ yahoo.com##.Maw\(600px\).Bg\(\$premium_promote_bgc\).Bdrs\(8px\).D\(ib\).Mb\(20p
 yahoo.com##.astro-promo
 yahoo.com##.comment-btn-link
 yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f.Td\(n\).comment-count.rapidnofollow.js-stream-comments-button.js-content-viewer
-yahoo.com##.drawer-fetch-target
 yahoo.com##.fpad
 yahoo.com##.js-fake-cluster
 yahoo.com##.js-sidekick-content
