@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 8684B947EF88FF4430F109CE279EFEE84D6E7FE0256B43CD133210F8E91EF60A
+! SHA256 Hash: D867A5363B73B02E6D7304CF3BFC7CB0E9E945CD3538585E9911E3B2162C3F5E
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.73
-! Additions: (0) Deletions (46) Modified (0)
+! Version: 8.0.74
+! Additions: (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -80,7 +80,7 @@ baseball-reference.com,breakingtravelnews.com,christianpost.com,compfight.com,eu
 bigfishaudio.com,cnbcafrica.com,dublinairport.com,yahoo.com#@#.ad-holder
 biz.yahoo.com##table[bgcolor="white"][width="100%"]
 candofinance.com,idealhomegarden.com##.yahooSl
-consent.yahoo.com##.consent-semi-transparent
+!consent.yahoo.com##.consent-semi-transparent
 cricket.yahoo.com###video-branding
 dir.yahoo.com##td[width="215"]
 everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
@@ -148,7 +148,7 @@ sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4
 sports.yahoo.com##.Px\(9px\).Py\(16px\).Bgc\(\$c-fuji-grey-a\).Bxz\(bb\).W\(100\%\).tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
 sports.yahoo.com##.adsStreamWrapper
-sports.yahoo.com##.js-stream-content:has-text(/The Guardian/i)
+sports.yahoo.com##.stream-item:has-text(/The Guardian/i)
 sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.ybar-menu-hover-open
@@ -302,14 +302,14 @@ yahoo.com##.astro-promo
 yahoo.com##.comment-btn-link
 yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f.Td\(n\).comment-count.rapidnofollow.js-stream-comments-button.js-content-viewer
 yahoo.com##.fpad
-yahoo.com##.js-fake-cluster
-yahoo.com##.js-sidekick-content
-yahoo.com##.js-stream-actions
-yahoo.com##.js-stream-comment-counter
-yahoo.com##.js-stream-comment-counter-update
-yahoo.com##.js-stream-content:has-text(/Screen Rant/i)
-yahoo.com##.lrec
-yahoo.com##.lrec-before-loading
+!yahoo.com##.js-fake-cluster
+!yahoo.com##.js-sidekick-content
+!yahoo.com##.js-stream-actions
+!yahoo.com##.js-stream-comment-counter
+!yahoo.com##.js-stream-comment-counter-update
+yahoo.com##.stream-item:has-text(/Screen Rant/i)
+!yahoo.com##.lrec
+!yahoo.com##.lrec-before-loading
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
 yahoo.com##.news-tabs-RR
@@ -365,7 +365,7 @@ yellowpages.com###yahoo_ss_border
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
-||iframe.travel.yahoo.com^
+!||iframe.travel.yahoo.com^
 ||im.ov.yahoo.co.jp^
 ||mail.yahoo.com/mc/md.php?
 ||mail.yahoo.com/neo/mbimg?av/curveball/ds/
@@ -403,13 +403,13 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/y20/fantasy/V2_Y20_Banner_880x150@2x.jpg$image
 ||s.yimg.com/ep/cx/blendr/v2/image-ysb-the-slate-us-open-730-pm-1000-x-1000-1-x-min-jpg_1623975656099.jpeg$image
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
-||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
+!||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||tag.sp.advertising.com^$script,1p
 ||ter-adserver-origin-us.prod.adtechus.com^$image
 ||w.homes.yahoo.net^
 ||yahoo.affex.org
 ||yahoo.com.cn^
-||yahoo.com/contextual-shortcuts
+!||yahoo.com/contextual-shortcuts
 ||yahoo.com/livewords/
 ||yahoo.com/ysmload.html?
 ||yahoo.com^*/eyc-themis?
