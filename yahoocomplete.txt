@@ -1,12 +1,12 @@
 [uBlock Origin]
-! SHA256 Hash: D867A5363B73B02E6D7304CF3BFC7CB0E9E945CD3538585E9911E3B2162C3F5E
+! SHA256 Hash: FE6921794C24C66A94D3057EE5D5E898BE212F34D360C5AA3615B46B794C6F43
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.74
+! Version: 8.0.76
 ! Additions: (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -63,8 +63,6 @@
 /yahooadsapi.
 /yahooadsobject.
 /yahoofeedproxy.
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.am|~ads.bigbom.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.elcarado.com|~ads.google.com|~ads.harvard.edu|~ads.lapalingo.com|~ads.lordlucky.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.nc|~ads.nimses.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.socialtheater.com|~ads.taboola.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~seriouswheels.com
-@@||video-api.yql.yahoo.com/v1/video/alias/channels/wf-channel=related-videos$xhr,domain=yahoo.com
 _yahooads/
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
@@ -80,7 +78,6 @@ baseball-reference.com,breakingtravelnews.com,christianpost.com,compfight.com,eu
 bigfishaudio.com,cnbcafrica.com,dublinairport.com,yahoo.com#@#.ad-holder
 biz.yahoo.com##table[bgcolor="white"][width="100%"]
 candofinance.com,idealhomegarden.com##.yahooSl
-!consent.yahoo.com##.consent-semi-transparent
 cricket.yahoo.com###video-branding
 dir.yahoo.com##td[width="215"]
 everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
@@ -254,7 +251,6 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/the root/i)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo life shopping/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo news canada/i):upward(.stream-item)
 www.yahoo.com##div#HPSPON-ad
-www.yahoo.com#@##my-adsFPAD
 yahoo.com###LREC
 yahoo.com###LREC-sizer
 yahoo.com###LREC2-sizer
@@ -302,14 +298,7 @@ yahoo.com##.astro-promo
 yahoo.com##.comment-btn-link
 yahoo.com##.comment-count > .comment-count\:h_C\(\$streamHoverClass\).Td\(n\)\:f.Td\(n\).comment-count.rapidnofollow.js-stream-comments-button.js-content-viewer
 yahoo.com##.fpad
-!yahoo.com##.js-fake-cluster
-!yahoo.com##.js-sidekick-content
-!yahoo.com##.js-stream-actions
-!yahoo.com##.js-stream-comment-counter
-!yahoo.com##.js-stream-comment-counter-update
 yahoo.com##.stream-item:has-text(/Screen Rant/i)
-!yahoo.com##.lrec
-!yahoo.com##.lrec-before-loading
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
 yahoo.com##.news-tabs-RR
@@ -356,7 +345,7 @@ yahoo.com##li[id^="ad-"]
 yahoo.com.au##.TL_genericads_columns
 yahoo.com.au##.TL_medRec_container
 yahoo.com.au##.boxMidRt.pB0
-yahoo.om##.adfeedback-tripledot
+yahoo.com##.adfeedback-tripledot
 yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
@@ -365,7 +354,6 @@ yellowpages.com###yahoo_ss_border
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
-!||iframe.travel.yahoo.com^
 ||im.ov.yahoo.co.jp^
 ||mail.yahoo.com/mc/md.php?
 ||mail.yahoo.com/neo/mbimg?av/curveball/ds/
@@ -403,7 +391,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/y20/fantasy/V2_Y20_Banner_880x150@2x.jpg$image
 ||s.yimg.com/ep/cx/blendr/v2/image-ysb-the-slate-us-open-730-pm-1000-x-1000-1-x-min-jpg_1623975656099.jpeg$image
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
-!||shortcuts.search.yahoo.com^*&callback=yahoo.shortcuts.utils.setdittoadcontents&
 ||tag.sp.advertising.com^$script,1p
 ||ter-adserver-origin-us.prod.adtechus.com^$image
 ||w.homes.yahoo.net^
