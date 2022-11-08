@@ -1,5 +1,5 @@
 [uBlock Origin]
-! SHA256 Hash: 0E58F8AA024494AB911AD8A12D6C93065355CBA20F0A6907A0E44C4319C2C5B4
+! SHA256 Hash: DE2DCB3742E6A02C8908C55EE20B6BD62640D75035A0B24A9409A26A87ADC567
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
@@ -7,7 +7,7 @@
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
 ! Version: 8.0.80
-! Additions: (0) Deletions (2) Modified (0)
+! Additions: (4) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -172,9 +172,11 @@ www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
+www.yahoo.com##.End\(0\).user-intent-options.T\(0\).Pos\(a\) > div > .has-wafer-click.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mb\(20px\)
 www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
+www.yahoo.com##.Mt\(4px\).wafer-toggle
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
 www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(--white\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ov\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
@@ -230,6 +232,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/SheKnows/i)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Storyful/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TODAY/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Teen Vogue/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Daily Beast/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TheBlast/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Variety/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Who What Wear/i):upward(.stream-item)
@@ -243,6 +246,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/eat this, n
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/elle/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/esquire/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/gq/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/motley fool/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/nextshark/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/people/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/scary mommy/i):upward(.stream-item)
@@ -294,10 +298,10 @@ yahoo.com###yn-gmy-promo-groups
 yahoo.com###yschsec
 yahoo.com##.Feedback
 yahoo.com##.Maw\(600px\).Bg\(\$premium_promote_bgc\).Bdrs\(8px\).D\(ib\).Mb\(20px\).Pos\(r\).H\(60px\)
+yahoo.com##.adfeedback-tripledot
 yahoo.com##.astro-promo
 yahoo.com##.comment-btn-link
 yahoo.com##.fpad
-yahoo.com##.stream-item:has-text(/Screen Rant/i)
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
 yahoo.com##.news-tabs-RR
@@ -314,6 +318,7 @@ yahoo.com##.stream-item:has-text(/Entertainment/i)
 yahoo.com##.stream-item:has-text(/Health/i)
 yahoo.com##.stream-item:has-text(/InStyle/i)
 yahoo.com##.stream-item:has-text(/Lifestyle/i)
+yahoo.com##.stream-item:has-text(/Screen Rant/i)
 yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.type_ads_default
 yahoo.com##.uh-notifications
@@ -343,7 +348,6 @@ yahoo.com##li[id^="ad-"]
 yahoo.com.au##.TL_genericads_columns
 yahoo.com.au##.TL_medRec_container
 yahoo.com.au##.boxMidRt.pB0
-yahoo.com##.adfeedback-tripledot
 yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
