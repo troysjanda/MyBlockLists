@@ -1,15 +1,16 @@
 [uBlock Origin]
-! SHA256 Hash: DE2DCB3742E6A02C8908C55EE20B6BD62640D75035A0B24A9409A26A87ADC567
+! SHA256 Hash: A9EC962D9A273C1652245DECF0BB5A0C09C09C9EA1CCD9335AFFE77675BDB9F5
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.80
-! Additions: (4) Deletions (2) Modified (0)
+! Version: 8.0.82
+! Additions: (1) Deletions (8) Modified (0)
 !
 ! -- Start Filters --
+www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target > div
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
 ###YahooAdParentContainer
@@ -164,26 +165,14 @@ weather.yahoo.com#@#.ad_slug_table
 weather.yahoo.com#@#.can_ad_slug
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
-www.yahoo.com###applet_p_50000349 > div > div
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###mega-banner-wrapper
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
-www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
 www.yahoo.com##.End\(0\).user-intent-options.T\(0\).Pos\(a\) > div > .has-wafer-click.has-toggle-click.wafer-toggle.userintentmgmt-panel.Ta\(c\)
-www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
-www.yahoo.com##.Mb\(20px\)
-www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Mt\(4px\).wafer-toggle
-www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
-www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
-www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(--white\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ov\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
-www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ov\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
-www.yahoo.com##.Trs\(\$headerAnim\).modal-open_Mt\(\$hideBannerMargin\).hasScrolled_Mt\(\$hideBannerMargin\).has-scrolled_Mt\(\$hideBannerMargin\).H\(72px\).fixed-space
-www.yahoo.com##.W\(1\/3\)
-www.yahoo.com##.Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ovx\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
@@ -341,13 +330,11 @@ yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[data-type="ADS"]
-yahoo.com##div[id^="tile-mb-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]
 yahoo.com.au##.TL_genericads_columns
 yahoo.com.au##.TL_medRec_container
-yahoo.com.au##.boxMidRt.pB0
 yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
