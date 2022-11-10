@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 6365760EF63C858FFF6F6EE1F3223B8AC6AF020FF46C437C41FEB567FDFD01E3
+! SHA256 Hash: 3FB3B09A5B85B2EB329810F6BEFB3182F8EBEF872D212013035E4E70FAA4FB88
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.84
-! Additions: () Deletions (1) Modified (0)
+! Version: 8.0.85
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -165,6 +165,7 @@ weather.yahoo.com#@#.can_ad_slug
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
 www.yahoo.com###applet_p_50000349 > div > div
+www.yahoo.com###commerce-module-articles
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###mega-banner-wrapper
@@ -177,6 +178,7 @@ www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
 www.yahoo.com##.Mt\(4px\).wafer-toggle
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
+www.yahoo.com##.Pos\(r\).Pend\(20px\).Ov\(h\).Bdrs\(8px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(--solo-cup\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
 www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(--white\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ov\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
 www.yahoo.com##.Pos\(st\).Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ov\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
@@ -191,6 +193,7 @@ www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.sda-yield-test,important
 www.yahoo.com##.stream-vertical-separator
 www.yahoo.com##.userintent-tooltip-box
+www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target > div
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Allure/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Atlanta Black Star/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/BGR/i):upward(.stream-item)
