@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 25336F152717057C65341774248B5E69677CF0361F1A5BD14AFFE7F519E210DE
+! SHA256 Hash: 3E44CD7A04BA9AC290349E56586FFFFD8224AE775CB41CF50D8FFC40468BABFD
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.80
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.81
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$3p,script,redirect-rule=noop.js,domain=dragontea.ink
@@ -217,6 +217,7 @@ www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
+www.foxnews.com#@#.promo
 www.ghacks.net##.category-deals,important
 www.ghacks.net##.category-sponsored
 www.ghacks.net##.slick-arrow.slick-next
@@ -292,6 +293,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||9b.news/ads$image
 ||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
+||accounts.google.com/gsi/*$xhr,script,3p
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
 ||alb.reddit.com^$all
