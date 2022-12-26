@@ -1,12 +1,12 @@
 [uBlock Origin]
-! SHA256 Hash: 915CC4302ABD95FC50227F5B0C89F7CA3B5D505E332BB66CD7A01D2ABC17B9CD
+! SHA256 Hash: E4D3BB72245A03769AE28D166CB1E3DF2A2E046232CC5CC15B7060AFF10A4421
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.84
+! Version: 8.0.85
 ! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -77,11 +77,13 @@ b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
 betanews.com###bd > .sideCol > .submitNews.content
 betanews.com###bd > .sideCol > div.flexibleBoxad > .adbox-header
 betanews.com##.articleBoxad
+betanews.com##.authorThumb[src="\/wp-content\/themes\/betanews\/images\/authors\/Sofia_smallthumb\.png"]
 betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
+betanews.com##^img[src="https\:\/\/betanews\.com\/wp-content\/themes\/betanews\/images\/authors\/Sofia_bigthumb\.png"]
 bing.com##+js(ra, target, #b_results a[href][target="_blank"])
 blockadblock.com##+js(nobab)
 charlesmknox.com##.adsbycontextcue > iframe
@@ -348,6 +350,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||flintos.io/wp-content/plugins/popup-builder/*
 ||forum.opnsense.org/adds/content/8.applianceshop_20160413.jpg$image
 ||forum.opnsense.org/adds/content/x*_20160413.jpg.pagespeed.ic.*.webp$image
+||gajobsource.com^
 ||ghacks.net/statics/ads.min.js
 ||ghacks.net/statics/px.gif
 ||google.*$removeparam=gws_rd=ssl
