@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: 8FACF71BBD622D5171A29AC3D01A8C45AF77976637172E1375E83533BCF14CEC
+! SHA256 Hash: B90F31AE7043C6B8BE07B034992A593F6B3BBE59FFF45F169714B15584BF01C7
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.86
-! Additions: (2) Deletions (0) Modified (0)
+! Version: 8.0.90
+! Additions: (0) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
 *$3p,script,redirect-rule=noop.js,domain=dragontea.ink
@@ -96,7 +96,7 @@ dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
 dlford.io##[href^="https://sifmail.com/"]
-doubleclick.net^$important
+||doubleclick.net^$important,domain=~soranews24.com
 duckduckgo.com##.is-slotted-first.grid-3-cols.has-grid.has-hidden-vertical.bing.has-main-source.js-module--products.module--carousel-products.module--carousel.module
 egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
