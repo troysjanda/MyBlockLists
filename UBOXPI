@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: B65BA78534290510F8712A0FCCAD429C231C11F7D84F9998610EAEB5E686FF0B
+! SHA256 Hash: 8FACF71BBD622D5171A29AC3D01A8C45AF77976637172E1375E83533BCF14CEC
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.88
-! Additions: (0) Deletions (4) Modified (0)
+! Version: 8.0.86
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$3p,script,redirect-rule=noop.js,domain=dragontea.ink
@@ -108,6 +108,7 @@ en.wikipedia.org##.frb-inline-row
 en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 everydayhealth.com##^script:has-text(/i10C/i)
+facebook.com##div.h_r03bd44ox.pagelet
 faucethero.com##+js(acis, blockAdBlock)
 forums.theregister.com###adtoniq-msgr-bar
 foxnews.com##.content:has-text(/SPONSORED/i)
@@ -323,6 +324,8 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||cdn.shopifycloud.com/messenger_commerce/assets/custom-button/*.png$image
 ||cdn.yottos.com^
 ||clksite.com^$important
+||connect.facebook.com
+||connect.facebook.net
 ||consent.youtube.com^
 ||content.jwplatform.com^$domain=variety.com
 ||coronavirus.idaho.gov/wp-content/uploads/2021/08/Button_CoronavirusWebsite-*.png$image
@@ -343,6 +346,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-yc-fl-off-net-school-start-league-ji-070919-v-1-3-light-800-x-800-x-1-jpg_1566418730380.jpeg$image
 ||exactmetrics.com
 ||extmaps-api.yandex.net^
+||facebook.com/plugins/*
 ||flintos.io/wp-content/plugins/popup-builder/*
 ||forum.opnsense.org/adds/content/8.applianceshop_20160413.jpg$image
 ||forum.opnsense.org/adds/content/x*_20160413.jpg.pagespeed.ic.*.webp$image
