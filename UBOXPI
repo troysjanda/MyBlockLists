@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: C8BF331F1E6DD6FA6DA3C021F599E9ED0CC8BCDA56562603BA199A370625129B
+! SHA256 Hash: 53BEFD02CDAEF69B2B92200943EB9836711C1771313CF2A5B1BC76CFDADB1E89
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.91
-! Additions: (0) Deletions (16) Modified (0)
+! Version: 8.0.93
+! Additions: (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$3p,script,redirect-rule=noop.js,domain=dragontea.ink
@@ -280,27 +280,22 @@ xhamster.com##.wih-spa.wih-spb
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||9b.news/ads$image
-||a.espncdn.com/redesign/0.529.2/js/espn-analytics.js$script,domain=www.espn.com
 ||accountkit.*/
-||accounts.google.com/gsi/*$xhr,script,3p
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
 ||alb.reddit.com^$all
 ||analytics-api.samsunghealthcn.com^
 ||analytics.gandi.net^
 ||analytics.pointdrive.linkedin.com^
-||animeland.tv/scripts/$script
 ||api.chated.io/sdk/v1/popups/*$subdocument
 ||appmetrica.yandex.com^
 ||atwola.com^
 ||banananalytics.com^$important
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
 ||betanews.com/wp-content/themes/betanews/images/curved_header.png$image
-||betanews.com/wp-includes/js/wp-emoji-release.min.js$script,important
 ||bilsyndication.com^
 ||bizpanda.com
 ||boilingcredit.com^
-||c.amazon-adsystem.com/aax2/apstag.js$script,domain=foxnews.com,important,badfilter
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
 ||cdn.adsafeprotected.com^
 ||cdn.concert.io/lib/adblock/*
@@ -347,11 +342,9 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||ip-reachability.isp.netscape.com/pixel.gif$image
 ||jamexistence.com^$important
 ||js.hs-banner.com/53.js$important
-||jsfixer.com/a/crf/ga.js$script,domain=clutchpoints.com,important
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
-||m4ufree.tv/js/m4ufree-tv-3-min.js$script,1p
 ||mailtrack.io^$important
 ||metrics.icloud.com^
 ||mobilenations.com^
@@ -369,10 +362,8 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||s3.buysellads.com^
 ||scotthelme.report-uri.com^$all
 ||sdk.privacy-center.org/*/loader.js
-||sdk.streamrail.com/blade/sr.blade.js$script,domain=variety.com
 ||servebom.com^
 ||serving-sys.com^
-||src.ebay-*.com/fp/check.js$script
 ||src.ebay-us.com^*/check.js
 ||st.chatango.com/h5/gz/r0402211818/id.html$subdocument
 ||st.chatango.com/h5/gz/r0409211505/id.html$subdocument
@@ -389,12 +380,10 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||tpucdn.com/images/*75willrunoutofdirssoon*/$image
 ||trk.pinterest.com^
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
-||unpkg.com/@tryghost/*$script
 ||upst.fwdcdn.com/temp/blocks/*$image
 ||vbt.io^
 ||verizonmedia.com^
 ||volantix.com^
-||washingtonpost.com/*/pwapi-proxy.min.js$script
 ||whatsapp.*/
 ||windows.net^
 ||wp.pl^$third-party,domain=~wp.pl
@@ -402,17 +391,12 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.bing.com/rewardsapp/flyout$subdocument
 ||www.builtbygirls.com^
 ||www.ghacks.net/statics/dfp.js
-||www.ghacks.net/wp-content/plugins/geoip-detect/*$script,domain=www.ghacks.net,important
-||www.ghacks.net/wp-content/themes/new-ghacks-preview/scripts.js$script,important
-||www.infobae.com/pf/dist/page/poZcLt1ZOcfL2s/default.js$script,domain=www.infobae.com
-||www.infobae.com/pf/resources/dist/infobae/js/main.js$script,domain=www.infobae.com
 ||www.microsoft.com-windows-booster.live^
 ||www.palemoon.org/images/donate_vertbanner.png$image
 ||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image
 ||www.techpowerup.com/njutrvceser/*.jpg$image
 ||www.techpowerup.com/review/*75345380048075*/images/$image
 ||www.techpowerup.com/thlknzrjbv^
-||www.washingtonpost.com/zeus/*$script,domain=www.washingtonpost.com
 ||yo/guce-js
 ||yonxatuor.com
 ||ysearchblog.com^
