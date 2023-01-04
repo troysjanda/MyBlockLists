@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash: B90F31AE7043C6B8BE07B034992A593F6B3BBE59FFF45F169714B15584BF01C7
+! SHA256 Hash: C8BF331F1E6DD6FA6DA3C021F599E9ED0CC8BCDA56562603BA199A370625129B
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.0.90
-! Additions: (0) Deletions (0) Modified (1)
+! Version: 8.0.91
+! Additions: (0) Deletions (16) Modified (0)
 !
 ! -- Start Filters --
 *$3p,script,redirect-rule=noop.js,domain=dragontea.ink
@@ -15,28 +15,12 @@
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
-/^ad([sxv])?[0-9]*[-_.]
-/^adse?rv(e(rs?)?|ices?)?[0-9]*[-.]
-/^adtrack(er|ing)?[0-9]*[-.]
-/^advert(s|is(ing|ements?))?[0-9]*[-_.]
-/^aff(iliat(es?|ion))?[-.]
-/^analytics?[-.]
-/^banners?[-.]
-/^beacons?[0-9]*[-.]
-/^clicks?[-.]
-/^count(ers?)?[0-9]*[-.]
-/^pixel?[-.]
-/^stat(s|istics)?[0-9]*[-.]
-/^telemetry[-.]
-/^track(ers?|ing)?[0-9]*[-.]
-/^traff(ic)?[-.]
 /advert.js$important
 /analytics.js
 /hads-ak-prn2/1487645_6012475414660_1439393861_n.png
 /i.gif
 /p.gif
 /pixel*.gif^
-/r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{8}\.googlevideo\.com
 /sp.js
 /static/pixel.png
 /wp-admin/admin-ajax.php
