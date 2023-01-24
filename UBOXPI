@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 7296E2D08C76FC8B2F65F8E04B52AB6717CAA211A4F7074B63309C7561A71744
+! SHA256 Hash: 648781761802DA1BB6C653D27F0BEC69581B54F66D7B90F0FF5F5C5EB41CAF06
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.0
-! Additions: (0) Deletions (0) Modified (0)
+! Version: 8.1.1
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$3p,script,redirect-rule=noop.js,domain=dragontea.ink
@@ -80,7 +80,6 @@ dlford.io###ir_wrapper
 dlford.io##.gGRGAW.footer__Styled-wff6aj-0
 dlford.io##.railAd
 dlford.io##[href^="https://sifmail.com/"]
-||doubleclick.net^$important,domain=~soranews24.com
 duckduckgo.com##.is-slotted-first.grid-3-cols.has-grid.has-hidden-vertical.bing.has-main-source.js-module--products.module--carousel-products.module--carousel.module
 egy.best##+js(abort-current-inline-script, WinMsgHtml, adblock_msg)
 egy.best##+js(abort-on-property-write, decodeURIComponent)
@@ -127,6 +126,7 @@ pl.premium4kflix.club###playerCta-wrapper
 pornhub.com###under-player-comments
 pornhub.com###welcome
 ppss.kr##+js(aost, Math.random, invoke)
+qwant.com##div[data-monitoring="adsWebSerpOk"]
 reddit.com###ad_1
 reddit.com###ad_4
 reddit.com###ad_5
@@ -297,6 +297,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||bizpanda.com
 ||boilingcredit.com^
 ||c.thumbs.redditmedia.com/UNcO-h_QcS9PD-Gn.jpg$image
+||carvecakes.com^
 ||cdn.adsafeprotected.com^
 ||cdn.concert.io/lib/adblock/*
 ||cdn.report-uri.com^
@@ -319,6 +320,8 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||disqus.com/forums/*/embed.js$script,redirect=disqus_forums_embed.js
 ||disqusads.com^$important
 ||dockdigestion.com^
+||doubleclick.net^$important,domain=~soranews24.com
+||doubleclick.net^$important,domain=~soranews24.com
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-commish-1000-x-1000-1-x-jpg_1597649548457.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-on-net-players-1000-x-1000-1-x-1-jpg_1598203769597.jpeg$image
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-read-react-header-new-logo-1000-px-1-png_1571097571506.png$image

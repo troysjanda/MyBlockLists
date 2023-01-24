@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 685884326DD889835BBAF1A98AF493A476786F1BBC5B337519AE4F5595DD5153
+! SHA256 Hash: B445C8955F88F2612B5CDD14A4BDBE5BDED01670792D8411658DDAE831E9EE98
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.90
-! Additions: (0) Deletions (0) Modified (0)
+! Version: 8.0.91
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -174,6 +174,7 @@ www.yahoo.com###commerce-module-articles
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###mega-banner-wrapper
+www.yahoo.com###module-whattowatch
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
@@ -197,6 +198,7 @@ www.yahoo.com##.mxhpset
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.sda-yield-test,important
 www.yahoo.com##.stream-vertical-separator
+www.yahoo.com##.user-intent-options
 www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target > div
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Allure/i):upward(.stream-item)
