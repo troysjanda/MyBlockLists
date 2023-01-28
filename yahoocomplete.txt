@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: FFF9DC13A3ABAA569C5836A927B3F6D78D51B2E860CF1BC5FF60AD479610F1D6
+! SHA256 Hash: 6B42C20A4E505DE60A61557C75FA68C62C9C4C2AAABBE09CDD509D1BE1519B09
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.92
-! Additions: (2) Deletions (2) Modified (0)
+! Version: 8.0.93
+! Additions: (0) Deletions (1) Modified (2)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -143,9 +143,8 @@ sports.yahoo.com##.M\(a\).Ta\(c\).Pos\(a\).ys-interstitial-container > div > .St
 sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-promo
 sports.yahoo.com##.Mstart\(40px\).My\(40px\).Jc\(c\).W\(100\%\).D\(f\)
 sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
-sports.yahoo.com##.Ov\(h\).Bgc\(\#fafafa\)\:h.Bgc\(\#fafaff\).Bdw\(1px\).Bdrs\(4px\).Bds\(s\).Bdc\(\$c-fuji-grey-4\).gemini-banner-promo
-sports.yahoo.com##.Px\(9px\).Py\(16px\).Bgc\(\$c-fuji-grey-a\).Bxz\(bb\).W\(100\%\).tdv2-applet-sports-bracket-hero
-sports.yahoo.com##.Py\(30px\).Ta\(c\).gemini-image-promo
+sports.yahoo.com##.gemini-banner-promo
+sports.yahoo.com##.tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.adsStreamWrapper
 sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
 sports.yahoo.com##.stream-item:has-text(/The Guardian/i)
