@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 6B42C20A4E505DE60A61557C75FA68C62C9C4C2AAABBE09CDD509D1BE1519B09
+! SHA256 Hash: 51E4F366114F82AE260E57C876880A9D9E343132DBC9B7D1F1AD503BE08F0185
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.93
-! Additions: (0) Deletions (1) Modified (2)
+! Version: 8.0.94
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -143,12 +143,13 @@ sports.yahoo.com##.M\(a\).Ta\(c\).Pos\(a\).ys-interstitial-container > div > .St
 sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-promo
 sports.yahoo.com##.Mstart\(40px\).My\(40px\).Jc\(c\).W\(100\%\).D\(f\)
 sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
-sports.yahoo.com##.gemini-banner-promo
-sports.yahoo.com##.tdv2-applet-sports-bracket-hero
+sports.yahoo.com##.Mt\(8px\)--sm1024.Pos\(r\).Fz\(12px\).Mt\(12px\).Cf
 sports.yahoo.com##.adsStreamWrapper
+sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
 sports.yahoo.com##.stream-item:has-text(/The Guardian/i)
 sports.yahoo.com##.surveymonkey-popup
+sports.yahoo.com##.tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.ybar-menu-hover-open
 sports.yahoo.com##.ys-sportsbook-featured-odds
@@ -160,6 +161,7 @@ sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
+sports.yahoo.com##li._yb_h4l6e._yb_8sgqb:nth-of-type(12)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 thetandd.com##.yahoo_content_match
@@ -194,6 +196,7 @@ www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
 www.yahoo.com##.comment-count
 www.yahoo.com##.mxhpset
+www.yahoo.com##.premium_finance_ticker
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.sda-yield-test,important
 www.yahoo.com##.stream-vertical-separator
