@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: B4DC501FBA1DF4B68582FE263DC811A8B845091F66B33E43AF9B942B595CB6AF
+! SHA256 Hash: 64B2E3EB3762AE8DD4481EDCC2595D4A4A28E8DDCCA58E91D7190030260A8F60
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.1
-! Additions: (0) Deletions (2) Modified (0)
+! Version: 8.0.2
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -161,7 +161,9 @@ sports.yahoo.com##[href="https://www.pjtra.com/t/2-522414-282307-55814"]
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
+sports.yahoo.com##body:style(overflow: auto !important;)
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
+sports.yahoo.com##li._yb_6rxuf:nth-of-type(5)
 sports.yahoo.com##li._yb_h4l6e._yb_8sgqb:nth-of-type(12)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)

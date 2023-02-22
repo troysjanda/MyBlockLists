@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 73D4C28AC04D0ECA40958A37CEF17932DC732D180531F89AA6117E160048E1BB
+! SHA256 Hash: 71495E0A9A7297482FA1341DE7227E5616F9C3FDB6A010BD3859FFC9620F3EAC
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.3
-! Additions: (1) Deletions (2) Modified (0)
+! Version: 8.1.4
+! Additions: (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -100,6 +100,11 @@ gearspace.com###collapseobj_latestDeals
 gearspace.com###site-notice-container
 gearspace.com##.sfs-srdx.sfs-desktop.subforum-sponsor
 getcomics.info###advanced_floating_content_85155
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Aytun Çelebi/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Eray Eliaçik/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Onur Demirkol/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Russell Kidson/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Shaun/i)
 ghacks.net##^iframe
 ghacks.net##^script:has-text(/AdBlockerDetector/i)
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
