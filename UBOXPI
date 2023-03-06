@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 71495E0A9A7297482FA1341DE7227E5616F9C3FDB6A010BD3859FFC9620F3EAC
+! SHA256 Hash: 8588A044C66AB33E0750D8B4F73F087BA4B03A89C68A6C3B5D43737D83EC0CB0
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.4
-! Additions: (5) Deletions (0) Modified (0)
+! Version: 8.1.5
+! Additions: (8) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -101,10 +101,18 @@ gearspace.com###site-notice-container
 gearspace.com##.sfs-srdx.sfs-desktop.subforum-sponsor
 getcomics.info###advanced_floating_content_85155
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Aytun Çelebi/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Carol van Zyl/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Emre Ç?tak/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Emre/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Eray Eliaçik/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Helena Bosnjak/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Kerem Gülen/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Onur Demirkol/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Richard Flower/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Russell Kidson/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Shaun/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Trevor Monteiro/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Zakhi Mgutshini/i)
 ghacks.net##^iframe
 ghacks.net##^script:has-text(/AdBlockerDetector/i)
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
