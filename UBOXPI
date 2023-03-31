@@ -1,12 +1,12 @@
 ! [uBlock Origin]
-! SHA256 Hash: 8588A044C66AB33E0750D8B4F73F087BA4B03A89C68A6C3B5D43737D83EC0CB0
+! SHA256 Hash: E9E8A18A5D1EABB8B128E8F90C28417A284BA470417D0D41048AC5D1B546380B
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.5
+! Version: 8.1.6
 ! Additions: (8) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -34,6 +34,7 @@
 9b.news##tr:nth-of-type(17)
 9b.news##tr:nth-of-type(18)
 9b.news##tr:nth-of-type(21) > .auto-style101
+@@*$stylesheet
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
@@ -57,6 +58,7 @@ askvg.com##.ad-unit
 autonews.com##+js(nostif, t.stackTrace)
 autonews.com##body,html:style(overflow:auto !important)
 b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
+bartarinha.ir##div[class*="position-"]
 betanews.com###bd > .sideCol > .submitNews.content
 betanews.com###bd > .sideCol > div.flexibleBoxad > .adbox-header
 betanews.com##.articleBoxad
@@ -107,7 +109,9 @@ ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Emre/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Eray Eliaçik/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Helena Bosnjak/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Kerem Gülen/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Leri Koen/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Onur Demirkol/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Priyanka Monteiro/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Richard Flower/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Russell Kidson/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Shaun/i)
@@ -120,6 +124,7 @@ google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-a
 idfg.idaho.gov##.row.alert-warning.alert
 ign.com##^script:has-text(g01.ign.com)
 instagram.com###fb-root + div[role=presentation]
+jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 kaffnet.com$
 magicalthirteen.com^$important
 megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
@@ -158,6 +163,7 @@ scotthelme.co.uk##.support
 sec.gov##div[style="break-before: page; margin-top: 6pt; margin-bottom: 6pt"], div[style="page-break-before: always; margin-top: 6pt; margin-bottom: 6pt"]:remove()
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
+simplywall.st##+js(aeld, scroll, setTimeout)
 spiegel.de##^script:has-text(.createShadowRoot)
 startapp/(exchange|network|service)\.com/$
 strikeout.cc##+js(nostif, userHasAdblocker)
@@ -186,6 +192,7 @@ torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.col-sm-12.col-lg-2 > center > div
 torrentgalaxy.to##.smallhide.col-sm-12.col-lg-2 > center > div
 torrentgalaxy.to##[href="https://lookmovie2.to"]
+torrentgalaxy.to##[src="https://img.wonkychickens.org/data/statics/nflong.jpg"]
 torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
 torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
 torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
@@ -379,6 +386,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||sdk.privacy-center.org/*/loader.js
 ||servebom.com^
 ||serving-sys.com^
+||simplywall.st/backend/flags/proxy/client/metrics$1p
 ||src.ebay-us.com^*/check.js
 ||st.chatango.com/h5/gz/r0402211818/id.html$subdocument
 ||st.chatango.com/h5/gz/r0409211505/id.html$subdocument

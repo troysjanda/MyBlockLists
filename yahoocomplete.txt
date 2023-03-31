@@ -1,12 +1,12 @@
 ! [uBlock Origin]
-! SHA256 Hash: 64B2E3EB3762AE8DD4481EDCC2595D4A4A28E8DDCCA58E91D7190030260A8F60
+! SHA256 Hash: 97686E55F87417D5A04E21BA2FA42F10000D98250D5FCA3C1979FF5EEB92BCE0
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.2
+! Version: 8.0.6
 ! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
@@ -205,6 +205,7 @@ www.yahoo.com##.sda-yield-test,important
 www.yahoo.com##.stream-vertical-separator
 www.yahoo.com##.user-intent-options
 www.yahoo.com##.userintent-tooltip-box
+www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
 www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target > div
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Allure/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Atlanta Black Star/i):upward(.stream-item)
@@ -269,6 +270,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/the root/i)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo life shopping/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo news canada/i):upward(.stream-item)
 www.yahoo.com##div#HPSPON-ad
+www.yahoo.com.com##^responseheader(set-cookie)
 yahoo.com###LREC
 yahoo.com###LREC-sizer
 yahoo.com###LREC2-sizer
