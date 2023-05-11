@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 97686E55F87417D5A04E21BA2FA42F10000D98250D5FCA3C1979FF5EEB92BCE0
+! SHA256 Hash: 2D99A5370506FE3493BA2FAD3FC58B6165CFDBF231143B28166DEC0EA4AC33A6
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.6
-! Additions: (2) Deletions (0) Modified (0)
+! Version: 8.0.8
+! Additions: (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -145,6 +145,7 @@ sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-prom
 sports.yahoo.com##.Mstart\(40px\).My\(40px\).Jc\(c\).W\(100\%\).D\(f\)
 sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Mt\(8px\)--sm1024.Pos\(r\).Fz\(12px\).Mt\(12px\).Cf
+sports.yahoo.com##._ys_151tsft._ys_17tfbid._ys_13kycft._ys_ztxrxg._ys_1bmiy8u._ys_6bppls._ys_1e6ql5o
 sports.yahoo.com##.adsStreamWrapper
 sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
@@ -183,6 +184,7 @@ www.yahoo.com###mega-banner-wrapper
 www.yahoo.com###module-whattowatch
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
+www.yahoo.com##+js(cookie-remover, ref_cookie)
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
@@ -230,6 +232,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/House Beaut
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/HuffPost/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/In The Know/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/InStyle/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Insider/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Jalopnik/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Lifehacker/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Lifestyle/i):upward(.stream-item)
@@ -248,6 +251,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Storyful/i)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TODAY/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Teen Vogue/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Daily Beast/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Wrap/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TheBlast/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Variety/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Who What Wear/i):upward(.stream-item)
@@ -313,6 +317,7 @@ yahoo.com###ymh-invitational-recs
 yahoo.com###yn-gmy-promo-answers
 yahoo.com###yn-gmy-promo-groups
 yahoo.com###yschsec
+yahoo.com##+js(cookie-remover, ref_cookie)
 yahoo.com##.Feedback
 yahoo.com##.Maw\(600px\).Bg\(\$premium_promote_bgc\).Bdrs\(8px\).D\(ib\).Mb\(20px\).Pos\(r\).H\(60px\)
 yahoo.com##.adfeedback-tripledot

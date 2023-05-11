@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: E9E8A18A5D1EABB8B128E8F90C28417A284BA470417D0D41048AC5D1B546380B
+! SHA256 Hash: D1C9B91AF990A80180CEA42DB3F4B734DCAA1217D1FD6F64AA8A95211C09F6C9
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.6
-! Additions: (8) Deletions (0) Modified (0)
+! Version: 8.1.8
+! Additions: (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -55,6 +55,7 @@ armourgaming.co##.notifyjs-container
 armourgaming.co##.np-inside
 artribune.com##+js(acs, dataLayer, AdBlockCounter)
 askvg.com##.ad-unit
+audiotruyenfull.com##+js(no-fetch-if, googlesyndication)
 autonews.com##+js(nostif, t.stackTrace)
 autonews.com##body,html:style(overflow:auto !important)
 b.thumbs.redditmedia.com/aNhI3KImJD96qOVUxkb9q6iw8stNuD0v_2WYCUoXS4I.png
@@ -65,6 +66,7 @@ betanews.com##.articleBoxad
 betanews.com##.authorThumb[src="\/wp-content\/themes\/betanews\/images\/authors\/Sofia_smallthumb\.png"]
 betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.content > .halfCol
+betanews.com##.follow
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
@@ -108,6 +110,7 @@ ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Emre Ç?tak/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Emre/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Eray Eliaçik/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Helena Bosnjak/i)
+ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Jesus/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Kerem Gülen/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Leri Koen/i)
 ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Onur Demirkol/i)
@@ -214,6 +217,7 @@ www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
 www.cbssports.com##.nav-network-bar
 www.cbssports.com#@#.site-nav-inner
+www.eurogamer.net##.ot-sdk-container
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
 www.fastcompany.com##.box-195736
@@ -225,6 +229,7 @@ www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
+www.foxnews.com##.promo-htu-ad-desktop.promo-htu-ad.promo
 www.foxnews.com#@#.promo
 www.ghacks.net##.category-deals,important
 www.ghacks.net##.category-sponsored
