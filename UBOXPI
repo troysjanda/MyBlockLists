@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: D1C9B91AF990A80180CEA42DB3F4B734DCAA1217D1FD6F64AA8A95211C09F6C9
+! SHA256 Hash: BF64153833ECED9A19FE171D6096C78B780B74284676BC6EB605BF62EC2D220E
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.8
-! Additions: (5) Deletions (0) Modified (0)
+! Version: 8.1.9
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -38,6 +38,7 @@
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
+@@||newegg.com/amber3/$badfilter
 @@||outbrain.com^$script,domain=dailywire.com
 @@||pandora.com/web-version/*/ads.json$xhr
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com
@@ -271,6 +272,7 @@ www.nascar.com##div#consent_blackbar
 www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.ad-close-container
 www.nascar.com##div#content.site-content > div.entry-content.panel-row-style > div.nascar-ad-container
 www.nascar.com##footer#footer.site-footer.site-footer-nascar > div.nascar-footer > footer > div.row.divider > div.col-3 > div.disclaimer-container
+www.newegg.com##.floating-live
 www.ninersnation.com##.adblock-allowlist-messaging__wrapper
 www.ninersnation.com##.tab-bar-fixed.c-tab-bar
 www.ninersnation.com##div.c-compact-river__entry:nth-of-type(10)
