@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 3FEFF949E3E20E309C79F8EE68BE4A3CA7E6214C68D2DCBCD33AB5F244A20140
+! SHA256 Hash: 4D64C72D48FA085618764A4A9955D3AF2E3BE24BE52BF52EBA271F9B9CCDBCD9
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.9
-! Additions: (1) Deletions (0) Modified (0)
+! Version: 8.0.10
+! Additions: (1) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -164,6 +164,7 @@ sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
 sports.yahoo.com##body:style(overflow: auto !important;)
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
+sports.yahoo.com##li._yb_1l8q0._yb_1bruf:nth-of-type(13)
 sports.yahoo.com##li._yb_6rxuf:nth-of-type(5)
 sports.yahoo.com##li._yb_h4l6e._yb_8sgqb:nth-of-type(12)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
@@ -184,7 +185,6 @@ www.yahoo.com###mega-banner-wrapper
 www.yahoo.com###module-whattowatch
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
-www.yahoo.com##+js(cookie-remover, ref_cookie)
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
