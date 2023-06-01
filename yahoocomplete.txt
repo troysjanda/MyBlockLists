@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 805CE14F487BA08B3EAC4ACE697883DF0343851B021A2B66760493848C4FF8C5
+! SHA256 Hash: EA8430EFE496613182BF6066D7535313366E914B5558B9499B6024C061F681ED
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.11
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.0.12
+! Additions: (3) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -97,6 +97,7 @@ finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.native-ad-item.gemini-ad
 finance.yahoo.com##.yfi_ad_s
+finance.yahoo.com#@#.BdEnd
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 games.yahoo.com,movies.yahoo.com##.md.links
 groups.yahoo.com##.yg-mbad-row
@@ -132,10 +133,10 @@ shopping.yahoo.com##.shmod-ysm
 sports.yahoo.com###Col1-0-BreakingNews-Proxy > div
 sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
 sports.yahoo.com###Lead-3-BreakingNews-Proxy > div
+sports.yahoo.com###YDC-Lead-Stack
 sports.yahoo.com###YDC-Overlay.YDC-Overlay
 sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
-sports.yahoo.com###root_1:upward(li)
-sports.yahoo.com###root_2:upward(li)
+sports.yahoo.com###sports-module-happening-now
 sports.yahoo.com###uh-tb-firefoxpromo
 sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
 sports.yahoo.com##.Cur\(p\).My\(12px\) > path
