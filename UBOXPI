@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 1A12BFB706E4A6419C19777BB4029455F652469D635BFAAA6E126A7A31E5DEA8
+! SHA256 Hash: 327380512FF9FBA43B0255A3E6E2682E0FA69A3BDAA8087E86127AF50ACD60A0
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.12
-! Additions: (1) Deletions (0) Modified (0)
+! Version: 8.1.14
+! Additions: (8) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -50,6 +50,7 @@ amazon-adsystem.com$
 amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
+animexin.vip##+js(no-xhr-if, googlesyndication.com)
 anitube.*##+js(abort-on-property-read, redirect1)
 armourgaming.co###tidio-chat-iframe
 armourgaming.co##.notifyjs-container
@@ -70,7 +71,7 @@ betanews.com##.clearfix.content > .halfCol
 betanews.com##.follow
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
-betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Wyciślik-Wilson)/i))
+betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Elizabella Wyciślik-Wilson)/i))
 betanews.com##[src="https://betanews.com/wp-content/themes/betanews/images/authors/Sofia_bigthumb.png"]
 bing.com##+js(ra, target, #b_results a[href][target="_blank"])
 blockadblock.com##+js(nobab)
@@ -194,9 +195,14 @@ tikolu.net##+js(aopr, HTMLElement.prototype.oncontextmenu)
 torrentgalaxy.su##.txlight.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.alert-dismissible.alert-danger.alert
 torrentgalaxy.to##.col-sm-12.col-lg-2 > center > div
+torrentgalaxy.to##.slidingDivf-6e422c70dd796e04eec79baaea3d169e3f1c5cd1.panel-body [href] > .hpcover.img-responsive
 torrentgalaxy.to##.smallhide.col-sm-12.col-lg-2 > center > div
 torrentgalaxy.to##[href="https://lookmovie2.to"]
 torrentgalaxy.to##[src="https://img.wonkychickens.org/data/statics/nflong.jpg"]
+torrentgalaxy.to##div > a[href^="\/hub\.php"]
+torrentgalaxy.to##div.hotpicks:nth-of-type(1)
+torrentgalaxy.to##div.hotpicks:nth-of-type(4)
+torrentgalaxy.to##div.hotpicks:nth-of-type(7)
 torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
 torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
 torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
@@ -337,6 +343,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||content.jwplatform.com^$domain=variety.com
 ||coronavirus.idaho.gov/wp-content/uploads/2021/08/Button_CoronavirusWebsite-*.png$image
 ||curtistimes.com^
+||d17xmf66fp9kg9.cloudfront.net/o?fqdn=https://www.wsj.com/*$xhr,domain=www.wsj.com
 ||data.mistat.xiaomi.com^
 ||dev-nano.com^$all
 ||digitalasset.intuit.com/IMAGE/A9xZVPnTr/Default_MAX_Refund_Dynamic_Ad_270x600_V2.jpg$image
@@ -356,6 +363,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||extmaps-api.yandex.net^
 ||facebook.com/plugins/*
 ||flintos.io/wp-content/plugins/popup-builder/*
+||floweryfact.com^$xhr,domain=www.howtogeek.com,important
 ||forum.opnsense.org/adds/content/8.applianceshop_20160413.jpg$image
 ||forum.opnsense.org/adds/content/x*_20160413.jpg.pagespeed.ic.*.webp$image
 ||ghacks.net/statics/ads.min.js
