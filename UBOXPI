@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 327380512FF9FBA43B0255A3E6E2682E0FA69A3BDAA8087E86127AF50ACD60A0
+! SHA256 Hash: 4BE8F33090D8CE0598FA82550770F3A7748D61D153501EBA44E5933DDD179453
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.14
-! Additions: (8) Deletions (0) Modified (1)
+! Version: 8.1.16
+! Additions: (6) Deletions (8) Modified (0)
 !
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -192,17 +192,11 @@ thehackernews.com##.top-follow
 thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
 tikolu.net##+js(aopr, HTMLElement.prototype.oncontextmenu)
-torrentgalaxy.su##.txlight.alert-dismissible.alert-danger.alert
-torrentgalaxy.to##.alert-dismissible.alert-danger.alert
-torrentgalaxy.to##.col-sm-12.col-lg-2 > center > div
-torrentgalaxy.to##.slidingDivf-6e422c70dd796e04eec79baaea3d169e3f1c5cd1.panel-body [href] > .hpcover.img-responsive
-torrentgalaxy.to##.smallhide.col-sm-12.col-lg-2 > center > div
-torrentgalaxy.to##[href="https://lookmovie2.to"]
-torrentgalaxy.to##[src="https://img.wonkychickens.org/data/statics/nflong.jpg"]
-torrentgalaxy.to##div > a[href^="\/hub\.php"]
-torrentgalaxy.to##div.hotpicks:nth-of-type(1)
-torrentgalaxy.to##div.hotpicks:nth-of-type(4)
-torrentgalaxy.to##div.hotpicks:nth-of-type(7)
+torrentgalaxy.to##.gluewrapper > div > div > div > [href^="/bub.php"]
+torrentgalaxy.to##.slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e.panel-body > div > [href^="/bub.php"]
+torrentgalaxy.to##.slidingDivf-6e422c70dd796e04eec79baaea3d169e3f1c5cd1.panel-body [href] > div
+torrentgalaxy.to##.slidingDivf-e4d2e275452c75e4b49e639e82da1ce1667eee25.panel-body > div > div > [href]
+torrentgalaxy.to##div.hotpicks > div > [href^="/bub.php"]
 torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
 torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
 torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
@@ -418,6 +412,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||tpucdn.com/images/*75willrunoutofdirssoon*/$image
 ||trk.pinterest.com^
 ||troypoint.com/wp-content/uploads/2020/01/Troypoint-IPV-970X250-protect.png$image
+||tstats-13fkh44r.com:4413/track-visit$xhr,domain=torrentgalaxy.to,important
 ||upst.fwdcdn.com/temp/blocks/*$image
 ||vbt.io^
 ||verizonmedia.com^
