@@ -1,15 +1,19 @@
 ! [uBlock Origin]
-! SHA256 Hash: B8DA8AB324B4F8CCE73DF6F0002173FD1DFE4D7A1357DCB4E79C07E1964B5365
+! SHA256 Hash: 42DC0393DFD9151146D1104709EF4B3729ADB1CE38AABD9E4E17DC5CB738E91C
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.18
-! Additions: (1) Deletions (0) Modified (0)
+! Version: 8.1.20
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+!Added 09-21-23
+torrentgalaxy.to##.slidingDivf-33b5493606dbeeae971dfeddfe57269a193c57fd.panel-body > div > div > [href]
+torrentgalaxy.to##center > div > div > [href^="/sub.php"]
+torrentgalaxy.to##.slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e.panel-body > div > [href^="/sub.php"]
 !Added on 08-25-2023
 torrentgalaxy.to##center > div > div > [href^="/bub.php"]
 !Start of list

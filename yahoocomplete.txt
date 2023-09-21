@@ -1,15 +1,20 @@
 ! [uBlock Origin]
-! SHA256 Hash: BADC3E42094B0F553AD12C44C1A1EBD4A872E61AEDA83C49546BE07723616A50
+! SHA256 Hash: 9684D6E412F144F9B351DBF3524C2DC86FB2FA1518A7F65D81D513BE7AD5852C
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.19
-! Additions: (12) Deletions (0) Modified (0)
+! Version: 8.0.20
+! Additions: (3) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+!Added 09-21-23
+finance.yahoo.com##iframe#mnet[src^="https\:\/\/hb\.yahoo\.net\/checksync\.php"]
+finance.yahoo.com##.tw-sticky
+www.yahoo.com###module-newsletter
+sports.yahoo.com##[href="https://fanatics.93n6tx.net/75ovQr"]
 !Added 08-25-2023
 sports.yahoo.com###sports-module-scorestrip-content
 sports.yahoo.com##.Op\(1\).Z\(50\).Bgc\(backgroundOverlay\).W\(100\%\).H\(100\%\).Start\(0\).T\(0\).Pos\(f\).Ta\(c\).lightbox-wrapper
