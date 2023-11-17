@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 45CCF5F599531281DEF6ED6F13AFA70CED048EDD7553440F06B44576D859CA07
+! SHA256 Hash: 131C999B8C441E5649601DE55B633A6E958DF7A174494A81BCF47E82EC424E81
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.22
-! Additions: (0) Deletions (5) Modified (0)
+! Version: 8.0.24
+! Additions: (0) Deletions (3) Modified (0)
 !
 ! -- Start Filters --
 !Added 10/25/23
@@ -26,10 +26,8 @@ sports.yahoo.com##.block-heading.heading.default.commerce-disclaimer
 sports.yahoo.com##._ys_19at3nq._ys_10qipkl > div._ys_md3vvz._ys_1kwrscm > div
 ! Added 08/04/23
 sports.yahoo.com##body:style(overflow: auto !important;)
-sports.yahoo.com##html:style(overflow: auto !important;)
 sports.yahoo.com###sports-module-originals
 ! Added 07/04/23
-www.yahoo.com##.wafer-destroyed.wafer-fetch-complete
 www.yahoo.com##.Mt\(6px\).stream-header-grid
 sports.yahoo.com##.Mih\(90px\).Z\(0\).Ov\(a\).Pos\(r\).Z-0.Pos-r.Ta\(c\)
 ! Original List Start
@@ -298,7 +296,6 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/the root/i)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo life shopping/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo news canada/i):upward(.stream-item)
 www.yahoo.com##div#HPSPON-ad
-www.yahoo.com.com##^responseheader(set-cookie)
 yahoo.com###LREC
 yahoo.com###LREC-sizer
 yahoo.com###LREC2-sizer
