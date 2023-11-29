@@ -1,15 +1,62 @@
 ! [uBlock Origin]
-! SHA256 Hash: 3034C2AE3E80517BB2C8919F01AE5D2723830320BE29A7B1B39AB6D2C4406311
+! SHA256 Hash: EF3673B2D05CEDAA4D0D10EF8C137042C19E596B19FF86281CA38849C03F7B0D
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.22
-! Additions: (1) Deletions (0) Modified (0)
+! Version: 8.1.24
+! Additions: (46) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+!Added 11/29/23
+imdb.com###content-2-wide:not([class]) #sidebar > div:not(.list-activity-widget)
+imdb.com###rvi-div > .recently-viewed
+imdb.com##.ehSCie
+imdb.com##.gbsbQW
+imdb.com##.ipc-metadata-list li[data-testid="title-details-companycredits"]
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(div#featured-today, iframe, section.more-to-watch, div#imdb-originals, #editors-picks, #born-today, #top-news)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:not(.page-grid)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div:has(#in-theaters, #top-box-office, #coming-soon-movie)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center div[data-testid="whatToWatch_title"]
+imdb.com##.ipc-page-grid.ipc-page-grid--bias-left:has(.jFAAHq)
+imdb.com##.navlinkcat__listContainerInner > ul > a:has-text(/India Movie Spotlight|Movie News|Showtimes & Tickets|on TV & Streaming|TV News/i)
+imdb.com##.results-section-exact-match-btn
+imdb.com##.sc-a2dd587f-0.cXRfLx
+imdb.com##div.lister-item-content > div.wtw-option-standalone
+imdb.com##div.lister-item-content > p:has(a[href*="https://www.imdb.com/name/"])
+imdb.com##div.navlinkcat:has(input[data-category-id="video"], #nav-link-categories-awards, #nav-link-categories-celebs, #nav-link-categories-comm)
+imdb.com##div:has( > label[aria-label="Toggle language selector"])
+imdb.com##div:has( > section[data-testid="more-results-section"], > section[data-testid="advanced-search-section"])
+imdb.com##div[data-testid="hero-subnav-bar-left-block"]
+imdb.com##div[data-testid="hero-subnav-bar-right-block"]
+imdb.com##footer.imdb-footer
+imdb.com##li:has(#ProUpsellLink)
+imdb.com##nav#imdbHeader .navbar__imdbpro
+imdb.com##section > div[data-testid="episodes-header"]
+imdb.com##section > div[data-testid="episodes-header"] + div > div:not([data-testid="episodes-browse-episodes"])
+imdb.com##section.right-rail-more-to-explore
+imdb.com##section:has( > div > div[data-testid="top-picks--title"])
+imdb.com##section[cel_widget_id="StaticFeature_Awards"]
+imdb.com##section[cel_widget_id="StaticFeature_FAQ"]
+imdb.com##section[data-testid="BoxOffice"]
+imdb.com##section[data-testid="chart-layout-sidebar"] > div[class]
+imdb.com##section[data-testid="chart-layout-sidebar"] > div[data-testid]
+imdb.com##section[data-testid="contribution"]
+imdb.com##section[data-testid="DidYouKnow"]
+imdb.com##section[data-testid="MoreLikeThis"] div:has( > a[aria-label="More information"])
+imdb.com##section[data-testid="News"]
+imdb.com##section[data-testid="Storyline"]
+imdb.com##section[data-testid="title-cast"] > ul
+imdb.com##section[data-testid="UserReviews"]
+imdb.com##section[data-testid="videos-section"]
+imdb.com##ul[data-testid="reviewContent-all-reviews"]
+m.imdb.com##.bkRdrN
+m.imdb.com##.iCWOBC
+m.imdb.com##a[aria-label="Use app"]
+m.imdb.com##a[href*="https://pro.imdb"]
+m.imdb.com##label[aria-label="language-select"]
 !added 11/22/2023
 insider-gaming.com##+js(rmnt, script, adblocker)
 !Added 09-21-23
