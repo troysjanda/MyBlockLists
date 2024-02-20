@@ -1,16 +1,26 @@
 ! [uBlock Origin]
-! SHA256 Hash: FEA3492041642C96B0DD9C5D947D0FB2A4C980B2CD6407B5A3D8439CF6E5030D
+! SHA256 Hash: 16B6FC3088B49B0FE62BFA091CECF6FD9962683F63442662BFCDF1933C6DD59A
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.34
-! Additions: (4) Deletions (0) Modified (0)
+! Version: 8.0.36
+! Additions: (9) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
-!Added 02/15/23
+!Added 02/19/24
+sports.yahoo.com##div[id^="mrt-node-"][id$="-Primary"]
+sports.yahoo.com##div[id^="mrt-node-"][id$="-Ad"]
+sports.yahoo.com##div[id^="mrt-node-"][id$="-FavoriteTeams"]
+sports.yahoo.com##div[id^="mrt-node-"][id$="-EmbeddedContent"]
+sports.yahoo.com###mrt-node-Primary-1-RMPWrap
+sports.yahoo.com###mrt-node-Primary-2-RMPWrap
+sports.yahoo.com##div[id^="col2-"][id$="-Ad"]
+sports.yahoo.com###defaultLREC-9-wrapper
+sports.yahoo.com##div[id^="col2-"][id$="-Ad-Proxy"]
+!Added 02/15/24
 sports.yahoo.com###mrt-node-SecondaryLeft-0-RMPWrap
 sports.yahoo.com###mrt-node-Col2-2-Ad
 sports.yahoo.com###mrt-node-Col2-8-Ad
