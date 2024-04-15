@@ -1,15 +1,34 @@
 ! [uBlock Origin]
-! SHA256 Hash: 6E4A5DAAE6450FB877760118D98536EF9A63EB39B245E0512278F7B14F5FE0BC
+! SHA256 Hash: BDA0795F5033A35AC8AB712F05C32AA7A2BDFA54A50305BBAA85CCE44D2A3964
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.37
-! Additions: (4) Deletions () Modified (0)
+! Version: 8.1.40
+! Additions: (18) Deletions () Modified (0)
 !
 ! -- Start Filters --
+!Added 04/15/24
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.desktop_shorts_volume_controls, true)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_player_check_ad_state_on_stop, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.html5_force_debug_data_for_client_tmp_logs, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid_hide_chips, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid_reduced_top_margin_rich_grid, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.swatcheroo_direct_use_rich_grid, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.main_app_sink_wrapper_batch_1, true)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.reels_web_disable_persistent_guide_shorts, true)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_deeper_metadata_highlight_styling, true)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_is_extended_monitoring, false)
+wzstats.gg##app-desktop-takeover-ad
+wzstats.gg##app-350x100-dynamic-ad
+twitch.tv##div.side-nav-section a:has-text(/bbreadman/i)
+www.foxnews.com##.item-nation-video-overlay
 !Added 03/29/24
 tiktok.com###login-modal,[class*="DivModalContainer"]
 *##body > div:not([class]):shadow(div[style]):has(:shadow([data-i18n^="#ad"]))
