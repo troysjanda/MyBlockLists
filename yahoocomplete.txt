@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 946AD728CB7A3C00989791D7ED6C31D0CC96A35242AC2C7754673A69B9AA4783
+! SHA256 Hash: B5659EDF0728F8584D678974334D48024CDAF9AF1E963BC7BE4A92645E3F4045
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.40
-! Additions: (3) Deletions (0) Modified (0)
+! Version: 8.0.42
+! Additions: (0) Deletions (0) Modified (4)
 !
 ! -- Start Filters --
 !Added 04/15/24
@@ -20,7 +20,7 @@ sports.yahoo.com##+js(rc, mrt-node, html)
 www.yahoo.com##.wafer-rapid-tracked.module-electionNews.wafer-rapid-module
 sports.yahoo.com#@##YDC-Lead-Stack
 tournament.fantasysports.yahoo.com###header-4-ProductHeader-Proxy > .Ov\(h\)
-sports.yahoo.com###Lead-1-Ad-Proxy
+sports.yahoo.com###Lead-/*/-Ad-Proxy
 www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
 !Added 02/19/24
 sports.yahoo.com##div[id^="mrt-node-"][id$="-Primary"]
@@ -34,9 +34,7 @@ sports.yahoo.com###defaultLREC-9-wrapper
 sports.yahoo.com##div[id^="col2-"][id$="-Ad-Proxy"]
 !Added 02/15/24
 sports.yahoo.com###mrt-node-SecondaryLeft-0-RMPWrap
-sports.yahoo.com###mrt-node-Col2-2-Ad
-sports.yahoo.com###mrt-node-Col2-8-Ad
-sports.yahoo.com###mrt-node-Col2-16-Ad
+sports.yahoo.com###mrt-node-Col2-/*/-Ad
 !Added 01/22/24
 www.yahoo.com###module-games
 sports.yahoo.com###ybar-nav-placement
@@ -147,13 +145,11 @@ everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
 finance.yahoo.com###Col2-0-ComboAd-Proxy
 finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
 finance.yahoo.com###mediabankrate_container
-finance.yahoo.com###mrt-node-Col1-0-Ad
-finance.yahoo.com###mrt-node-Col1-0-ComboAd
-finance.yahoo.com###mrt-node-Col2-0-ComboAd
-finance.yahoo.com###mrt-node-Col2-14-AdUnitWithTdAds
-finance.yahoo.com###mrt-node-Col2-6-Ad
-finance.yahoo.com###mrt-node-Lead-0-Ad
-finance.yahoo.com###mrt-node-Lead-1-Ad
+finance.yahoo.com###mrt-node-Col1-/*/-Ad
+finance.yahoo.com###mrt-node-Col1-/*/-ComboAd
+finance.yahoo.com###mrt-node-Col2-/*/-AdUnitWithTdAds
+finance.yahoo.com###mrt-node-Col2-/*/-Ad
+finance.yahoo.com###mrt-node-Lead-/*/-Ad
 finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
