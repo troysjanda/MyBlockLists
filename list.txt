@@ -1,10 +1,9 @@
-! Title: Huge AI Blocklist
-! Expires: 1 day
+! Title: XPI AI Blocklist
+! Expires: 7 days
 ! Version 1.00
 ! Description: A huge blocklist of sites that contain AI generated content for uBlock Origin.
-! Homepage: https://github.com/troysjanda/uBlockOrigin-HUGE-AI-Blocklist/edit/main/list.txt
-!//// Sites hosting nothing but AI generated content/solely focused on AI/has an abundance of AI generated imagery... 100% confirmed
-! Sites that have .ai domain extension
+! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/list.txt
+
 google.com,duckduckgo.com,bing.com##a[href*="animegenius.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="artvy.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="plugger.ai"]:upward(div):style(opacity:0.00!important;)
