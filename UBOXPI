@@ -1,15 +1,20 @@
 ! [uBlock Origin]
-! SHA256 Hash: B618EF97793B16CBC8E524C1D4D8203C76A15A41A78625166211113C106EAC94
+! SHA256 Hash: 49515B00E24E8BC7D769968BEB3883BF2EE170D56E01D8FC78AFE42E6E107BF0
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.44
-! Additions: (3) Deletions (1) Modified (0)
+! Version: 8.1.46
+! Additions: (4) Deletions (1) Modified (0)
 !
 ! -- Start Filters --
+!Added 06/28/24
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+binged.*##+js(nowoif)
+/i.gif
+/pixel2.gif?
 !Added 05/21/24
 nytimes.com###slideup-paywall, #darken-overlay
 nytimes.com##.noscroll:style(overflow: initial !important; height: initial !important; width: initial !important; position: initial !important;)
@@ -37,7 +42,6 @@ youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_deeper_metadata_hig
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_is_extended_monitoring, false)
 wzstats.gg##app-desktop-takeover-ad
 wzstats.gg##app-350x100-dynamic-ad
-twitch.tv##div.side-nav-section a:has-text(/bbreadman/i)
 www.foxnews.com##.item-nation-video-overlay
 !Added 03/29/24
 tiktok.com###login-modal,[class*="DivModalContainer"]
