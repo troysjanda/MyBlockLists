@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 49515B00E24E8BC7D769968BEB3883BF2EE170D56E01D8FC78AFE42E6E107BF0
+! SHA256 Hash: 4810154B5EB5C8B91E2A729B5D70BB2759C334E7D274AB6CE8F7218024ADAE2D
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.46
-! Additions: (4) Deletions (1) Modified (0)
+! Version: 8.1.48
+! Additions: (0) Deletions (5) Modified (0)
 !
 ! -- Start Filters --
 !Added 06/28/24
@@ -144,7 +144,6 @@ torrentgalaxy.to##center > div > div > [href^="/bub.php"]
 @@||www.askdavetaylor.com/detroitchicago/*$script,domain=www.askdavetaylor.com
 @@||www.broadwayworld.com/detroitchicago/*$script,domain=www.broadwayworld.com
 adtoniq.com^$important,third-party
-amazon-adsystem.com$
 amazon.com##[data-component-type="sp-sponsored-result"]
 amazon.com,amazon.in##.a-expander-header:style(display:none !important;)
 amazon.com,amazon.in##[data-a-expander-name="review_text_read_more"]:style(height:300px !important;)
@@ -228,7 +227,6 @@ idfg.idaho.gov##.row.alert-warning.alert
 ign.com##^script:has-text(g01.ign.com)
 instagram.com###fb-root + div[role=presentation]
 jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
-kaffnet.com$
 magicalthirteen.com^$important
 megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
 megaup.net#@#[id^="AdskeeperComposite"]:style(padding-top:1100px!important;)
@@ -268,7 +266,6 @@ seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 simplywall.st##+js(aeld, scroll, setTimeout)
 spiegel.de##^script:has-text(.createShadowRoot)
-startapp/(exchange|network|service)\.com/$
 strikeout.cc##+js(nostif, userHasAdblocker)
 stupidfanboy.wordpress.com##.native-ad-marker:upward(article)
 techdator.net##.td-container-wrap.td-banner-wrap-full
@@ -279,7 +276,6 @@ techpowerup.com##^script:has-text(.mnnusjsdde)
 techpowerup.com##^script:has-text(.mnnusjsddg)
 techpowerup.com##^script:has-text(UA-5304621-1)
 techpowerup.com##^script:has-text(adblock-tester)
-theathletic.com##+js(refresh-defuser, nowoif)
 thebroodle.com##.EAJKXIqksYmj-bg
 thebroodle.com##.EAJKXIqksYmj-default
 theforestmap.com##.in.fade.modal-backdrop
@@ -485,7 +481,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||pocketfaucet.com^
 ||polyfill.io^
 ||rawgit.com^$important
-||reddit.com^*utm_$queryprune=|utm_
 ||report-uri.cloudflare.com^
 ||s3.buysellads.com^
 ||scotthelme.report-uri.com^$all
