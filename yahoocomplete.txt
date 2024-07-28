@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: A8E84BDD03B724361FDDAC8DF593EF162FA52101A9BEB5F320E2C4A7EB54FD22
+! SHA256 Hash: 41DA756F9A7237CA93F22FD95CCD1BD8294C95FDF349F950A8542BA5DCFCF63D
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.48
-! Additions: (2) Deletions (0) Modified (5)
+! Version: 8.0.50
+! Additions: (0) Deletions (14) Modified (0)
 !
 ! -- Start Filters --
 !Added 06/28/24
@@ -21,22 +21,18 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Spokesman-R
 www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
 search.yahoo.com##.trending-flame.ico
 !Added 03/29/24
-sports.yahoo.com##._ys_19at3nq._ys_1x2p6gl > div._ys_md3vvz._ys_1kwrscm
+
 sports.yahoo.com##+js(rc, mrt-node, html)
 www.yahoo.com##.wafer-rapid-tracked.module-electionNews.wafer-rapid-module
-sports.yahoo.com#@##YDC-Lead-Stack
+
 tournament.fantasysports.yahoo.com###header-4-ProductHeader-Proxy > .Ov\(h\)
-sports.yahoo.com###Lead-/*/-Ad-Proxy
 www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
 !Added 02/19/24
 sports.yahoo.com##[id^="mrt-node-"][id$="-Primary"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-Ad"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-FavoriteTeams"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-EmbeddedContent"]
-sports.yahoo.com###mrt-node-Primary-1-RMPWrap
-sports.yahoo.com###mrt-node-Primary-2-RMPWrap
 sports.yahoo.com##[id^="col2-"][id$="-Ad"]
-sports.yahoo.com###defaultLREC-9-wrapper
 sports.yahoo.com##[id^="col2-"][id$="-Ad-Proxy"]
 !Added 02/15/24
 sports.yahoo.com###mrt-node-SecondaryLeft-0-RMPWrap
@@ -51,9 +47,6 @@ search.yahoo.com##.sys_events_wz.mb-32.lh-none.bdr-8.bd-1.p-0.crisis.dd
 finance.yahoo.com###a2csn
 finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
 !Added 11/22/2023
-sports.yahoo.com##._ys_i42985._ys_1ht8059._ys_14h68s2._ys_ztxrxg._ys_19262f6._ys_19jjwt4._ys_1e6ql5o
-sports.yahoo.com##div.commerce-module.mini-pd
-sports.yahoo.com##div.commerce-module.pd-list
 ||s.yimg.com/cv/apiv2/default/sports/fantasy/YS_Fantasy_Football_2023.png$image
 sports.yahoo.com###mrt-node-Col2-10-PromoImage
 !Added 10/25/23
@@ -66,16 +59,11 @@ www.yahoo.com###module-newsletter
 sports.yahoo.com##[href="https://fanatics.93n6tx.net/75ovQr"]
 !Added 08-25-2023
 sports.yahoo.com###sports-module-scorestrip-content
-sports.yahoo.com##.Op\(1\).Z\(50\).Bgc\(backgroundOverlay\).W\(100\%\).H\(100\%\).Start\(0\).T\(0\).Pos\(f\).Ta\(c\).lightbox-wrapper
-sports.yahoo.com##.monalixa
-sports.yahoo.com##.block-heading.heading.default.commerce-disclaimer
-sports.yahoo.com##._ys_19at3nq._ys_10qipkl > div._ys_md3vvz._ys_1kwrscm > div
 ! Added 08/04/23
 sports.yahoo.com##body:style(overflow: auto !important;)
 sports.yahoo.com###sports-module-originals
 ! Added 07/04/23
 www.yahoo.com##.Mt\(6px\).stream-header-grid
-sports.yahoo.com##.Mih\(90px\).Z\(0\).Ov\(a\).Pos\(r\).Z-0.Pos-r.Ta\(c\)
 ! Original List Start
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
