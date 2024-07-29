@@ -1,16 +1,17 @@
 ! [uBlock Origin]
-! SHA256 Hash: B4E1A9056035B81733AFEF763997EB9E40B0EC8B892469DCA8AFD63E9DF7FAE4
+! SHA256 Hash: 9FD95992444204087D7820403D3F1ED6840EC10224A57B1463E3DB13B805F576
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.52
-! Additions: (0) Deletions (4) Modified (0)
+! Version: 8.1.54
+! Additions: (1) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 !Added 07-19-24
+www.foxnews.com#@#video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
 www.twitch.tv##.front-page-carousel.hTjsXl.Layout-sc-1xcs6mc-0
 *##video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
 *##*:shadow(video, audio):remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
