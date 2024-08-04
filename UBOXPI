@@ -1,20 +1,19 @@
 ! [uBlock Origin]
-! SHA256 Hash: 9FD95992444204087D7820403D3F1ED6840EC10224A57B1463E3DB13B805F576
+! SHA256 Hash: 204BF044DE02F89230D36C9CF86614C598BCDBA309BFC36E21BFB4C1D3D84E88
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.54
-! Additions: (1) Deletions (0) Modified (0)
+! Version: 8.1.56
+! Additions: (1) Deletions (14) Modified (0)
 !
 ! -- Start Filters --
 !Added 07-19-24
+strikeout.im##^script:has-text(JSON.parse)
 www.foxnews.com#@#video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
 www.twitch.tv##.front-page-carousel.hTjsXl.Layout-sc-1xcs6mc-0
-*##video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
-*##*:shadow(video, audio):remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
 www.ghacks.net###ghacks_latest_from_softonic-2
 !Added 06/28/24
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
@@ -33,18 +32,6 @@ duckduckgo.com#@#div>a:has-text(/AI/):upward(div):style(opacity:0!important)
 drake-scans.com##+js(no-xhr-if, googlesyndication.com)
 !Added 04/15/24
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.desktop_shorts_volume_controls, true)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_player_check_ad_state_on_stop, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.html5_force_debug_data_for_client_tmp_logs, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid_hide_chips, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid_reduced_top_margin_rich_grid, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.swatcheroo_direct_use_rich_grid, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.main_app_sink_wrapper_batch_1, true)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.reels_web_disable_persistent_guide_shorts, true)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_deeper_metadata_highlight_styling, true)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_is_extended_monitoring, false)
 wzstats.gg##app-desktop-takeover-ad
 wzstats.gg##app-350x100-dynamic-ad
 www.foxnews.com##.item-nation-video-overlay
