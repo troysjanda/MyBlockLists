@@ -1,15 +1,19 @@
 ! [uBlock Origin]
-! SHA256 Hash: 204BF044DE02F89230D36C9CF86614C598BCDBA309BFC36E21BFB4C1D3D84E88
+! SHA256 Hash: 5BB71559A139973A4C3A584C12A72B45729F3E58B57958DABB91A075D47C4DCC
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.56
-! Additions: (1) Deletions (14) Modified (0)
+! Version: 8.1.58
+! Additions: (3) Deletions (14) Modified (1)
 !
 ! -- Start Filters --
+! Added 08-04-24
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 !Added 07-19-24
 strikeout.im##^script:has-text(JSON.parse)
 www.foxnews.com#@#video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
@@ -31,7 +35,7 @@ fitgirl-repacks.site###footer-sidebar
 duckduckgo.com#@#div>a:has-text(/AI/):upward(div):style(opacity:0!important)
 drake-scans.com##+js(no-xhr-if, googlesyndication.com)
 !Added 04/15/24
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(nano-stb, [native code], 17000, 0.001)
 wzstats.gg##app-desktop-takeover-ad
 wzstats.gg##app-350x100-dynamic-ad
 www.foxnews.com##.item-nation-video-overlay
