@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: AD9A4B907D12F0493559D50C1AA54E30A99E6AA6F63D551001E0C323B6F5F016
+! SHA256 Hash: 2F4C1BDE56B3028F78D6B44818FEAE83F8D33ED288B6EFB43DB277CEE437D8E5
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.62
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.1.64
+! Additions: (0) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ! 09/10/24
@@ -20,7 +20,6 @@ www.amazon.com##.nav-rufus-content
 www.amazon.com##.rufus-panel-closed-to-peek.rufus-panel-container
 www.amazon.com###nav-rufus-disco
 www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
-*##+js(aeld, /^(?:focus|blur|visibilitychange)$/)
 ! Added 08-04-24
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
@@ -52,7 +51,6 @@ wzstats.gg##app-350x100-dynamic-ad
 www.foxnews.com##.item-nation-video-overlay
 !Added 03/29/24
 tiktok.com###login-modal,[class*="DivModalContainer"]
-*##body > div:not([class]):shadow(div[style]):has(:shadow([data-i18n^="#ad"]))
 torrentgalaxy.to###stopad > div > [href^="/hx"]
 twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, and Beaches/i)
 !Added 02/15/24
