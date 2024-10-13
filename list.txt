@@ -1,6 +1,6 @@
 ! Title: XPI AI Blocklist
-! Expires: 7 days
-! Version 1.00
+! Expires: 4 days
+! Version 1.10
 ! Description: A huge blocklist of sites that contain AI generated content for uBlock Origin.
 ! Homepage: https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/list.txt
 
@@ -38,7 +38,6 @@ google.com,duckduckgo.com,bing.com##a[href*="holara.ai"]:upward(div):style(opaci
 google.com,duckduckgo.com,bing.com##a[href*="voicebot.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pokeit.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="hotpot.ai"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="pokeit.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="virtulook.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="learnmidjourney.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="blackink.ai"]:upward(div):style(opacity:0.00!important;)
@@ -152,7 +151,6 @@ google.com,duckduckgo.com,bing.com##a[href*="artiphoria.ai"]:upward(div):style(o
 google.com,duckduckgo.com,bing.com##a[href*="stockimg.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="airbrush.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="arthemy.ai"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="arthub.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="nsfwgenerator.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="onlyrizz.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="gofind.ai"]:upward(div):style(opacity:0.00!important;)
@@ -174,7 +172,6 @@ google.com,duckduckgo.com,bing.com##a[href*="dreamup.ai"]:upward(div):style(opac
 google.com,duckduckgo.com,bing.com##a[href*="artbot.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="portret.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="iliad.ai"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="astria.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="paxi.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="diffusitron.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="dalle3.ai"]:upward(div):style(opacity:0.00!important;)
@@ -293,8 +290,6 @@ google.com,duckduckgo.com,bing.com##a[href*="happyaccidents.ai"]:upward(div):sty
 google.com,duckduckgo.com,bing.com##a[href*="fal.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="talkpal.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="sdxlturbo.ai"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Sites that have .com domain extension
 google.com,duckduckgo.com,bing.com##a[href*="hayo.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="yodayo.com"]:upward(div):style(opacity:0.00!important;)
@@ -340,7 +335,6 @@ google.com,duckduckgo.com,bing.com##a[href*="technolynx.com"]:upward(div):style(
 google.com,duckduckgo.com,bing.com##a[href*="segmind.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="sarahmeyohas.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="davidarielszauder.com"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="sarahmeyohas.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="violetforest.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="dreamup.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="artbreeder"]:upward(div):style(opacity:0.00!important;)
@@ -369,10 +363,8 @@ google.com,duckduckgo.com,bing.com##a[href*="color-anything.com"]:upward(div):st
 google.com,duckduckgo.com,bing.com##a[href*="blimeycreate.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="artreviewgenerator.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="kakobrain.com"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="yodayo.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="aidungeon.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="zazow.com"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="starryai.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="playarti.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="playgroundai.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="alkaidvision.com"]:upward(div):style(opacity:0.00!important;)
@@ -408,7 +400,6 @@ google.com,duckduckgo.com,bing.com##a[href*="cliptics.com"]:upward(div):style(op
 google.com,duckduckgo.com,bing.com##a[href*="thataicollection.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="augxlabs.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="askstockgpt.com"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="blimeycreate.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="kaedim3d.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="masterpiecestudio.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="shopdeft.com"]:upward(div):style(opacity:0.00!important;)
@@ -514,9 +505,6 @@ google.com,duckduckgo.com,bing.com##a[href*="stabledifffusion.com"]:upward(div):
 google.com,duckduckgo.com,bing.com##a[href*="bestofai.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="askmkbhd.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="aquariumfishsource.com"]:upward(div):style(opacity:0.00!important;)
-
-
-
 ! Sites that have .art domain extension
 google.com,duckduckgo.com,bing.com##a[href*="imagine.art"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="jasper.art"]:upward(div):style(opacity:0.00!important;)
@@ -615,8 +603,6 @@ google.com,duckduckgo.com,bing.com##a[href*="assetsai.art"]:upward(div):style(op
 google.com,duckduckgo.com,bing.com##a[href*="liblib.art"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="lunai.art"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pictab.art"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Sites that have .co domain extension
 google.com,duckduckgo.com,bing.com##a[href*="huggingface.co"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="clipdrop.co"]:upward(div):style(opacity:0.00!important;)
@@ -634,8 +620,6 @@ google.com,duckduckgo.com,bing.com##a[href*="embolden.co"]:upward(div):style(opa
 google.com,duckduckgo.com,bing.com##a[href*="superreply.co"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="hiddendoor.co"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="aiartmaster.co"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Sites that have .net domain extension
 google.com,duckduckgo.com,bing.com##a[href*="illusiondiffusion.net"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="kreaai.net"]:upward(div):style(opacity:0.00!important;)
@@ -649,8 +633,6 @@ google.com,duckduckgo.com,bing.com##a[href*="novelai.net"]:upward(div):style(opa
 google.com,duckduckgo.com,bing.com##a[href*="miramuseai.net"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="aichatting.net"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="melodystudio.net"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Sites that have miscellaneous domain extensions (eg. .pub, io, etc.)
 google.com,duckduckgo.com,bing.com##a[href*="transpic.cn"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="sticky.cool"]:upward(div):style(opacity:0.00!important;)
@@ -697,7 +679,6 @@ google.com,duckduckgo.com,bing.com##a[href*="make3d.app"]:upward(div):style(opac
 google.com,duckduckgo.com,bing.com##a[href*="petbooth.app"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="outfitanyone.app"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="wonderai.app"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="phraser.tech"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="aigur.dev"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="aiart.dev"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="background.lol"]:upward(div):style(opacity:0.00!important;)
@@ -765,8 +746,6 @@ google.com,duckduckgo.com,bing.com##a[href*="synthesys.io"]:upward(div):style(op
 google.com,duckduckgo.com,bing.com##a[href*="toolsadvisor.org"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="veed.io"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="visla.us"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Google Play AI applications
 google.com,duckduckgo.com,bing.com##a[href*="play.google.com/store/apps/details?id=com.sola.anime.ai.generator"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="play.google.com/store/apps/details?id=com.vyroai.animeart"]:upward(div):style(opacity:0.00!important;)
@@ -789,12 +768,8 @@ google.com,duckduckgo.com,bing.com##a[href*="play.google.com/store/apps/details?
 google.com,duckduckgo.com,bing.com##a[href*="play.google.com/store/apps/details?id=com.ai.art.generator.avatar.creator.unique"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="play.google.com/store/apps/details?id=ai.art.generator.design"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="play.google.com/store/apps/details?id=com.tapuniverse.aiartgenerator"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Apple AI applications
 google.com,duckduckgo.com,bing.com##a[href*="apple.com/us/app/ai-art-generator-hitpaw/id6444304300"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Gross nudify sites/deepfakes/porn (why isn't this illegal?!?!)
 google.com,duckduckgo.com,bing.com##a[href*="sukebezone.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="fantasygf.ai"]:upward(div):style(opacity:0.00!important;)
@@ -873,7 +848,6 @@ google.com,duckduckgo.com,bing.com##a[href*="ai-dreamgirls.com"]:upward(div):sty
 google.com,duckduckgo.com,bing.com##a[href*="hentai.kitchen"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="getporn.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="porn.ai"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="aigirlfriend.wtf"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="privee.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pornai.tv"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="nsfw.xxx"]:upward(div):style(opacity:0.00!important;)
@@ -947,11 +921,7 @@ google.com,duckduckgo.com,bing.com##a[href*="braundress.net"]:upward(div):style(
 google.com,duckduckgo.com,bing.com##a[href*="ai-nudes.ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="undress.xxx"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="girlfriend.ai"]:upward(div):style(opacity:0.00!important;)
-
-
-
 ! //// Block lists of individual users
-
 ! Block list of AI "artists"/orgs (twitter)
 google.com,duckduckgo.com,bing.com##a[href*="x.com/ew_corpse"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="twitter.com/ew_corpse"]:upward(div):style(opacity:0.00!important;)
@@ -1044,9 +1014,6 @@ google.com,duckduckgo.com,bing.com##a[href*="twitter.com/Ai99gAmi/"]:upward(div)
 google.com,duckduckgo.com,bing.com##a[href*="x.com/Ai99gAmi/"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="twitter.com/thisislux/"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="x.com/thisislux/"]:upward(div):style(opacity:0.00!important;)
-
-
-
 ! Block list of AI "artists"/orgs (youtube)
 google.com,duckduckgo.com,bing.com##a[href*="youtube.com/@shadiversity"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="youtube.com/channel/UCkmMACUKpQeIxN9D9ARli1Q"]:upward(div):style(opacity:0.00!important;)
@@ -1057,8 +1024,6 @@ google.com,duckduckgo.com,bing.com##a[href*="youtube.com/@enigmatic_e"]:upward(d
 google.com,duckduckgo.com,bing.com##a[href*="youtube.com/channel/UClSBolYONOzQjOzE4cMHfpw"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="youtube.com/@LaCarnevali"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="youtube.com/@OlivioSarikas"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Block list of AI "artists"/orgs (instagram)
 google.com,duckduckgo.com,bing.com##a[href*="instagram.com/_prateekarora"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="instagram.com/xonorika"]:upward(div):style(opacity:0.00!important;)
@@ -1101,8 +1066,6 @@ google.com,duckduckgo.com,bing.com##a[href*="instagram.com/missfidonyoart"]:upwa
 google.com,duckduckgo.com,bing.com##a[href*="instagram.com/oliviotutorials"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="instagram.com/hellocivitai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="instagram.com/wand.official"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Block list of AI "artists"/orgs (pinterest)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/warking999999"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/racingtff"]:upward(div):style(opacity:0.00!important;)
@@ -1143,7 +1106,6 @@ google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/tonnyfroyen"]:upward(
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/rhiakai86"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/hardikmd124"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/WinterAIArt"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/Aiartanime"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/arabiclogos_com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/emmapreston93"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/isabellakinape"]:upward(div):style(opacity:0.00!important;)
@@ -1164,16 +1126,10 @@ google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/animeaiwaifus"]:upwar
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/kingvinst"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/BellaBlues99"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/fira1747"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Block list of AI "artists"/orgs (behance)
 google.com,duckduckgo.com,bing.com##a[href*="behance.net/oliviosarikas"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Block list of AI "artists"/orgs (ko-fi)
 google.com,duckduckgo.com,bing.com##a[href*="ko-fi.com/ainomad"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Block list of AI "artists"/orgs (deviantart)
 google.com,duckduckgo.com,bing.com##a[href*="deviantart.com/vyerran"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="deviantart.com/alyskan"]:upward(div):style(opacity:0.00!important;)
@@ -1187,64 +1143,41 @@ google.com,duckduckgo.com,bing.com##a[href*="deviantart.com/dendyh7"]:upward(div
 google.com,duckduckgo.com,bing.com##a[href*="deviantart.com/jaredsyn"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="deviantart.com/instaai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="deviantart.com/lizzyrascal"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Block list of AI "artists"/orgs (artstation)
 google.com,duckduckgo.com,bing.com##a[href*="artstation.com/tryintogetthere"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Block list of AI "artists"/orgs (facebook)
 google.com,duckduckgo.com,bing.com##a[href*="facebook.com/cuteanimegirl99"]:upward(div):style(opacity:0.00!important;)
-google.com,duckduckgo.com,bing.com##a[href*="facebook.com/cuteanimegirl99"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="facebook.com/TheTiniestTiger"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Artstation shit
 google.com,duckduckgo.com,bing.com##a[href*="artstation.com/artwork/KOJ80W"]:upward(div):style(opacity:0.00!important;)
-
-
 ! s.id garbage
 google.com,duckduckgo.com,bing.com##a[href*="s.id/AIArtGaia"]:upward(div):style(opacity:0.00!important;)
-
-
 ! ko-fi garbage
 google.com,duckduckgo.com,bing.com##a[href*="ko-fi.com/s/cfcbe64e46"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="ko-fi.com/s/0b1ee02cef"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="ko-fi.com/s/12dd0f892e"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="ko-fi.com/s/26646f3ac9"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="ko-fi.com/s/af9a23d375"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Freepik garbage
 google.com,duckduckgo.com,bing.com##a[href*="freepik.com/premium-ai-image"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="freepik.com/premium-photo/santa-christmas-snowman-with-christmas-tree-background_34806921"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="freepik.com/premium-photo/circus-tent-with-balloons-sweets-blue-background-generative-ai_39088161.htm"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="freepik.com/premium-photo/moon-background-with-astronaut-image-ai-generated-art_39726721.htm"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="freepik.com/author/smmstore773"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Linkedin garbage
 google.com,duckduckgo.com,bing.com##a[href*="linkedin.com/in/justmaier"]:upward(div):style(opacity:0.00!important;)
-
-
 ! Medium garbage
 google.com,duckduckgo.com,bing.com##a[href*="medium.com/@inchristiely"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="medium.com/@aitubo011"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="medium.com/mlearning-ai"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="medium.com/generative-ai"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Miscellaneous crypto/nft shit
 google.com,duckduckgo.com,bing.com##a[href*="cryptoart.io"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="opensea.io"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="datadriveninvestor.com"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Etsy shit
 google.com,duckduckgo.com,bing.com##a[href*="etsy.com/listing/1458059429"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="etsy.com/listing/1368236844"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Individual Pinterest shit
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/pin/428053139600411583"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/pin/143130094401282814"]:upward(div):style(opacity:0.00!important;)
@@ -1254,25 +1187,17 @@ google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/pin/59496780080419444
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/pin/alltime-favorite-female-anime-characters-according-to-fans--562527809720856076"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/pin/mulher-fatal"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pinterest.com/pin/563018696976219"]:upward(div):style(opacity:0.00!important;)
-
 ! // Adobe shit
 google.com,duckduckgo.com,bing.com##a[href*="adobe.com/products/firefly"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="adobe.com/ca/products/firefly"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="adobe.com/uk/products/firefly"]:upward(div):style(opacity:0.00!important;)
-
 ! // Individual Adobe Stock shit
 google.com,duckduckgo.com,bing.com##a[href*="stock.adobe.com/images/abstract-painting-about-anime-girl-with-close-up-view-at-the-face-splash-colour-art-portrait-of-anime-girl-digital-art-style-illustration-painting-generative-ai/569091927"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="stock.adobe.com/images/abstract-painting-about-anime-girl-with-close-up-view-at-the-face-splash-colour-art-portrait-of-anime-girl-digital-art-style-illustration-painting-generative-ai/569091986"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Individual Artstation shit
 google.com,duckduckgo.com,bing.com##a[href*="artstation.com/artwork/kQZoLA"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Fiverr shit
 google.com,duckduckgo.com,bing.com##a[href*="fiverr.com/bleassome"]:upward(div):style(opacity:0.00!important;)
-
-
 ! //// Block list of AI subreddits
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/StableDiffusion"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/aiArt"]:upward(div):style(opacity:0.00!important;)
@@ -1337,26 +1262,16 @@ google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/generative"]:upward(di
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/GPT3"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/SoraAi"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/SunoAI"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Block list of AI reddit users
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/user/aidaily0"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/user/Wyprany"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="reddit.com/user/AIContent"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Reddit shit (placeholder)
-
-
 ! // Tumblr shit
 google.com,duckduckgo.com,bing.com##a[href*="dalle2.tumblr.com"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Pixels
 google.com,duckduckgo.com,bing.com##a[href*="pixels.com/featured/beautiful-chinese-dragon-lmzkone-narciso-marlene"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="pixels.com/profiles/lm2kone"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Amazon shit
 google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Cute-Anime-Girls-Fantasy-Inspired-Characters/dp/B0C47SW6NT"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Cat-Coloring-Book-Wearing-Scarves/dp/B0CVTYD34P"]:upward(div):style(opacity:0.00!important;)
@@ -1365,8 +1280,6 @@ google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Squirrel-Coloring-Book-S
 google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Rabbit-Coloring-Book-Rabbits-Lovers/dp/B0CV43GKGZ"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Cat-Coloring-Book-Cats-Windows/dp/B0CVLFSSGC"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Kawaii-Sketchbook-drawing-notebook-journal/dp/B0C9S8W4PW"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // AI content farms/spam
 google.com,duckduckgo.com,bing.com##a[href*="boddeswasusi.github.io"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="stl24.com"]:upward(div):style(opacity:0.00!important;)
@@ -1378,15 +1291,117 @@ google.com,duckduckgo.com,bing.com##a[href*="ocfchess.org"]:upward(div):style(op
 google.com,duckduckgo.com,bing.com##a[href*="onexception.dev"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="maroonchess.com"]:upward(div):style(opacity:0.00!important;)
 google.com,duckduckgo.com,bing.com##a[href*="samurai-gamers.com"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // VoiceMod shit
 google.com,duckduckgo.com,bing.com##a[href*="tuna.voicemod.net/sound/1fdc3b37-441c-4a34-ae88-853bbbb947bb"]:upward(div):style(opacity:0.00!important;)
-
-
 ! // Getty Wallpapers
 google.com,duckduckgo.com,bing.com##a[href*="gettywallpapers.com/cute-anime-girl-profile-pictures"]:upward(div):style(opacity:0.00!important;)
-
 ! // Just in case exceptions
 mail.google.com#@#a[href*="/play.ht"]:upward(div):style(opacity:0.00!important;)
 mail.google.com#@#a[href*=".play.ht"]:upward(div):style(opacity:0.00!important;)
+! added 10132024
+google.com,duckduckgo.com,bing.com##a[href*="captions.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aiscribbles.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="github.com/lllyasviel"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="stablediffusion.fr"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="facecam.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="comfy.icu"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/cursedAIpics"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="supagruen.github.io/StableDiffusion-CheatSheet"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="trycatchdebug.net"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="twitter.com/watanaharumi/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="pipio.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/stores/Aeryn-Zen/author/B0C7NL912Q"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aipassportphotos.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Anime-Coloring-Book-Zodiac-Enthusiasts/dp/B0C91XFRLH"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="linuxcapable.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="x.com/Feral_Forest/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="x.com/meeer712/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="designbundles.net/ylivdesign"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="animeart.studio"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="story.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="twitter.com/nonoka_furry/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="flux-ai.io"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="stablegenius.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="promptalot.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="fishkeepingadvice.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="apple.com/us/app/pixai-ai-anime-art-generator/id6474528911"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aitree.io"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="midjourney9.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="disciplines.ng"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="reface.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="x.com/watanaharumi/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="cozybrushery.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/promptsideas"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="davy.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aimojo.io"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="fluxai.dev"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="oksuro.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aimakerslab.io"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="codeease.net"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="brainds.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="impossibleimages.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="domoai.app"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="copilot.microsoft.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="everart.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="liveportrait.org"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="pngmaker.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="stablediffusionweb.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="promeai.pro"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="promptstock.photos"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aiimagegenerator.is"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aleatory.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="twitter.com/si12o2/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Sexy-Anime-Coloring-Book-Enthusiasts/dp/B0CMSDFXKS"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="designbundles.net/illustrate-ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="picture.lk"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Anime-Coloring-Book-Manhua-Enthusiasts/dp/B0CMCKC5GM"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="allabtai.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="flux-ai.net"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="urania.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="undetectable.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Anime-Coloring-Book-Enthusiasts-Stress/dp/B0C79NPRKT"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="frequentart.myportfolio.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Anime-Coloring-Book-Drawing-Enthusiasts/dp/B0C8R9DD5J"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="goenhance.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="perfectcorp.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="dinosaur.org"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Sexy-Anime-Coloring-Book-Enthusiasts/dp/B0C8QXCZSD"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="inspiringdesigns.net"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="copilot.github.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="unpod.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="x.com/nonoka_furry/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="conoha.jp/ai/canvas"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="cre8tiveai.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="x.com/si12o2/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="zleague.gg"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="ubrand.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="pictorem.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="besuper.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="filmport.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="twitter.com/meeer712/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="kaiber.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="microsoft.com/en-us/bing/do-more-with-ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="meshy.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amazon.com/Anime-Coloring-Book-Chibi-Kawaii/dp/B0CZP35QWQ"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="lightxeditor.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="twitter.com/Feral_Forest/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aixstock.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="promptden.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="akuma.ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="musesai.io"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aeroscroll.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="aigodlike.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="liveportrait.app"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="x.com/new_nonoka/"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="fluxai.studio"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="writesonic.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="midprompteria.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="freepik.com/ai"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="ai.nero.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="live-portrait.vercel.app"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="stockcake.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="amhuru.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="photoai.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="deepgram.com"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="reddit.com/r/bigsleep"]:upward(div):style(opacity:0.00!important;)
+google.com,duckduckgo.com,bing.com##a[href*="twitter.com/new_nonoka/"]:upward(div):style(opacity:0.00!important;)
