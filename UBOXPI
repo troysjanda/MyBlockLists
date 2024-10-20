@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 49DB833746C019C3A13A3CE46857D01E2C7A4157D82844474B57A36CFFA247E3
+! SHA256 Hash: 538A18847333BF7103916C4189D3B74E519C47C79A1CC27FAAB0205D8D7696BA
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.68
-! Additions: (3) Deletions (0) Modified (0)
+! Version: 8.1.70
+! Additions: (0) Deletions (3) Modified (2)
 !
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -27,8 +27,6 @@ www.amazon.com##.rufus-panel-closed-to-peek.rufus-panel-container
 www.amazon.com###nav-rufus-disco
 www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
 ! Added 08-04-24
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 !Added 07-19-24
 strikeout.im##^script:has-text(JSON.parse)
@@ -42,7 +40,7 @@ binged.*##+js(nowoif)
 !Added 05/21/24
 nytimes.com###slideup-paywall, #darken-overlay
 nytimes.com##.noscroll:style(overflow: initial !important; height: initial !important; width: initial !important; position: initial !important;)
-www.foxnews.com##.dark.three-items.river.collection-topic.collection
+foxnews.com##.dark.three-items.river.collection-topic.collection
 !Added 04/26/24
 betanews.com##.clearfix.body > ul
 betanews.com##p:nth-of-type(3)
@@ -51,10 +49,9 @@ fitgirl-repacks.site###footer-sidebar
 duckduckgo.com#@#div>a:has-text(/AI/):upward(div):style(opacity:0!important)
 drake-scans.com##+js(no-xhr-if, googlesyndication.com)
 !Added 04/15/24
-www.youtube.com##+js(nano-stb, [native code], 17000, 0.001)
 wzstats.gg##app-desktop-takeover-ad
 wzstats.gg##app-350x100-dynamic-ad
-www.foxnews.com##.item-nation-video-overlay
+foxnews.com##.item-nation-video-overlay
 !Added 03/29/24
 tiktok.com###login-modal,[class*="DivModalContainer"]
 torrentgalaxy.to###stopad > div > [href^="/hx"]
