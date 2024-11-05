@@ -1,15 +1,20 @@
 ! [uBlock Origin]
-! SHA256 Hash: 538A18847333BF7103916C4189D3B74E519C47C79A1CC27FAAB0205D8D7696BA
+! SHA256 Hash:  5031439F5B682C83572044CF6EE806F3D5A5D94791EDB63FFCFCF7C95E244CAA
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.70
-! Additions: (0) Deletions (3) Modified (2)
+! Version: 8.1.71
+! Additions: (5) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
+youtube.com##.YtProgressBarLineProgressBarPlayedRefresh.YtProgressBarLineProgressBarPlayed:style(background: #FF0000 !important;)
+youtube.com##.YtProgressBarPlayheadProgressBarPlayheadDot:style(background-color: #FF0000 !important;)
+youtube.com##.ytp-cairo-refresh-signature-moments:remove-class(ytp-cairo-refresh-signature-moments)
+www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 *$all,ipaddress=::,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 www.ghacks.net##div.post-subtitle-meta:nth-of-type(1)
