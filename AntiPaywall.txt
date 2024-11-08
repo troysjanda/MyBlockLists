@@ -1,13 +1,13 @@
 [uBlock Origin]
-! SHA256 Hash:  
+! SHA256 Hash:  6CE68D88ABFA264F1FABEAFB293E048C4A2F4B9E080487C657580B700BEF19D1
 ! Title: Xpi Anti-Paywall Filters
 ! Description: Anti-Paywall Filters to remove World Wide Web Annoyances for a better experience | This filterlist is compatible with uBlock Origin and Adguard.
 ! Homepage: https://github.com/troysjanda/MyBlockLists/AntiPaywall.txt
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 1.0.01
-! Additions: (5) Deletions (0) Modified (0)
+! Version: 1.0.01a
+! Additions: (0) Deletions (0) Modified (0)
 
 ! General
 ||news.google.com/swg/$script,third-party
