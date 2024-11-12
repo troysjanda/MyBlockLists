@@ -7,10 +7,12 @@
 Custom Filter Lists for use with Ublock Orgin for Firefox.
 
 # XPI's Filter List 
+
+A collection of personal filters from my daily web activity. These are Filter for sites other than Yahoo.com
  
 https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 
-A collection of personal filters from my daily web activity. These are uncatagorized and may cause breakage. If you find problems, or want to contribute please submit a pull request and ill review and merge.
+
 
 
 # Yahoo Complete annoyance blocking list
