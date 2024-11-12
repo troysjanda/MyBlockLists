@@ -12,9 +12,6 @@ A collection of personal filters from my daily web activity. These are Filter fo
  
 https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 
-
-
-
 # Yahoo Complete annoyance blocking list
 
 Filter list to remove ads and annoyances on Yahoo.com & Sports.yahoo.com site
