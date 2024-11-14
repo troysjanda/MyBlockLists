@@ -1,88 +1,16 @@
 ! [uBlock Origin]
-! SHA256 Hash: E42B82D876A886121D2BA4BE979CBCC1AAE42280C0AC90D1BF99A6C719864D93
+! SHA256 Hash: B999C196CB47077BEB0C08CB5C6FDF953369763FF5BC2148A55CA170243F500A
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.72
-! Additions: (10) Deletions (0) Modified (0)
+! Version: 8.0.73
+! Additions: (0) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
-sports.yahoo.com###ybar-mid-nav-placement
-www.yahoo.com##.gradient-election.fp-module-chrome-election
-/cmpStub.$script
-/omniture.$script
-/rapid-$script
-/rapidworker_
-/__rapidworker-
-/__rapid-worker
-/yRapid.$script
-?metrics=timing
-sports.yahoo.com###navtray-_ynetwork
-www.yahoo.com###module-subscription
-sports.yahoo.com##div._ys_m0uq4h:nth-of-type(1)
-sports.yahoo.com###mrt-node-SecondaryRight-1-PodcastsList
-sports.yahoo.com###defaultdestLDRB
-sports.yahoo.com###mrt-node-Lead-3-FantasyCountdownBanner
-sports.yahoo.com##[id^="Col2-/i"][id$="-Ad-Proxy/i"]
-finance.yahoo.com##[id$="-Ad-Proxy/i"]
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Hollywood Reporter/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Hypebae/i):upward(.stream-item)
-sports.yahoo.com##.commerce-module.mini-pd
-! Added 07-28-24 (yahoo sports related)
-sports.yahoo.com##div._ys_m0uq4h:nth-of-type(3)
-!Added 06/28/24
-www.yahoo.com##div.fp-module-chrome:nth-of-type(1)
-www.yahoo.com##.Fz\(18px\).P\(16px\).C\(--white\).Fw\(500\).Lh\(20px\).fp-rocket-optin-banner
-!Added 05/21/24
-finance.yahoo.com##.monalixa-event-added.use-monalixa-js-only.monalixa-event.monalixa-finance-neo-stickyheader.monalixa
-www.yahoo.com##.module-electionNews.wafer-rapid-module
-!Added 04/15/24
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Spokesman-Review/i):upward(.stream-item)
-www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
-search.yahoo.com##.trending-flame.ico
-!Added 03/29/24
-sports.yahoo.com##+js(rc, mrt-node, html)
-www.yahoo.com##.wafer-rapid-tracked.module-electionNews.wafer-rapid-module
-tournament.fantasysports.yahoo.com###header-4-ProductHeader-Proxy > .Ov\(h\)
-www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
-!Added 02/19/24
-sports.yahoo.com##[id^="mrt-node-"][id$="-Primary"]
-sports.yahoo.com##[id^="mrt-node-"][id$="-Ad"]
-sports.yahoo.com##[id^="mrt-node-"][id$="-FavoriteTeams"]
-sports.yahoo.com##[id^="mrt-node-"][id$="-EmbeddedContent"]
-sports.yahoo.com##[id^="col2-"][id$="-Ad"]
-sports.yahoo.com##[id^="col2-"][id$="-Ad-Proxy"]
-!Added 01/22/24
-www.yahoo.com###module-games
-sports.yahoo.com###ybar-nav-placement
-yahoo.com##+js(cookie-remover, gpp)
-yahoo.com##+js(cookie-remover, gpp_sid)
-search.yahoo.com##.sys_events_wz.mb-32.lh-none.bdr-8.bd-1.p-0.crisis.dd
-!Added 11/29/23
-finance.yahoo.com###a2csn
-finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
-!Added 11/22/2023
-||s.yimg.com/cv/apiv2/default/sports/fantasy/YS_Fantasy_Football_2023.png$image
-sports.yahoo.com###mrt-node-Col2-10-PromoImage
-!Added 10/25/23
-news.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
-sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
-!Added 09-21-23
-finance.yahoo.com##iframe#mnet[src^="https\:\/\/hb\.yahoo\.net\/checksync\.php"]
-finance.yahoo.com##.tw-sticky
-www.yahoo.com###module-newsletter
-sports.yahoo.com##[href="https://fanatics.93n6tx.net/75ovQr"]
-!Added 08-25-2023
-sports.yahoo.com###sports-module-scorestrip-content
-! Added 08/04/23
-sports.yahoo.com##body:style(overflow: auto !important;)
-sports.yahoo.com###sports-module-originals
-! Added 07/04/23
-www.yahoo.com##.Mt\(6px\).stream-header-grid
-! Original List Start
+
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
 ###YahooAdParentContainer
@@ -125,8 +53,15 @@ www.yahoo.com##.Mt\(6px\).stream-header-grid
 ##.yahooads
 ##.yahootextads_content_bottom
 /YahooAd_
+/__rapid-worker
+/__rapidworker-
 /ads/yahoo/*
 /ads_yahoo.
+/cmpStub.$script
+/omniture.$script
+/rapid-$script
+/rapidworker_
+/yRapid.$script
 /yahoo-ad-
 /yahoo-ads/*
 /yahoo/ads.
@@ -136,6 +71,7 @@ www.yahoo.com##.Mt\(6px\).stream-header-grid
 /yahooadsapi.
 /yahooadsobject.
 /yahoofeedproxy.
+?metrics=timing
 _yahooads/
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
@@ -155,19 +91,30 @@ cricket.yahoo.com###video-branding
 dir.yahoo.com##td[width="215"]
 everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
 finance.yahoo.com###Col2-0-ComboAd-Proxy
+finance.yahoo.com###a2csn
+finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
 finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
 finance.yahoo.com###mediabankrate_container
 finance.yahoo.com###mrt-node-Col1-/*/-Ad
 finance.yahoo.com###mrt-node-Col1-/*/-ComboAd
-finance.yahoo.com###mrt-node-Col2-/*/-AdUnitWithTdAds
 finance.yahoo.com###mrt-node-Col2-/*/-Ad
+finance.yahoo.com###mrt-node-Col2-/*/-AdUnitWithTdAds
 finance.yahoo.com###mrt-node-Lead-/*/-Ad
+finance.yahoo.com###mrt-node-Lead-0-Ad
 finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
 finance.yahoo.com##.Bgi\(\$plusMarketingBottomBanner\).Bgz\(ct\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
 finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).Bgpx\(c\).H\(100px\).Pos\(r\)
+finance.yahoo.com##.ad-lrec3
+finance.yahoo.com##.gam-placeholder
+finance.yahoo.com##.monalixa-event-added.use-monalixa-js-only.monalixa-event.monalixa-finance-neo-stickyheader.monalixa
 finance.yahoo.com##.native-ad-item.gemini-ad
+finance.yahoo.com##.sdaContainer
+finance.yahoo.com##.tw-sticky
 finance.yahoo.com##.yfi_ad_s
+finance.yahoo.com##[id$="-Ad-Proxy/i"]
+finance.yahoo.com##[id^="defaultLREC"]
+finance.yahoo.com##iframe#mnet[src^="https\:\/\/hb\.yahoo\.net\/checksync\.php"]
 finance.yahoo.com#@#.BdEnd
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 games.yahoo.com,movies.yahoo.com##.md.links
@@ -175,6 +122,12 @@ groups.yahoo.com##.yg-mbad-row
 horsemart.co.uk,merkatia.com,mysportsclubs.com,news.yahoo.com#@#.ad_header
 lifestyle.yahoo.com###hd-prop-logo-hero
 local.yahoo.com##.yls-rs-paid
+mail.yahoo.com###slot_LREC
+mail.yahoo.com##[data-test-id="gam-iframe"]
+mail.yahoo.com##[data-test-id^="pencil-ad"]
+mail.yahoo.com##[data-test-id^="taboola-ad-"]
+mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
+mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
 missoulian.com###yahoo-contentmatch
 movies.yahoo.com###customModule
 movies.yahoo.com##.results[bgcolor="#ECF5FA"]
@@ -191,6 +144,7 @@ news.yahoo.com###north
 news.yahoo.com##.Bg\(featurebarGradient-0\).W\(100\%\).Pend\(163px\).Py\(8px\).Pstart\(0\).Whs\(n\).Bxz\(bb\).Bdrs\(2px\)
 news.yahoo.com##.stream-related-content
 news.yahoo.com##.userintent-wrapper
+news.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
 newsok.com##.yahoo_cm
 nz.yahoo.com##.y7countdown
 omg.yahoo.com###omg-lrec
@@ -199,16 +153,33 @@ realestate.yahoo.com###pdp-ysm
 realestate.yahoo.com###srp-ysm
 search.yahoo.com###browserExtensionPromotionBanner
 search.yahoo.com##.prod_listings_pe
+search.yahoo.com##.searchRightBottomAds
+search.yahoo.com##.searchRightTopAds
+search.yahoo.com##.sys_events_wz.mb-32.lh-none.bdr-8.bd-1.p-0.crisis.dd
 search.yahoo.com##.sys_shopleguide
+search.yahoo.com##.trending-flame.ico
 shopping.yahoo.com##.shmod-ysm
 sports.yahoo.com###Col1-0-BreakingNews-Proxy > div
 sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
 sports.yahoo.com###Lead-3-BreakingNews-Proxy > div
 sports.yahoo.com###YDC-Lead-Stack
 sports.yahoo.com###YDC-Overlay.YDC-Overlay
+sports.yahoo.com###defaultdestLDRB
+sports.yahoo.com###mrt-node-Col2-10-PromoImage
 sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
+sports.yahoo.com###mrt-node-Lead-1-Ad
+sports.yahoo.com###mrt-node-Lead-3-FantasyCountdownBanner
+sports.yahoo.com###mrt-node-Primary-0-Ad
+sports.yahoo.com###mrt-node-Secondary-0-Ad
+sports.yahoo.com###mrt-node-SecondaryRight-1-PodcastsList
+sports.yahoo.com###navtray-_ynetwork
 sports.yahoo.com###sports-module-happening-now
+sports.yahoo.com###sports-module-originals
+sports.yahoo.com###sports-module-scorestrip-content
 sports.yahoo.com###uh-tb-firefoxpromo
+sports.yahoo.com###ybar-mid-nav-placement
+sports.yahoo.com###ybar-nav-placement
+sports.yahoo.com##+js(rc, mrt-node, html)
 sports.yahoo.com##.Cur\(d\).Bd\(0\).P\(0\).Bgc\(interstitialAlpha\).H\(100\%\).W\(100\%\).Start\(0\).T\(0\).Pos\(a\)
 sports.yahoo.com##.Cur\(p\).My\(12px\) > path
 sports.yahoo.com##.Fw\(b\).Fz\(20px\).C\(\#fff\).Ta\(c\).Pt\(10px\)
@@ -219,22 +190,36 @@ sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Mt\(8px\)--sm1024.Pos\(r\).Fz\(12px\).Mt\(12px\).Cf
 sports.yahoo.com##._ys_151tsft._ys_17tfbid._ys_13kycft._ys_ztxrxg._ys_1bmiy8u._ys_6bppls._ys_1e6ql5o
 sports.yahoo.com##.adsStreamWrapper
+sports.yahoo.com##.commerce-module.mini-pd
+sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
 sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
+sports.yahoo.com##.post-article-ad
 sports.yahoo.com##.stream-item:has-text(/The Guardian/i)
 sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.ybar-menu-hover-open
 sports.yahoo.com##.ys-sportsbook-featured-odds
+sports.yahoo.com##[href="https://fanatics.93n6tx.net/75ovQr"]
 sports.yahoo.com##[href="https://fanatics.93n6tx.net/kjBOqv"]
 sports.yahoo.com##[href="https://fanatics.ncw6.net/2ORG7"]
 sports.yahoo.com##[href="https://fanatics.ncw6.net/WmG9A"]
 sports.yahoo.com##[href="https://www.pjtra.com/t/2-522414-282307-55814"]
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
+sports.yahoo.com##[id^="Col2-/i"][id$="-Ad-Proxy/i"]
+sports.yahoo.com##[id^="col2-"][id$="-Ad"]
+sports.yahoo.com##[id^="col2-"][id$="-Ad-Proxy"]
+sports.yahoo.com##[id^="mrt-node-"][id$="-Ad"]
+sports.yahoo.com##[id^="mrt-node-"][id$="-EmbeddedContent"]
+sports.yahoo.com##[id^="mrt-node-"][id$="-FavoriteTeams"]
+sports.yahoo.com##[id^="mrt-node-"][id$="-Primary"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
 sports.yahoo.com##body:style(overflow: auto !important;)
+sports.yahoo.com##body:style(overflow: auto !important;)
+sports.yahoo.com##div._ys_m0uq4h:nth-of-type(1)
+sports.yahoo.com##div._ys_m0uq4h:nth-of-type(3)
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
 sports.yahoo.com##li._yb_1l8q0._yb_1bruf:nth-of-type(13)
 sports.yahoo.com##li._yb_6rxuf:nth-of-type(5)
@@ -242,6 +227,7 @@ sports.yahoo.com##li._yb_h4l6e._yb_8sgqb:nth-of-type(12)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 thetandd.com##.yahoo_content_match
+tournament.fantasysports.yahoo.com###header-4-ProductHeader-Proxy > .Ov\(h\)
 travel.yahoo.com##.tgl-block
 travel.yahoo.com##.ysmcm
 travel.yahoo.com##.ytrv-lrec
@@ -254,13 +240,19 @@ www.yahoo.com###commerce-module-articles
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###mega-banner-wrapper
+www.yahoo.com###module-games
+www.yahoo.com###module-newsletter
+www.yahoo.com###module-subscription
 www.yahoo.com###module-whattowatch
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
+www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
+www.yahoo.com##.Fz\(18px\).P\(16px\).C\(--white\).Fw\(500\).Lh\(20px\).fp-rocket-optin-banner
 www.yahoo.com##.Ht-pl-LREC.Mih\(254px\)
 www.yahoo.com##.Mt\(10px\).Mstart\(20px\).Ov\(h\)
+www.yahoo.com##.Mt\(6px\).stream-header-grid
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\#eb0f29\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Ov\(h\).Bdrs\(8px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(--solo-cup\)
 www.yahoo.com##.Pos\(r\).Pend\(20px\).Pend\(14px\).Ai\(c\).D\(f\).featurebar-content.Bgc\(\$c-fuji-orange-c\)
@@ -271,7 +263,11 @@ www.yahoo.com##.W\(1\/3\)
 www.yahoo.com##.Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-navigation_T\(80px\).Ovx\(h\).Py\(11px\).Bxz\(bb\).H\(50px\)
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
+www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
 www.yahoo.com##.comment-count
+www.yahoo.com##.gradient-election.fp-module-chrome-election
+www.yahoo.com##.leading-3:has-text(Advertisement)
+www.yahoo.com##.module-electionNews.wafer-rapid-module
 www.yahoo.com##.mxhpset
 www.yahoo.com##.premium_finance_ticker
 www.yahoo.com##.pub-upsell-item
@@ -281,6 +277,7 @@ www.yahoo.com##.user-intent-options
 www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
 www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target > div
+www.yahoo.com##.wafer-rapid-tracked.module-electionNews.wafer-rapid-module
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Allure/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Atlanta Black Star/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/BGR/i):upward(.stream-item)
@@ -302,6 +299,7 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Glamour/i):
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Good Housekeeping/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/House Beautiful/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/HuffPost/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Hypebae/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/In The Know/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/InStyle/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Insider/i):upward(.stream-item)
@@ -319,10 +317,12 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Robb Report
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Rumble/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Seventeen/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/SheKnows/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Spokesman-Review/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Storyful/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TODAY/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Teen Vogue/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Daily Beast/i):upward(.stream-item)
+www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Hollywood Reporter/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Wrap/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TheBlast/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Variety/i):upward(.stream-item)
@@ -345,14 +345,22 @@ www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/style/i):up
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/the root/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo life shopping/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo news canada/i):upward(.stream-item)
+www.yahoo.com##[id^="mid-center-ad"]
+www.yahoo.com##body#news-content-app li:has(.inset-0)
+www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
 www.yahoo.com##div#HPSPON-ad
+www.yahoo.com##div.fp-module-chrome:nth-of-type(1)
+yahoo.com###Horizon-ad
 yahoo.com###LREC
 yahoo.com###LREC-sizer
 yahoo.com###LREC2-sizer
+yahoo.com###Lead-0-Ad-Proxy
 yahoo.com###MREC
 yahoo.com###YSLUG
+yahoo.com###adsStream
 yahoo.com###boxLREC
 yahoo.com###default-p_24457750
+yahoo.com###defaultLREC
 yahoo.com###eyebrow > #ypromo
 yahoo.com###genie-widgetgroup
 yahoo.com###leftGutter
@@ -368,9 +376,30 @@ yahoo.com###promo_links_list
 yahoo.com###rec
 yahoo.com###reg-promos
 yahoo.com###rightGutter
+yahoo.com###sda-Horizon
+yahoo.com###sda-Horizon-viewer
+yahoo.com###sda-LDRB
+yahoo.com###sda-LDRB-iframe
+yahoo.com###sda-LDRB2
+yahoo.com###sda-LREC
+yahoo.com###sda-LREC-iframe
+yahoo.com###sda-LREC2
+yahoo.com###sda-LREC2-iframe
+yahoo.com###sda-LREC3
+yahoo.com###sda-LREC3-iframe
+yahoo.com###sda-LREC4
+yahoo.com###sda-MAST
+yahoo.com###sda-MON
+yahoo.com###sda-WFPAD
+yahoo.com###sda-WFPAD-1
+yahoo.com###sda-WFPAD-iframe
+yahoo.com###sda-wrapper-COMMENTSLDRB
 yahoo.com###sticky-lrec2-footer
 yahoo.com###theMNWAd
 yahoo.com###u_2588582-p
+yahoo.com###viewer-LDRB
+yahoo.com###viewer-LREC2
+yahoo.com###viewer-LREC2-iframe
 yahoo.com###y708-ad-lrec1
 yahoo.com###y708-sponmid
 yahoo.com###y_provider_promo
@@ -388,17 +417,32 @@ yahoo.com###ymh-invitational-recs
 yahoo.com###yn-gmy-promo-answers
 yahoo.com###yn-gmy-promo-groups
 yahoo.com###yschsec
+yahoo.com##+js(cookie-remover, gpp)
+yahoo.com##+js(cookie-remover, gpp_sid)
 yahoo.com##.BdEnd
+yahoo.com##.Feedback
 yahoo.com##.Feedback
 yahoo.com##.Maw\(600px\).Bg\(\$premium_promote_bgc\).Bdrs\(8px\).D\(ib\).Mb\(20px\).Pos\(r\).H\(60px\)
 yahoo.com##.adfeedback-tripledot
+yahoo.com##.ads
 yahoo.com##.astro-promo
 yahoo.com##.c-imageTextList-imageList
+yahoo.com##.caas-da
 yahoo.com##.comment-btn-link
+yahoo.com##.darla
+yahoo.com##.darla-container
+yahoo.com##.darla-lrec-ad
+yahoo.com##.darla_ad
+yahoo.com##.ds_promo_ymobile
 yahoo.com##.fpad
+yahoo.com##.gemini-ad
+yahoo.com##.gemini-ad-feedback
+yahoo.com##.item-beacon
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
+yahoo.com##.mx-\[-50vw\]
 yahoo.com##.news-tabs-RR
+yahoo.com##.ntk-ad-item
 yahoo.com##.react-wafer-Featurebar
 yahoo.com##.related-gemini-ad
 yahoo.com##.share-menu-wrapper
@@ -415,8 +459,11 @@ yahoo.com##.stream-item:has-text(/InStyle/i)
 yahoo.com##.stream-item:has-text(/Lifestyle/i)
 yahoo.com##.stream-item:has-text(/Screen Rant/i)
 yahoo.com##.stream-item:has-text(/style/i)
+yahoo.com##.sys_shopleguide
+yahoo.com##.top-\[92px\]
 yahoo.com##.type_ads_default
 yahoo.com##.uh-notifications
+yahoo.com##.viewer-sda-container
 yahoo.com##.vp-adplugin-video
 yahoo.com##.wdpa1
 yahoo.com##.y7-breakout-bracket
@@ -434,10 +481,24 @@ yahoo.com##.ysptblbdr3
 yahoo.com##[data-ad-enhanced="card"]
 yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
+yahoo.com##[data-content="Advertisement"]
+yahoo.com##[data-wf-beacons]
+yahoo.com##a[data-test-id="large-image-ad"]
 yahoo.com##div[class*="ads-"]
+yahoo.com##div[class*="ads-"]
+yahoo.com##div[class*="gemini-ad"]
+yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
 yahoo.com##div[data-type="ADS"]
+yahoo.com##div[id*="ComboAd"]
+yahoo.com##div[id^="COMMENTSLDRB"]
+yahoo.com##div[id^="LeadAd-"]
+yahoo.com##div[id^="darla-ad"]
+yahoo.com##div[id^="defaultWFPAD"]
+yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[id^="tile-mb-"]
 yahoo.com##div[style*="/ads/"]
+yahoo.com##div[style*="/ads/"]
+yahoo.com##li[data-test-locator="stream-related-ad-item"]
 yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]
 yahoo.com.au##.TL_genericads_columns
@@ -475,6 +536,7 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
 ||s.yimg.com/cv/apiv2/default/*_300x*.jpg$image
 ||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
+||s.yimg.com/cv/apiv2/default/sports/fantasy/YS_Fantasy_Football_2023.png$image
 ||s.yimg.com/cv/apiv2/fantasy/promo/YFF_2020_In-Product_Banners_FOMO_082820_880x150@2x.jpg$image
 ||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
 ||s.yimg.com/cv/apiv2/ffnfl/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
