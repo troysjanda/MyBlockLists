@@ -1,15 +1,19 @@
 ! [uBlock Origin]
-! SHA256 Hash:  5031439F5B682C83572044CF6EE806F3D5A5D94791EDB63FFCFCF7C95E244CAA
+! SHA256 Hash:  2EC936DE925F57F245F148F7652D06E01CABA454D0EC69049A15769A7C84C33D
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.71
-! Additions: (5) Deletions (0) Modified (0)
+! Version: 8.1.74
+! Additions: (4) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
+www.foxnews.com##.snack-bar
+www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-expandable-metadata-renderer.style-scope
+www.youtube.com##+js(trusted-rpnt, script, (function serverContract(), 0;"YOUTUBE_PREMIUM_LOGO"!==ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType&&(location.href.startsWith("https://www.youtube.com/tv#/")||location.href.startsWith("https://www.youtube.com/embed/")||document.addEventListener("DOMContentLoaded"\,(function(){const t=()=>{const t=document.getElementById("movie_player");if(!t)return;if(!t.getStatsForNerds?.()?.debug_info?.startsWith?.("SSAP\, AD"))return;const e=t.getProgressState?.();e&&e.duration>0&&(e.loaded<e.duration||e.duration-e.current>1)&&t.seekTo?.(e.duration)};t()\,new MutationObserver((()=>{t()})).observe(document\,{childList:!0\,subtree:!0})})));(function serverContract(), sedCount, 1)
+www.foxnews.com##.item-nation-trial-mod.item
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
 youtube.com##.YtProgressBarLineProgressBarPlayedRefresh.YtProgressBarLineProgressBarPlayed:style(background: #FF0000 !important;)
 youtube.com##.YtProgressBarPlayheadProgressBarPlayheadDot:style(background-color: #FF0000 !important;)
