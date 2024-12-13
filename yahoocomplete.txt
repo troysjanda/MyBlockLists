@@ -1,15 +1,18 @@
 ! [uBlock Origin]
-! SHA256 Hash: 3F13020525F0353411D244F1BB3E58876613F2EE7E13EB0A955AA27E61DC32A6
+! SHA256 Hash: BCECE529C8ACCB025B1497D29CEAFEA3D83B01ACA3BFEE35E954C4C2762F7B61
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.78
-! Additions: (0) Deletions (8) Modified (0)
+! Version: 8.0.80
+! Additions: (3) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
+www.yahoo.com##.Mx\(0px\)--sm500.Mx\(20px\).Pos\(r\).D\(f\)
+www.yahoo.com##.caas-curated-links.caas-sports-module
+sports.yahoo.com###HeadlineSection
 nytimes.com###app:remove-attr(inert)
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
@@ -216,8 +219,6 @@ sports.yahoo.com##[id^="mrt-node-"][id$="-EmbeddedContent"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-FavoriteTeams"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-Primary"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
-sports.yahoo.com##body:style(overflow: auto !important;)
-sports.yahoo.com##body:style(overflow: auto !important;)
 sports.yahoo.com##div._ys_m0uq4h:nth-of-type(1)
 sports.yahoo.com##div._ys_m0uq4h:nth-of-type(3)
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
