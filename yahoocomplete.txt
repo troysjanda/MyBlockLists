@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: BCECE529C8ACCB025B1497D29CEAFEA3D83B01ACA3BFEE35E954C4C2762F7B61
+! SHA256 Hash: 1E52761DBD542C581C6DC32978FBBBE41C0B56A7443C6F699D9D0AA9E3887029
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.80
-! Additions: (3) Deletions (2) Modified (0)
+! Version: 8.0.82
+! Additions: () Deletions (12) Modified (0)
 !
 ! -- Start Filters --
 www.yahoo.com##.Mx\(0px\)--sm500.Mx\(20px\).Pos\(r\).D\(f\)
@@ -96,7 +96,6 @@ everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
 finance.yahoo.com###Col2-0-ComboAd-Proxy
 finance.yahoo.com###a2csn
 finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
-finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
 finance.yahoo.com###mediabankrate_container
 finance.yahoo.com###mrt-node-Col1-/*/-Ad
 finance.yahoo.com###mrt-node-Col1-/*/-ComboAd
@@ -111,7 +110,6 @@ finance.yahoo.com##.Bgi\(\$premiumMarketingBannerv2\).Bgz\(a\).D\(b\).Bgr\(nr\).
 finance.yahoo.com##.ad-lrec3
 finance.yahoo.com##.gam-placeholder
 finance.yahoo.com##.monalixa-event-added.use-monalixa-js-only.monalixa-event.monalixa-finance-neo-stickyheader.monalixa
-finance.yahoo.com##.native-ad-item.gemini-ad
 finance.yahoo.com##.sdaContainer
 finance.yahoo.com##.tw-sticky
 finance.yahoo.com##.yfi_ad_s
@@ -159,7 +157,6 @@ search.yahoo.com##.prod_listings_pe
 search.yahoo.com##.searchRightBottomAds
 search.yahoo.com##.searchRightTopAds
 search.yahoo.com##.sys_events_wz.mb-32.lh-none.bdr-8.bd-1.p-0.crisis.dd
-search.yahoo.com##.sys_shopleguide
 search.yahoo.com##.trending-flame.ico
 shopping.yahoo.com##.shmod-ysm
 sports.yahoo.com###Col1-0-BreakingNews-Proxy > div
@@ -170,10 +167,7 @@ sports.yahoo.com###YDC-Overlay.YDC-Overlay
 sports.yahoo.com###defaultdestLDRB
 sports.yahoo.com###mrt-node-Col2-10-PromoImage
 sports.yahoo.com###mrt-node-Col2-20-FollowButtonGroup
-sports.yahoo.com###mrt-node-Lead-1-Ad
 sports.yahoo.com###mrt-node-Lead-3-FantasyCountdownBanner
-sports.yahoo.com###mrt-node-Primary-0-Ad
-sports.yahoo.com###mrt-node-Secondary-0-Ad
 sports.yahoo.com###mrt-node-SecondaryRight-1-PodcastsList
 sports.yahoo.com###navtray-_ynetwork
 sports.yahoo.com###sports-module-happening-now
@@ -277,8 +271,6 @@ www.yahoo.com##.stream-vertical-separator
 www.yahoo.com##.user-intent-options
 www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
-www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target > div
-www.yahoo.com##.wafer-rapid-tracked.module-electionNews.wafer-rapid-module
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Allure/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Atlanta Black Star/i):upward(.stream-item)
 www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/BGR/i):upward(.stream-item)
@@ -422,7 +414,6 @@ yahoo.com##+js(cookie-remove, gpp)
 yahoo.com##+js(cookie-remove, gpp_sid)
 yahoo.com##.BdEnd
 yahoo.com##.Feedback
-yahoo.com##.Feedback
 yahoo.com##.Maw\(600px\).Bg\(\$premium_promote_bgc\).Bdrs\(8px\).D\(ib\).Mb\(20px\).Pos\(r\).H\(60px\)
 yahoo.com##.adfeedback-tripledot
 yahoo.com##.ads
@@ -451,7 +442,6 @@ yahoo.com##.sharing-toolbar
 yahoo.com##.spns
 yahoo.com##.spon.clearfix
 yahoo.com##.stream-header
-yahoo.com##.stream-header > .Mt
 yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
 yahoo.com##.stream-item:has-text(/Celebrity/i)
 yahoo.com##.stream-item:has-text(/Entertainment/i)
@@ -486,7 +476,6 @@ yahoo.com##[data-content="Advertisement"]
 yahoo.com##[data-wf-beacons]
 yahoo.com##a[data-test-id="large-image-ad"]
 yahoo.com##div[class*="ads-"]
-yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
 yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
 yahoo.com##div[data-type="ADS"]
@@ -497,7 +486,6 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="defaultWFPAD"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[id^="tile-mb-"]
-yahoo.com##div[style*="/ads/"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 yahoo.com##li[data-type="outlink"]
