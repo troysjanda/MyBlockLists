@@ -1,15 +1,22 @@
 ! [uBlock Origin]
-! SHA256 Hash:  DA36A2D6C3EF529BA2781730C664B35CEB974B4627E95D27F8B772E5A5BBCC7C
+! SHA256 Hash:  BD0031EFF9C29A3A685611E3082240B9F9018B7EC7BCB6F278191B9D2849E53D
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.83
-! Additions: (0) Deletions (5) Modified (0)
+! Version: 8.1.85
+! Additions: (0) Deletions (7) Modified (0)
 !
 ! -- Start Filters --
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com##.yt-spec-avatar-shape--cairo-refresh:remove-class(yt-spec-avatar-shape--cairo-refresh)
+www.youtube.com##.ytp-scrubber-container
+www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-expandable-metadata-renderer.style-scope
+youtube.com##.ytp-cairo-refresh-signature-moments:remove-class(ytp-cairo-refresh-signature-moments)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 github.com##.copilotPreview__container
 www.foxnews.com##.recommended-videos
 amazon.*##*:focus:style(outline: none !important;)
