@@ -1,26 +1,23 @@
 ! [uBlock Origin]
-! SHA256 Hash:  2A2A38E76F5B57FE42806CEFBC09B5BAD164449FAB87AB4DD99C6B6548FCA7E3
+! SHA256 Hash:  DA36A2D6C3EF529BA2781730C664B35CEB974B4627E95D27F8B772E5A5BBCC7C
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.82
-! Additions: (0) Deletions (1) Modified (0)
+! Version: 8.1.83
+! Additions: (0) Deletions (5) Modified (0)
 !
 ! -- Start Filters --
 github.com##.copilotPreview__container
 www.foxnews.com##.recommended-videos
-www.youtube.com##.ytp-scrubber-container
 amazon.*##*:focus:style(outline: none !important;)
 www.foxnews.com##.snack-bar
-www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-expandable-metadata-renderer.style-scope
 www.foxnews.com##.item-nation-trial-mod.item
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
 youtube.com##.YtProgressBarLineProgressBarPlayedRefresh.YtProgressBarLineProgressBarPlayed:style(background: #FF0000 !important;)
 youtube.com##.YtProgressBarPlayheadProgressBarPlayheadDot:style(background-color: #FF0000 !important;)
-youtube.com##.ytp-cairo-refresh-signature-moments:remove-class(ytp-cairo-refresh-signature-moments)
 www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 *$all,ipaddress=::,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -38,15 +35,12 @@ www.amazon.com##.nav-rufus-content
 www.amazon.com##.rufus-panel-closed-to-peek.rufus-panel-container
 www.amazon.com###nav-rufus-disco
 www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
-! Added 08-04-24
-||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 !Added 07-19-24
 strikeout.im##^script:has-text(JSON.parse)
 www.foxnews.com#@#video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
 www.twitch.tv##.front-page-carousel.hTjsXl.Layout-sc-1xcs6mc-0
 www.ghacks.net###ghacks_latest_from_softonic-2
 !Added 06/28/24
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 binged.*##+js(nowoif)
 /i.gif
 !Added 05/21/24
