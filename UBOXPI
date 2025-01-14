@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash:  71F258552400A1513F43F6726886A0070AA89450539C5392BF0A15EA60A9ED73
+! SHA256 Hash:  93D61CFC1828C2AF7072F391FBC5053958DE1F95B58CB5860E6AF0A10E29F31C
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.86
-! Additions: (2) Deletions (0) Modified (0)
+! Version: 8.1.88
+! Additions: (0) Deletions (0) Modified (1)
 !
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -392,7 +392,7 @@ www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
 www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
-www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+!www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com##.yt-spec-avatar-shape--cairo-refresh:remove-class(yt-spec-avatar-shape--cairo-refresh)
 www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-expandable-metadata-renderer.style-scope
 www.youtube.com##.ytp-scrubber-container
