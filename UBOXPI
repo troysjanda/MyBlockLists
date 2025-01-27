@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: A9598BE9CA59FEDFAD925242B1AFF7D47CA0C42614B5CCCFCA903E5C5CA4D77A
+! SHA256 Hash: BF7487552CCAE79679B45B400265192F98418FD70A6D17B3D92B6AF8FE7C650F
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.89
-! Additions: (7) Deletions (0) Modified (0)
+! Version: 8.1.90
+! Additions: (0) Deletions (11) Modified (0)
 !
 ! -- Start Filters --
 duckduckgo.com##.RPL9esU9f8nMDBntEfZQ
@@ -399,19 +399,10 @@ www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
 www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
-!www.youtube.com###content > .ytd-rich-section-renderer.style-scope
-www.youtube.com##.yt-spec-avatar-shape--cairo-refresh:remove-class(yt-spec-avatar-shape--cairo-refresh)
-www.youtube.com##.ytd-watch-flexy.style-scope > .ytd-expandable-metadata-renderer.style-scope
-www.youtube.com##.ytp-scrubber-container
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
 xhamster.com##.wih-spa.wih-spb    
-youtube.com##.YtProgressBarLineProgressBarPlayedRefresh.YtProgressBarLineProgressBarPlayed:style(background: #FF0000 !important;)
-youtube.com##.YtProgressBarPlayheadProgressBarPlayheadDot:style(background-color: #FF0000 !important;)
-youtube.com##.ytp-cairo-refresh-signature-moments:remove-class(ytp-cairo-refresh-signature-moments)
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||9b.news/ads$image
@@ -471,7 +462,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||ghacks.net/statics/px.gif
 ||google.*$removeparam=gws_rd=ssl
 ||googleanalytics.net^
-||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 ||hd-dev.com^
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
