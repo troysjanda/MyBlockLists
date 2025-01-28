@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 2B227ACDF9DE827898FE9083075A5BAF167CC5468F3F7CBBAAC1FCF131CBCE7D
+! SHA256 Hash: 5BCAFD19108598BC726FD70EC9F168FF3998DCF398404A31E815BFD95507CBA3
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.83
-! Additions: (2) Deletions (0) Modified (0)
+! Version: 8.0.84
+! Additions: (3) Deletions (2) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -186,10 +186,13 @@ sports.yahoo.com##.Mt\(8px\)--sm1024.Pos\(r\).Fz\(12px\).Mt\(12px\).Cf
 sports.yahoo.com##._ys_151tsft._ys_17tfbid._ys_13kycft._ys_ztxrxg._ys_1bmiy8u._ys_6bppls._ys_1e6ql5o
 sports.yahoo.com##.adsStreamWrapper
 sports.yahoo.com##.commerce-module.mini-pd
+sports.yahoo.com##.content-pill
 sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
 sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
+sports.yahoo.com##.no-premium.topcenter-sda
 sports.yahoo.com##.post-article-ad
+sports.yahoo.com##.sda-text
 sports.yahoo.com##.stream-item:has-text(/The Guardian/i)
 sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.tdv2-applet-sports-bracket-hero
@@ -212,8 +215,6 @@ sports.yahoo.com##[id^="mrt-node-"][id$="-EmbeddedContent"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-FavoriteTeams"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-Primary"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
-sports.yahoo.com##div._ys_m0uq4h:nth-of-type(1)
-sports.yahoo.com##div._ys_m0uq4h:nth-of-type(3)
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
 sports.yahoo.com##li._yb_1l8q0._yb_1bruf:nth-of-type(13)
 sports.yahoo.com##li._yb_6rxuf:nth-of-type(5)
