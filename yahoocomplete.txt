@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 82091691B5D3B9FDA1E997EC4D13C431E470CD85B49808EA1D588E448CB9681D
+! SHA256 Hash: D3855EF7FF51361C93DE70F2696C44F5E58FA026F6F4BB3EAE3F54BB8148F470
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.85
-! Additions: (0) Deletions (3) Modified (0)
+! Version: 8.0.86
+! Additions: (0) Deletions (7) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -52,14 +52,10 @@
 ##.yahooads
 ##.yahootextads_content_bottom
 /YahooAd_
-/__rapid-worker
-/__rapidworker-
 /ads/yahoo/*
 /ads_yahoo.
 /cmpStub.$script
 /omniture.$script
-/rapid-$script
-/rapidworker_
 /yRapid.$script
 /yahoo-ad-
 /yahoo-ads/*
@@ -143,7 +139,6 @@ news.yahoo.com##.stream-related-content
 news.yahoo.com##.userintent-wrapper
 news.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
 newsok.com##.yahoo_cm
-nytimes.com###app:remove-attr(inert)
 nz.yahoo.com##.y7countdown
 omg.yahoo.com###omg-lrec
 pho.to,smartwebby.com,whoownes.com,workhound.co.uk,yahoo.com##.spons
@@ -499,15 +494,12 @@ yellowpages.com###yahoo_ss_border
 ||bankrate.com^$subdocument,domain=yahoo.com
 ||bf.us.y.atwola.com/adcount*
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
-||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-ff-2020-launch-on-net-best-headline-1000-x-1000-jpg_1599238427943.jpeg$image
-||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-nfl-live-in-product-primetime-1000-x-1000-2-x-jpg_1601193875367.jpeg$image
 ||im.ov.yahoo.co.jp^
 ||mail.yahoo.com/mc/md.php?
 ||mail.yahoo.com/neo/mbimg?av/curveball/ds/
 ||marketingsolutions.yahoo.com^
 ||music.yahoo.com/get-free-html
 ||playlist.yahoo.com/makeplaylist.dll?$domain=au.tv.yahoo.com
-||prod-m-node-1111.ssp.advertising.com^
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
 ||s.yimg.com/bx/adb/*.jpg$image
@@ -539,7 +531,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/cv/apiv2/y20/fantasy/V2_Y20_Banner_880x150@2x.jpg$image
 ||s.yimg.com/ep/cx/blendr/v2/image-ysb-the-slate-us-open-730-pm-1000-x-1000-1-x-min-jpg_1623975656099.jpeg$image
 ||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
-||tag.sp.advertising.com^$script,1p
 ||ter-adserver-origin-us.prod.adtechus.com^$image
 ||w.homes.yahoo.net^
 ||yahoo.affex.org
