@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: 7C0C3590521457DD417BDC08E60E19861FEB2FF7978083BD2630961D9FF7540A
+! SHA256 Hash: 33F94DD2A2D69DBEC7D0F23C47E37620649756B5856AF4993106F3E2CB7D6333
 ! Title: Xpi uBo Personal Filters
 ! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Author: Troy Janda
 ! Expires: 10 days
-! Version: 8.1.90
-! Additions: (4) Deletions (0) Modified (0)
+! Version: 8.1.92
+! Additions: (9) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -385,6 +385,7 @@ www.sejda.com##.bottom-fixed.step3a.centered
 www.spanishdict.com###adSide2-container
 www.techpowerup.com##.nkuzlfvdywj
 www.theatlantic.com##.c-nudge-compressed__container.c-nudge__container
+www.theepochtimes.com##.related-articles.shortcode
 www.theglobeandmail.com###fixedpencil-subs
 www.thekitchenmagpie.com###text-125 > .widget-wrap > .textwidget > .food-bank-note
 www.thekitchenmagpie.com###wprm-recipe-container-36576 > .food-bank-note
@@ -395,7 +396,9 @@ www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12
 www.tomshardware.com###affiliateDisclaimer
 www.twitch.tv##.cwtKyw:has-text(/Djs/i)
 www.twitch.tv##.front-page-carousel.hTjsXl.Layout-sc-1xcs6mc-0
+www.twitch.tv##.jmMgdG.Layout-sc-1xcs6mc-0
 www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
+www.twitch.tv##div:is([class*="ScTransitionBase-sc-"],div[style^="order:"]):has(a[href="/Gabekuun"i])
 www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
@@ -406,7 +409,13 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
+x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r
 xhamster.com##.wih-spa.wih-spb    
+youtube.com###home-page-skeleton
+youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
+youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
+youtube.com##html, body:style(--yt-spec-static-brand-red: #FF0000 !important; --yt-spec-static-overlay-background-brand: rgba(255, 0, 0, 0.9) !important;)
+youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||9b.news/ads$image

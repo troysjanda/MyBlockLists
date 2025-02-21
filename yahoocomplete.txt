@@ -1,13 +1,13 @@
 ! [uBlock Origin]
-! SHA256 Hash: D3855EF7FF51361C93DE70F2696C44F5E58FA026F6F4BB3EAE3F54BB8148F470
+! SHA256 Hash: B48024D5C0963D389CF69A6B0BD368CCCC38F45A577FC2855A7E253C12A00AC2
 ! Title: Xpi Yahoo Complete Filters
 ! Author: Troy Janda
 ! Description: Filter list to remove Yahoo.com annoyances for a better experience.
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! Homepage: https://github.com/troysjanda/MyBlockLists
 ! Expires: 10 days
-! Version: 8.0.86
-! Additions: (0) Deletions (7) Modified (0)
+! Version: 8.0.88
+! Additions: (2) Deletions (0) Modified (0)
 !
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -236,6 +236,7 @@ www.yahoo.com###module-subscription
 www.yahoo.com###module-whattowatch
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
+www.yahoo.com###topic-subnavigation-module
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
@@ -390,6 +391,7 @@ yahoo.com###u_2588582-p
 yahoo.com###viewer-LDRB
 yahoo.com###viewer-LREC2
 yahoo.com###viewer-LREC2-iframe
+yahoo.com###wafer-trending-bar, .wafer-sticky.stream, .caas-non-sticky-sda
 yahoo.com###y708-ad-lrec1
 yahoo.com###y708-sponmid
 yahoo.com###y_provider_promo
