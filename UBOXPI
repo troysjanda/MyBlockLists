@@ -1,14 +1,7 @@
-! [uBlock Origin]
-! SHA256 Hash: 33F94DD2A2D69DBEC7D0F23C47E37620649756B5856AF4993106F3E2CB7D6333
 ! Title: Xpi uBo Personal Filters
-! Description: Personal Filters to remove World Wide Web Annoyances for a better experience.
-! Homepage: https://github.com/troysjanda/MyBlockLists
+! Expires: 6 days
+! Last modified: Wed, 19 Mar 2025 13:42:30 
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
-! Author: Troy Janda
-! Expires: 10 days
-! Version: 8.1.92
-! Additions: (9) Deletions (0) Modified (0)
-!
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 *$all,ipaddress=::,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -294,6 +287,7 @@ www.49erswebzone.com##.adblock_300x250
 www.49erswebzone.com##.backup-ad
 www.49erswebzone.com##div.adblock_container
 www.amazon.com###desktop-banner
+www.amazon.com###desktop-dp-ilm_feature_div_01
 www.amazon.com###nav-rufus-disco
 www.amazon.com##.nav-rufus-content
 www.amazon.com##.rufus-panel-closed-to-peek.rufus-panel-container
@@ -419,6 +413,7 @@ youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbn
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
 ||9b.news/ads$image
+||9b.news/wp-content/uploads/247f6ba028.js?ver=14.12.6$script,1p,important
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
