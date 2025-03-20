@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Wed, 19 Mar 2025 13:43:30 
+! Last modified: Thu Mar 20 2025 16:10:46 GMT+0000
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -262,73 +262,6 @@ www.yahoo.com##.stream-vertical-separator
 www.yahoo.com##.user-intent-options
 www.yahoo.com##.userintent-tooltip-box
 www.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Allure/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Atlanta Black Star/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/BGR/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Best Life/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Best Products/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Black Lives Matter/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/BuzzFeed/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Celebrity/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Consequence of Sound/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Consumer Reports/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Cosmo/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Country Living/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Delish/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Dr. Phil CBS/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/E! News/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Entertainment/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Footware News/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Glamour/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Good Housekeeping/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/House Beautiful/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/HuffPost/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Hypebae/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/In The Know/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/InStyle/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Insider/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Jalopnik/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Lifehacker/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Lifestyle/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Living Etc/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Marie Claire/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Meredith Videos/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/PA Media: Sport/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/POPSUGAR/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/PetHelpful/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/PureWow/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Robb Report/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Rumble/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Seventeen/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/SheKnows/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Spokesman-Review/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Storyful/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TODAY/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Teen Vogue/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Daily Beast/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Hollywood Reporter/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/The Wrap/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/TheBlast/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Variety/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Who What Wear/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Canada Style/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Life/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Sports/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/Yahoo Style UK/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/YourTango/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/bbc/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/eat this, not that!/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/elle/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/esquire/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/gq/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/motley fool/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/nextshark/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/people/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/scary mommy/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/style/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/the root/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo life shopping/i):upward(.stream-item)
-www.yahoo.com##[data-test-locator="stream-item-publisher"]:has-text(/yahoo news canada/i):upward(.stream-item)
 www.yahoo.com##[id^="mid-center-ad"]
 www.yahoo.com##body#news-content-app li:has(.inset-0)
 www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
@@ -433,13 +366,6 @@ yahoo.com##.spns
 yahoo.com##.spon.clearfix
 yahoo.com##.stream-header
 yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
-yahoo.com##.stream-item:has-text(/Celebrity/i)
-yahoo.com##.stream-item:has-text(/Entertainment/i)
-yahoo.com##.stream-item:has-text(/Health/i)
-yahoo.com##.stream-item:has-text(/InStyle/i)
-yahoo.com##.stream-item:has-text(/Lifestyle/i)
-yahoo.com##.stream-item:has-text(/Screen Rant/i)
-yahoo.com##.stream-item:has-text(/style/i)
 yahoo.com##.sys_shopleguide
 yahoo.com##.top-\[92px\]
 yahoo.com##.type_ads_default
