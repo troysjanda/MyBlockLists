@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Thu, 20 Mar 2025 09:18:15 +0000
+! Last modified: Tue, 25 Mar 2025 17:08:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -148,6 +148,7 @@ sports.yahoo.com###Col1-0-BreakingNews-Proxy > div
 sports.yahoo.com###Col2-19-FollowButtonGroup-Proxy
 sports.yahoo.com###HeadlineSection
 sports.yahoo.com###Lead-3-BreakingNews-Proxy > div
+sports.yahoo.com###Lead-3-RMPWrap-Proxy
 sports.yahoo.com###YDC-Lead-Stack
 sports.yahoo.com###YDC-Overlay.YDC-Overlay
 sports.yahoo.com###defaultdestLDRB
@@ -181,7 +182,6 @@ sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
 sports.yahoo.com##.no-premium.topcenter-sda
 sports.yahoo.com##.post-article-ad
 sports.yahoo.com##.sda-text
-sports.yahoo.com##.stream-item:has-text(/The Guardian/i)
 sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.teams-nav
@@ -252,7 +252,7 @@ www.yahoo.com##.caas-curated-links.caas-sports-module
 www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
 www.yahoo.com##.comment-count
 www.yahoo.com##.gradient-election.fp-module-chrome-election
-www.yahoo.com##.leading-3:has-text(Advertisement)
+www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.module-electionNews.wafer-rapid-module
 www.yahoo.com##.mxhpset
 www.yahoo.com##.premium_finance_ticker
@@ -353,6 +353,7 @@ yahoo.com##.fpad
 yahoo.com##.gemini-ad
 yahoo.com##.gemini-ad-feedback
 yahoo.com##.item-beacon
+yahoo.com##.js-stream-content:has-text(/Kaepernick/i)
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
 yahoo.com##.mx-\[-50vw\]
