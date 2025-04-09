@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 25 Mar 2025 17:08:15 -0700 GMT
+! Last modified: Wed, 08 Apr 2025 13:33:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -396,6 +396,7 @@ www.twitch.tv##div:is([class*="ScTransitionBase-sc-"],div[style^="order:"]):has(
 www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
+www.youtube.com###teaser-carousel,  important
 www.youtube.com##.ytp-videowall-still:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"]))
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
 www.youtube.com##ytd-compact-video-renderer:has(#video-title:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
@@ -406,6 +407,7 @@ x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/veri
 x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r
 xhamster.com##.wih-spa.wih-spb    
 youtube.com###home-page-skeleton
+youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##html, body:style(--yt-spec-static-brand-red: #FF0000 !important; --yt-spec-static-overlay-background-brand: rgba(255, 0, 0, 0.9) !important;)
