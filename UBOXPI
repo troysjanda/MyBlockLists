@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 08 Apr 2025 13:33:15 -0700 GMT
+! Last modified: Wed, 11 Apr 2025 19:33:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -406,11 +406,18 @@ wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
 x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r
 xhamster.com##.wih-spa.wih-spb    
+youtube.com###contents.ytd-rich-grid-row:style(display:contents !important;)
 youtube.com###home-page-skeleton
+youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important;)
+youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
+youtube.com###video-title.ytd-rich-grid-slim-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##html, body:style(--yt-spec-static-brand-red: #FF0000 !important; --yt-spec-static-overlay-background-brand: rgba(255, 0, 0, 0.9) !important;)
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
+youtube.com##ytd-rich-grid-row:style(display:contents !important;)
+youtube.com##ytd-rich-item-renderer:style(margin-right: calc(var(--ytd-rich-grid-item-margin)/2) !important; margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important;)
 youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
