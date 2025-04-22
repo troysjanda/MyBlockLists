@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Mon, 21 Apr 2025 14:22:15 -0700 GMT
+! Last modified: Tue, 22 Apr 2025 06:21:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -257,8 +257,10 @@ www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.module-electionNews.wafer-rapid-module
 www.yahoo.com##.mxhpset
 www.yahoo.com##.premium_finance_ticker
+www.yahoo.com##.pt-3.dark\:bg-inkwell.md\:pt-4.md\:px-10.md\:max-w-\[1220px\].md\:mx-auto.px-4.bg-white.whitespace-nowrap.overflow-hidden.z-11.sticky
 www.yahoo.com##.pub-upsell-item
 www.yahoo.com##.sda-yield-test,important
+www.yahoo.com##.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].h-10.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-14.md\:top-16.bg-white.w-full.z-11.left-0.fixed
 www.yahoo.com##.stream-vertical-separator
 www.yahoo.com##.user-intent-options
 www.yahoo.com##.userintent-tooltip-box
