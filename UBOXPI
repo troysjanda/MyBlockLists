@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Sat, 26 Apr 2025 15:26:15 -0700 GMT
+! Last modified: Sun, 27 Apr 2025 10:43:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -201,8 +201,6 @@ pandora.com##script:contains(getAdList)
 pastehouse.com##.text-center.m-2.col-md-12 > div
 pipocas.tv##+js(bab-defuser)
 pl.premium4kflix.club###playerCta-wrapper
-pornhub.com###under-player-comments
-pornhub.com###welcome
 ppss.kr##+js(aost, Math.random, invoke)
 qwant.com##div[data-monitoring="adsWebSerpOk"]
 reddit.com###ad_1
@@ -249,29 +247,10 @@ thehackernews.com##[href="https://go.thn.li/mpu"]
 thesolving.com##.nanoBackground
 tikolu.net##+js(aopr, HTMLElement.prototype.oncontextmenu)
 tiktok.com###login-modal,[class*="DivModalContainer"]
-torrentgalaxy.to###stopad > div > [href^="/hx"]
-torrentgalaxy.to##.btc_style
-torrentgalaxy.to##.gluewrapper > div > div > div > [href^="/bub.php"]
-torrentgalaxy.to##.slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e.panel-body > div > [href^="/bub.php"]
-torrentgalaxy.to##.slidingDivb-ffb8ec81b26e9123c22e2ec2bc112efcc695fd4e.panel-body > div > [href^="/sub.php"]
-torrentgalaxy.to##.slidingDivf-33b5493606dbeeae971dfeddfe57269a193c57fd.panel-body > div > div > [href]
-torrentgalaxy.to##.slidingDivf-6e422c70dd796e04eec79baaea3d169e3f1c5cd1.panel-body [href] > div
-torrentgalaxy.to##.slidingDivf-e4d2e275452c75e4b49e639e82da1ce1667eee25.panel-body > div > div > [href]
-torrentgalaxy.to##[href^="/hub.php"]
-torrentgalaxy.to##[href^="/huz.php"]
-torrentgalaxy.to##center > div > div > [href^="/bub.php"]
-torrentgalaxy.to##center > div > div > [href^="/sub.php"]
-torrentgalaxy.to##div.hotpicks > div > [href^="/bub.php"]
-torrentlawyer.com##+js(set, document.oncontextmenu, noopFunc)
-torrentlawyer.com##+js(set, document.ondragstart, noopFunc)
-torrentlawyer.com##+js(set, document.onmousedown, noopFunc)
-torrentlawyer.com##+js(set, document.onselectstart, noopFunc)
 troypoint.com##.code-block
 troypoint.com##.front-site.mysticky-welcomebar-fixed
 tutsgalaxy.net##+js(nobab)
 twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, and Beaches/i)
-twitter.com##.r-11nfnuw.r-16wqof.r-1dqxon3.r-16y2uox.r-14lw9ot.css-1dbjc4n
-twitter.com##article:has(div:has-text(/^Promoted$/))
 uploadship.com##+js(acis, document.getElementById, adblock)
 wikipedia.org###vector-toc-pinned-container:style(position: static !important;)
 winaero.com##.entry-content > div
@@ -401,8 +380,7 @@ www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#vid
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
-x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r
-xhamster.com##.wih-spa.wih-spb    
+x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r   
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
@@ -437,8 +415,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||cdn.shopifycloud.com/messenger_commerce/assets/custom-button/*.png$image
 ||cdn.yottos.com^
 ||clksite.com^$important
-||connect.facebook.com
-||connect.facebook.net
 ||content.jwplatform.com^$domain=variety.com
 ||coronavirus.idaho.gov/wp-content/uploads/2021/08/Button_CoronavirusWebsite-*.png$image
 ||curtistimes.com^
@@ -460,7 +436,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||epsolution-mbst-pub-uw2.s3.us-west-2.amazonaws.com/cx/blendr/v2/image-yc-fl-off-net-school-start-league-ji-070919-v-1-3-light-800-x-800-x-1-jpg_1566418730380.jpeg$image
 ||exactmetrics.com
 ||extmaps-api.yandex.net^
-||facebook.com/plugins/*
 ||flintos.io/wp-content/plugins/popup-builder/*
 ||floweryfact.com^$xhr,domain=www.howtogeek.com,important
 ||forum.opnsense.org/adds/content/8.applianceshop_20160413.jpg$image
