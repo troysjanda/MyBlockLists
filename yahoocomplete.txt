@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Wed, 07 May 2025 11:59:15 -0700 GMT
+! Last modified: Mon, 12 May 2025 11:15:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -210,6 +210,7 @@ sports.yahoo.com##li._yb_6rxuf:nth-of-type(5)
 sports.yahoo.com##li._yb_h4l6e._yb_8sgqb:nth-of-type(12)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
+sports.yahoo.com#@#._ys_182ob5z._ys_m0uq4h
 thetandd.com##.yahoo_content_match
 tournament.fantasysports.yahoo.com###header-4-ProductHeader-Proxy > .Ov\(h\)
 travel.yahoo.com##.tgl-block
@@ -252,6 +253,8 @@ www.yahoo.com##.balance-link
 www.yahoo.com##.caas-curated-links.caas-sports-module
 www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
 www.yahoo.com##.comment-count
+www.yahoo.com##.dark\:bg-inkwell.md\:px-10.md\:max-w-\[1220px\].md\:mx-auto.pt-3.px-4.bg-white.whitespace-nowrap.overflow-hidden.z-11.sticky
+www.yahoo.com##.dark\:bg-inkwell.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].bg-white.w-full.h-10.z-11.left-0.fixed
 www.yahoo.com##.gradient-election.fp-module-chrome-election
 www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.module-electionNews.wafer-rapid-module
