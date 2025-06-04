@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Tue, 03 Jun 2025 5:28:15 -0700 GMT
+! Last modified: Wed, 04 Jun 2025 08:20:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -163,6 +163,9 @@ sports.yahoo.com##._ys_182ob5z._ys_m0uq4h
 sports.yahoo.com##.adsStreamWrapper
 sports.yahoo.com##.commerce-module.mini-pd
 sports.yahoo.com##.content-pill
+sports.yahoo.com##.content-trending
+sports.yahoo.com##.custom-nav-wrapper
+sports.yahoo.com##.dark\:hover\:outline-dory.hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-dirty-seagull.hover\:shadow-elevation-3.outline-2.max-w-\[620px\].items-center.hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].xl\:mr-10.md\:mr-6.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
 sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
@@ -190,6 +193,7 @@ sports.yahoo.com##[id^="mrt-node-"][id$="-EmbeddedContent"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-FavoriteTeams"]
 sports.yahoo.com##[id^="mrt-node-"][id$="-Primary"]
 sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_120519_300x250v2.1_x1.jpg"]
+sports.yahoo.com##div.redesign.content-start > ._ys_1d7bt4w._ys_22yqu4._ys_12g22ve._ys_ztxrxg._ys_1bmiy8u._ys_19jjwt4._ys_1e6ql5o
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
 sports.yahoo.com##li._yb_1l8q0._yb_1bruf:nth-of-type(13)
 sports.yahoo.com##li._yb_6rxuf:nth-of-type(5)
@@ -206,6 +210,7 @@ weather.yahoo.com#@#.can_ad_slug
 weather.yahoo.com#@#.yom-ad
 weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
 www.yahoo.com###applet_p_50000349 > div > div
+www.yahoo.com###buying-guide
 www.yahoo.com###commerce-module-articles
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
@@ -216,7 +221,9 @@ www.yahoo.com###module-subscription
 www.yahoo.com###module-whattowatch
 www.yahoo.com###notif-badge
 www.yahoo.com###storyswarm-wrapper
+www.yahoo.com###topic-subnav
 www.yahoo.com###topic-subnavigation-module
+www.yahoo.com###trending-Celebrity
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
@@ -242,6 +249,7 @@ www.yahoo.com##.dark\:bg-inkwell.md\:px-10.md\:max-w-\[1220px\].md\:mx-auto.pt-3
 www.yahoo.com##.dark\:bg-inkwell.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].bg-white.w-full.h-10.z-11.left-0.fixed
 www.yahoo.com##.gradient-election.fp-module-chrome-election
 www.yahoo.com##.leading-3:has-text(Advertisement/i)
+www.yahoo.com##.md\:grid-cols-article-page.md\:max-w-\[1220px\].grid-cols-article-mobile.grid.md\:px-10.mx-auto
 www.yahoo.com##.module-electionNews.wafer-rapid-module
 www.yahoo.com##.mxhpset
 www.yahoo.com##.premium_finance_ticker
@@ -260,6 +268,7 @@ www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
 www.yahoo.com##div#HPSPON-ad
 www.yahoo.com##div.fp-module-chrome:nth-of-type(1)
 www.yahoo.com##div.py-5.px-4.bg-white.border-\[\#f5f5f5\].rounded-xl.w-full.mb-4.relative:nth-of-type(4)
+www.yahoo.com##li.sm\:border-y.dark\:border-midnight.sm\:border-neutral-100.border-\[\#e3e3e3\].relative
 yahoo.com###Horizon-ad
 yahoo.com###LREC
 yahoo.com###LREC-sizer
