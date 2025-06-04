@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Wed, 28 May 2025 06:47:15 -0700 GMT
+! Last modified: Tue, 03 Jun 2025 5:28:15 -0700 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -63,21 +63,11 @@
 _yahooads/
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
-arnnet.com.au,cio.com.au,computerworld.com.au,foodandwine.com,healthcareitnews.com,nbcnews.com,techworld.com.au,travelandleisure.com,tvnz.co.nz,yahoo.com###marketplace
-au.news.yahoo.com##.acc-moneyhound
-au.news.yahoo.com##.collection-sponsored
-au.news.yahoo.com##.moneyhound
-au.yahoo.com###y708-windowshade
-aubizbuysell.com.au,findthatfile.com,lifestyle.yahoo.com,nzbizbuysell.co.nz,nzcommercial.co.nz,nzfranchises.co.nz,simplyhired.com,yellowpages.com##.featured
 autos.yahoo.com##.yatAdInsuranceFooter
 autos.yahoo.com##.yatysm-y
-baseball-reference.com,breakingtravelnews.com,christianpost.com,compfight.com,europages.co.uk,itweb.co.za,japanvisitor.com,jewishva.org,lmgtfy.com,mothering.com,neave.com,otcmarkets.com,progressillinois.com,ragezone.com,submarinecablemap.com,telegeography.com,tsn.ca,tvnz.co.nz,wallpapercropper.com,walyou.com,wgr550.com,wsjs.com,yahoo.com###sponsor
-bigfishaudio.com,cnbcafrica.com,dublinairport.com,yahoo.com#@#.ad-holder
 biz.yahoo.com##table[bgcolor="white"][width="100%"]
-candofinance.com,idealhomegarden.com##.yahooSl
 cricket.yahoo.com###video-branding
 dir.yahoo.com##td[width="215"]
-everyclick.com,info.co.uk,info.com,travel.yahoo.com##.spon
 finance.yahoo.com###Col2-0-ComboAd-Proxy
 finance.yahoo.com###a2csn
 finance.yahoo.com###finance-desktop-web-homepage-ablock-overlay
@@ -105,7 +95,6 @@ finance.yahoo.com#@#.BdEnd
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 games.yahoo.com,movies.yahoo.com##.md.links
 groups.yahoo.com##.yg-mbad-row
-horsemart.co.uk,merkatia.com,mysportsclubs.com,news.yahoo.com#@#.ad_header
 lifestyle.yahoo.com###hd-prop-logo-hero
 local.yahoo.com##.yls-rs-paid
 mail.yahoo.com###slot_LREC
@@ -114,7 +103,6 @@ mail.yahoo.com##[data-test-id^="pencil-ad"]
 mail.yahoo.com##[data-test-id^="taboola-ad-"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
-missoulian.com###yahoo-contentmatch
 movies.yahoo.com###customModule
 movies.yahoo.com##.results[bgcolor="#ECF5FA"]
 movies.yahoo.com##.right-module
@@ -123,7 +111,6 @@ music.yahoo.com###YMusicRegion_T3_R2C2_R1
 music.yahoo.com###YMusicRegion_TN1_R2C2_R1
 music.yahoo.com###lrec
 music.yahoo.com###lrecTop
-mysanantonio.com##.yahoo-bg
 news.search.yahoo.com##.searchTop.cardReg
 news.yahoo.com###mw-ysm-cm_2-container
 news.yahoo.com###north
@@ -134,7 +121,6 @@ news.yahoo.com##.wafer-fetch-target-complete.drawer-fetch-target
 newsok.com##.yahoo_cm
 nz.yahoo.com##.y7countdown
 omg.yahoo.com###omg-lrec
-pho.to,smartwebby.com,whoownes.com,workhound.co.uk,yahoo.com##.spons
 realestate.yahoo.com###pdp-ysm
 realestate.yahoo.com###srp-ysm
 search.yahoo.com###browserExtensionPromotionBanner
@@ -211,7 +197,6 @@ sports.yahoo.com##li._yb_h4l6e._yb_8sgqb:nth-of-type(12)
 sports.yahoo.com#@#.H\(400px\) > .VideoPlayer
 sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 sports.yahoo.com#@#._ys_182ob5z._ys_m0uq4h
-thetandd.com##.yahoo_content_match
 tournament.fantasysports.yahoo.com###header-4-ProductHeader-Proxy > .Ov\(h\)
 travel.yahoo.com##.tgl-block
 travel.yahoo.com##.ysmcm
@@ -420,7 +405,6 @@ yahoo.com##li[id^="ad-"]
 yahoo.com.au##.TL_genericads_columns
 yahoo.com.au##.TL_medRec_container
 yahoo.com.au##.boxMidRt.pB0
-yellowpages.com###yahoo_ss_border
 ||ads.yahoo.com^
 ||adss.yahoo.com^
 ||bankrate.com^$subdocument,domain=yahoo.com
@@ -436,9 +420,6 @@ yellowpages.com###yahoo_ss_border
 ||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
 ||s.yimg.com/bx/adb/*.jpg$image
 ||s.yimg.com/bx/adb/*.png$image
-||s.yimg.com/bx/adb/20210709185323318.png
-||s.yimg.com/bx/adb/20210713164918586.jpg
-||s.yimg.com/bx/adb/20210720220256822.jpg
 ||s.yimg.com/bx/spo/YS_NFLLive_InProduct_1200x627@2x.jpg
 ||s.yimg.com/bx/spo/YS_NFLLive_InProduct_880x150@1x.jpg$image
 ||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
