@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 03 Jun 2025 5:28:15 -0700 GMT
+! Last modified: Thu, 05 Jun 2025 09:28:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
