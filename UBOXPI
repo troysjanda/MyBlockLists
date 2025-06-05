@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Thu, 05 Jun 2025 09:28:15 -0800 GMT
+! Last modified: Thu, 05 Jun 2025 09:50:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -448,7 +448,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||ghacks.net/statics/px.gif
 ||google.*$removeparam=gws_rd=ssl
 ||googleanalytics.net^
-||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xhr,3p,domain=m.youtube.com|music.youtube.com|www.youtube.com,badfilter
 ||hd-dev.com^
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
@@ -514,7 +513,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.techpowerup.com/njutrvceser/*.jpg$image
 ||www.techpowerup.com/review/*75345380048075*/images/$image
 ||www.techpowerup.com/thlknzrjbv^
-||www.youtube.com/s/_/ytmainappweb/_/js/$script,xhr,replace=/onAbnormalityDetected"\,function\(\)[\S\s]+?playabilityStatus\)\}/onAbnormalityDetected"\,function(){}/,badfilter
 ||yo/guce-js
 ||yonxatuor.com
 ||ysearchblog.com^
