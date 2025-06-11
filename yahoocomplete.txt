@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Fri, 06 Jun 2025 6:20:15 -0800 GMT
+! Last modified: Wed, 11 Jun 2025 10:07:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -168,7 +168,6 @@ sports.yahoo.com##.custom-nav-wrapper
 sports.yahoo.com##.dark\:hover\:outline-dory.hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-dirty-seagull.hover\:shadow-elevation-3.outline-2.max-w-\[620px\].items-center.hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].xl\:mr-10.md\:mr-6.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
 sports.yahoo.com##.gemini-banner-promo
-sports.yahoo.com##.js-stream-content:has-text(/GlobeNewswire/i)
 sports.yahoo.com##.no-premium.topcenter-sda
 sports.yahoo.com##.post-article-ad
 sports.yahoo.com##.sda-text
@@ -248,6 +247,7 @@ www.yahoo.com##.comment-count
 www.yahoo.com##.commerce
 www.yahoo.com##.dark\:bg-inkwell.md\:px-10.md\:max-w-\[1220px\].md\:mx-auto.pt-3.px-4.bg-white.whitespace-nowrap.overflow-hidden.z-11.sticky
 www.yahoo.com##.dark\:bg-inkwell.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].bg-white.w-full.h-10.z-11.left-0.fixed
+www.yahoo.com##.dark\:hover\:outline-dory.dark\:outline-sky.hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-\[rgb\(70_31_140\/60\%\)\].hover\:shadow-elevation-3.outline-2.max-w-\[620px\].items-center.hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].md\:mr-8.lg\:mr-10.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].md\:h-\[46px\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 www.yahoo.com##.gradient-election.fp-module-chrome-election
 www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.md\:grid-cols-article-page.md\:max-w-\[1220px\].grid-cols-article-mobile.grid.md\:px-10.mx-auto
@@ -357,8 +357,15 @@ yahoo.com##.ds_promo_ymobile
 yahoo.com##.fpad
 yahoo.com##.gemini-ad
 yahoo.com##.gemini-ad-feedback
+yahoo.com##.group:has-text(/Kaepernick/i)
+yahoo.com##.group:has-text(/black lives matter/i)
+yahoo.com##.group:has-text(/celebrity/i)
+yahoo.com##.group:has-text(/entertainment/i)
+yahoo.com##.group:has-text(/health/i)
+yahoo.com##.group:has-text(/lifestyle/i)
+yahoo.com##.group:has-text(/style/i)
+yahoo.com##.group:has-text(/yahoo creator/i)
 yahoo.com##.item-beacon
-yahoo.com##.js-stream-content:has-text(/Kaepernick/i)
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
 yahoo.com##.mx-\[-50vw\]
@@ -371,7 +378,6 @@ yahoo.com##.sharing-toolbar
 yahoo.com##.spns
 yahoo.com##.spon.clearfix
 yahoo.com##.stream-header
-yahoo.com##.stream-item:has-text(/Black Lives Matter/i)
 yahoo.com##.sys_shopleguide
 yahoo.com##.top-\[92px\]
 yahoo.com##.type_ads_default
