@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Wed, 11 Jun 2025 10:07:15 -0800 GMT
+! Last modified: Thu, 12 Jun 2025 11:23:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -47,9 +47,6 @@
 /YahooAd_
 /ads/yahoo/*
 /ads_yahoo.
-/cmpStub.$script
-/omniture.$script
-/yRapid.$script
 /yahoo-ad-
 /yahoo-ads/*
 /yahoo/ads.
@@ -176,11 +173,6 @@ sports.yahoo.com##.tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.ybar-menu-hover-open
 sports.yahoo.com##.ys-sportsbook-featured-odds
-sports.yahoo.com##[href="https://fanatics.93n6tx.net/75ovQr"]
-sports.yahoo.com##[href="https://fanatics.93n6tx.net/kjBOqv"]
-sports.yahoo.com##[href="https://fanatics.ncw6.net/2ORG7"]
-sports.yahoo.com##[href="https://fanatics.ncw6.net/WmG9A"]
-sports.yahoo.com##[href="https://www.pjtra.com/t/2-522414-282307-55814"]
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id^="Col2-"][id$="-Ad-Proxy"]
@@ -359,11 +351,17 @@ yahoo.com##.gemini-ad
 yahoo.com##.gemini-ad-feedback
 yahoo.com##.group:has-text(/Kaepernick/i)
 yahoo.com##.group:has-text(/black lives matter/i)
+yahoo.com##.group:has-text(/buzzfeed/i)
 yahoo.com##.group:has-text(/celebrity/i)
 yahoo.com##.group:has-text(/entertainment/i)
 yahoo.com##.group:has-text(/health/i)
+yahoo.com##.group:has-text(/huffpost/i)
 yahoo.com##.group:has-text(/lifestyle/i)
+yahoo.com##.group:has-text(/outdoor life/i)
+yahoo.com##.group:has-text(/people/i)
 yahoo.com##.group:has-text(/style/i)
+yahoo.com##.group:has-text(/the cool down/i)
+yahoo.com##.group:has-text(/the daily beast/i)
 yahoo.com##.group:has-text(/yahoo creator/i)
 yahoo.com##.item-beacon
 yahoo.com##.mballads
@@ -418,12 +416,8 @@ yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]
-yahoo.com.au##.TL_genericads_columns
-yahoo.com.au##.TL_medRec_container
-yahoo.com.au##.boxMidRt.pB0
 ||ads.yahoo.com^
 ||adss.yahoo.com^
-||bankrate.com^$subdocument,domain=yahoo.com
 ||bf.us.y.atwola.com/adcount*
 ||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||im.ov.yahoo.co.jp^
@@ -433,33 +427,8 @@ yahoo.com.au##.boxMidRt.pB0
 ||music.yahoo.com/get-free-html
 ||playlist.yahoo.com/makeplaylist.dll?$domain=au.tv.yahoo.com
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
-||s.yimg.com/*/fantasy-promo/$image,domain=yahoo.com
 ||s.yimg.com/bx/adb/*.jpg$image
 ||s.yimg.com/bx/adb/*.png$image
-||s.yimg.com/bx/spo/YS_NFLLive_InProduct_1200x627@2x.jpg
-||s.yimg.com/bx/spo/YS_NFLLive_InProduct_880x150@1x.jpg$image
-||s.yimg.com/cv/apiv2/CollegePodcast/YS_CollegePodcastLIVE_880x150.jpg$image
-||s.yimg.com/cv/apiv2/FantasyBaseball/SignUp-800x150__1_.jpg$image
-||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_1220x85_1x.jpg
-||s.yimg.com/cv/apiv2/NBALeaguePass/YLeaguePass_HalfSeasonLiveNBA_Offer_StartStreaming_880x150_1x.jpg
-||s.yimg.com/cv/apiv2/SLATE/1x_TheSlate_Phase2_NTKBanner_880x150_ML.jpg$image
-||s.yimg.com/cv/apiv2/dailyfantasy/DFS-phase1-static_FootballContest-1MFantasyFootballContest_EnterNow_800x150.jpg
-||s.yimg.com/cv/apiv2/default/*_300x*.jpg$image
-||s.yimg.com/cv/apiv2/default/DFS_250k_Contest.jpg
-||s.yimg.com/cv/apiv2/default/sports/fantasy/YS_Fantasy_Football_2023.png$image
-||s.yimg.com/cv/apiv2/fantasy/promo/YFF_2020_In-Product_Banners_FOMO_082820_880x150@2x.jpg$image
-||s.yimg.com/cv/apiv2/fantasy/slate/Slate---Pizza-Hut---NFL-Champ-Interstitial-1---CTA---1200x675@2x-min.jpg$image
-||s.yimg.com/cv/apiv2/ffnfl/FF_NFLDraft_CopyUpdate_050421_Fireplace_880x150@2x.jpg
-||s.yimg.com/cv/apiv2/finance/YFi_Plus_Bottom_sticky_banner.png
-||s.yimg.com/cv/apiv2/sports/fantasy-promo/2020-sports-home-ff-takeover@2x.jpg
-||s.yimg.com/cv/apiv2/sports/promo/DFS_NBA_EV_880x150@2x.jpg$image
-||s.yimg.com/cv/apiv2/sports/promo/DFS_SingleGame_040121_880x150@2x.jpg
-||s.yimg.com/cv/apiv2/sports/promos/slate/2x_TheSlate_Phase1_NTKBanner_880x150_ML.jpg$image
-||s.yimg.com/cv/apiv2/sports/web/promos/YS_BestBall_InProduct_JI_072319_v1Light_300x121.jpg$image
-||s.yimg.com/cv/apiv2/sports/web/slatepromo/Slate_Promo_BG.jpg$image
-||s.yimg.com/cv/apiv2/y20/fantasy/V2_Y20_Banner_880x150@2x.jpg$image
-||s.yimg.com/ep/cx/blendr/v2/image-ysb-the-slate-us-open-730-pm-1000-x-1000-1-x-min-jpg_1623975656099.jpeg$image
-||s.yimg.com/uc/fin/img/20/03/ff66241.png$image
 ||ter-adserver-origin-us.prod.adtechus.com^$image
 ||w.homes.yahoo.net^
 ||yahoo.affex.org
