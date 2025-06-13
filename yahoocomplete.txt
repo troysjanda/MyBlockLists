@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Thu, 12 Jun 2025 11:23:15 -0800 GMT
+! Last modified: Fri, 13 Jun 2025 09:05:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -162,7 +162,6 @@ sports.yahoo.com##.commerce-module.mini-pd
 sports.yahoo.com##.content-pill
 sports.yahoo.com##.content-trending
 sports.yahoo.com##.custom-nav-wrapper
-sports.yahoo.com##.dark\:hover\:outline-dory.hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-dirty-seagull.hover\:shadow-elevation-3.outline-2.max-w-\[620px\].items-center.hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].xl\:mr-10.md\:mr-6.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
 sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.no-premium.topcenter-sda
@@ -395,6 +394,7 @@ yahoo.com##.yad-cpa
 yahoo.com##.yschspns
 yahoo.com##.ysm-cont
 yahoo.com##.ysptblbdr3
+yahoo.com##.z-10
 yahoo.com##[data-ad-enhanced="card"]
 yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
