@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Sat, 14 Jun 2025 08:23:15 -0800 GMT
+! Last modified: Sat, 14 Jun 2025 5:22:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -336,8 +336,6 @@ yahoo.com##.astro-promo
 yahoo.com##.c-imageTextList-imageList
 yahoo.com##.caas-da
 yahoo.com##.comment-btn-link
-yahoo.com##.dark\:hover\:outline-dory.dark\:outline-sky.hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-\[rgb\(70_31_140\/60\%\)\].hover\:shadow-elevation-3.outline-2.items-center.max-w-\[620px\].hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].xl\:mr-10.md\:mr-6.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
-yahoo.com##.dark\:hover\:outline-dory.dark\:outline-sky.hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-\[rgb\(70_31_140\/60\%\)\].hover\:shadow-elevation-3.outline-2.items-center.max-w-\[620px\].hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].xl\:mr-10.md\:mr-6.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].md\:h-\[52px\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 yahoo.com##.darla
 yahoo.com##.darla-container
 yahoo.com##.darla-lrec-ad
@@ -392,7 +390,7 @@ yahoo.com##.yad-cpa
 yahoo.com##.yschspns
 yahoo.com##.ysm-cont
 yahoo.com##.ysptblbdr3
-yahoo.com##.z-10
+yahoo.com##.h-10
 yahoo.com##[data-ad-enhanced="card"]
 yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
