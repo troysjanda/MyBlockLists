@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Sun, 15 Jun 2025 11:12:15 -0800 GMT
+! Last modified: Wed, 18 Jun 2025 08:38:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -215,6 +215,7 @@ www.yahoo.com###storyswarm-wrapper
 www.yahoo.com###topic-subnav
 www.yahoo.com###topic-subnavigation-module
 www.yahoo.com###trending-Celebrity
+www.yahoo.com###trending-search
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
@@ -358,6 +359,7 @@ yahoo.com##.group:has-text(/style/i)
 yahoo.com##.group:has-text(/the cool down/i)
 yahoo.com##.group:has-text(/the daily beast/i)
 yahoo.com##.group:has-text(/yahoo creator/i)
+yahoo.com##.h-10
 yahoo.com##.item-beacon
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
@@ -390,7 +392,6 @@ yahoo.com##.yad-cpa
 yahoo.com##.yschspns
 yahoo.com##.ysm-cont
 yahoo.com##.ysptblbdr3
-yahoo.com##.h-10
 yahoo.com##[data-ad-enhanced="card"]
 yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
@@ -415,7 +416,6 @@ yahoo.com##li[id^="ad-"]
 ||ads.yahoo.com^
 ||adss.yahoo.com^
 ||bf.us.y.atwola.com/adcount*
-||embed.fireplace.yahoo.com/embed/570ecf0f-ca7e-4d41-b3fc-a5e24c77b0c7?articleId=copy-paste-1596226703377&ctrl=Banner&m_id=promo&x_ap_enrich=.html$subdocument
 ||im.ov.yahoo.co.jp^
 ||mail.yahoo.com/mc/md.php?
 ||mail.yahoo.com/neo/mbimg?av/curveball/ds/
@@ -423,8 +423,6 @@ yahoo.com##li[id^="ad-"]
 ||music.yahoo.com/get-free-html
 ||playlist.yahoo.com/makeplaylist.dll?$domain=au.tv.yahoo.com
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
-||s.yimg.com/bx/adb/*.jpg$image
-||s.yimg.com/bx/adb/*.png$image
 ||ter-adserver-origin-us.prod.adtechus.com^$image
 ||w.homes.yahoo.net^
 ||yahoo.affex.org
