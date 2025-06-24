@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Fri, 20 Jun 2025 11:09:15 -0800 GMT
+! Last modified: Mon, 23 Jun 2025 19:47:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -101,6 +101,7 @@ faucethero.com##+js(acis, blockAdBlock)
 fitgirl-repacks.site###content-sidebar
 fitgirl-repacks.site###footer-sidebar
 forums.theregister.com###adtoniq-msgr-bar
+foxnews.com##.ad-container
 foxnews.com##.content:has-text(/SPONSORED/i)
 foxnews.com##.dark.three-items.river.collection-topic.collection
 foxnews.com##.is-programming.alert-banner
@@ -368,7 +369,7 @@ www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > 
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12.col-md-4 > .sidebar > .widget_text.group.widget
 www.tomshardware.com###affiliateDisclaimer
 www.twitch.tv##.cwtKyw:has-text(/Djs/i)
-www.twitch.tv##.front-page-carousel.jHEhSH.Layout-sc-1xcs6mc-0
+www.twitch.tv##.front-page-carousel,important
 www.twitch.tv##.jmMgdG.Layout-sc-1xcs6mc-0
 www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
 www.twitch.tv##div:is([class*="ScTransitionBase-sc-"],div[style^="order:"]):has(a[href="/Gabekuun"i])
