@@ -1,17 +1,14 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Mon, 23 Jun 2025 19:47:15 -0800 GMT
+! Last modified: Fri, 27 Jun 2025 09:09:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
-*$all,ipaddress=0.0.0.0,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
-*$all,ipaddress=::,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 *$object,redirect-rule=empty,domain=sonixgvn.net
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
 */wp-content/plugins/adtoniq/^$important,third-party
 /advert.js$important
 /analytics.js
-/hads-ak-prn2/1487645_6012475414660_1439393861_n.png
 /i.gif
 /p.gif
 /pixel*.gif^
@@ -456,6 +453,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||googleanalytics.net^
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 ||hd-dev.com^
+||https://platform.linkedin.com/in,important
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
