@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Fri, 27 Jun 2025 09:09:15 -0800 GMT
+! Last modified: Mon, 07 Jul 2025 19:14:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -354,7 +354,6 @@ yahoo.com##.group:has-text(/health/i)
 yahoo.com##.group:has-text(/huffpost/i)
 yahoo.com##.group:has-text(/lifestyle/i)
 yahoo.com##.group:has-text(/outdoor life/i)
-yahoo.com##.group:has-text(/people/i)
 yahoo.com##.group:has-text(/style/i)
 yahoo.com##.group:has-text(/the cool down/i)
 yahoo.com##.group:has-text(/the daily beast/i)
