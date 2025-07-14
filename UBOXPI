@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Fri, 27 Jun 2025 09:09:15 -0800 GMT
+! Last modified: Mon, 14 Jul 2025 12:07:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -302,6 +302,8 @@ www.ghacks.net##.tag-featured
 www.ghacks.net##[id^="ghacks_ad_code-"]
 www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
 www.ghacks.net##div.post-subtitle-meta:nth-of-type(1)
+www.google.*##.g:has(a[href*="reddit.com"][href*="tl="])
+www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/search"][href*="&udm=50"])
 www.google.*##a[href*="agoda.com"]:upward(.g)
 www.google.com###lb
 www.google.com##.L3eUgb > .om7nvf.ikrT4e.o3j99 > form > div > .emcav.A8SBwf > .UUbT9 > .aajZCb
@@ -376,6 +378,7 @@ www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
 www.yahoo.com##.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.bg-primary.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].w-full.h-10.z-11.left-0.fixed
 www.youtube.com###teaser-carousel,  important
+www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thumbnail-view-model:style( border-radius: 0px !important; )
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
@@ -477,6 +480,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||pocketfaucet.com^
 ||polyfill.io^
 ||rawgit.com^$important
+||reddit.com^$removeparam=tl
 ||report-uri.cloudflare.com^
 ||s3.buysellads.com^
 ||scotthelme.report-uri.com^$all
