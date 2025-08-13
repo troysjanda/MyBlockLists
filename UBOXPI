@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Mon, 14 Jul 2025 12:07:15 -0800 GMT
+! Last modified: Wed, 12 Aug 2025 08:16:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -183,6 +183,7 @@ m.imdb.com##a[aria-label="Use app"]
 m.imdb.com##a[href*="https://pro.imdb"]
 m.imdb.com##label[aria-label="language-select"]
 magicalthirteen.com^$important
+mail.google.com##header div[jscontroller]:has(button[aria-label~="Gemini"])
 megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
 megaup.net#@#[id^="AdskeeperComposite"]:style(padding-top:1100px!important;)
 msfn.org##.focus-social--iconOnly.focus-social
