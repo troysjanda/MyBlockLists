@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 12 Aug 2025 08:16:15 -0800 GMT
+! Last modified: Mon, 25 Aug 2025 17:56:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -187,6 +187,7 @@ mail.google.com##header div[jscontroller]:has(button[aria-label~="Gemini"])
 megaup.net##[id^="AdskeeperComposite"]:style(opacity: 0!important;pointer-events:none!important;)
 megaup.net#@#[id^="AdskeeperComposite"]:style(padding-top:1100px!important;)
 msfn.org##.focus-social--iconOnly.focus-social
+mvlempyr.com##.ChapterContentWrapper > :has(img[src*="disable"])
 nexusmods.com##.areplacer
 noscript.net##style:has-text(data:image):remove()
 noypigeeks.com##a[target="_blank"] > img[src*=".noypigeeks.com/"]
