@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Mon, 25 Aug 2025 17:56:15 -0800 GMT
+! Last modified: Tue, 26 Aug 2025 17:05:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -167,6 +167,8 @@ sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
 sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.no-premium.topcenter-sda
 sports.yahoo.com##.post-article-ad
+sports.yahoo.com##.responsive-sda
+sports.yahoo.com##.sda-placeholder-txt
 sports.yahoo.com##.sda-text
 sports.yahoo.com##.surveymonkey-popup
 sports.yahoo.com##.tdv2-applet-sports-bracket-hero
