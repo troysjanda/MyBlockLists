@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Fri, 29 Aug 2025 06:41:15 -0800 GMT
+! Last modified: Fri, 29 Aug 2025 06:45:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -163,6 +163,7 @@ sports.yahoo.com##.commerce-module.mini-pd
 sports.yahoo.com##.content-pill
 sports.yahoo.com##.content-trending
 sports.yahoo.com##.custom-nav-wrapper
+sports.yahoo.com##.dark\:hover\:outline-white.hover\:outline-\[rgb\(70_31_140\/80\%\)\].dark\:outline-\[\#464e56\].outline-dirty-seagull.hover\:shadow-elevation-3.outline-offset-\[-2px\].outline-2.max-w-\[702px\].items-center.hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].md\:mr-8.lg\:mr-10.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 sports.yahoo.com##.evp-docked-fadein.evp-docked.evp-main
 sports.yahoo.com##.gemini-banner-promo
 sports.yahoo.com##.no-premium.topcenter-sda
@@ -175,6 +176,7 @@ sports.yahoo.com##.tdv2-applet-sports-bracket-hero
 sports.yahoo.com##.teams-nav
 sports.yahoo.com##.ybar-menu-hover-open
 sports.yahoo.com##.ys-sportsbook-featured-odds
+sports.yahoo.com##[href^="https://football.fantasysports.yahoo.com/f1/livedraft_join"] > ._ys_pnk1nr > ._ys_1caxt2h._ys_1vv413w
 sports.yahoo.com##[id*="DailyFantasyPromo"]
 sports.yahoo.com##[id*="GeminiImagePromo-Proxy"]
 sports.yahoo.com##[id^="Col2-"][id$="-Ad-Proxy"]
@@ -241,6 +243,7 @@ www.yahoo.com##.caas-curated-links.caas-sports-module
 www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
 www.yahoo.com##.comment-count
 www.yahoo.com##.commerce
+www.yahoo.com##.dark\:hover\:outline-\[\#957efc\].dark\:outline-\[\#464e56\].hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-\[rgb\(70_31_140\/60\%\)\].hover\:shadow-elevation-3.outline-offset-\[-2px\].outline-2.max-w-\[702px\].items-center.hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].md\:mr-8.lg\:mr-10.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].md\:h-\[46px\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 www.yahoo.com##.gradient-election.fp-module-chrome-election
 www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.md\:grid-cols-article-page.md\:max-w-\[1220px\].grid-cols-article-mobile.grid.md\:px-10.mx-auto
