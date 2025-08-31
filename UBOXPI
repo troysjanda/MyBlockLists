@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Mon, 25 Aug 2025 17:56:15 -0800 GMT
+! Last modified: Sun, 31 Aug 2025 14:47:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -251,6 +251,7 @@ troypoint.com##.code-block
 troypoint.com##.front-site.mysticky-welcomebar-fixed
 tutsgalaxy.net##+js(nobab)
 twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, and Beaches/i)
+twitch.tv##div:matches-css(background-image: /url\(".*\/banner\/subtember.*\/.*\.png"\)/)
 uploadship.com##+js(acis, document.getElementById, adblock)
 wikipedia.org###vector-toc-pinned-container:style(position: static !important;)
 winaero.com##.entry-content > div
@@ -264,7 +265,10 @@ www.49erswebzone.com###adblock_article_before
 www.49erswebzone.com###top-spacer
 www.49erswebzone.com##.adblock_300x250
 www.49erswebzone.com##.backup-ad
+www.49erswebzone.com##.mobile-hide.main-adblock.adblock_300x600
+www.49erswebzone.com##.st_container
 www.49erswebzone.com##div.adblock_container
+www.49erswebzone.com##div.main-adblock.adblock_300xflex
 www.amazon.com###desktop-banner
 www.amazon.com###desktop-dp-ilm_feature_div_01
 www.amazon.com###nav-rufus-disco
@@ -371,6 +375,7 @@ www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12
 www.tomshardware.com###affiliateDisclaimer
 www.twitch.tv##.cwtKyw:has-text(/Djs/i)
 www.twitch.tv##.front-page-carousel,important
+www.twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
 www.twitch.tv##.jmMgdG.Layout-sc-1xcs6mc-0
 www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
 www.twitch.tv##div:is([class*="ScTransitionBase-sc-"],div[style^="order:"]):has(a[href="/Gabekuun"i])
@@ -515,6 +520,7 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||windows.net^
 ||wp.pl^$third-party,domain=~wp.pl
 ||wpimg.pl^$third-party,domain=~wp.pl
+||www.49erswebzone.com/anyclip.html$subdocument
 ||www.bing.com/rewardsapp/flyout$subdocument
 ||www.builtbygirls.com^
 ||www.ghacks.net/statics/dfp.js
