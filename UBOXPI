@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Sun, 31 Aug 2025 14:47:15 -0800 GMT
+! Last modified: Mon, 01 Sep 2025 10:18:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -250,8 +250,8 @@ tiktok.com###login-modal,[class*="DivModalContainer"]
 troypoint.com##.code-block
 troypoint.com##.front-site.mysticky-welcomebar-fixed
 tutsgalaxy.net##+js(nobab)
+twitch.tv###live-channel-stream-information+div>div>div:has([href$="/subtember/"])
 twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, and Beaches/i)
-twitch.tv##div:matches-css(background-image: /url\(".*\/banner\/subtember.*\/.*\.png"\)/)
 uploadship.com##+js(acis, document.getElementById, adblock)
 wikipedia.org###vector-toc-pinned-container:style(position: static !important;)
 winaero.com##.entry-content > div
@@ -383,6 +383,7 @@ www.twitch.tv##div:nth-of-type(2) > .find-me.AoXTY.Layout-sc-1xcs6mc-0
 www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
+www.windowscentral.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
 www.yahoo.com##.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.bg-primary.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].w-full.h-10.z-11.left-0.fixed
 www.youtube.com###teaser-carousel,  important
 www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thumbnail-view-model:style( border-radius: 0px !important; )
