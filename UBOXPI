@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Mon, 01 Sep 2025 10:18:15 -0800 GMT
+! Last modified: WED, 17 Sep 2025 18:36:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -279,6 +279,7 @@ www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
 www.cbssports.com##.nav-network-bar
 www.cbssports.com#@#.site-nav-inner
+www.charliekirk.com##.dmaeFh.sc-4a5db2d-0
 www.eurogamer.net##.ot-sdk-container
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
@@ -377,6 +378,7 @@ www.twitch.tv##.cwtKyw:has-text(/Djs/i)
 www.twitch.tv##.front-page-carousel,important
 www.twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
 www.twitch.tv##.jmMgdG.Layout-sc-1xcs6mc-0
+www.twitch.tv##.kWTSin.Layout-sc-1xcs6mc-0
 www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
 www.twitch.tv##div:is([class*="ScTransitionBase-sc-"],div[style^="order:"]):has(a[href="/Gabekuun"i])
 www.twitch.tv##div:nth-of-type(2) > .find-me.AoXTY.Layout-sc-1xcs6mc-0
@@ -390,6 +392,7 @@ www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thum
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##:is(head, yt-thumbnail-hover-overlay-toggle-actions-view-model)
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link[aria-label~="views"]:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad

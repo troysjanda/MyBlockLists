@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Fri, 29 Aug 2025 06:45:15 -0800 GMT
+! Last modified: WED, 17 Sep 2025 18:36:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 ###PartialYahooJSAds-bottom-ads
@@ -246,6 +246,7 @@ www.yahoo.com##.commerce
 www.yahoo.com##.dark\:hover\:outline-\[\#957efc\].dark\:outline-\[\#464e56\].hover\:outline-\[rgb\(70_31_140\/80\%\)\].outline-\[rgb\(70_31_140\/60\%\)\].hover\:shadow-elevation-3.outline-offset-\[-2px\].outline-2.max-w-\[702px\].items-center.hidden.relative.dark\:md\:bg-midnight.md\:bg-marshmallow.md\:rounded-\[100px\].md\:mr-8.lg\:mr-10.w-full.hover\:drop-shadow-md.hover\:outline-2.\[transition\:outline_\.3s_ease-in-out\].md\:h-\[46px\].dark\:caret-sky.md\:inline-flex.\[transition\:height_\.2s_ease-in-out\].backdrop-blur-0.outline.caret-purple-700.pr-1.pl-6.py-1.gap-2\.5.justify-start.h-10.z-10
 www.yahoo.com##.gradient-election.fp-module-chrome-election
 www.yahoo.com##.leading-3:has-text(Advertisement/i)
+www.yahoo.com##.max-w-\[702px\].hidden.relative.md\:mr-8.lg\:mr-10.md\:h-\[46px\].md\:block.backdrop-blur-0.caret-purple-700.w-full.h-10.z-10
 www.yahoo.com##.md\:grid-cols-article-page.md\:max-w-\[1220px\].grid-cols-article-mobile.grid.md\:px-10.mx-auto
 www.yahoo.com##.module-electionNews.wafer-rapid-module
 www.yahoo.com##.mxhpset
