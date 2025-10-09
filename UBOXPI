@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: WED, 17 Sep 2025 18:36:15 -0800 GMT
+! Last modified: Thu, 09 Oct 2025 06:59:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -250,7 +250,6 @@ tiktok.com###login-modal,[class*="DivModalContainer"]
 troypoint.com##.code-block
 troypoint.com##.front-site.mysticky-welcomebar-fixed
 tutsgalaxy.net##+js(nobab)
-twitch.tv###live-channel-stream-information+div>div>div:has([href$="/subtember/"])
 twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, and Beaches/i)
 uploadship.com##+js(acis, document.getElementById, adblock)
 wikipedia.org###vector-toc-pinned-container:style(position: static !important;)
@@ -290,6 +289,7 @@ www.forbes.com##.page-loaded
 www.fosshub.com##.ad-alt > form
 www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
+www.foxnews.com##.hedgehog-container
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
 www.foxnews.com##.item-nation-trial-mod.item
@@ -376,16 +376,10 @@ www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12
 www.tomshardware.com###affiliateDisclaimer
 www.twitch.tv##.cwtKyw:has-text(/Djs/i)
 www.twitch.tv##.front-page-carousel,important
-www.twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
-www.twitch.tv##.jmMgdG.Layout-sc-1xcs6mc-0
-www.twitch.tv##.kWTSin.Layout-sc-1xcs6mc-0
-www.twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
-www.twitch.tv##div:is([class*="ScTransitionBase-sc-"],div[style^="order:"]):has(a[href="/Gabekuun"i])
-www.twitch.tv##div:nth-of-type(2) > .find-me.AoXTY.Layout-sc-1xcs6mc-0
-www.twitch.tv##div:nth-of-type(2) > .find-me.cwtKyw.Layout-sc-1xcs6mc-0
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
 www.windowscentral.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
+www.yahoo.com###convenience-bar
 www.yahoo.com##.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.bg-primary.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].w-full.h-10.z-11.left-0.fixed
 www.youtube.com###teaser-carousel,  important
 www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thumbnail-view-model:style( border-radius: 0px !important; )
@@ -400,6 +394,7 @@ x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/veri
 x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r   
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_width, 1280)
+youtube.com##.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment:style(background: #FF0000 !important)
 youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##html, body:style(--yt-spec-static-brand-red: #FF0000 !important; --yt-spec-static-overlay-background-brand: rgba(255, 0, 0, 0.9) !important;)
