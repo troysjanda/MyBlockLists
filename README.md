@@ -6,13 +6,17 @@
 
 # UBOXPI List: A general list w/o Yahoo specific filters. 
 
-Genreal list for annoyances and ads,
+Genreal list for annoyances and ads.
  
 https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/UBOXPI
 
-# yahoocomplete List: Filter specific to Yahoo.com
+# Yahoo Complete List: Filters specific to Yahoo.com, Sports.yahoo.com
 
-A list to remove ads and annoyances on Yahoo site
+A Specific list to remove ads and annoyances on Yahoo.com site.
 
 https://raw.githubusercontent.com/troysjanda/MyBlockLists/master/yahoocomplete.txt
 
+# Support
+
+If there is an issue with either list, feel free to submit a ticket with exact filers, or errors.
+I cant fix if I dont have the information necessary to modify or remove a problematic filter.
