@@ -1,8 +1,10 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 15 Oct 2025 14:37:00 -0800 GMT
+! Last modified: Wed, 22 Oct 2025 14:29:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
+www.twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
+||brightcove.com^$domain=yahoo.com
 *$object,redirect-rule=empty,domain=sonixgvn.net
 */cleardot.gif$image,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=1x1-transparent.gif
