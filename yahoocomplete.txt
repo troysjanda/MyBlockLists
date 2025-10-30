@@ -1,8 +1,9 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: WED, 22 Oct 2025 14:29:15 -0800 GMT
+! Last modified: Thu, 30 Oct 2025 13:46:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
+sports.yahoo.com##div._ys_gupwdl:nth-of-type(1)
 www.yahoo.com##.bg-\[\#7d2eff\].rounded-lg.overflow-hidden.gap-3.items-center.flex-row.flex.relative
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
