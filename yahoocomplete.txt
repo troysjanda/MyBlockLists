@@ -1,9 +1,8 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Fri, 31 Oct 2025 09:16:15 -0800 GMT
+! Last modified: Wed, 261 Nov 2025 12:39:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
-www.yahoo.com##.bg-\[\#7d2eff\].rounded-lg.overflow-hidden.gap-3.items-center.flex-row.flex.relative
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
 ###YahooAdParentContainer
@@ -242,6 +241,7 @@ www.yahoo.com##.Z\(5\).Bgc\(\#fff\).stream-category-filter.T\(112px\).ybar-hide-
 www.yahoo.com##.aisummary_shadowPulse__HDPrM.mb-6.relative
 www.yahoo.com##.balance-container
 www.yahoo.com##.balance-link
+www.yahoo.com##.bg-\[\#7d2eff\].rounded-lg.overflow-hidden.gap-3.items-center.flex-row.flex.relative
 www.yahoo.com##.caas-curated-links.caas-sports-module
 www.yahoo.com##.caas-xray-inline-tooltip-fade-in.wafer-tooltip-wrapper.caas-xray-inline-wafer-tooltip
 www.yahoo.com##.comment-count
@@ -250,9 +250,11 @@ www.yahoo.com##.dark\:hover\:outline-\[\#957efc\].dark\:outline-\[\#464e56\].hov
 www.yahoo.com##.gradient-election.fp-module-chrome-election
 www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.max-w-\[702px\].hidden.relative.md\:mr-8.lg\:mr-10.md\:h-\[46px\].md\:block.backdrop-blur-0.caret-purple-700.w-full.h-10.z-10
+www.yahoo.com##.md\:gap-3.bg-\[\#7d2eff\].rounded-lg.overflow-hidden.gap-1.items-center.flex-row.flex.relative
 www.yahoo.com##.md\:grid-cols-article-page.md\:max-w-\[1220px\].grid-cols-article-mobile.grid.md\:px-10.mx-auto
 www.yahoo.com##.module-electionNews.wafer-rapid-module
 www.yahoo.com##.mxhpset
+www.yahoo.com##.opacity-100.translate-y-0.md\:max-w-\[240px\].md\:left-8.md\:bottom-8.duration-\[400ms\].transition-all.items-start.flex-col.z-50.left-1\/4.bottom-20.fixed.pointer-events-auto
 www.yahoo.com##.premium_finance_ticker
 www.yahoo.com##.pt-3.dark\:bg-inkwell.md\:pt-4.md\:px-10.md\:max-w-\[1220px\].md\:mx-auto.px-4.bg-white.whitespace-nowrap.overflow-hidden.z-11.sticky
 www.yahoo.com##.pub-upsell-item
@@ -423,6 +425,7 @@ yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]
+||0.go.andwonderful.com/player/www.yahoo.com/70/980/5/406/d/kfpvsababaxa5rqa1a1i4cr3rbrx4iiawrb9rbr3nqa4awrjca49rarxa4a44nayda4awa2a59crxc89prxa2r4vvr4agrxa5ao6drwra9abrwv6a2ravpa1a59crxc89prxa1rjahawahay4a1sabpaga1rav6ab9rw6rx8a2sabpagl9a5ahrxfab890rlqafrlr3r3rav6crwr4re6drxfrlr3r3rli2awrlqaj$subdocument
 ||ads.yahoo.com^
 ||adss.yahoo.com^
 ||bf.us.y.atwola.com/adcount*
@@ -432,7 +435,9 @@ yahoo.com##li[id^="ad-"]
 ||marketingsolutions.yahoo.com^
 ||music.yahoo.com/get-free-html
 ||playlist.yahoo.com/makeplaylist.dll?$domain=au.tv.yahoo.com
+||quiz.yahoo.2mundos.net/quiz/*
 ||r.search.yahoo.com/_ylt=*;_ylu=*.r.msn.com$popup,domain=search.yahoo.com
+||static-cdn.jtvnw.net/badges/v1/d7750af0-caca-47c5-b207-1af9be69ce1b/*$image
 ||ter-adserver-origin-us.prod.adtechus.com^$image
 ||w.homes.yahoo.net^
 ||yahoo.affex.org
