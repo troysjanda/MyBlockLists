@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Fri, 31 Oct 2025 10:45:00 -0800 GMT
+! Last modified: Tue, 09 Dec 2025 14:48:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -60,6 +60,7 @@ betanews.com##.authorThumb[src="\/wp-content\/themes\/betanews\/images\/authors\
 betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.body > ul
 betanews.com##.clearfix.content > .halfCol
+betanews.com##.editorial.section
 betanews.com##.follow
 betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
@@ -289,6 +290,7 @@ www.forbes.com##.page-loaded
 www.fosshub.com##.ad-alt > form
 www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
+www.foxnews.com##.four-items.topic-bucket
 www.foxnews.com##.hedgehog-container
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
@@ -383,12 +385,15 @@ www.windowscentral.com##.article-header__disclosure
 www.windowscentral.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
 www.yahoo.com###convenience-bar
 www.yahoo.com##.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.bg-primary.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].w-full.h-10.z-11.left-0.fixed
+www.youtube.com###actions.ytd-watch-metadata [aria-label="Ask"]
 www.youtube.com###teaser-carousel,  important
 www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thumbnail-view-model:style( border-radius: 0px !important; )
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 www.youtube.com##:is(head, yt-thumbnail-hover-overlay-toggle-actions-view-model)
+www.youtube.com##[has-video-summary]
+www.youtube.com##div[skip-key-interaction]
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link[aria-label~="views"]:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
