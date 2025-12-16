@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 09 Dec 2025 14:48:00 -0800 GMT
+! Last modified: Tue, 16 Dec 2025 08:54:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -397,9 +397,7 @@ www.youtube.com##div[skip-key-interaction]
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link[aria-label~="views"]:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
-x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
-x.com##.r-12vffkv.r-1p0dtai.r-1xcajam.r-1d2f490.r-zchlnj.r-aqfbo4.css-175oi2r > div.r-12vffkv.css-175oi2r
-x.com##.r-5wli1b.r-bnwqim.r-1jte41z.r-hvns9x.r-1rtiivn.r-6gpygo.r-173mn98.css-175oi2r   
+x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"]) 
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_width, 1280)
 youtube.com##.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment:style(background: #FF0000 !important)
