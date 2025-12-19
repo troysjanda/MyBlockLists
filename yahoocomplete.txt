@@ -1,8 +1,9 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Tue, 09 Dec 2025 14:44:15 -0800 GMT
+! Last modified: Fri, 19 Dec 2025 13:51:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
+||yimg.com/ss/analytics-3.64.0.js
 www.yahoo.com##+js(aost, Element.prototype.attachShadow, invoke)
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
