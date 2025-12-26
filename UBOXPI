@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Fri, 19 Dec 2025 13:49:00 -0800 GMT
+! Last modified: Fri, 26 Dec 2025 13:36:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -251,7 +251,7 @@ tiktok.com###login-modal,[class*="DivModalContainer"]
 troypoint.com##.code-block
 troypoint.com##.front-site.mysticky-welcomebar-fixed
 tutsgalaxy.net##+js(nobab)
-twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, and Beaches/i)
+twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, Beaches, Fitness & Health/i)
 uploadship.com##+js(acis, document.getElementById, adblock)
 wikipedia.org###vector-toc-pinned-container:style(position: static !important;)
 winaero.com##.entry-content > div
