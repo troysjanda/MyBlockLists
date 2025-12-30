@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Fri, 26 Dec 2025 13:36:00 -0800 GMT
+! Last modified: Tue, 30 Dec 2025 13:35:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -228,6 +228,7 @@ simplywall.st##+js(aeld, scroll, setTimeout)
 spiegel.de##^script:has-text(.createShadowRoot)
 strikeout.cc##+js(nostif, userHasAdblocker)
 strikeout.im##^script:has-text(JSON.parse)
+strikeout.im##^script:has-text(ZpQw9XkLmN8c3vR3)
 stupidfanboy.wordpress.com##.native-ad-marker:upward(article)
 techdator.net##.td-container-wrap.td-banner-wrap-full
 technicpack.net##+js(acis, document.createElement, admiral)
@@ -305,6 +306,7 @@ www.foxnews.com#@#video, audio:remove-attr(/disable(?:PictureInPicture|RemotePla
 www.ghacks.net###ghacks_latest_from_softonic-2
 www.ghacks.net##.category-deals,important
 www.ghacks.net##.category-sponsored
+www.ghacks.net##.hentry.status-publish.type-page.page.post-211374.mt--first--0.mt--60.post-list
 www.ghacks.net##.hot.intro-articles-section
 www.ghacks.net##.slick-arrow.slick-next
 www.ghacks.net##.slick-arrow.slick-prev
@@ -401,6 +403,7 @@ wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"]) 
 x.com##.r-12vffkv.r-1p0dtai.r-1xcajam.r-1d2f490.r-zchlnj.r-aqfbo4.css-175oi2r > div.r-12vffkv.css-175oi2r > .r-12vffkv.css-175oi2r
+x.com##[aria-label^="Edit image"]
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_width, 1280)
 youtube.com##.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment:style(background: #FF0000 !important)
