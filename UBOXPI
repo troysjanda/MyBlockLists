@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 30 Dec 2025 13:35:00 -0800 GMT
+! Last modified: Mon, 12 Janc 2026 13:23:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -109,24 +109,6 @@ gearspace.com###collapseobj_latestDeals
 gearspace.com###site-notice-container
 gearspace.com##.sfs-srdx.sfs-desktop.subforum-sponsor
 getcomics.info###advanced_floating_content_85155
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Aytun Çelebi/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Carol van Zyl/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Emre Ç?tak/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Emre/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Eray Eliaçik/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Helena Bosnjak/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Jesus/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Kerem Gülen/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Leri Koen/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Onur Demirkol/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Priyanka Monteiro/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Richard Flower/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Russell Kidson/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Shaun/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Trevor Monteiro/i)
-ghacks.net##.row.nocol.xs-all-12-centered:has-text(/Zakhi Mgutshini/i)
-ghacks.net##^iframe
-ghacks.net##^script:has-text(/AdBlockerDetector/i)
 gitflic.ru##.sidebar__banner
 github.com##.copilotPreview__container
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
@@ -208,6 +190,7 @@ reddit.com###ad_1
 reddit.com###ad_4
 reddit.com###ad_5
 reddit.com###ad_6
+reddit.com##+js(json-edit-fetch-request, ..info, propsToMatch, /svc/shreddit/events)
 reddit.com##._3RPJ8hHnfFohktLZca18J6
 reddit.com##.author-tooltip
 reddit.com##.dfp-ad-container
@@ -303,17 +286,6 @@ www.foxnews.com##.snack-bar
 www.foxnews.com##div.inline.image-ct
 www.foxnews.com#@#.promo
 www.foxnews.com#@#video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
-www.ghacks.net###ghacks_latest_from_softonic-2
-www.ghacks.net##.category-deals,important
-www.ghacks.net##.category-sponsored
-www.ghacks.net##.hentry.status-publish.type-page.page.post-211374.mt--first--0.mt--60.post-list
-www.ghacks.net##.hot.intro-articles-section
-www.ghacks.net##.slick-arrow.slick-next
-www.ghacks.net##.slick-arrow.slick-prev
-www.ghacks.net##.tag-featured
-www.ghacks.net##[id^="ghacks_ad_code-"]
-www.ghacks.net##body > main > section.intro-articles-section > div.large-container > div.home-intro.home-latest-artitles > div.home-intro-hold-posts > div.home-posts.spansored-item
-www.ghacks.net##div.post-subtitle-meta:nth-of-type(1)
 www.google.*##.g:has(a[href*="reddit.com"][href*="tl="])
 www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/search"][href*="&udm=50"])
 www.google.*##a[href*="agoda.com"]:upward(.g)
@@ -395,6 +367,7 @@ www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thum
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##.ytp-panel-menu .ytp-menuitem:has(> .ytp-menuitem-icon path[d^="M11.48 2.14 3.91 6.68A6 6 0 0 0 1 11.83v.33a6 6 0 0 0 2.91 5.14l7.57 4.54A1"])
 www.youtube.com##:is(head, yt-thumbnail-hover-overlay-toggle-actions-view-model)
 www.youtube.com##[has-video-summary]
 www.youtube.com##div[skip-key-interaction]
@@ -469,8 +442,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||floweryfact.com^$xhr,domain=www.howtogeek.com,important
 ||forum.opnsense.org/adds/content/8.applianceshop_20160413.jpg$image
 ||forum.opnsense.org/adds/content/x*_20160413.jpg.pagespeed.ic.*.webp$image
-||ghacks.net/statics/ads.min.js
-||ghacks.net/statics/px.gif
 ||google.*$removeparam=gws_rd=ssl
 ||googleanalytics.net^
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
@@ -538,7 +509,6 @@ yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||www.49erswebzone.com/anyclip.html$subdocument
 ||www.bing.com/rewardsapp/flyout$subdocument
 ||www.builtbygirls.com^
-||www.ghacks.net/statics/dfp.js
 ||www.microsoft.com-windows-booster.live^
 ||www.palemoon.org/images/donate_vertbanner.png$image
 ||www.sysnettechsolutions.com/wp-content/themes/schema-lite/Best-Selling-Routers.png$image

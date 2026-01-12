@@ -1,10 +1,8 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Fri, 19 Dec 2025 13:51:15 -0800 GMT
+! Last modified: Mon, 12 Jan 2026 13:25:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
-||yimg.com/ss/analytics-3.64.0.js
-www.yahoo.com##+js(aost, Element.prototype.attachShadow, invoke)
 ###PartialYahooJSAds-bottom-ads
 ###PartialYahooJSAds-top-ads
 ###YahooAdParentContainer
@@ -64,7 +62,6 @@ answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
 autos.yahoo.com##.yatAdInsuranceFooter
 autos.yahoo.com##.yatysm-y
-
 biz.yahoo.com##table[bgcolor="white"][width="100%"]
 cricket.yahoo.com###video-branding
 dir.yahoo.com##td[width="215"]
@@ -159,6 +156,7 @@ sports.yahoo.com##.Mb\(28px\).Bgp\(c\).Bgz\(cv\).P\(20px\).ys-fantasy-slate-prom
 sports.yahoo.com##.Mstart\(40px\).My\(40px\).Jc\(c\).W\(100\%\).D\(f\)
 sports.yahoo.com##.Mt\(12px\).Cl\(b\).stream-related-content.Pos\(r\).Trstf\(e\)
 sports.yahoo.com##.Mt\(8px\)--sm1024.Pos\(r\).Fz\(12px\).Mt\(12px\).Cf
+sports.yahoo.com##.PartnerNavigation_wrapper__BRHa_.partner-nav.custom-nav
 sports.yahoo.com##.SubNavigation_subnavRight__DJWed.SubNavigation_customNavWrapper__tDyx7
 sports.yahoo.com##._ys_151tsft._ys_17tfbid._ys_13kycft._ys_ztxrxg._ys_1bmiy8u._ys_6bppls._ys_1e6ql5o
 sports.yahoo.com##._ys_182ob5z._ys_m0uq4h
@@ -225,6 +223,7 @@ www.yahoo.com###topic-subnav
 www.yahoo.com###topic-subnavigation-module
 www.yahoo.com###trending-Celebrity
 www.yahoo.com###trending-search
+www.yahoo.com##+js(aost, Element.prototype.attachShadow, invoke)
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
@@ -461,6 +460,7 @@ yahoo.com##li[id^="ad-"]
 ||yimg.com/hl/ap/default/*_background$image,domain=yahoo.com
 ||yimg.com/i/i/de/cat/yahoo.html$domain=yahoo.com
 ||yimg.com/la/i/wan/widgets/wjobs/$subdocument,domain=yahoo.com
+||yimg.com/ss/analytics-3.64.0.js
 ||yimg.com^*/billboardv2r5min.js$domain=yahoo.com
 ||yimg.com^*/dianominewwidget2.html$domain=yahoo.com
 ||yimg.com^*/tickets/$domain=yahoo.com
