@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Mon, 12 Janc 2026 15:24:00 -0800 GMT
+! Last modified: Wed, 14 Jan 2026 15:07:00 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 *$object,redirect-rule=empty,domain=sonixgvn.net
@@ -283,7 +283,7 @@ www.foxnews.com##.promo-htu-ad-desktop.promo-htu-ad.promo
 www.foxnews.com##.recommended-videos
 www.foxnews.com##.related-topics
 www.foxnews.com##.snack-bar
-www.foxnews.com##div.inline.image-ct
+www.foxnews.com##.title-row
 www.foxnews.com#@#.promo
 www.foxnews.com#@#video, audio:remove-attr(/disable(?:PictureInPicture|RemotePlayback)/i)
 www.google.*##.g:has(a[href*="reddit.com"][href*="tl="])
