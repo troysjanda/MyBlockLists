@@ -1,63 +1,8 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Mon, 02 Feb 2026 13:18:15 -0800 GMT
+! Last modified: Tue, 03 Feb 2026 06:40:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
-###PartialYahooJSAds-bottom-ads
-###PartialYahooJSAds-top-ads
-###YahooAdParentContainer
-###YahooAdsContainer
-###YahooAdsContainerPowerSearch
-###YahooContentAdsContainerForBrowse
-###YahooSponsoredResults
-###ad-yahoo-simple
-###yahoo-ads
-###yahoo-ads-content
-###yahoo-sponsors
-###yahooAdsBottom
-###yahooSponsored
-###yahoo_ad
-###yahoo_ad_contanr
-###yahoo_ads
-###yahoo_sponsor_links
-###yahoo_sponsor_links_title
-###yahoo_text_ad
-###yahooad-tbl
-###yahooads
-##.adsbyyahoo
-##.lsn-yahooAdBlock
-##.widgetYahooAds
-##.yahoo-ad-leader-north
-##.yahoo-ad-leader-south
-##.yahoo-ad-lrec-north
-##.yahoo-banner-ad-container
-##.yahoo-sponsored
-##.yahoo-sponsored-links
-##.yahoo-sponsored-result
-##.yahooAd
-##.yahooAds
-##.yahooContentMatch
-##.yahoo_ad
-##.yahoo_ads
-##.yahooad
-##.yahooad-image
-##.yahooad-urlline
-##.yahooads
-##.yahootextads_content_bottom
-/YahooAd_
-/ads/yahoo/*
-/ads_yahoo.
-/yahoo-ad-
-/yahoo-ads/*
-/yahoo/ads.
-/yahoo_overture.
-/yahooads.
-/yahooads/*
-/yahooadsapi.
-/yahooadsobject.
-/yahoofeedproxy.
-?metrics=timing
-_yahooads/
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
 autos.yahoo.com##.yatAdInsuranceFooter
