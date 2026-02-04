@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 03 Feb 2026 06:40:15 -0800 GMT
+! Last modified: Wed, 04 Feb 2026 14:34:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
@@ -262,7 +262,6 @@ www.fosshub.com##.ad-alt > form
 www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
 www.foxnews.com##.four-items.topic-bucket
-www.foxnews.com##.hedgehog-container
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
 www.foxnews.com##.item-nation-trial-mod.item
