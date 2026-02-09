@@ -1,0 +1,159 @@
+! Title: Xpi uBo Personal Filters
+! Expires: 6 days
+! Last modified: Mon, 09 Feb 2026 09:48:15 -0800 GMT
+! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
+! -- Start Filters --
+
+! Removed the ugly border lines in videos and images except for quotes
+! Photos
+x.com##[data-testid="tweet"] [href*="/photo"]:upward(6) { border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+! Multiple Photos
+x.com##[data-testid="tweet"] [href*="/photo"]:upward(7):not(:has([data-testid="tweetText"]), :is([data-testid="birdwatch-pivot"])):not([role="link"], [data-testid="card.wrapper"]) { border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+! Gifs and Videos
+x.com##[data-testid="tweet"] [data-testid="tweetPhoto"]:upward(2) { border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+! Multiple Gifs and Videos
+x.com##[data-testid="tweet"] [data-testid="tweetPhoto"]:upward(6):not(:has([data-testid="tweetText"]), :is([data-testid="birdwatch-pivot"])):not([role="link"], [data-testid="card.wrapper"]) { border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+! Multiple Gifs and Videos with a Quote tweet
+x.com##[data-testid="tweet"] [data-testid="tweetPhoto"]:upward(5) { border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+
+! Background mask is darker
+x.com##[data-testid="mask"]:style(background-color: rgba(15, 15, 15, 0.7) !important)
+
+
+
+
+
+! Post button is thinner
+x.com##header [data-testid="SideNav_NewTweet_Button"]:style(min-height: 34px !important)
+! Reply button is thinner
+x.com##:matches-path(/status) [data-testid="tweetButtonInline"] {min-height: 28px !important}
+! "Your likes are private." is thinner
+x.com##:matches-path(/likes) [role="status"]:style(padding-top: 4px !important; padding-bottom: 4px !important; margin: 8px !important; border-radius: 999px !important)
+! The follow and follow back button in relevant people and "Who to follow" is thinner
+x.com##[data-testid$="-follow"] {min-height: 24px !important}
+! The following and unfollow button is thinner
+x.com##[data-testid$="-unfollow"] {min-height: 24px !important}
+! Profile action buttons and edit profile
+x.com##[data-testid^="UserAvatar-Container-"]:upward(1) >* ~* button { min-height: 24px !important }
+x.com##[data-testid^="UserAvatar-Container-"]:upward(1) >* ~* a { min-height: 24px !important }
+! 'This Post...' (i forgot) is thinner and removed the borders
+x.com##[data-testid="tweet"] article:has([href^="https://help"]) >* >* >* >* >* { padding-bottom: 2px !important; padding-top: 4px !important; border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+! "This Post violated the X Rules' is thinner and removed the borders
+x.com##[data-testid="cellInnerDiv"] article:has([href^="https://help"]) >* >* >:last-child >* >* { padding-bottom: 2px !important; padding-top: 4px !important; border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+! 'This Post is unavailable' is thinner and removed the borders
+x.com##[data-testid="tweet"] [role="article"] >* >* >* >* >* { padding-bottom: 2px !important; padding-top: 4px !important; border-color: color-mix(in srgb, currentColor, transparent 100%) !important }
+
+
+
+
+
+! Smaller text
+! Hashtags
+x.com##[data-testid="tweet"] [data-testid="tweetText"] [href$="src=hashtag_click"]:style(font-size: 12px !important)
+! Date
+x.com##[data-testid="tweet"] time:upward(2):style(font-size: 12px !important)
+! Handle
+! Replies, Tweets and Quote tweets
+x.com##[data-testid="User-Name"] >* ~* >* >* >* >* {font-size: 12px !important}
+! "Who to follow" and "Relevant people"
+x.com##[role="complementary"] [data-testid="UserCell"] [role="link"]:has-text(@) >* >* {font-size: 12px !important}
+! "Who to follow" seen in profile
+x.com##[data-testid="UserCell"] [role="link"]:has-text(@) >* >* {font-size: 12px !important}
+
+! Bigger username in the profile
+x.com##[data-testid="UserName"] span:upward(2):not(:has([data-testid="userFollowIndicator"])) >*:not(:has-text(@)) { font-size: 30px !important }
+! Bigger premium check
+x.com##[data-testid="UserName"] path[d*="M20.396"]:upward(2) { max-width: 30px !important; max-height: 30px !important; margin-bottom: 4px !important; }
+! Bigger business check
+x.com##[data-testid="UserName"] path[d*="M13.324"]:upward(3) { max-width: 30px !important; max-height: 30px !important; margin-bottom: 3px !important; }
+
+
+
+
+
+! Border radii are smaller
+! Images and videos
+! Posts
+x.com##[data-testid="tweet"] time:upward(10) >* >* >* >* >*:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
+! Posts (show more)
+x.com##[data-testid="tweet"] [data-testid="tweetPhoto"]:upward(2):matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
+! Inside posts
+x.com##[data-testid="tweet"] time:upward(7) >* ~* >* >* >* >* >*:matches-css(border-radi /[1us:-9]/) { border-radius: 6px !important }
+! Quote tweets
+x.com##[data-testid="tweet"] time:upward(10) >* >* >*:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
+! The actual quote tweet
+x.com##[data-testid="tweet"]:not(:has(article)) time:upward(10) >* >* >* >* >* >* >* time:upward(10) >* >* >* >* >* >* >*:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
+! The actual quote tweet (that small preview)
+x.com##[data-testid="tweet"] time:upward(10) [data-testid="testCondensedMedia"]:upward(1) div:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
+! When writing posts
+x.com##[data-testid="attachments"] [role="group"] { border-radius: 6px !important }
+! Articles
+x.com##[data-testid="tweet"] [data-testid="article-cover-image"]:upward(1) { border-radius: 6px !important }
+! Inside articles
+x.com##[data-testid="tweet"] [data-testid="twitterArticleRichTextView"] div:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
+! Links
+! Posts
+x.com##[data-testid="tweet"] time:upward(10) [data-testid="card.wrapper"] { border-radius: 6px !important }
+! When writing posts
+x.com##[data-testid="twc-cc-mask"]:upward(1) [data-testid="card.wrapper"] { border-radius: 6px !important }
+! When replying
+x.com##:matches-path(/status) [data-testid="inline_reply_offscreen"] [data-testid="card.wrapper"] { border-radius: 6px !important }
+! Chat
+! Right side
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-end"] [data-testid^="message-text-"] { border-radius: 0.5rem !important; border-bottom-right-radius: 0rem !important}
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-end"] [data-testid^="message-text-"]:upward(1) >:first-child >:last-child { border-radius: 0.5rem !important; border-bottom-left-radius: 0rem !important}
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-end"] [data-testid^="message-text-"]:upward(1) >:first-child img { border-radius: 0.5rem !important; border-bottom-left-radius: 0rem !important}
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-end"] [data-testid^="message-text-"]:upward(1) >:first-child video { border-radius: 0.5rem !important; border-bottom-left-radius: 0rem !important}
+! Left side
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-start"] [data-testid^="message-text-"] { border-radius: 0.5rem !important; border-bottom-left-radius: 0rem !important}
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-start"] [data-testid^="message-text-"]:upward(1) >:first-child >:last-child { border-radius: 0.5rem !important; border-bottom-right-radius: 0rem !important}
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-start"] [data-testid^="message-text-"]:upward(1) >:first-child img { border-radius: 0.5rem !important; border-bottom-right-radius: 0rem !important}
+x.com##[data-testid="dm-message-list"] li >* >* >* >*[class*="justify-start"] [data-testid^="message-text-"]:upward(1) >:first-child video { border-radius: 0.5rem !important; border-bottom-right-radius: 0rem !important}
+! Images
+x.com##[data-testid="dm-message-list"] li >* >* >* >* img { border-radius: 0.5rem !important}
+! Video
+x.com##[data-testid="dm-message-list"] li >* >* >* >* video:upward(2) { border-radius: 0.5rem !important}
+! Reaction
+x.com##[data-testid="dm-message-list"] li [data-testid^="message-text-"]:upward(2) >:last-child a >* { border-radius: 0.5rem !important; border-top-left-radius: 0rem !important; border-top-right-radius: 0rem !important; border-width: 1px !important; height: 25px !important}
+x.com##[data-testid="dm-message-list"] li [data-testid^="message-text-"]:upward(2) >:last-child a:upward(2) { margin-top: -2px !important }
+
+! Squircle PFP icons
+x.com##[data-testid^="UserAvatar-Container-"] div:matches-css(border-radius: /[1-9]/) { border-radius: 4px !important }
+! Chat header
+x.com##[data-testid="dm-conversation-header"] >:nth-child(2) >:first-child { border-radius: 4px !important }
+! Chat contacts
+x.com##[data-testid^="dm-conversation-item-"] img:upward(1) { border-radius: 4px !important }
+! Chat contact search
+x.com##[data-testid="dm-inbox-panel"] img:upward(1) { border-radius: 4px !important }
+
+
+
+
+
+! The toolbar in writting tweet only appears if you interact with it
+x.com##:matches-path(/home) [data-testid="toolBar"]:upward(3)[class="css-175oi2r r-1awozwy r-18u37iz r-1wtj0ep"]:not([data-testid="toolBar"]):upward(1) > * { display: none !important}
+
+! Post, Post All, and Reply buttons appear when you start typing
+! Post and Post All
+x.com##[data-testid="mask"]:upward(1):not(:has([data-testid="countdown-circle"])) [data-testid="tweetButton"] { display: none !important }
+! Reply. (idk why it doesnt update when i include :matches-path(/status))
+x.com##[data-testid="primaryColumn"] [data-testid="inline_reply_offscreen"]:not(:has([data-testid="countdown-circle"])) [data-testid="tweetButtonInline"] { display: none !important }
+
+
+
+
+
+! Reduced margin in the profile
+x.com##[data-testid="UserName"]:upward(1) {margin-bottom: 4px !important}
+! Shortened profile toolbar + adjusted the blue shit
+x.com##[data-testid="primaryColumn"]:has([data-testid="UserName"]) [data-testid="ScrollSnap-SwipeableList"] [href^="/"]:style(height: 36px !important)
+x.com##[data-testid="primaryColumn"]:has([data-testid="UserName"]) [data-testid="ScrollSnap-SwipeableList"] [href^="/"] >* >*:style(padding-bottom: 10px !important; padding-top: 10px !important)
+x.com##[data-testid="primaryColumn"]:has([data-testid="UserName"]) [data-testid="ScrollSnap-SwipeableList"] [href^="/"] >* >* >div:style(height: 5px !important)
+
+! Reduced line opacity between tweets
+x.com##[data-testid="cellInnerDiv"] >*:style(border-color: color-mix(in srgb, currentColor, transparent 90%) !important)
+! Comment chain line
+x.com##[data-testid="cellInnerDiv"] [data-testid="Tweet-User-Avatar"] ~*:not(:has([data-testid="User-Name"])):style(background-color: color-mix(in srgb, currentColor, transparent 90%) !important; width: 3px !important)
+x.com##[data-testid="cellInnerDiv"] [data-testid="tweet"] >* >* >:first-child >* >:first-child >*:not(:has([data-testid="User-Name"], svg)):style(background-color: color-mix(in srgb, currentColor, transparent 90%) !important; width: 3px !important; top: 1px !important)
+! Show replies
+x.com##[data-testid="cellInnerDiv"]:not(:has([data-testid^="UserAvatar-Container-"], img, svg)) button >* >:first-child >* >* {background-color: color-mix(in srgb, currentColor, transparent 90%) !important; width: 3px !important; height: 3px !important; top: 1px !important}
