@@ -1,9 +1,8 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Sat, 14 Feb 2026 14:04:15 -0800 GMT
+! Last modified: Tue, 24 Feb 2026 13:16:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
-yahoo.com##li.list-none ~ li.relative[class*=" img_"]
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
 autos.yahoo.com##.yatAdInsuranceFooter
@@ -223,6 +222,7 @@ www.yahoo.com##div.col-body div.mb-4
 www.yahoo.com##div.fp-module-chrome:nth-of-type(1)
 www.yahoo.com##div.py-5.px-4.bg-white.border-\[\#f5f5f5\].rounded-xl.w-full.mb-4.relative:nth-of-type(4)
 www.yahoo.com##li.sm\:border-y.dark\:border-midnight.sm\:border-neutral-100.border-\[\#e3e3e3\].relative
+www.yahoo.com##li.sm\:min-h-\[148px\].list-none
 yahoo.com###Horizon-ad
 yahoo.com###LREC
 yahoo.com###LREC-sizer
@@ -371,6 +371,7 @@ yahoo.com##div[id^="defaultWFPAD"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[id^="tile-mb-"]
 yahoo.com##div[style*="/ads/"]
+yahoo.com##li.list-none ~ li.relative[class*=" img_"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 yahoo.com##li[data-type="outlink"]
 yahoo.com##li[id^="ad-"]

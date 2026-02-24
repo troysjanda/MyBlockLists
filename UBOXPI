@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 04 Feb 2026 14:34:15 -0800 GMT
+! Last modified: Tue, 24 Feb 2026 13:16:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
@@ -100,6 +100,7 @@ gitflic.ru##.sidebar__banner
 github.com##.copilotPreview__container
 godaddy.com##html:style(background-image:none !important; background: none transparent !important;)
 google.co.il,google.com##input[name="q"]:style(direction:ltr !important;  text-align:left !important;  letter-spacing:-.3pt !important;)
+google.com##a[href*="freepik.com/"]:upward(2):remove()
 idfg.idaho.gov##.row.alert-warning.alert
 ign.com##^script:has-text(g01.ign.com)
 imdb.com###content-2-wide:not([class]) #sidebar > div:not(.list-activity-widget)
@@ -363,6 +364,8 @@ www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#vid
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"]) 
+x.com##.r-6416eg.r-o7ynqc.r-xyw6el.r-1777fci.r-18u37iz.r-1awozwy.r-dnmrzs.r-sdzlij.css-175oi2r > .r-1777fci.r-eqz5dr.r-6koalj.css-175oi2r
+x.com##.r-is05cd.r-cnw61z.r-1xfd6ze.r-wkklz9.css-175oi2r
 x.com##[aria-label^="Edit image"]
 youtube.com###cinematics.ytd-watch-flexy:remove()
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
