@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Tue, 24 Feb 2026 13:16:15 -0800 GMT
+! Last modified: Sun, 08 Feb 2026 16:46:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 answers.yahoo.com###ya-qpage-textads
@@ -104,7 +104,6 @@ sports.yahoo.com##.Mt\(8px\)--sm1024.Pos\(r\).Fz\(12px\).Mt\(12px\).Cf
 sports.yahoo.com##.PartnerNavigation_wrapper__BRHa_.partner-nav.custom-nav
 sports.yahoo.com##.SubNavigation_subnavRight__DJWed.SubNavigation_customNavWrapper__tDyx7
 sports.yahoo.com##._ys_151tsft._ys_17tfbid._ys_13kycft._ys_ztxrxg._ys_1bmiy8u._ys_6bppls._ys_1e6ql5o
-sports.yahoo.com##._ys_182ob5z._ys_m0uq4h
 sports.yahoo.com##.adsStreamWrapper
 sports.yahoo.com##.commerce-module.mini-pd
 sports.yahoo.com##.content-pill
