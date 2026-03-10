@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Sun, 08 Mar 2026 16:57:15 -0800 GMT
+! Last modified: Tue, 10 Mar 2026 11:30:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 answers.yahoo.com###ya-qpage-textads
@@ -67,6 +67,11 @@ realestate.yahoo.com###pdp-ysm
 realestate.yahoo.com###srp-ysm
 search.yahoo.com###browserExtensionPromotionBanner
 search.yahoo.com##.prod_listings_pe
+search.yahoo.com##.sb-scout-wrap
+search.yahoo.com##.sbb-divider
+search.yahoo.com##.scoutNav
+search.yahoo.com##.scoutPromo
+search.yahoo.com##.scoutPromoPopup
 search.yahoo.com##.searchRightBottomAds
 search.yahoo.com##.searchRightTopAds
 search.yahoo.com##.sys_events_wz.mb-32.lh-none.bdr-8.bd-1.p-0.crisis.dd
@@ -154,6 +159,7 @@ weather.yahoo.com#@#iframe[src^="http://ad.yieldmanager.com/"]
 www.yahoo.com###applet_p_50000349 > div > div
 www.yahoo.com###buying-guide
 www.yahoo.com###commerce-module-articles
+www.yahoo.com###conbar-content > .group:has(.stretched-box[href^="https://scout.yahoo.com"])
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###mega-banner-wrapper
