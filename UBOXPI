@@ -1,17 +1,9 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 10 Mar 2026 11:33:15 -0800 GMT
+! Last modified: Tue, 31 Mar 2026 13:52:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
-9b.news##.auto-style122
-9b.news##tr:nth-of-type(13) > .auto-style79
-9b.news##tr:nth-of-type(14)
-9b.news##tr:nth-of-type(15)
-9b.news##tr:nth-of-type(16)
-9b.news##tr:nth-of-type(17)
-9b.news##tr:nth-of-type(18)
-9b.news##tr:nth-of-type(21) > .auto-style101
 @@*$stylesheet
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
@@ -384,8 +376,6 @@ youtube.com##ytd-rich-section-renderer
 youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
 yts.mx##div.hidden-sm.hidden-xs > .cbas-brdrd
 ||2822.v.fwmrm.net^
-||9b.news/ads$image
-||9b.news/wp-content/uploads/247f6ba028.js?ver=14.12.6$script,1p,important
 ||accountkit.*/
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
