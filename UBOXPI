@@ -1,10 +1,9 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 31 Mar 2026 13:52:15 -0800 GMT
+! Last modified: Wed, 15 Apr 2026 15:46:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
-@@*$stylesheet
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
 @@||imagesvc.meredithcorp.io^$image,domain=allrecipes.com
@@ -73,7 +72,6 @@ en.wikipedia.org##.frb-inline-row
 en.wikipedia.org##.frb-rml-enabled.frb-nag.frb
 enotes.com#$#div.redacted{ color: black !important; text-shadow: unset !important; -webkit-filter: unset !important; filter: unset !important; }
 everydayhealth.com##^script:has-text(/i10C/i)
-facebook.com##div.h_r03bd44ox.pagelet
 faucethero.com##+js(acis, blockAdBlock)
 fitgirl-repacks.site###content-sidebar
 fitgirl-repacks.site###footer-sidebar
@@ -243,9 +241,8 @@ www.amazon.com##.rufus-panel-closed-to-peek.rufus-panel-container
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-bp-xl-v.cnx-bp-lg-st.cnx-in-ps-landscape.cnx-playspace-container
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ratio
 www.bleepingcomputer.com##.bc_wrapper > .bc_main_content > .container > .row > .col-md-8 > .cz-main-left-section > .article_section > .articleBody > p > .cnx-main-container-flex.cnx-ps.cnx-in-desktop.cnx-main-container > .cnx-size-responsive.cnx-player-wrapper > .cnx-ui-ps-image-background.cnx-ui-ps-image-wrapper
-www.cbssports.com##.nav-network-bar
-www.cbssports.com#@#.site-nav-inner
 www.charliekirk.com##.dmaeFh.sc-4a5db2d-0
+www.essentiallysports.com##.home-announcement-container
 www.eurogamer.net##.ot-sdk-container
 www.fanatical.com##.cookie-collapsible
 www.fark.com###abPleaBar
@@ -362,6 +359,7 @@ x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/veri
 x.com##.r-6416eg.r-o7ynqc.r-xyw6el.r-1777fci.r-18u37iz.r-1awozwy.r-dnmrzs.r-sdzlij.css-175oi2r > .r-1777fci.r-eqz5dr.r-6koalj.css-175oi2r
 x.com##.r-is05cd.r-cnw61z.r-1xfd6ze.r-wkklz9.css-175oi2r
 x.com##[aria-label^="Edit image"]
+x.com#@#+js(prevent-window-open, /\.php\b.*_blank/)
 youtube.com###cinematics.ytd-watch-flexy:remove()
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_width, 1280)
