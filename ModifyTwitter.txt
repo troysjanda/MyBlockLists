@@ -1,6 +1,6 @@
 ! Title: Xpi Modify Twitter Filters
 ! Expires: 6 days
-! Last modified: Wed, 25 Mar 2026 16:03:15 -0800 GMT
+! Last modified: Wed, 27 May 2026 09:02:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 x.com##:matches-path(/home) [data-testid="toolBar"]:upward(3)[class="css-175oi2r r-1awozwy r-18u37iz r-1wtj0ep"]:not([data-testid="toolBar"]):upward(1) > * { display: none !important}
