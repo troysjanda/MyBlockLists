@@ -1,11 +1,8 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Wed, 27 May 2026 09:02:15 -0800 GMT
+! Last modified: Sun, 31 May 2026 13:19:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
-www.yahoo.com##.py-4.sm\:bg-primary.group.is-slotted.bg-secondary
-www.yahoo.com###convenience-bar
-www.yahoo.com##.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.bg-primary.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].w-full.h-10.z-11.left-0.fixed
 answers.yahoo.com###ya-qpage-textads
 answers.yahoo.com##.dmRosMBAdBorder
 autos.yahoo.com##.yatAdInsuranceFooter
@@ -166,6 +163,7 @@ www.yahoo.com###applet_p_50000349 > div > div
 www.yahoo.com###buying-guide
 www.yahoo.com###commerce-module-articles
 www.yahoo.com###conbar-content > .group:has(.stretched-box[href^="https://scout.yahoo.com"])
+www.yahoo.com###convenience-bar
 www.yahoo.com###header-notification-button
 www.yahoo.com###mega-banner
 www.yahoo.com###mega-banner-wrapper
@@ -211,6 +209,7 @@ www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.max-w-\[702px\].hidden.relative.md\:mr-8.lg\:mr-10.md\:h-\[46px\].md\:block.backdrop-blur-0.caret-purple-700.w-full.h-10.z-10
 www.yahoo.com##.md\:gap-3.bg-\[\#7d2eff\].rounded-lg.overflow-hidden.gap-1.items-center.flex-row.flex.relative
 www.yahoo.com##.md\:grid-cols-article-page.md\:max-w-\[1220px\].grid-cols-article-mobile.grid.md\:px-10.mx-auto
+www.yahoo.com##.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.bg-primary.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].w-full.h-10.z-11.left-0.fixed
 www.yahoo.com##.md\:translate-x-0.md\:w-auto.md\:h-\[105px\].md\:left-\[25px\].md\:bottom-\[25px\].justify-center.items-end.-translate-x-1\/2.w-full.h-\[87px\].flex.z-50.left-1\/2.bottom-\[68px\].fixed
 www.yahoo.com##.module-electionNews.wafer-rapid-module
 www.yahoo.com##.mxhpset
@@ -218,6 +217,7 @@ www.yahoo.com##.opacity-100.translate-y-0.md\:max-w-\[240px\].md\:left-8.md\:bot
 www.yahoo.com##.premium_finance_ticker
 www.yahoo.com##.pt-3.dark\:bg-inkwell.md\:pt-4.md\:px-10.md\:max-w-\[1220px\].md\:mx-auto.px-4.bg-white.whitespace-nowrap.overflow-hidden.z-11.sticky
 www.yahoo.com##.pub-upsell-item
+www.yahoo.com##.py-4.sm\:bg-primary.group.is-slotted.bg-secondary
 www.yahoo.com##.sda-yield-test,important
 www.yahoo.com##.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].h-10.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-14.md\:top-16.bg-white.w-full.z-11.left-0.fixed
 www.yahoo.com##.stream-vertical-separator

@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 27 May 2026 09:02:15 -0800 GMT
+! Last modified: Sun, 31 May 2026 13:18:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
@@ -405,6 +405,7 @@ youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbn
 ||floweryfact.com^$xhr,domain=www.howtogeek.com,important
 ||forum.opnsense.org/adds/content/8.applianceshop_20160413.jpg$image
 ||forum.opnsense.org/adds/content/x*_20160413.jpg.pagespeed.ic.*.webp$image
+||fp.$all
 ||google.*$removeparam=gws_rd=ssl
 ||googleanalytics.net^
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
@@ -422,6 +423,7 @@ youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbn
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
 ||mailtrack.io^$important
+||metrics.$all
 ||metrics.icloud.com^
 ||mobilenations.com^
 ||mssl.fwmrm.net/p/nbcu_rsn_live/AdManager.js$document,important
@@ -449,6 +451,7 @@ youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbn
 ||st.chatango.com/h5/gz/r0409211505/id.html$subdocument
 ||st.chatango.com/h5/gz/r0817211056/id.html$subdocument
 ||static-42andpark-com.s3.amazonaws.com^
+||static.foxnews.com/static/orion/html/embed/riddle-quiz.html$subdocument
 ||stripe.rs-stripe.com
 ||subscribe.washingtonpost.com^
 ||supportmetrics.apple.com^
