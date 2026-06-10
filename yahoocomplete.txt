@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Sun, 31 May 2026 13:19:15 -0800 GMT
+! Last modified: Web, 10 Jun 2026 14:35:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 answers.yahoo.com###ya-qpage-textads
