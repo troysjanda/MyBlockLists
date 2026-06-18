@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Web, 10 Jun 2026 14:33:15 -0800 GMT
+! Last modified: Thur, 18 Jun 2026 13:41:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
@@ -44,6 +44,7 @@ betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Elizabella Wyciślik-Wilson)/i))
 betanews.com##[src="https://betanews.com/wp-content/themes/betanews/images/authors/Sofia_bigthumb.png"]
+betanews.com##^script:has-text(/clarity/i)
 betanews.com##p:nth-of-type(3)
 bing.com##+js(ra, target, #b_results a[href][target="_blank"])
 binged.*##+js(nowoif)
@@ -321,6 +322,8 @@ www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > 
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12 > .row > .col-xs-12.col-sm-12.col-md-8 > .y-link-underline > .entry-content > div.c24ff8f4a2da697123def04f69833d8b > span > strong > [href^="http://www.restoro.com/includes/route.php"]
 www.thewindowsclub.com###page > .main > .container > .row > .col-xs-12.col-sm-12.col-md-4 > .sidebar > .widget_text.group.widget
 www.tomshardware.com###affiliateDisclaimer
+www.traillink.com##.large.reveal.register-1
+www.traillink.com##div.reveal-overlay:nth-of-type(8)
 www.twitch.tv##.cwtKyw:has-text(/Djs/i)
 www.twitch.tv##.eXryG.Layout-sc-1xcs6mc-0 > div:nth-of-type(1) > div:nth-of-type(2)
 www.twitch.tv##.front-page-carousel,important
@@ -416,6 +419,7 @@ youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbn
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 ||hd-dev.com^
 ||https://platform.linkedin.com/in,important
+||i.posthog.com
 ||i2.wp.com/freetimetech.com/wp-content/uploads/2020/10/BOTTOMADBANNER.png?*&ssl=1$image
 ||ima3vpaid.appspot.com^
 ||img.huffingtonpost.com/asset/5c8ee47f23000033006bf982.jpeg
