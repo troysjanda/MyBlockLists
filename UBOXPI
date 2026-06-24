@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Thur, 18 Jun 2026 13:41:15 -0800 GMT
+! Last modified: Wed, 24 Jun 2026 13:53:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
@@ -304,6 +304,8 @@ www.reddit.com##.happening-now
 www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 www.reddit.com##.res-selected.RES-keyNav-activeElement.unvoted.entry > .tagline > .flair-kaphead.flair
 www.reddit.com##.stickied:has-text(/AutoModerator/)
+www.reddit.com##svg[icon-name="ai"]:upward(2)
+www.reddit.com##svg[icon-name="ai"]:upward(2) + hr
 www.rockpapershotgun.com###onetrust-button-group-parent
 www.rockpapershotgun.com###onetrust-group-container
 www.rockpapershotgun.com##.ot-fade-in.onetrust-pc-dark-filter
@@ -334,6 +336,7 @@ www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
 www.windowscentral.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
 www.youtube.com###actions.ytd-watch-metadata [aria-label="Ask"]
+www.youtube.com###related yt-lockup-metadata-view-model:style(width: auto !important;)
 www.youtube.com###teaser-carousel,  important
 www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thumbnail-view-model:style( border-radius: 0px !important; )
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
