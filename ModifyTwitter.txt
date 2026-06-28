@@ -1,6 +1,6 @@
 ! Title: Xpi Modify Twitter Filters
 ! Expires: 6 days
-! Last modified: Wed, 27 May 2026 09:02:15 -0800 GMT
+! Last modified: Sun, 28 Jun 2026 08:28:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 x.com##:matches-path(/home) [data-testid="toolBar"]:upward(3)[class="css-175oi2r r-1awozwy r-18u37iz r-1wtj0ep"]:not([data-testid="toolBar"]):upward(1) > * { display: none !important}
@@ -59,7 +59,9 @@ x.com##[data-testid="tweet"] time:upward(10) [data-testid="card.wrapper"] { bord
 x.com##[data-testid="tweet"] time:upward(10) [data-testid="testCondensedMedia"]:upward(1) div:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
 x.com##[data-testid="tweet"] time:upward(2):style(font-size: 12px !important)
 x.com##[data-testid="tweet"] time:upward(7) >* ~* >* >* >* >* >*:matches-css(border-radi /[1us:-9]/) { border-radius: 6px !important }
+x.com##[data-testid="tweet"] time:upward(7) >* ~* >* >* >* >*:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
 x.com##[data-testid="tweet"]:not(:has(article)) time:upward(10) >* >* >* >* >* >* >* time:upward(10) >* >* >* >* >* >* >*:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
+x.com##[data-testid="tweet"]:not(:has(article)) time:upward(10) >* >* >* >* >* >*:matches-css(border-radius: /[1-9]/) { border-radius: 6px !important }
 x.com##[data-testid^="UserAvatar-Container-"] div:matches-css(border-radius: /[1-9]/) { border-radius: 4px !important }
 x.com##[data-testid^="UserAvatar-Container-"]:upward(1) >* ~* a { min-height: 24px !important }
 x.com##[data-testid^="UserAvatar-Container-"]:upward(1) >* ~* button { min-height: 24px !important }
