@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Web, 10 Jun 2026 14:35:15 -0800 GMT
+! Last modified: Mon, 29 Jun 2026 21:50:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 answers.yahoo.com###ya-qpage-textads
@@ -178,6 +178,7 @@ www.yahoo.com###topic-subnavigation-module
 www.yahoo.com###trending-Celebrity
 www.yahoo.com###trending-search
 www.yahoo.com##+js(aost, Element.prototype.attachShadow, invoke)
+www.yahoo.com##.-translate-x-1\/2.w-12.ml-\[calc\(var\(--actions-w\)\/-2\)\].pointer-events-auto
 www.yahoo.com##.Bg\(tourneyPromoBg\).P\(10px\).Bgr\(nr\).Bgz\(cv\)
 www.yahoo.com##.Bgi\(\$srchTNFlameIcon\)
 www.yahoo.com##.Bxsh\(sticky-footer\)
@@ -235,6 +236,9 @@ www.yahoo.com##div.fp-module-chrome:nth-of-type(1)
 www.yahoo.com##div.py-5.px-4.bg-white.border-\[\#f5f5f5\].rounded-xl.w-full.mb-4.relative:nth-of-type(4)
 www.yahoo.com##li.sm\:border-y.dark\:border-midnight.sm\:border-neutral-100.border-\[\#e3e3e3\].relative
 www.yahoo.com##li.sm\:min-h-\[148px\].list-none
+www.yahoo.com##section#strm ul > li:not(.list-none)
+www.yahoo.com##section#strm ul:has(> li.list-none) > section:is(.hidden,[id])
+www.yahoo.com##ul:has(> li.list-none) > li:not(.list-none)[class*="img_"]
 yahoo.com###Horizon-ad
 yahoo.com###LREC
 yahoo.com###LREC-sizer
