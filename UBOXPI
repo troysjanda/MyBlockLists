@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 24 Jun 2026 13:53:15 -0800 GMT
+! Last modified: Tue, 14 Jul 2026 16:00:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
@@ -14,6 +14,7 @@
 @@||techisignals.com^$generichide
 @@||www.askdavetaylor.com/detroitchicago/*$script,domain=www.askdavetaylor.com
 @@||www.broadwayworld.com/detroitchicago/*$script,domain=www.broadwayworld.com
+@@||x.com/i/api/*/viewer_context.json$xhr,1p
 adtoniq.com^$important,third-party
 amazon.*##*:focus:style(outline: none !important;)
 amazon.com##[data-component-type="sp-sponsored-result"]
@@ -357,6 +358,8 @@ x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/veri
 x.com##.r-6416eg.r-o7ynqc.r-xyw6el.r-1777fci.r-18u37iz.r-1awozwy.r-dnmrzs.r-sdzlij.css-175oi2r > .r-1777fci.r-eqz5dr.r-6koalj.css-175oi2r
 x.com##.r-is05cd.r-cnw61z.r-1xfd6ze.r-wkklz9.css-175oi2r
 x.com##[aria-label^="Edit image"]
+x.com##div[data-testid="homeTimeline-adblockNotice"]
+x.com##html:style(overflow-y: scroll !important;)
 x.com#@#+js(prevent-window-open, /\.php\b.*_blank/)
 youtube.com###cinematics.ytd-watch-flexy:remove()
 youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
