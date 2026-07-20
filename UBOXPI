@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 14 Jul 2026 16:00:15 -0800 GMT
+! Last modified: Mon, 20 Jul 2026 12:30:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 2mdn.net^$important
@@ -261,6 +261,10 @@ www.foxnews.com##.recommended-videos
 www.foxnews.com##.related-topics
 www.foxnews.com##.snack-bar
 www.foxnews.com##.title-row
+www.foxnews.com##div#desktop-desk-ad-lb3.ad.gam
+www.foxnews.com##div#mobile-mw-ad-ban3.ad.gam
+www.foxnews.com##div#mobile-mw-ad-ban4.ad.gam
+www.foxnews.com##div#tablet-tw-ad-lb4.ad.gam
 www.independent.co.uk##.video-sticky-video
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
@@ -343,6 +347,7 @@ www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thum
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_live_chat_panel_watch_next_grid_swap, false)
 www.youtube.com##.ytp-panel-menu .ytp-menuitem:has(> .ytp-menuitem-icon path[d^="M11.48 2.14 3.91 6.68A6 6 0 0 0 1 11.83v.33a6 6 0 0 0 2.91 5.14l7.57 4.54A1"])
 www.youtube.com##:is(head, yt-thumbnail-hover-overlay-toggle-actions-view-model)
 www.youtube.com##[has-video-summary]
