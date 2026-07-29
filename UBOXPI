@@ -1,8 +1,9 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Mon, 20 Jul 2026 12:30:15 -0800 GMT
+! Last modified: Wed, 29 Jul 2026 15:58:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
+www.twitch.tv##.fzcdoT.Layout-sc-1xcs6mc-0
 2mdn.net^$important
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
