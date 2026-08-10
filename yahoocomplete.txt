@@ -1,8 +1,10 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Wed, 05 Aug 2026 12:58:15 -0800 GMT
+! Last modified: Mon, 10 Aug 2026 14:49:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
+sports.yahoo.com##.content-figure
+sports.yahoo.com##._ys_qnz325
 sports.yahoo.com##html:style( overflow: initial !important; )
 sports.yahoo.com##dialog[aria-labelledby="sports-interstitialTitle"]
 sports.yahoo.com##dialog[aria-labelledby="sports-interstitialTitle"]:remove()
@@ -343,7 +345,6 @@ yahoo.com##.group:has-text(/style/i)
 yahoo.com##.group:has-text(/the cool down/i)
 yahoo.com##.group:has-text(/the daily beast/i)
 yahoo.com##.group:has-text(/yahoo creator/i)
-yahoo.com##.item-beacon
 yahoo.com##.mballads
 yahoo.com##.more-sponsors
 yahoo.com##.mx-\[-50vw\]
@@ -379,7 +380,6 @@ yahoo.com##[data-ad-enhanced="card"]
 yahoo.com##[data-ad-enhanced="pencil"]
 yahoo.com##[data-ad-enhanced="text"]
 yahoo.com##[data-content="Advertisement"]
-yahoo.com##[data-wf-beacons]
 yahoo.com##a[data-test-id="large-image-ad"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]

@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 05 Aug 2026 12:57:15 -0800 GMT
+! Last modified: Mon, 10 Aug 2026 14:49:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 www.twitch.tv##.fzcdoT.Layout-sc-1xcs6mc-0
@@ -46,7 +46,6 @@ betanews.com##.header > h2
 betanews.com##.twitter-share-button-error.twitter-share-button
 betanews.com##[id^="post-"]:if(.author:has-text(/(Sofia Elizabella Wyciślik-Wilson)/i))
 betanews.com##[src="https://betanews.com/wp-content/themes/betanews/images/authors/Sofia_bigthumb.png"]
-betanews.com##^script:has-text(/clarity/i)
 betanews.com##p:nth-of-type(3)
 bing.com##+js(ra, target, #b_results a[href][target="_blank"])
 binged.*##+js(nowoif)
