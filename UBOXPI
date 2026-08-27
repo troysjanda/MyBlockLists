@@ -1,9 +1,8 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Mon, 10 Aug 2026 14:49:15 -0800 GMT
+! Last modified: Thu, 27 Aug 2026 09:05:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
-www.twitch.tv##.fzcdoT.Layout-sc-1xcs6mc-0
 2mdn.net^$important
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
@@ -37,6 +36,7 @@ betanews.com###bd > .sideCol > .submitNews.content
 betanews.com###bd > .sideCol > div.flexibleBoxad > .adbox-header
 betanews.com##.articleBoxad
 betanews.com##.authorThumb[src="\/wp-content\/themes\/betanews\/images\/authors\/Sofia_smallthumb\.png"]
+betanews.com##.bn-share__inner
 betanews.com##.clearfix.articleBreak
 betanews.com##.clearfix.body > ul
 betanews.com##.clearfix.content > .halfCol
@@ -215,6 +215,7 @@ troypoint.com##.code-block
 troypoint.com##.front-site.mysticky-welcomebar-fixed
 tutsgalaxy.net##+js(nobab)
 twitch.tv##div.side-nav-section a:has-text(/Pools, Hot Tubs, Beaches, Fitness & Health/i)
+twitch.tv##div[style*="audible_background.avif"]
 uploadship.com##+js(acis, document.getElementById, adblock)
 wikipedia.org###vector-toc-pinned-container:style(position: static !important;)
 winaero.com##.entry-content > div
@@ -334,7 +335,9 @@ www.traillink.com##div.reveal-overlay:nth-of-type(8)
 www.twitch.tv##.cwtKyw:has-text(/Djs/i)
 www.twitch.tv##.eXryG.Layout-sc-1xcs6mc-0 > div:nth-of-type(1) > div:nth-of-type(2)
 www.twitch.tv##.front-page-carousel,important
+www.twitch.tv##.fzcdoT.Layout-sc-1xcs6mc-0
 www.twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
+www.twitch.tv##.gHmfGz.Layout-sc-1xcs6mc-0
 www.twitch.tv##.ghbJdj:has-text(/roblox/i)
 www.twitch.tv##.tw-balloon.dduVcl.InjectLayout-sc-1i43xsx-0.kyIBpI.ScBalloonWrapper-sc-14jr088-0
 www.ukr.net##.right-side__block
