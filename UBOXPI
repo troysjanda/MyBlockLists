@@ -1,8 +1,9 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Thu, 27 Aug 2026 09:05:15 -0800 GMT
+! Last modified: Tue, 01 Sep 2026 12:42:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
+/metaPixeltracker.js$/$script,first-party
 2mdn.net^$important
 @@||disqus.com/embed.js?_=1457540*$script
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$script,domain=cbs.com
@@ -383,6 +384,7 @@ youtube.com##ytd-rich-section-renderer
 youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
 ||2822.v.fwmrm.net^
 ||accountkit.*/
+||ackzany.com^$important
 ||ads.adaptv.advertising.com^
 ||advertisermirror.com^
 ||alb.reddit.com^$all
@@ -391,6 +393,7 @@ youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbn
 ||analytics.pointdrive.linkedin.com^
 ||api.chated.io/sdk/v1/popups/*$subdocument
 ||appmetrica.yandex.com^
+||athwartwhoafat.com^$important
 ||atwola.com^
 ||banananalytics.com^$important
 ||betanews.com/wp-content/themes/betanews/images/carousel-image-960x250-win-10-PRO.png$image
