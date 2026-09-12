@@ -1,6 +1,6 @@
 ! Title: Xpi Yahoo Complete Filters
 ! Expires: 6 days
-! Last modified: Tue, 01 Sep 2026 12:43:15 -0800 GMT
+! Last modified: Sat, 12 Sep 2026 15:24:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 answers.yahoo.com###ya-qpage-textads
@@ -116,7 +116,6 @@ sports.yahoo.com##._ys_151tsft._ys_17tfbid._ys_13kycft._ys_ztxrxg._ys_1bmiy8u._y
 sports.yahoo.com##._ys_qnz325
 sports.yahoo.com##.adsStreamWrapper
 sports.yahoo.com##.commerce-module.mini-pd
-sports.yahoo.com##.content-figure
 sports.yahoo.com##.content-pill
 sports.yahoo.com##.content-trending
 sports.yahoo.com##.custom-nav-wrapper
@@ -151,7 +150,6 @@ sports.yahoo.com##[src="https://s.yimg.com/cv/apiv2/default/YS_Evergreen_JI_1205
 sports.yahoo.com##dialog[aria-labelledby="sports-interstitialTitle"]
 sports.yahoo.com##dialog[aria-labelledby="sports-interstitialTitle"]:remove()
 sports.yahoo.com##div.redesign.content-start > ._ys_1d7bt4w._ys_22yqu4._ys_12g22ve._ys_ztxrxg._ys_1bmiy8u._ys_19jjwt4._ys_1e6ql5o
-sports.yahoo.com##html:style( overflow: initial !important; )
 sports.yahoo.com##li._yb_1kzu6._yb_1mlij:nth-of-type(12)
 sports.yahoo.com##li._yb_1l8q0._yb_1bruf:nth-of-type(13)
 sports.yahoo.com##li._yb_6rxuf:nth-of-type(5)
@@ -218,6 +216,7 @@ www.yahoo.com##.leading-3:has-text(Advertisement/i)
 www.yahoo.com##.max-w-\[702px\].hidden.relative.md\:mr-8.lg\:mr-10.md\:h-\[46px\].md\:block.backdrop-blur-0.caret-purple-700.w-full.h-10.z-10
 www.yahoo.com##.md\:gap-3.bg-\[\#7d2eff\].rounded-lg.overflow-hidden.gap-1.items-center.flex-row.flex.relative
 www.yahoo.com##.md\:grid-cols-article-page.md\:max-w-\[1220px\].grid-cols-article-mobile.grid.md\:px-10.mx-auto
+www.yahoo.com##.md\:min-h-\[250px\].min-h-\[50px\].overflow-x-hidden.items-center.flex.dark\:bg-always-black\/33.bg-always-black\/5.border-y-tertiary.border-y.cls-ad-top-center
 www.yahoo.com##.md\:shadow-\[0_0_10px_0_rgba\(0\,0\,0\,0\.4\)\].md\:h-12.md\:top-16.bg-primary.shadow-\[0_4px_8px_0_rgba\(0\,0\,0\,0\.1\)\,0_0_1px_0_rgba\(0\,0\,0\,0\.1\)\].w-full.h-10.z-11.left-0.fixed
 www.yahoo.com##.md\:translate-x-0.md\:w-auto.md\:h-\[105px\].md\:left-\[25px\].md\:bottom-\[25px\].justify-center.items-end.-translate-x-1\/2.w-full.h-\[87px\].flex.z-50.left-1\/2.bottom-\[68px\].fixed
 www.yahoo.com##.module-electionNews.wafer-rapid-module
