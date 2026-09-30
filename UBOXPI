@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Tue, 22 Sep 2026 17:39:15 -0800 GMT
+! Last modified: Wed, 30 Sep 2026 16:47:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 /metaPixeltracker.js$/$script,first-party
@@ -186,6 +186,8 @@ sec.gov##div[style="break-before: page; margin-top: 6pt; margin-bottom: 6pt"], d
 seriouseats.com##.ad-wrapper
 seriouseats.com#@#.nav-share
 simplywall.st##+js(aeld, scroll, setTimeout)
+sports.yahoo.com###moments-right-rail
+sports.yahoo.com##._ys_2as43c._ys_1ahpmqv._ys_1pswn87._ys_1cx5s8f._ys_1p2rzmg
 stirr.com##+js(set, detectAdBlock, noopFunc)
 stupidfanboy.wordpress.com##.native-ad-marker:upward(article)
 techdator.net##.td-container-wrap.td-banner-wrap-full
@@ -335,11 +337,13 @@ www.twitch.tv##.fzcdoT.Layout-sc-1xcs6mc-0
 www.twitch.tv##.gEvECC.Layout-sc-1xcs6mc-0
 www.twitch.tv##.gHmfGz.Layout-sc-1xcs6mc-0
 www.twitch.tv##.ghbJdj:has-text(/roblox/i)
+www.twitch.tv##.metadata-layout__split-top
 www.twitch.tv##.tw-balloon.dduVcl.InjectLayout-sc-1i43xsx-0.kyIBpI.ScBalloonWrapper-sc-14jr088-0
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
 www.windowscentral.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
 www.youtube.com###actions.ytd-watch-metadata [aria-label="Ask"]
+www.youtube.com###cinematics :empty
 www.youtube.com###masthead-ad
 www.youtube.com###related yt-lockup-metadata-view-model:style(width: auto !important;)
 www.youtube.com###teaser-carousel,  important
@@ -348,6 +352,12 @@ www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_live_chat_panel_watch_next_grid_swap, false)
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="channel"].context.client[?.clientName=="WEB"]+={"clientScreen":"CHANNEL"})
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="instream"].playbackContext[?.contentPlaybackContext]+={"adPlaybackContext":{"adType":"AD_TYPE_INSTREAM"}})
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="lactmilli"]+={"params":"8AUB"})
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="yahi"]+={"params":"YAHI"})
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent=/adunit|channel|lactmilli|instream|inline|yahi|eafg/].playbackContext.contentPlaybackContext.referer=repl({"regex":"(?:#reloadxhr)?$"\,"replacement":"#reloadxhr"}))
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent=/channel|lactmilli|instream/].playbackContext.contentPlaybackContext.lactMilliseconds="${now}")
 www.youtube.com##.ytd-display-ad-renderer
 www.youtube.com##:is(head, yt-thumbnail-hover-overlay-toggle-actions-view-model)
 www.youtube.com##[has-video-summary]
@@ -366,6 +376,7 @@ x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/veri
 x.com##.r-6416eg.r-o7ynqc.r-xyw6el.r-1777fci.r-18u37iz.r-1awozwy.r-dnmrzs.r-sdzlij.css-175oi2r > .r-1777fci.r-eqz5dr.r-6koalj.css-175oi2r
 x.com##.r-is05cd.r-cnw61z.r-1xfd6ze.r-wkklz9.css-175oi2r
 x.com##[aria-label^="Edit image"]
+x.com##+js(prevent-xhr, /i/api/1.1/flow/timeline.json)
 x.com##div[data-testid="homeTimeline-adblockNotice"]
 x.com##html:style(overflow-y: scroll !important;)
 x.com#@#+js(prevent-window-open, /\.php\b.*_blank/)
@@ -389,6 +400,7 @@ youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbn
 ||analytics.gandi.net^
 ||analytics.pointdrive.linkedin.com^
 ||api.chated.io/sdk/v1/popups/*$subdocument
+||api.community.fox.com/embed/hedgehog-reactions.js$script,important
 ||appmetrica.yandex.com^
 ||athwartwhoafat.com^$important
 ||atwola.com^
