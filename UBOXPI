@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 30 Sep 2026 16:47:15 -0800 GMT
+! Last modified: Wed, 14 Oct, 2026 09:40:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 /metaPixeltracker.js$/$script,first-party
@@ -342,55 +342,140 @@ www.twitch.tv##.tw-balloon.dduVcl.InjectLayout-sc-1i43xsx-0.kyIBpI.ScBalloonWrap
 www.ukr.net##.right-side__block
 www.windowscentral.com##.article-header__disclosure
 www.windowscentral.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
-www.youtube.com###actions.ytd-watch-metadata [aria-label="Ask"]
-www.youtube.com###cinematics :empty
 www.youtube.com###masthead-ad
-www.youtube.com###related yt-lockup-metadata-view-model:style(width: auto !important;)
-www.youtube.com###teaser-carousel,  important
-www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thumbnail-view-model:style( border-radius: 0px !important; )
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_live_chat_panel_watch_next_grid_swap, false)
-www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="channel"].context.client[?.clientName=="WEB"]+={"clientScreen":"CHANNEL"})
-www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="instream"].playbackContext[?.contentPlaybackContext]+={"adPlaybackContext":{"adType":"AD_TYPE_INSTREAM"}})
-www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="lactmilli"]+={"params":"8AUB"})
-www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent*="yahi"]+={"params":"YAHI"})
-www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent=/adunit|channel|lactmilli|instream|inline|yahi|eafg/].playbackContext.contentPlaybackContext.referer=repl({"regex":"(?:#reloadxhr)?$"\,"replacement":"#reloadxhr"}))
-www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.attestationRequest][?.context.client.userAgent=/channel|lactmilli|instream/].playbackContext.contentPlaybackContext.lactMilliseconds="${now}")
-www.youtube.com##.ytd-display-ad-renderer
-www.youtube.com##:is(head, yt-thumbnail-hover-overlay-toggle-actions-view-model)
-www.youtube.com##[has-video-summary]
-www.youtube.com##div.ytp-panel-menu > div.ytp-menuitem .ytp-premium-label:has-text(/^Super[- ]/):upward(.ytp-menuitem)
-www.youtube.com##div[skip-key-interaction]
-www.youtube.com##ytd-action-companion-ad-renderer
-www.youtube.com##ytd-ad-slot-renderer
-www.youtube.com##ytd-carousel-ad-renderer
-www.youtube.com##ytd-mealbar-promo-renderer
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(/(skibidi|what if)/i)
-www.youtube.com##ytd-video-renderer.ytd-vertical-list-renderer.style-scope > .ytd-video-renderer.style-scope:has-text(/(scientist toilet|skibidi|what if)/i)
+www.youtube.com###shopping-timely-shelf
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"]) 
+x.com##+js(prevent-xhr, /i/api/1.1/flow/timeline.json)
 x.com##.r-6416eg.r-o7ynqc.r-xyw6el.r-1777fci.r-18u37iz.r-1awozwy.r-dnmrzs.r-sdzlij.css-175oi2r > .r-1777fci.r-eqz5dr.r-6koalj.css-175oi2r
 x.com##.r-is05cd.r-cnw61z.r-1xfd6ze.r-wkklz9.css-175oi2r
 x.com##[aria-label^="Edit image"]
-x.com##+js(prevent-xhr, /i/api/1.1/flow/timeline.json)
 x.com##div[data-testid="homeTimeline-adblockNotice"]
 x.com##html:style(overflow-y: scroll !important;)
 x.com#@#+js(prevent-window-open, /\.php\b.*_blank/)
-youtube.com###cinematics.ytd-watch-flexy:remove()
-youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_width, 1280)
-youtube.com##.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment:style(background: #FF0000 !important)
-youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
-youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
-youtube.com##html, body:style(--yt-spec-static-brand-red: #FF0000 !important; --yt-spec-static-overlay-background-brand: rgba(255, 0, 0, 0.9) !important;)
-youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5 !important;)
-youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com###attached-survey
+youtube.com###avatar-container
+youtube.com###channel-info:style(padding: 4px 0 !important;)
+youtube.com###channel-thumbnail
+youtube.com###clarify-box
+youtube.com###comments #spinner-container
+youtube.com###contents > ytd-rich-grid-row > #contents:style(display: contents !important;)
+youtube.com###contents > ytd-rich-grid-row:style(display: contents !important;)
+youtube.com###description :not(span.yt-core-attributed-string--highlight-text-decorator) > a.yt-core-attributed-string__link--call-to-action-color:style(color: var(--yt-spec-call-to-action) !important;)
+youtube.com###description span.yt-core-attributed-string--highlight-text-decorator:style(background-color: var(--yt-spec-additive-background) !important;)
+youtube.com###description span.yt-core-attributed-string--link-inherit-color:style(color: var(--yt-spec-text-primary) !important;)
+youtube.com###expandable-metadata
+youtube.com###expandable-metadata:has(video-summary-content-view-model)
+youtube.com###frosted-glass
+youtube.com###ghost-cards
+youtube.com###home-page-skeleton
+youtube.com###info :is(span, a):has-text(Members first)
+youtube.com###info span:has-text(product)
+youtube.com###inline-preview-player
+youtube.com###metadata .ytd-video-meta-block:style(font-size:10pt !important; line-height:1.2 !important;)
+youtube.com###middle-row ytd-info-panel-content-renderer
+youtube.com###movie_player .ytp-fullscreen-grid a.ytp-modern-videowall-still
+youtube.com###movie_player .ytp-seek-overlay
+youtube.com###offer-module
+youtube.com###sponsor-button
+youtube.com###structured-description :is(ytd-horizontal-card-list-renderer, yt-video-attributes-section-view-model)
+youtube.com###ticket-shelf
+youtube.com###video-title:style(font-size:11pt !important; line-height:1.2 !important;)
+youtube.com###voice-search-button
+youtube.com##.iv-branding
+youtube.com##.ytSuggestionComponentSuggestion:style(height: 36px !important;)
+youtube.com##.ytd-comment-view-model.translate-button
+youtube.com##.ytp-delhi-modern .ytp-bezel-icon:style(width: 24px !important; height: 24px !important; margin: 14px !important;)
+youtube.com##.ytp-delhi-modern .ytp-bezel:style(width: 52px !important; height: 52px !important; margin-left: -26px !important; margin-top: -26px !important; animation: ytp-bezel-fadeout .5s linear 1 normal forwards !important;)
+youtube.com##.ytp-delhi-modern .ytp-button.ytp-efyt-button svg:style(padding: 0 !important;)
+youtube.com##.ytp-delhi-modern .ytp-button.ytp-efyt-button:style(height: 48px !important; padding: 0 !important;)
+youtube.com##.ytp-delhi-modern .ytp-button:not(.ytp-efyt-button, .ytp-large-play-button) svg:style(width: 24px !important; height: 24px !important; padding: 12px !important;)
+youtube.com##.ytp-delhi-modern .ytp-chapter-title-prefix:style(display: unset !important; padding: 0 5px !important;)
+youtube.com##.ytp-delhi-modern .ytp-gradient-bottom:style(display: unset !important;)
+youtube.com##.ytp-delhi-modern .ytp-menuitem:style(height: 40px !important;)
+youtube.com##.ytp-delhi-modern .ytp-panel-menu:style(padding:8px 0 !important;)
+youtube.com##.ytp-delhi-modern .ytp-play-button:style(width: 48px !important;)
+youtube.com##.ytp-delhi-modern .ytp-progress-bar-container:style(bottom: 48px !important;)
+youtube.com##.ytp-delhi-modern .ytp-time-wrapper:not(.ytp-miniplayer-ui *)::after
+youtube.com##.ytp-delhi-modern .ytp-time-wrapper:style(background:#0000 !important; padding: 0 !important;)
+youtube.com##.ytp-delhi-modern .ytp-tooltip-progress-bar-pill:style(padding: 4px 6px !important; border-radius: 6px !important;)
+youtube.com##.ytp-delhi-modern :is(.ytp-button:not(.ytp-large-play-button), .ytp-chrome-bottom, .ytp-chrome-controls, .ytp-right-controls):style(height: 48px !important;)
+youtube.com##.ytp-delhi-modern :is(.ytp-button:not(.ytp-large-play-button), .ytp-volume-area, .ytp-right-controls):style(background:#0000 !important; margin: 0 !important;)
+youtube.com##.ytp-delhi-modern :is(.ytp-chapter-container, .ytp-button.ytp-chapter-title, .ytp-time-display):style(padding: 0 !important;)
+youtube.com##.ytp-delhi-modern :is(.ytp-chrome-controls, .ytp-chrome-controls *):style(line-height: 48px !important;)
+youtube.com##.ytp-delhi-modern :is(button, span)::after
+youtube.com##.ytp-delhi-modern :is(button, span)::before
+youtube.com##.ytp-featured-product
+youtube.com##.ytp-fullscreen-quick-actions
+youtube.com##.ytp-heat-map-container
+youtube.com##.ytp-menuitem:has(*:has-text("1080p Premium"))
+youtube.com##.ytp-paid-content-overlay-link
+youtube.com##.ytp-panel-back-button:style(background-position: center !important; background-repeat: no-repeat !important;)
+youtube.com##.ytp-time-display span.ytp-time-wrapper:remove-class(ytp-time-wrapper)
+youtube.com##.ytwHowThisWasMadeSectionViewModelHost
+youtube.com##:is(#thumbnail, #playlist-thumbnail, yt-collections-stack div, .collections-stack-wiz div, yt-thumbnail-view-model, .image-wrapper, .ytp-videowall-still-image, yt-thumbnail-view-model, yt-image-banner-view-model):style(border-radius: 0 !important;)
+youtube.com##:is(.smartimation__content, .animated-action__content-with-background) > :has(> lottie-component)
+youtube.com##:is(.ytp-play-progress, #progress, .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment):style(background:#f03 !important;)
+youtube.com##:is(yt-lockup-view-model:is(.ytd-item-section-renderer, .ytd-watch-next-secondary-results-renderer), ytd-rich-item-renderer):has(div:is(.yt-badge-shape__text,.badge-shape-wiz__text):has-text("Auto-dubbed"))
+youtube.com##:is(ytd-button-renderer, ytd-topbar-menu-button-renderer):has(button[aria-label="Create"])
+youtube.com##:is(ytd-compact-video-renderer, yt-lockup-view-model):has(yt-badge-view-model div.badge-shape-wiz__text:has-text("Members only"))
+youtube.com##:is(ytd-masthead, ytd-feed-filter-chip-bar-renderer):remove-attr(frosted-glass-mode)
+youtube.com##:is(ytd-structured-description-content-renderer, tp-yt-paper-button#collapse):style(margin: 0 !important;)
+youtube.com##:root:style(--yt-frosted-glass-backdrop-filter-override: none !important; --yt-spec-static-overlay-background-medium: rgba(28,28,28,.9) !important;)
+youtube.com##:root:style(--yt-spec-overlay-background-medium: rgba(0, 0, 0, 0.94) !important)
+youtube.com##a:is(.yt-lockup-metadata-view-model__title,.yt-lockup-metadata-view-model-wiz__title):style(font-size:11pt !important; line-height:1.2 !important;)
+youtube.com##div.yt-content-metadata-view-model-wiz__badge:has(div.badge-shape-wiz__text:has-text("New"))
+youtube.com##div:is(.yt-lockup-metadata-view-model__avatar,.yt-lockup-metadata-view-model-wiz__avatar)
+youtube.com##lockup-attachments-view-model:has(yt-slimline-survey-model)
+youtube.com##span:is(.yt-content-metadata-view-model__metadata-text,.yt-content-metadata-view-model-wiz__metadata-text):style(font-size:10pt !important; line-height:1.2 !important;)
+youtube.com##tp-yt-paper-dialog :is(ytd-single-option-survey-renderer, ytd-checkbox-survey-renderer)
+youtube.com##tp-yt-paper-item:has(ytd-menu-service-item-renderer yt-formatted-string:has-text("Clip"))
+youtube.com##tp-yt-paper-item:has(ytd-menu-service-item-renderer yt-formatted-string:has-text("Shop"))
+youtube.com##tp-yt-paper-item:has(ytd-menu-service-item-renderer yt-formatted-string:has-text("Thanks"))
+youtube.com##tp-yt-paper-toast:has(yt-formatted-string:has-text("interruptions?"))
+youtube.com##tp-yt-paper-tooltip
+youtube.com##yt-animated-action .ytAnimatedActionLottie
+youtube.com##yt-animated-action > :not(.ytAnimatedActionContentWithBackground)
+youtube.com##yt-button-view-model:has(:is(button[aria-label="Thanks"], button[aria-label="Clip"], button[aria-label="Shop"]))
+youtube.com##yt-comment-filter-context-view-model
+youtube.com##yt-list-item-view-model .yt-list-item-view-model__text-wrapper:has-text("Remove ads")
+youtube.com##yt-lockup-view-model:has(.badge-style-type-members-only)
+youtube.com##yt-reaction-control-panel-overlay-view-model
+youtube.com##yt-reaction-control-panel-view-model
+youtube.com##yt-smartimation > :not(.smartimation__content)
+youtube.com##ytd-author-comment-badge-renderer[creator] #icon .yt-icon-shape:style(color: white !important)
+youtube.com##ytd-author-comment-badge-renderer[creator] #text:style(color: white !important; font-weight:500 !important)
+youtube.com##ytd-author-comment-badge-renderer[creator]:style(background-color: rgba(136, 136, 136, 0.4) !important)
+youtube.com##ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-macro-markers-description-chapters"]
+youtube.com##ytd-item-section-renderer ytd-channel-renderer
+youtube.com##ytd-item-section-renderer:has(#title:has-text("For you"))
+youtube.com##ytd-item-section-renderer:has(a.ytd-shelf-renderer[title="Members-only videos"])
+youtube.com##ytd-item-section-renderer[is-playlist-video-container]
+youtube.com##ytd-merch-shelf-renderer
+youtube.com##ytd-reel-shelf-renderer:has(#title:has-text("Shorts"))
+youtube.com##ytd-rich-grid-renderer .ghost-grid.ytd-ghost-grid-renderer:style(margin: 0 !important;)
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important; --ytd-rich-grid-item-margin: 12px !important;)
+youtube.com##ytd-rich-item-renderer:has(#content ytd-feed-nudge-renderer)
+youtube.com##ytd-rich-item-renderer:has(div.badge-shape-wiz__text:has-text("Mix"))
+youtube.com##ytd-rich-item-renderer:has(ytd-badge-supported-renderer div.badge-style-type-members-only)
+youtube.com##ytd-rich-item-renderer:has(ytd-badge-supported-renderer div.yt-badge-shape__text:has-text("Members only"))
+youtube.com##ytd-rich-item-renderer:remove-attr(is-in-first-column)
+youtube.com##ytd-rich-item-renderer:style(margin-bottom: 12px !important)
 youtube.com##ytd-rich-section-renderer
-youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
+youtube.com##ytd-shelf-renderer:has(#title:has-text("Recommended"))
+youtube.com##ytd-thumbnail::before:style(border-radius: 0 !important;)
+youtube.com##ytd-two-column-search-results-renderer a:is(.yt-lockup-view-model-wiz__content-image,.yt-lockup-view-model__content-image):style(min-width: 260px !important; width:48.8% !important; max-width: 320px !important;)
+youtube.com##ytd-two-column-search-results-renderer ytd-thumbnail:style(min-width: 260px !important; width:50% !important; max-width: 320px !important;)
+youtube.com##ytd-video-description-course-section-renderer
+youtube.com##ytd-video-description-infocards-section-renderer :is(#header, #action-buttons, #social-links)
+youtube.com##ytd-video-description-infocards-section-renderer ytd-compact-infocard-renderer:first-of-type:style(margin-top: 16px !important;)
+youtube.com##ytd-video-description-infocards-section-renderer:style(border:0 !important)
+youtube.com##ytd-video-description-infocards-section-renderer:style(padding: 0 !important;)
+youtube.com##ytd-video-description-transcript-section-renderer
+youtube.com##ytd-watch-metadata:remove-attr(enable-color-sampling)
+youtube.com##ytd-yoodle-renderer > picture
+youtube.com##ytd-yoodle-renderer > ytd-logo:remove-attr(hidden)
 ||2822.v.fwmrm.net^
 ||accountkit.*/
 ||ackzany.com^$important
