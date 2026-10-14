@@ -1,6 +1,6 @@
 ! Title: Xpi uBo Personal Filters
 ! Expires: 6 days
-! Last modified: Wed, 14 Oct, 2026 09:40:15 -0800 GMT
+! Last modified: Wed, 14 Oct, 2026 14:20:15 -0800 GMT
 ! License: https://github.com/troysjanda/MyBlockLists/blob/master/LICENSE
 ! -- Start Filters --
 /metaPixeltracker.js$/$script,first-party
@@ -251,6 +251,7 @@ www.forbes.com##.page-loaded
 www.fosshub.com##.ad-alt > form
 www.foxbusiness.com##.is-programming.alert-banner
 www.foxnews.com##.commenting-nation-promo
+www.foxnews.com##.for-you-module
 www.foxnews.com##.four-items.topic-bucket
 www.foxnews.com##.is-breaking-email.alert-banner
 www.foxnews.com##.is-breaking.alert-banner
@@ -264,6 +265,7 @@ www.foxnews.com##div#desktop-desk-ad-lb3.ad.gam
 www.foxnews.com##div#mobile-mw-ad-ban3.ad.gam
 www.foxnews.com##div#mobile-mw-ad-ban4.ad.gam
 www.foxnews.com##div#tablet-tw-ad-lb4.ad.gam
+www.foxnews.com##iframe[name="googlefcPresent"]
 www.independent.co.uk##.video-sticky-video
 www.indystar.com##.gnt_pm
 www.kootenaivalleytimes.com#@#.section-social
@@ -344,6 +346,10 @@ www.windowscentral.com##.article-header__disclosure
 www.windowscentral.com##.border-neutral-300.border-y.border-solid.mb-4.pb-4.pt-3.clear-both
 www.youtube.com###masthead-ad
 www.youtube.com###shopping-timely-shelf
+www.youtube.com##+js(set-constant, ytcfg.data_.EXPERIMENT_FLAGS.enable_ai_mode_searchbox_entrypoint, false)
+www.youtube.com##.ytSearchboxComponentActions > .ytSearchboxComponentActionsButton[client-ve-type]
+www.youtube.com##.ytSearchboxComponentInputBox > [client-ve-type]
+www.youtube.com#@#yt-smartimation > :not(.smartimation__content)
 wzstats.gg##app-350x100-dynamic-ad
 wzstats.gg##app-desktop-takeover-ad
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"]) 
